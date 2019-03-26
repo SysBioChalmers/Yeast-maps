@@ -31,10 +31,52 @@ subsystem_list = as_list(subsystem_xml)
 
 # Load example .NET file
 # This is the correct formatting for omix compatibility 
-PATH_csv = paste(PATH,"CSVfiles/golgi_example.net",sep = "")
-example_csv = as.data.frame(read_delim("C:/Users/angel/Desktop/PhD/Yeast-maps/CSVfiles/golgi_example.net", 
+PATH_csv = paste(PATH,"netfiles/golgi_example.net",sep = "")
+example_csv = as.data.frame(read_delim("C:/Users/angel/Desktop/PhD/Yeast-maps/netfiles/golgi_example.net", 
                                             "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE))
 colnames(example_csv)
+
+# Load yeast GEM
+library(readxl)
+# Reactions
+yeastGEM_rxn = data.frame(read_excel("scripts/yeastGEM_latest version.xls")) 
+# Metabolites
+yeastGEM_met = read_excel("scripts/yeastGEM_latest version.xls", sheet = "Metabolite List")
+colnames(yeastGEM_met)[1:2] = c("Metabolite.name", "Metabolite.description")
+
+# == CLEAN UP SBML FILE ==
+
+# Remove incorrect reactions
+indexToRemove = c()
+print("Reactions to be removed:")
+for (i in 1:length(subsystem_list$sbml$model$listOfReactions)) {
+  if(grepl("re",attributes(subsystem_list$sbml$model$listOfReactions[[i]])$id)){
+    indexToRemove = c(indexToRemove,i)
+    print(attributes(subsystem_list$sbml$model$listOfReactions[[i]])$id)
+  }
+}
+subsystem_list$sbml$model$listOfReactions[indexToRemove] = NULL
+
+# Remove incorrect metabolites
+metToRemove = c()
+indexToRemove = c()
+print("Metabolites to be removed:")
+for (i in 1:length(subsystem_list$sbml$model$listOfSpecies)) {
+  if(grepl(" \\[",attributes(subsystem_list$sbml$model$listOfSpecies[[i]])$name)){
+    metToRemove = c(metToRemove,attributes(subsystem_list$sbml$model$listOfSpecies[[i]])$id)
+    indexToRemove = c(indexToRemove,i)
+    print(paste(attributes(subsystem_list$sbml$model$listOfSpecies[[i]])$id," (",attributes(subsystem_list$sbml$model$listOfSpecies[[i]])$name,")",sep = ))
+  }
+}
+subsystem_list$sbml$model$listOfSpecies[indexToRemove] = NULL
+
+indexToRemove = c()
+for (i in 1:length(subsystem_list$sbml$model$annotation$extension$listOfSpeciesAliases)) {
+  if(attributes(subsystem_list$sbml$model$annotation$extension$listOfSpeciesAliases[[i]])$species %in% metToRemove){
+    indexToRemove = c(indexToRemove,i)
+  }
+}
+subsystem_list$sbml$model$annotation$extension$listOfSpeciesAliases[indexToRemove] = NULL
 
 # == CONSTRUCT PATHWAY DATA FRAME ==
 
@@ -43,7 +85,7 @@ colnames(pathway_df) = colnames(example_csv)
 
 # == CONSTRUCT REACTION DATA FRAME ==
 
-# Setup empty matrix for storing data
+# Setup empty data frame for storing data
 nrxn = as.integer(length(subsystem_list$sbml$model$listOfReactions)) # Retrieve amount of metabolites
 rxn_df = data.frame(matrix(NA, nrow = nrxn, ncol = 6)) # Create empty data frame
 
@@ -53,8 +95,43 @@ rxn_df[,1] = rep("R",nrxn)
 # Store reaction IDs
 for (i in 1:nrxn) {
   rxn_df[i,2] = attributes(subsystem_list$sbml$model$listOfReactions[[i]])$id
-  gsub("e", "_", rxn_df[,2]) # Some reaction IDs had an "e" instead of "_", not sure why
+  #rxn_df[i,2] = gsub("e", "_", rxn_df[i,2]) # Some reaction IDs had an "e" instead of "_", not sure why
 }
+
+# ERRONEOUS RECATION re4040 (metaid = "r_4185"):
+# Base reactant: oxaloacetate [c]
+# Base product: pyruvate[c]
+# Cofactor reactant: H+ [c]
+# Cofactor product: "carbon dioxide [c]"
+
+# ERRONEOUS RECATION re4042 (metaid = "r_4236"):
+# Base reactant: (R)-lactate[c]
+# Base product: methylglyoxal [c]
+# Cofactor reactant: H+ [c]
+# Cofactor product: H2O [c]
+
+# Remove all reactions with re?
+# Remove all metabolites with SPACE before [c]?
+
+sum(yeastGEM_rxn$Subsystem_new == "pyruvate metabolism ( sce00620 )") # 21 reactions included in pyruvate metabolism in the yeast GEM
+
+pyr_rxn = yeastGEM_rxn$Abbreviation[yeastGEM_rxn$Subsystem_new == "pyruvate metabolism ( sce00620 )"]
+
+for (i in 1:nrow(rxn_df)) {
+  if(!(rxn_df[i,2] %in% pyr_rxn)){
+    print(rxn_df[i,2])
+  }
+}
+# NOT FOUND IN PYRUVATE METABOLISM:
+# -These are transport reactions
+# "r_1137", "r_1138", "r_1635", "r_1637", "r_1817", "r_2034"
+# -These are not found in model
+# "re4040", "re4042"
+
+# Lets remove the incorrect metabolites, this is done in the beginning of the script
+
+
+
 
 
 # Store Pathway ID
@@ -84,12 +161,10 @@ for (i in 1:nrxn) {
 }
 
 # Store reversibility information
-library(readxl) # Load yeast GEM
-yeastGEM_rxn = data.frame(read_excel("scripts/yeastGEM_latest version.xls")) 
-yeastGEM_rxn = yeastGEM_rxn[,c(2,8,9)] # Keep only reaction IDs, lower (LB) and upper bounds (UB)
-rownames(yeastGEM_rxn) = yeastGEM_rxn[,1]
-yeastGEM_rxn = yeastGEM_rxn[,-1]
-rxn_rev = rowSums(yeastGEM_rxn) # Reversible reactions have -1000 and 1000 as LB/UB, i.e sums to zero if reversible
+yeastGEM_rxn_bounds = yeastGEM_rxn[,c(2,8,9)] # Keep only reaction IDs, lower (LB) and upper bounds (UB)
+rownames(yeastGEM_rxn_bounds) = yeastGEM_rxn_bounds[,1]
+yeastGEM_rxn_bounds = yeastGEM_rxn_bounds[,-1]
+rxn_rev = rowSums(yeastGEM_rxn_bounds) # Reversible reactions have -1000 and 1000 as LB/UB, i.e sums to zero if reversible
 for (i in 1:length(rxn_rev)) {
   if(rxn_rev[i] == 0){
     rxn_rev[i] = "true"
@@ -165,7 +240,7 @@ for (i in 1:length(gene_list)) {
   for (j in 1:length(gene_list[[i]])) {
     for (k in 1:length(gene_list[[i]][[j]])) {
       gene_df[row_index,1] = "E"
-      gene_df[row_index,2] = NA
+      gene_df[row_index,2] = NA # ADD ENSEMBL VALUES LATER!
       gene_df[row_index,3] = attributes(gene_list[[i]])$Name
       gene_df[row_index,4] = attributes(gene_list[[i]][[j]])$x
       gene_df[row_index,5] = attributes(gene_list[[i]][[j]])$y
@@ -174,20 +249,6 @@ for (i in 1:length(gene_list)) {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # == CONSTRUCT METABOLITE DATA FRAME ==
 
@@ -365,21 +426,15 @@ for (i in 1:length(met_list)) {
 # Convert data frame values to character
 pathway_df[] <- lapply(pathway_df, as.character)
 rxn_df[] <- lapply(rxn_df, as.character)
+gene_df[] <- lapply(gene_df, as.character)
 met_df[] <- lapply(met_df, as.character)
+
 
 # Append all data frames and export TSV file
 library(dplyr)
-dfToExport = bind_rows(pathway_df,rxn_df,met_df)
+dfToExport = bind_rows(pathway_df,rxn_df,gene_df,met_df)
 
 write.table(dfToExport, file = paste(PATH,"netfiles/",subsystem,".net",sep = ""), append = FALSE, quote = FALSE, sep = "\t",
             eol = "\n", na = "", dec = ".", row.names = FALSE,
             col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
-
-write.csv(MyData, file = "MyData.csv",row.names=FALSE, na="")
-
-#Why does the metabolite id not match the yeast model
-
-#Product and reactant numbers dont match
-
-#Name of subsystem doesnt match

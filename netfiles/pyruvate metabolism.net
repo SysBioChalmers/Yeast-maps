@@ -1,33 +1,4 @@
 P	pyruvate metabolism	pyruvate metabolism	-100	-1	-1						
-E		g_4039	388.5	1241.0	r_4039						
-E		g_2034	1546.5	811.5	r_2034						
-E		g_1838	523.0	1585.0	r_1838						
-E		g_1817	316.0	628.0	r_1817						
-E		g_1637	608.0	368.5	r_1637						
-E		g_1635	1081.0	370.0	r_1635						
-E		g_1138	2251.0	804.5	r_1138						
-E		g_1137	2425.5	838.5	r_1137						
-E		g_0958	1356.5	693.5	r_0958						
-E		g_0719	1210.0	1243.5	r_0719						
-E		g_0718	1388.0	1268.5	r_0718						
-E		g_0717	276.5	940.0	r_0717						
-E		g_0716	235.0	280.0	r_0716						
-E		g_0697	2648.5	321.0	r_0697						
-E		g_0696	1961.0	174.0	r_0696						
-E		g_0688	2337.0	248.0	r_0688						
-E		g_0554	2328.5	1399.0	r_0554						
-E		g_0553	2805.0	463.0	r_0553						
-E		g_0543	616.5	700.5	r_0543						
-E		g_0175	909.0	1533.5	r_0175						
-E		g_0114	721.5	518.5	r_0114						
-E		g_0113	711.0	1317.5	r_0113						
-E		g_0112	742.0	212.5	r_0112						
-E		g_0111	765.0	1431.5	r_0111						
-E		g_0004	1577.5	379.0	r_0004						
-E		g_0002	1965.5	1022.0	r_0002						
-E		g_0001	1902.5	454.5	r_0001						
-E		g_4185	1491.2058823529414	443.8970588235295	r_4040						
-E		g_4236	2541.0	553.25	r_4042						
 R	r_0001	pyruvate metabolism	1994.5	498.5	false						
 R	r_0002	pyruvate metabolism	1997.25	1077.75	false						
 R	r_0004	pyruvate metabolism	1651.25	308.5	false						
@@ -55,8 +26,34 @@ R	r_1817	pyruvate metabolism	377	596	true
 R	r_1838	pyruvate metabolism	467.25	1551	false						
 R	r_2034	pyruvate metabolism	1652	790	false						
 R	r_4039	pyruvate metabolism	464.25	1207	true						
-R	re4040	pyruvate metabolism	1439.10294117647	493.198529411765							
-R	re4042	pyruvate metabolism	2501.5	502.875							
+E		g_4039	388.5	1241.0	r_4039						
+E		g_2034	1546.5	811.5	r_2034						
+E		g_1838	523.0	1585.0	r_1838						
+E		g_1817	316.0	628.0	r_1817						
+E		g_1637	608.0	368.5	r_1637						
+E		g_1635	1081.0	370.0	r_1635						
+E		g_1138	2251.0	804.5	r_1138						
+E		g_1137	2425.5	838.5	r_1137						
+E		g_0958	1356.5	693.5	r_0958						
+E		g_0719	1210.0	1243.5	r_0719						
+E		g_0718	1388.0	1268.5	r_0718						
+E		g_0717	276.5	940.0	r_0717						
+E		g_0716	235.0	280.0	r_0716						
+E		g_0697	2648.5	321.0	r_0697						
+E		g_0696	1961.0	174.0	r_0696						
+E		g_0688	2337.0	248.0	r_0688						
+E		g_0554	2328.5	1399.0	r_0554						
+E		g_0553	2805.0	463.0	r_0553						
+E		g_0543	616.5	700.5	r_0543						
+E		g_0175	909.0	1533.5	r_0175						
+E		g_0114	721.5	518.5	r_0114						
+E		g_0113	711.0	1317.5	r_0113						
+E		g_0112	742.0	212.5	r_0112						
+E		g_0111	765.0	1431.5	r_0111						
+E		g_0004	1577.5	379.0	r_0004						
+E		g_0002	1965.5	1022.0	r_0002						
+E		g_0001	1902.5	454.5	r_0001						
+E		g_4185	1491.2058823529414	443.8970588235295							
 MI	s_1460[m]	succinate[m]	true	413.0	1298.5						
 L	outEdge	r_4039	true								
 MI	s_1464[m]	succinyl-CoA[m]	false	463.5	1036.0						
@@ -87,12 +84,6 @@ MI			true	2510.0	267.0
 L	outEdge	r_0688	true								
 MI			true	2788.5	575.0						
 L	outEdge	r_0553	true								
-MI			true	1303.2058823529412	457.8970588235295						
-L	outEdge	r_4040	true								
-L	outEdge	re4040	true								
-MI			true	2381.0	540.25						
-L	outEdge	r_4042	true								
-L	outEdge	re4042	true								
 MI	s_0532[m]	coenzyme A[m]	true	400.5	1666.5						
 L	outEdge	r_1838	true								
 MI			true	904.5	1349.5						
@@ -121,9 +112,6 @@ MI			true	937.5	213.5
 L	outEdge	r_0112	true								
 MI	s_1271[c]	oxaloacetate[c]	false	1282.5	839.5						
 L	outEdge	r_0958	false								
-MI			false	1226.2058823529412	485.8970588235295						
-L	outEdge	r_4040	false								
-L	outEdge	re4040	false								
 MI	s_0445[c]	bicarbonate[c]	true	1332.5	540.0						
 L	outEdge	r_0958	true								
 MI	s_1214[m]	NADPH[m]	true	1243.5	1105.5						
@@ -168,9 +156,6 @@ MI			true	2178.0	167.5
 L	outEdge	r_0696	true								
 MI			true	2749.5	335.5						
 L	outEdge	r_0553	true								
-MI			true	2615.0	528.25						
-L	outEdge	r_4042	true								
-L	outEdge	re4042	true								
 MI	s_0066[c]	(S)-malate[c]	false	53.5	330.0						
 L	outEdge	r_0716	false								
 MI	s_0779[c]	glyoxylate[c]	false	376.5	481.5						
@@ -190,9 +175,6 @@ L	outEdge	r_0696	false
 MI	s_1151[c]	methylglyoxal[c]	true	2428.0	410.0						
 L	outEdge	r_0688	true								
 L	outEdge	r_0697	true								
-MI			false	2666.0	509.25						
-L	outEdge	r_4042	false								
-L	outEdge	re4042	false								
 MI	s_0752[m]	glutathione[m]	false	2168.5	1347.0						
 L	outEdge	r_0554	false								
 MI	s_0034[m]	(R)-S-lactoylglutathione[m]	false	2622.0	1347.5						
@@ -277,8 +259,6 @@ L	outEdge	r_0004	false
 L	outEdge	r_0958	false								
 L	outEdge	r_1138	false								
 L	outEdge	r_2034	false								
-L	outEdge	r_4040	false								
-L	outEdge	re4040	false								
 MI	s_0710[m]	ferrocytochrome c[m]	true	1913.5	755.0						
 L	outEdge	r_0001	true								
 L	outEdge	r_0002	true								
@@ -292,8 +272,3 @@ L	outEdge	r_0001	false
 L	outEdge	r_0553	false								
 L	outEdge	r_1137	false								
 L	outEdge	r_1138	false								
-L	outEdge	r_4042	false								
-L	outEdge	re4042	false								
-MI	s_0456[c]	carbon dioxide[c]	true	1592.2058823529412	456.8970588235295						
-L	outEdge	r_4040	true								
-L	outEdge	re4040	true								
