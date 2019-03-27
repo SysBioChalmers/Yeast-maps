@@ -1,5 +1,5 @@
 # Yeast-maps
-This repository contains files for construction of tabolic maps for the yeast GEM and for use in the Human Metabolic Atlas project.
+This repository contains files for construction of metabolic maps for the yeast GEM and for use in the Human Metabolic Atlas project.
 
 * Last update: 2019-02-20
 
