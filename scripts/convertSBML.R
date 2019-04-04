@@ -439,4 +439,17 @@ write.table(dfToExport, file = paste(PATH,"netfiles/",subsystem,".net",sep = "")
             col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
 
+shell_path <- '"C:/Program Files/Git/bin/bash.exe"'
+shell(cmd = "touch boi.txt", shell = shell_path, intern = TRUE, flag = "-c")
 
+?shell
+
+
+
+
+
+
+shell("touch boi.txt", shell = shell_path, flag = "-c")
+
+
+shell("touch boi.txt")
