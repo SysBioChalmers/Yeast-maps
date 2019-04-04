@@ -17,12 +17,13 @@ require(SBMLR)
 
 #install.packages("xml2")
 require(xml2)
+install.packages("readr")
 require(readr)
 
 # == LOAD DATA ==
 
 # Load subsystem maps in SBML format
-PATH = "C:/Users/angel/Desktop/PhD/Yeast-maps/"
+PATH = "~/Documents/PhD/Yeast-maps/"
 setwd(PATH)
 subsystem = "pyruvate metabolism"
 PATH_xml = paste(PATH,"SBMLfiles/",subsystem,".xml",sep = "")
@@ -32,51 +33,16 @@ subsystem_list = as_list(subsystem_xml)
 # Load example .NET file
 # This is the correct formatting for omix compatibility 
 PATH_csv = paste(PATH,"netfiles/golgi_example.net",sep = "")
-example_csv = as.data.frame(read_delim("C:/Users/angel/Desktop/PhD/Yeast-maps/netfiles/golgi_example.net", 
-                                            "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE))
+example_csv = as.data.frame(read_delim(PATH_csv, "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE))
 colnames(example_csv)
 
 # Load yeast GEM
 library(readxl)
 # Reactions
-yeastGEM_rxn = data.frame(read_excel("scripts/yeastGEM_latest version.xls")) 
+yeastGEM_rxn = data.frame(read_excel("scripts/yeast_8.3.xlsx"))
 # Metabolites
-yeastGEM_met = read_excel("scripts/yeastGEM_latest version.xls", sheet = "Metabolite List")
+yeastGEM_met = read_excel(paste(PATH,"scripts/yeastGEM.xlsx",sep = ""), sheet = "METS")
 colnames(yeastGEM_met)[1:2] = c("Metabolite.name", "Metabolite.description")
-
-# == CLEAN UP SBML FILE ==
-
-# Remove incorrect reactions
-indexToRemove = c()
-print("Reactions to be removed:")
-for (i in 1:length(subsystem_list$sbml$model$listOfReactions)) {
-  if(grepl("re",attributes(subsystem_list$sbml$model$listOfReactions[[i]])$id)){
-    indexToRemove = c(indexToRemove,i)
-    print(attributes(subsystem_list$sbml$model$listOfReactions[[i]])$id)
-  }
-}
-subsystem_list$sbml$model$listOfReactions[indexToRemove] = NULL
-
-# Remove incorrect metabolites
-metToRemove = c()
-indexToRemove = c()
-print("Metabolites to be removed:")
-for (i in 1:length(subsystem_list$sbml$model$listOfSpecies)) {
-  if(grepl(" \\[",attributes(subsystem_list$sbml$model$listOfSpecies[[i]])$name)){
-    metToRemove = c(metToRemove,attributes(subsystem_list$sbml$model$listOfSpecies[[i]])$id)
-    indexToRemove = c(indexToRemove,i)
-    print(paste(attributes(subsystem_list$sbml$model$listOfSpecies[[i]])$id," (",attributes(subsystem_list$sbml$model$listOfSpecies[[i]])$name,")",sep = ))
-  }
-}
-subsystem_list$sbml$model$listOfSpecies[indexToRemove] = NULL
-
-indexToRemove = c()
-for (i in 1:length(subsystem_list$sbml$model$annotation$extension$listOfSpeciesAliases)) {
-  if(attributes(subsystem_list$sbml$model$annotation$extension$listOfSpeciesAliases[[i]])$species %in% metToRemove){
-    indexToRemove = c(indexToRemove,i)
-  }
-}
-subsystem_list$sbml$model$annotation$extension$listOfSpeciesAliases[indexToRemove] = NULL
 
 # == CONSTRUCT PATHWAY DATA FRAME ==
 
@@ -87,55 +53,21 @@ colnames(pathway_df) = colnames(example_csv)
 
 # Setup empty data frame for storing data
 nrxn = as.integer(length(subsystem_list$sbml$model$listOfReactions)) # Retrieve amount of metabolites
-rxn_df = data.frame(matrix(NA, nrow = nrxn, ncol = 6)) # Create empty data frame
+rxn_df = data.frame(matrix(NA, nrow = nrxn, ncol = 7)) # Create empty data frame
 
 # "R" denotes that each row is a reaction
-rxn_df[,1] = rep("R",nrxn) 
+rxn_df[,1] = rep("R",nrxn)
+
+# Store temporary reaction name
+rxn_df[,2] = rep("temp",nrxn) 
 
 # Store reaction IDs
 for (i in 1:nrxn) {
-  rxn_df[i,2] = attributes(subsystem_list$sbml$model$listOfReactions[[i]])$id
-  #rxn_df[i,2] = gsub("e", "_", rxn_df[i,2]) # Some reaction IDs had an "e" instead of "_", not sure why
+  rxn_df[i,3] = attributes(subsystem_list$sbml$model$listOfReactions[[i]])$metaid
 }
-
-# ERRONEOUS RECATION re4040 (metaid = "r_4185"):
-# Base reactant: oxaloacetate [c]
-# Base product: pyruvate[c]
-# Cofactor reactant: H+ [c]
-# Cofactor product: "carbon dioxide [c]"
-
-# ERRONEOUS RECATION re4042 (metaid = "r_4236"):
-# Base reactant: (R)-lactate[c]
-# Base product: methylglyoxal [c]
-# Cofactor reactant: H+ [c]
-# Cofactor product: H2O [c]
-
-# Remove all reactions with re?
-# Remove all metabolites with SPACE before [c]?
-
-sum(yeastGEM_rxn$Subsystem_new == "pyruvate metabolism ( sce00620 )") # 21 reactions included in pyruvate metabolism in the yeast GEM
-
-pyr_rxn = yeastGEM_rxn$Abbreviation[yeastGEM_rxn$Subsystem_new == "pyruvate metabolism ( sce00620 )"]
-
-for (i in 1:nrow(rxn_df)) {
-  if(!(rxn_df[i,2] %in% pyr_rxn)){
-    print(rxn_df[i,2])
-  }
-}
-# NOT FOUND IN PYRUVATE METABOLISM:
-# -These are transport reactions
-# "r_1137", "r_1138", "r_1635", "r_1637", "r_1817", "r_2034"
-# -These are not found in model
-# "re4040", "re4042"
-
-# Lets remove the incorrect metabolites, this is done in the beginning of the script
-
-
-
-
 
 # Store Pathway ID
-rxn_df[,3] = rep(subsystem,nrxn)
+rxn_df[,4] = rep(subsystem,nrxn)
 
 # Store reaction coordinates
 nalias = length(subsystem_list$sbml$model$annotation$extension$listOfSpeciesAliases)
@@ -156,12 +88,12 @@ for (i in 1:nrxn) {
   }
   # Average the x and y coordinate values for base reactant/product and set this as reaction coordinates
   # NOTE, this can map multiple reactions to one position if they share the same base reactant/product
-  rxn_df[i,4] = (base_reac_x+base_prod_x)/2
-  rxn_df[i,5] = (base_reac_y+base_prod_y)/2
+  rxn_df[i,5] = (base_reac_x+base_prod_x)/2
+  rxn_df[i,6] = (base_reac_y+base_prod_y)/2
 }
 
 # Store reversibility information
-yeastGEM_rxn_bounds = yeastGEM_rxn[,c(2,8,9)] # Keep only reaction IDs, lower (LB) and upper bounds (UB)
+yeastGEM_rxn_bounds = yeastGEM_rxn[,c(1,5,6)] # Keep only reaction IDs, lower (LB) and upper bounds (UB)
 rownames(yeastGEM_rxn_bounds) = yeastGEM_rxn_bounds[,1]
 yeastGEM_rxn_bounds = yeastGEM_rxn_bounds[,-1]
 rxn_rev = rowSums(yeastGEM_rxn_bounds) # Reversible reactions have -1000 and 1000 as LB/UB, i.e sums to zero if reversible
@@ -174,7 +106,7 @@ for (i in 1:length(rxn_rev)) {
   }
 }
 for (i in 1:nrxn) {
-  rxn_df[i,6] = as.character(rxn_rev[rxn_df[i,2]])
+  rxn_df[i,7] = as.character(rxn_rev[rxn_df[i,3]])
 }
 
 # == CONSTRUCT GENE DATA FRAME ==
@@ -376,7 +308,7 @@ met_list = met_list[-index_duplicate] # Remove all incorrectly labeled duplicate
 
 # Add yeast model IDs
 for (i in 1:length(met_list)) {
-  attributes(met_list[[i]])$ModelID = yeastGEM_met$Metabolite.name[which(yeastGEM_met$Metabolite.description == attributes(met_list[[i]])$Name)]
+  attributes(met_list[[i]])$ModelID = yeastGEM_met$`REPLACEMENT ID`[which(yeastGEM_met$Metabolite.description == attributes(met_list[[i]])$Name)]
 }
 
 # Store number of rows in data frame
@@ -393,6 +325,7 @@ met_df = data.frame(matrix(NA, nrow = 0, ncol = 12)) # Create empty data frame, 
 
 row_index = 1
 for (i in 1:length(met_list)) {
+  print(attributes(met_list[[i]])$Name)
   for (j in 1:length(met_list[[i]])) {
     if(j == 1){
       met_df[row_index,1] = "MI"
@@ -438,6 +371,12 @@ write.table(dfToExport, file = paste(PATH,"netfiles/",subsystem,".net",sep = "")
             eol = "\n", na = "", dec = ".", row.names = FALSE,
             col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
+
+
+
+
+
+
 
 shell_path <- '"C:/Program Files/Git/bin/bash.exe"'
 shell(cmd = "touch boi.txt", shell = shell_path, intern = TRUE, flag = "-c")
