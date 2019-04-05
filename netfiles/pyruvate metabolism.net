@@ -1,314 +1,291 @@
-P	pyruvate metabolism	pyruvate metabolism	-100	-1	-1						
-R	temp	r_0001	pyruvate metabolism	1994.5	498.5	false					
-R	temp	r_0002	pyruvate metabolism	1997.25	1077.75	false					
-R	temp	r_0004	pyruvate metabolism	1651.25	308.5	false					
-R	temp	r_0111	pyruvate metabolism	726.5	1379.25	false					
-R	temp	r_0112	pyruvate metabolism	786.5	150.75	false					
-R	temp	r_0113	pyruvate metabolism	726.5	1379.25	false					
-R	temp	r_0114	pyruvate metabolism	786	465.75	false					
-R	temp	r_0175	pyruvate metabolism	988.75	1550.5	false					
-R	temp	r_0543	pyruvate metabolism	714.5	652.25	false					
-R	temp	r_0553	pyruvate metabolism	2720.5	434.5	false					
-R	temp	r_0554	pyruvate metabolism	2395.25	1347.25	false					
-R	temp	r_0688	pyruvate metabolism	2428.5	262.25	false					
-R	temp	r_0696	pyruvate metabolism	2039.75	115.5	false					
-R	temp	r_0697	pyruvate metabolism	2720.5	434.5	false					
-R	temp	r_0716	pyruvate metabolism	304.75	240.25	false					
-R	temp	r_0717	pyruvate metabolism	324.25	885	false					
-R	temp	r_0718	pyruvate metabolism	1472	1295.5	false					
-R	temp	r_0719	pyruvate metabolism	1472	1295.5	false					
-R	temp	r_0958	pyruvate metabolism	1467.25	670	false					
-R	temp	r_1137	pyruvate metabolism	2339.75	786.25	false					
-R	temp	r_1138	pyruvate metabolism	2339.75	786.25	true					
-R	temp	r_1635	pyruvate metabolism	1016.25	308.5	true					
-R	temp	r_1637	pyruvate metabolism	556.25	308	true					
-R	temp	r_1817	pyruvate metabolism	377	596	true					
-R	temp	r_1838	pyruvate metabolism	467.25	1551	false					
-R	temp	r_2034	pyruvate metabolism	1652	790	false					
-R	temp	r_4039	pyruvate metabolism	464.25	1207	true					
-R	temp	r_4185	pyruvate metabolism	1439.10294117647	493.198529411765	false					
-R	temp	r_4236	pyruvate metabolism	2501.5	502.875	true					
-E		g_4039	388.5	1241.0	r_4039						
-E		g_2034	1546.5	811.5	r_2034						
-E		g_1838	523.0	1585.0	r_1838						
-E		g_1817	316.0	628.0	r_1817						
-E		g_1637	608.0	368.5	r_1637						
-E		g_1635	1081.0	370.0	r_1635						
-E		g_1138	2251.0	804.5	r_1138						
-E		g_1137	2425.5	838.5	r_1137						
-E		g_0958	1356.5	693.5	r_0958						
-E		g_0719	1210.0	1243.5	r_0719						
-E		g_0718	1388.0	1268.5	r_0718						
-E		g_0717	276.5	940.0	r_0717						
-E		g_0716	235.0	280.0	r_0716						
-E		g_0697	2648.5	321.0	r_0697						
-E		g_0696	1961.0	174.0	r_0696						
-E		g_0688	2337.0	248.0	r_0688						
-E		g_0554	2328.5	1399.0	r_0554						
-E		g_0553	2805.0	463.0	r_0553						
-E		g_0543	616.5	700.5	r_0543						
-E		g_0175	909.0	1533.5	r_0175						
-E		g_0114	721.5	518.5	r_0114						
-E		g_0113	711.0	1317.5	r_0113						
-E		g_0112	742.0	212.5	r_0112						
-E		g_0111	765.0	1431.5	r_0111						
-E		g_0004	1577.5	379.0	r_0004						
-E		g_0002	1965.5	1022.0	r_0002						
-E		g_0001	1902.5	454.5	r_0001						
-E		g_4185	1491.2058823529414	443.8970588235295	r_4040						
-E		g_4236	2541.0	553.25	r_4042						
-MI	s_1460	succinate[m]	true	413.0	1298.5						
-L	outEdge	r_4039	true								
-MI	s_1464	succinyl-CoA[m]	false	463.5	1036.0						
-L	outEdge	r_4039	false								
-MI	s_0799	H+[m]	true	1563.5	884.5						
-L	outEdge	r_2034	true								
-MI			true	519.5	1668.5						
-L	outEdge	r_1838	true								
-MI			true	2421.0	909.5						
-L	outEdge	r_1137	true								
-MI			true	2246.0	1317.0						
-L	outEdge	r_0554	true								
-MI			true	939.5	1476.0						
-L	outEdge	r_0175	true								
-MI			true	917.5	1407.5						
-L	outEdge	r_0111	true								
-MI	s_0794	H+[c]	true	1581.5	651.5						
-L	outEdge	r_2034	true								
-MI			true	2411.0	648.0						
-L	outEdge	r_1137	true								
-MI			true	1378.5	735.0						
-L	outEdge	r_0958	true								
-MI			true	134.5	288.0						
-L	outEdge	r_0716	true								
-MI			true	1875.5	165.0						
-L	outEdge	r_0696	true								
-MI			true	2510.0	267.0						
-L	outEdge	r_0688	true								
-MI			true	2788.5	575.0						
-L	outEdge	r_0553	true								
-MI			true	1303.2058823529412	457.8970588235295						
-L	outEdge	r_4040	true								
-L	outEdge	re4040	true								
-MI			true	2381.0	540.25						
-L	outEdge	r_4042	true								
-L	outEdge	re4042	true								
-MI			true	1303.2058823529412	457.8970588235295						
-L	outEdge	r_4040	true								
-L	outEdge	re4040	true								
-MI			true	2381.0	540.25						
-L	outEdge	r_4042	true								
-L	outEdge	re4042	true								
-MI	s_0532	coenzyme A[m]	true	400.5	1666.5						
-L	outEdge	r_1838	true								
-MI			true	904.5	1349.5						
-L	outEdge	r_0113	true								
-MI			true	868.5	1437.5						
-L	outEdge	r_0111	true								
-MI	s_0807	H2O[m]	true	520.0	1444.0						
-L	outEdge	r_1838	true								
-MI			true	2511.0	1303.5						
-L	outEdge	r_0554	true								
-MI			true	931.0	1658.5						
-L	outEdge	r_0175	true								
-MI			true	602.0	1425.5						
-L	outEdge	r_0111	true								
-MI	s_0834	homocitrate[m]	false	469.5	1724.0						
-L	outEdge	r_1838	false								
-MI	s_0182	2-oxoglutarate[m]	true	399.5	1450.0						
-L	outEdge	r_1838	true								
-MI	s_1322	phosphate[c]	true	1246.0	760.0						
-L	outEdge	r_0958	true								
-MI	s_0394	ADP[c]	true	1341.0	765.0						
-L	outEdge	r_0958	true								
-MI	s_0434	ATP[c]	true	1370.0	582.5						
-L	outEdge	r_0958	true								
-MI			true	937.5	213.5						
-L	outEdge	r_0112	true								
-MI	s_1271	oxaloacetate[c]	false	1282.5	839.5						
-L	outEdge	r_0958	false								
-MI			false	1226.2058823529412	485.8970588235295						
-L	outEdge	r_4040	false								
-L	outEdge	re4040	false								
-MI			false	1226.2058823529412	485.8970588235295						
-L	outEdge	r_4040	false								
-L	outEdge	re4040	false								
-MI	s_0445	bicarbonate[c]	true	1332.5	540.0						
-L	outEdge	r_0958	true								
-MI	s_1214	NADPH[m]	true	1243.5	1105.5						
-L	outEdge	r_0719	true								
-MI			true	1048.0	1466.0						
-L	outEdge	r_0175	true								
-MI	s_0460	carbon dioxide[m]	true	1209.5	1171.0						
-L	outEdge	r_0719	true								
-MI			true	1393.0	1211.5						
-L	outEdge	r_0718	true								
-MI	s_1210	NADP(+)[m]	true	1220.5	1409.5						
-L	outEdge	r_0719	true								
-MI			true	1040.5	1649.5						
-L	outEdge	r_0175	true								
-MI	s_1205	NADH[m]	true	1392.5	1136.5						
-L	outEdge	r_0718	true								
-MI	s_1200	NAD[m]	true	1353.5	1416.5						
-L	outEdge	r_0718	true								
-MI	s_0068	(S)-malate[m]	false	1292.0	1511.5						
-L	outEdge	r_0718	false								
-L	outEdge	r_0719	false								
-MI	s_0801	H+[p]	true	186.0	925.0						
-L	outEdge	r_0717	true								
-MI	s_0534	coenzyme A[p]	true	195.5	850.5						
-L	outEdge	r_0717	true								
-MI	s_0809	H2O[p]	true	442.0	849.5						
-L	outEdge	r_0717	true								
-MI	s_0069	(S)-malate[p]	false	83.0	884.0						
-L	outEdge	r_0717	false								
-MI	s_0781	glyoxylate[p]	false	377.5	710.5						
-L	outEdge	r_0717	false								
-L	outEdge	r_1817	false								
-MI	s_0378	acetyl-CoA[p]	false	565.5	886.0						
-L	outEdge	r_0717	false								
-MI	s_0529	coenzyme A[c]	true	130.0	372.5						
-L	outEdge	r_0716	true								
-MI			true	926.5	111.0						
-L	outEdge	r_0112	true								
-MI	s_0803	H2O[c]	true	468.5	371.0						
-L	outEdge	r_0716	true								
-MI			true	2178.0	167.5						
-L	outEdge	r_0696	true								
-MI			true	2749.5	335.5						
-L	outEdge	r_0553	true								
-MI			true	2615.0	528.25						
-L	outEdge	r_4042	true								
-L	outEdge	re4042	true								
-MI			true	2615.0	528.25						
-L	outEdge	r_4042	true								
-L	outEdge	re4042	true								
-MI	s_0066	(S)-malate[c]	false	53.5	330.0						
-L	outEdge	r_0716	false								
-MI	s_0779	glyoxylate[c]	false	376.5	481.5						
-L	outEdge	r_0716	false								
-L	outEdge	r_1817	false								
-MI	s_1203	NADH[c]	true	1737.0	138.5						
-L	outEdge	r_0696	true								
-MI	s_1198	NAD[c]	true	2301.5	163.5						
-L	outEdge	r_0696	true								
-MI	s_1207	NADP(+)[c]	true	2515.0	209.0						
-L	outEdge	r_0688	true								
-MI	s_1212	NADPH[c]	true	2493.5	343.5						
-L	outEdge	r_0688	true								
-MI	s_0062	(S)-lactaldehyde[c]	false	2429.0	114.5						
-L	outEdge	r_0688	false								
-L	outEdge	r_0696	false								
-MI	s_1151	methylglyoxal[c]	true	2428.0	410.0						
-L	outEdge	r_0688	true								
-L	outEdge	r_0697	true								
-MI			false	2666.0	509.25						
-L	outEdge	r_4042	false								
-L	outEdge	re4042	false								
-MI			false	2666.0	509.25						
-L	outEdge	r_4042	false								
-L	outEdge	re4042	false								
-MI	s_0752	glutathione[m]	false	2168.5	1347.0						
-L	outEdge	r_0554	false								
-MI	s_0034	(R)-S-lactoylglutathione[m]	false	2622.0	1347.5						
-L	outEdge	r_0554	false								
-MI	s_0750	glutathione[c]	false	2720.5	665.0						
-L	outEdge	r_0553	false								
-L	outEdge	r_0697	false								
-MI	s_0033	(R)-S-lactoylglutathione[c]	false	2720.5	204.0						
-L	outEdge	r_0553	false								
-L	outEdge	r_0697	false								
-MI	s_0800	H+[n]	true	607.5	794.0						
-L	outEdge	r_0543	true								
-MI	s_0533	coenzyme A[n]	true	486.5	787.5						
-L	outEdge	r_0543	true								
-MI			true	779.5	412.0						
-L	outEdge	r_0114	true								
-MI	s_0808	H2O[n]	true	489.5	549.0						
-L	outEdge	r_0543	true								
-MI	s_0835	homocitrate[n]	false	872.5	839.0						
-L	outEdge	r_0543	false								
-MI	s_0183	2-oxoglutarate[n]	true	616.0	550.5						
-L	outEdge	r_0543	true								
-MI	s_0361	acetaldehyde[m]	false	989.5	1720.5						
-L	outEdge	r_0175	false								
-MI	s_0637	diphosphate[n]	true	646.0	496.0						
-L	outEdge	r_0114	true								
-MI	s_0425	AMP[n]	true	683.5	409.0						
-L	outEdge	r_0114	true								
-MI	s_0438	ATP[n]	true	879.5	424.0						
-L	outEdge	r_0114	true								
-MI	s_0377	acetyl-CoA[n]	false	556.5	465.5						
-L	outEdge	r_0114	false								
-L	outEdge	r_0543	false								
-L	outEdge	r_1637	false								
-MI	s_0366	acetate[n]	false	1015.5	466.0						
-L	outEdge	r_0114	false								
-L	outEdge	r_1635	false								
-MI	s_0636	diphosphate[m]	true	633.5	1323.0						
-L	outEdge	r_0113	true								
-MI	s_0424	AMP[m]	true	545.0	1345.0						
-L	outEdge	r_0113	true								
-MI	s_0437	ATP[m]	true	871.0	1310.0						
-L	outEdge	r_0113	true								
-MI	s_0633	diphosphate[c]	true	653.5	100.5						
-L	outEdge	r_0112	true								
-MI	s_0423	AMP[c]	true	644.5	191.5						
-L	outEdge	r_0112	true								
-MI	s_0373	acetyl-CoA[c]	false	556.0	150.5						
-L	outEdge	r_0112	false								
-L	outEdge	r_0716	false								
-L	outEdge	r_1637	false								
-MI	s_0362	acetate[c]	false	1017.0	151.0						
-L	outEdge	r_0112	false								
-L	outEdge	r_1635	false								
-MI	s_0365	acetate[m]	true	988.0	1380.5						
-L	outEdge	r_0111	true								
-L	outEdge	r_0113	true								
-L	outEdge	r_0175	true								
-L	outEdge	r_4039	true								
-MI	s_0376	acetyl-CoA[m]	false	465.0	1378.0						
-L	outEdge	r_0111	false								
-L	outEdge	r_0113	false								
-L	outEdge	r_1838	false								
-L	outEdge	r_4039	false								
-MI	s_0063	(S)-lactate[c]	false	1650.5	116.5						
-L	outEdge	r_0004	false								
-L	outEdge	r_0696	false								
-MI	s_1401	pyruvate[m]	false	1652.0	1079.5						
-L	outEdge	r_0002	false								
-L	outEdge	r_0718	false								
-L	outEdge	r_0719	false								
-L	outEdge	r_1138	false								
-L	outEdge	r_2034	false								
-MI	s_0027	(R)-lactate[m]	false	2342.5	1076.0						
-L	outEdge	r_0002	false								
-L	outEdge	r_0554	false								
-L	outEdge	r_1137	false								
-L	outEdge	r_1138	false								
-MI	s_1399	pyruvate[c]	false	1652.0	500.5						
-L	outEdge	r_0001	false								
-L	outEdge	r_0004	false								
-L	outEdge	r_0958	false								
-L	outEdge	r_1138	false								
-L	outEdge	r_2034	false								
-L	outEdge	r_4040	false								
-L	outEdge	re4040	false								
-MI	s_0710	ferrocytochrome c[m]	true	1913.5	755.0						
-L	outEdge	r_0001	true								
-L	outEdge	r_0002	true								
-L	outEdge	r_0004	true								
-MI	s_0709	ferricytochrome c[m]	true	2187.0	260.5						
-L	outEdge	r_0001	true								
-L	outEdge	r_0002	true								
-L	outEdge	r_0004	true								
-MI	s_0025	(R)-lactate[c]	false	2337.0	496.5						
-L	outEdge	r_0001	false								
-L	outEdge	r_0553	false								
-L	outEdge	r_1137	false								
-L	outEdge	r_1138	false								
-L	outEdge	r_4042	false								
-L	outEdge	re4042	false								
-MI	s_0456	carbon dioxide[c]	true	1592.2058823529412	456.8970588235295						
-L	outEdge	r_4040	true								
-L	outEdge	re4040	true								
+P	pyruvate metabolism	pyruvate metabolism	-100	-1	-1							
+R	r_0001	temp	pyruvate metabolism	1994.5	498.5	false	normal					
+R	r_0002	temp	pyruvate metabolism	1997.25	1077.75	false	normal					
+R	r_0004	temp	pyruvate metabolism	1651.25	308.5	false	normal					
+R	r_0111	temp	pyruvate metabolism	726.5	1379.25	false	normal					
+R	r_0112	temp	pyruvate metabolism	786.5	150.75	false	normal					
+R	r_0113	temp	pyruvate metabolism	726.5	1379.25	false	normal					
+R	r_0114	temp	pyruvate metabolism	786	465.75	false	normal					
+R	r_0175	temp	pyruvate metabolism	988.75	1550.5	false	normal					
+R	r_0543	temp	pyruvate metabolism	714.5	652.25	false	normal					
+R	r_0553	temp	pyruvate metabolism	2720.5	434.5	false	normal					
+R	r_0554	temp	pyruvate metabolism	2395.25	1347.25	false	normal					
+R	r_0688	temp	pyruvate metabolism	2428.5	262.25	false	normal					
+R	r_0696	temp	pyruvate metabolism	2039.75	115.5	false	normal					
+R	r_0697	temp	pyruvate metabolism	2720.5	434.5	false	normal					
+R	r_0716	temp	pyruvate metabolism	304.75	240.25	false	normal					
+R	r_0717	temp	pyruvate metabolism	324.25	885	false	normal					
+R	r_0718	temp	pyruvate metabolism	1472	1295.5	false	normal					
+R	r_0719	temp	pyruvate metabolism	1472	1295.5	false	normal					
+R	r_0958	temp	pyruvate metabolism	1467.25	670	false	normal					
+R	r_1137	temp	pyruvate metabolism	2339.75	786.25	false	normal					
+R	r_1138	temp	pyruvate metabolism	2339.75	786.25	true	normal					
+R	r_1635	temp	pyruvate metabolism	1016.25	308.5	true	normal					
+R	r_1637	temp	pyruvate metabolism	556.25	308	true	normal					
+R	r_1817	temp	pyruvate metabolism	377	596	true	normal					
+R	r_1838	temp	pyruvate metabolism	467.25	1551	false	normal					
+R	r_2034	temp	pyruvate metabolism	1652	790	false	normal					
+R	r_4039	temp	pyruvate metabolism	464.25	1207	true	normal					
+R	r_4185	temp	pyruvate metabolism	1439.10294117647	493.198529411765	false	normal					
+R	r_4236	temp	pyruvate metabolism	2501.5	502.875	true	normal					
+E	temp	g_4039	388.5	1241.0	r_4039							
+E	temp	g_2034	1546.5	811.5	r_2034							
+E	temp	g_1838	523.0	1585.0	r_1838							
+E	temp	g_1817	316.0	628.0	r_1817							
+E	temp	g_1637	608.0	368.5	r_1637							
+E	temp	g_1635	1081.0	370.0	r_1635							
+E	temp	g_1138	2251.0	804.5	r_1138							
+E	temp	g_1137	2425.5	838.5	r_1137							
+E	temp	g_0958	1356.5	693.5	r_0958							
+E	temp	g_0719	1210.0	1243.5	r_0719							
+E	temp	g_0718	1388.0	1268.5	r_0718							
+E	temp	g_0717	276.5	940.0	r_0717							
+E	temp	g_0716	235.0	280.0	r_0716							
+E	temp	g_0697	2648.5	321.0	r_0697							
+E	temp	g_0696	1961.0	174.0	r_0696							
+E	temp	g_0688	2337.0	248.0	r_0688							
+E	temp	g_0554	2328.5	1399.0	r_0554							
+E	temp	g_0553	2805.0	463.0	r_0553							
+E	temp	g_0543	616.5	700.5	r_0543							
+E	temp	g_0175	909.0	1533.5	r_0175							
+E	temp	g_0114	721.5	518.5	r_0114							
+E	temp	g_0113	711.0	1317.5	r_0113							
+E	temp	g_0112	742.0	212.5	r_0112							
+E	temp	g_0111	765.0	1431.5	r_0111							
+E	temp	g_0004	1577.5	379.0	r_0004							
+E	temp	g_0002	1965.5	1022.0	r_0002							
+E	temp	g_0001	1902.5	454.5	r_0001							
+E	temp	g_4185	1491.2058823529414	443.8970588235295	r_4185							
+E	temp	g_4236	2541.0	553.25	r_4236							
+MI	s_1460	succinate[m]	true	413.0	1298.5	Center	0.0	0.0				
+L	inEdge	r_4039	true									
+MI	s_1464	succinyl-CoA[m]	false	463.5	1036.0	Center	0.0	0.0				
+L	outEdge	r_4039	false									
+MI	s_0799	H+[m]	true	1563.5	884.5	Center	0.0	0.0				
+L	inEdge	r_2034	true									
+MI			true	519.5	1668.5	Center	0.0	0.0				
+L	inEdge	r_1838	true									
+MI			true	2421.0	909.5	Center	0.0	0.0				
+L	inEdge	r_1137	true									
+MI			true	2246.0	1317.0	Center	0.0	0.0				
+L	inEdge	r_0554	true									
+MI			true	939.5	1476.0	Center	0.0	0.0				
+L	inEdge	r_0175	true									
+MI			true	917.5	1407.5	Center	0.0	0.0				
+L	inEdge	r_0111	true									
+MI	s_0794	H+[c]	true	1581.5	651.5	Center	0.0	0.0				
+L	outEdge	r_2034	true									
+MI			true	2411.0	648.0	Center	0.0	0.0				
+L	outEdge	r_1137	true									
+MI			true	1378.5	735.0	Center	0.0	0.0				
+L	inEdge	r_0958	true									
+MI			true	134.5	288.0	Center	0.0	0.0				
+L	inEdge	r_0716	true									
+MI			true	1875.5	165.0	Center	0.0	0.0				
+L	inEdge	r_0696	true									
+MI			true	2510.0	267.0	Center	0.0	0.0				
+L	outEdge	r_0688	true									
+MI			true	2788.5	575.0	Center	0.0	0.0				
+L	inEdge	r_0553	true									
+MI			true	1303.2058823529412	457.8970588235295	Center	0.0	0.0				
+L	outEdge	r_4185	true									
+MI			true	2381.0	540.25	Center	0.0	0.0				
+L	outEdge	r_4236	true									
+MI	s_0532	coenzyme A[m]	true	400.5	1666.5	Center	0.0	0.0				
+L	inEdge	r_1838	true									
+MI			true	904.5	1349.5	Center	0.0	0.0				
+L	outEdge	r_0113	true									
+MI			true	868.5	1437.5	Center	0.0	0.0				
+L	inEdge	r_0111	true									
+MI	s_0807	H2O[m]	true	520.0	1444.0	Center	0.0	0.0				
+L	outEdge	r_1838	true									
+MI			true	2511.0	1303.5	Center	0.0	0.0				
+L	outEdge	r_0554	true									
+MI			true	931.0	1658.5	Center	0.0	0.0				
+L	outEdge	r_0175	true									
+MI			true	602.0	1425.5	Center	0.0	0.0				
+L	outEdge	r_0111	true									
+MI	s_0834	homocitrate[m]	false	469.5	1724.0	Center	0.0	0.0				
+L	inEdge	r_1838	false									
+MI	s_0182	2-oxoglutarate[m]	true	399.5	1450.0	Center	0.0	0.0				
+L	outEdge	r_1838	true									
+MI	s_1322	phosphate[c]	true	1246.0	760.0	Center	0.0	0.0				
+L	inEdge	r_0958	true									
+MI	s_0394	ADP[c]	true	1341.0	765.0	Center	0.0	0.0				
+L	inEdge	r_0958	true									
+MI	s_0434	ATP[c]	true	1370.0	582.5	Center	0.0	0.0				
+L	outEdge	r_0958	true									
+MI			true	937.5	213.5	Center	0.0	0.0				
+L	outEdge	r_0112	true									
+MI	s_1271	oxaloacetate[c]	false	1282.5	839.5	Center	0.0	0.0				
+L	inEdge	r_0958	false									
+MI			false	1226.2058823529412	485.8970588235295	Center	0.0	0.0				
+L	outEdge	r_4185	false									
+MI	s_0445	bicarbonate[c]	true	1332.5	540.0	Center	0.0	0.0				
+L	outEdge	r_0958	true									
+MI	s_1214	NADPH[m]	true	1243.5	1105.5	Center	0.0	0.0				
+L	inEdge	r_0719	true									
+MI			true	1048.0	1466.0	Center	0.0	0.0				
+L	inEdge	r_0175	true									
+MI	s_0460	carbon dioxide[m]	true	1209.5	1171.0	Center	0.0	0.0				
+L	inEdge	r_0719	true									
+MI			true	1393.0	1211.5	Center	0.0	0.0				
+L	inEdge	r_0718	true									
+MI	s_1210	NADP(+)[m]	true	1220.5	1409.5	Center	0.0	0.0				
+L	outEdge	r_0719	true									
+MI			true	1040.5	1649.5	Center	0.0	0.0				
+L	outEdge	r_0175	true									
+MI	s_1205	NADH[m]	true	1392.5	1136.5	Center	0.0	0.0				
+L	inEdge	r_0718	true									
+MI	s_1200	NAD[m]	true	1353.5	1416.5	Center	0.0	0.0				
+L	outEdge	r_0718	true									
+MI	s_0068	(S)-malate[m]	false	1292.0	1511.5	Center	0.0	0.0				
+L	outEdge	r_0718	false									
+L	outEdge	r_0719	false									
+MI	s_0801	H+[p]	true	186.0	925.0	Center	0.0	0.0				
+L	inEdge	r_0717	true									
+MI	s_0534	coenzyme A[p]	true	195.5	850.5	Center	0.0	0.0				
+L	inEdge	r_0717	true									
+MI	s_0809	H2O[p]	true	442.0	849.5	Center	0.0	0.0				
+L	outEdge	r_0717	true									
+MI	s_0069	(S)-malate[p]	false	83.0	884.0	Center	0.0	0.0				
+L	inEdge	r_0717	false									
+MI	s_0781	glyoxylate[p]	false	377.5	710.5	Center	0.0	0.0				
+L	outEdge	r_0717	false									
+L	inEdge	r_1817	false									
+MI	s_0378	acetyl-CoA[p]	false	565.5	886.0	Center	0.0	0.0				
+L	outEdge	r_0717	false									
+MI	s_0529	coenzyme A[c]	true	130.0	372.5	Center	0.0	0.0				
+L	inEdge	r_0716	true									
+MI			true	926.5	111.0	Center	0.0	0.0				
+L	outEdge	r_0112	true									
+MI	s_0803	H2O[c]	true	468.5	371.0	Center	0.0	0.0				
+L	outEdge	r_0716	true									
+MI			true	2178.0	167.5	Center	0.0	0.0				
+L	outEdge	r_0696	true									
+MI			true	2749.5	335.5	Center	0.0	0.0				
+L	outEdge	r_0553	true									
+MI			true	2615.0	528.25	Center	0.0	0.0				
+L	inEdge	r_4236	true									
+MI	s_0066	(S)-malate[c]	false	53.5	330.0	Center	0.0	0.0				
+L	inEdge	r_0716	false									
+MI	s_0779	glyoxylate[c]	false	376.5	481.5	Center	0.0	0.0				
+L	outEdge	r_0716	false									
+L	outEdge	r_1817	false									
+MI	s_1203	NADH[c]	true	1737.0	138.5	Center	0.0	0.0				
+L	inEdge	r_0696	true									
+MI	s_1198	NAD[c]	true	2301.5	163.5	Center	0.0	0.0				
+L	outEdge	r_0696	true									
+MI	s_1207	NADP(+)[c]	true	2515.0	209.0	Center	0.0	0.0				
+L	inEdge	r_0688	true									
+MI	s_1212	NADPH[c]	true	2493.5	343.5	Center	0.0	0.0				
+L	outEdge	r_0688	true									
+MI	s_0062	(S)-lactaldehyde[c]	false	2429.0	114.5	Center	0.0	0.0				
+L	inEdge	r_0688	false									
+L	outEdge	r_0696	false									
+MI	s_1151	methylglyoxal[c]	true	2428.0	410.0	Center	0.0	0.0				
+L	outEdge	r_0688	true									
+L	outEdge	r_0697	true									
+MI			false	2666.0	509.25	Center	0.0	0.0				
+L	inEdge	r_4236	false									
+MI	s_0752	glutathione[m]	false	2168.5	1347.0	Center	0.0	0.0				
+L	inEdge	r_0554	false									
+MI	s_0034	(R)-S-lactoylglutathione[m]	false	2622.0	1347.5	Center	0.0	0.0				
+L	outEdge	r_0554	false									
+MI	s_0750	glutathione[c]	false	2720.5	665.0	Center	0.0	0.0				
+L	inEdge	r_0553	false									
+L	outEdge	r_0697	false									
+MI	s_0033	(R)-S-lactoylglutathione[c]	false	2720.5	204.0	Center	0.0	0.0				
+L	outEdge	r_0553	false									
+L	inEdge	r_0697	false									
+MI	s_0800	H+[n]	true	607.5	794.0	Center	0.0	0.0				
+L	inEdge	r_0543	true									
+MI	s_0533	coenzyme A[n]	true	486.5	787.5	Center	0.0	0.0				
+L	inEdge	r_0543	true									
+MI			true	779.5	412.0	Center	0.0	0.0				
+L	outEdge	r_0114	true									
+MI	s_0808	H2O[n]	true	489.5	549.0	Center	0.0	0.0				
+L	outEdge	r_0543	true									
+MI	s_0835	homocitrate[n]	false	872.5	839.0	Center	0.0	0.0				
+L	inEdge	r_0543	false									
+MI	s_0183	2-oxoglutarate[n]	true	616.0	550.5	Center	0.0	0.0				
+L	outEdge	r_0543	true									
+MI	s_0361	acetaldehyde[m]	false	989.5	1720.5	Center	0.0	0.0				
+L	outEdge	r_0175	false									
+MI	s_0637	diphosphate[n]	true	646.0	496.0	Center	0.0	0.0				
+L	inEdge	r_0114	true									
+MI	s_0425	AMP[n]	true	683.5	409.0	Center	0.0	0.0				
+L	inEdge	r_0114	true									
+MI	s_0438	ATP[n]	true	879.5	424.0	Center	0.0	0.0				
+L	outEdge	r_0114	true									
+MI	s_0377	acetyl-CoA[n]	false	556.5	465.5	Center	0.0	0.0				
+L	inEdge	r_0114	false									
+L	outEdge	r_0543	false									
+L	inEdge	r_1637	false									
+MI	s_0366	acetate[n]	false	1015.5	466.0	Center	0.0	0.0				
+L	outEdge	r_0114	false									
+L	inEdge	r_1635	false									
+MI	s_0636	diphosphate[m]	true	633.5	1323.0	Center	0.0	0.0				
+L	inEdge	r_0113	true									
+MI	s_0424	AMP[m]	true	545.0	1345.0	Center	0.0	0.0				
+L	inEdge	r_0113	true									
+MI	s_0437	ATP[m]	true	871.0	1310.0	Center	0.0	0.0				
+L	outEdge	r_0113	true									
+MI	s_0633	diphosphate[c]	true	653.5	100.5	Center	0.0	0.0				
+L	inEdge	r_0112	true									
+MI	s_0423	AMP[c]	true	644.5	191.5	Center	0.0	0.0				
+L	inEdge	r_0112	true									
+MI	s_0373	acetyl-CoA[c]	false	556.0	150.5	Center	0.0	0.0				
+L	inEdge	r_0112	false									
+L	outEdge	r_0716	false									
+L	outEdge	r_1637	false									
+MI	s_0362	acetate[c]	false	1017.0	151.0	Center	0.0	0.0				
+L	outEdge	r_0112	false									
+L	outEdge	r_1635	false									
+MI	s_0365	acetate[m]	true	988.0	1380.5	Center	0.0	0.0				
+L	inEdge	r_0111	true									
+L	outEdge	r_0113	true									
+L	inEdge	r_0175	true									
+L	outEdge	r_4039	true									
+MI	s_0376	acetyl-CoA[m]	false	465.0	1378.0	Center	0.0	0.0				
+L	outEdge	r_0111	false									
+L	inEdge	r_0113	false									
+L	outEdge	r_1838	false									
+L	inEdge	r_4039	false									
+MI	s_0063	(S)-lactate[c]	false	1650.5	116.5	Center	0.0	0.0				
+L	outEdge	r_0004	false									
+L	inEdge	r_0696	false									
+MI	s_1401	pyruvate[m]	false	1652.0	1079.5	Center	0.0	0.0				
+L	inEdge	r_0002	false									
+L	inEdge	r_0718	false									
+L	inEdge	r_0719	false									
+L	outEdge	r_1138	false									
+L	inEdge	r_2034	false									
+MI	s_0027	(R)-lactate[m]	false	2342.5	1076.0	Center	0.0	0.0				
+L	outEdge	r_0002	false									
+L	inEdge	r_0554	false									
+L	inEdge	r_1137	false									
+L	inEdge	r_1138	false									
+MI	s_1399	pyruvate[c]	false	1652.0	500.5	Center	0.0	0.0				
+L	inEdge	r_0001	false									
+L	inEdge	r_0004	false									
+L	outEdge	r_0958	false									
+L	inEdge	r_1138	false									
+L	outEdge	r_2034	false									
+L	inEdge	r_4185	false									
+MI	s_0710	ferrocytochrome c[m]	true	1913.5	755.0	Center	0.0	0.0				
+L	inEdge	r_0001	true									
+L	inEdge	r_0002	true									
+L	inEdge	r_0004	true									
+MI	s_0709	ferricytochrome c[m]	true	2187.0	260.5	Center	0.0	0.0				
+L	outEdge	r_0001	true									
+L	outEdge	r_0002	true									
+L	outEdge	r_0004	true									
+MI	s_0025	(R)-lactate[c]	false	2337.0	496.5	Center	0.0	0.0				
+L	outEdge	r_0001	false									
+L	inEdge	r_0553	false									
+L	outEdge	r_1137	false									
+L	outEdge	r_1138	false									
+L	outEdge	r_4236	false									
+MI	s_0456	carbon dioxide[c]	true	1592.2058823529412	456.8970588235295	Center	0.0	0.0				
+L	inEdge	r_4185	true									

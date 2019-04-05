@@ -53,17 +53,17 @@ colnames(pathway_df) = colnames(example_csv)
 
 # Setup empty data frame for storing data
 nrxn = as.integer(length(subsystem_list$sbml$model$listOfReactions)) # Retrieve amount of metabolites
-rxn_df = data.frame(matrix(NA, nrow = nrxn, ncol = 7)) # Create empty data frame
+rxn_df = data.frame(matrix(NA, nrow = nrxn, ncol = 8)) # Create empty data frame
 
 # "R" denotes that each row is a reaction
 rxn_df[,1] = rep("R",nrxn)
 
 # Store temporary reaction name
-rxn_df[,2] = rep("temp",nrxn) 
+rxn_df[,3] = rep("temp",nrxn) 
 
 # Store reaction IDs
 for (i in 1:nrxn) {
-  rxn_df[i,3] = attributes(subsystem_list$sbml$model$listOfReactions[[i]])$metaid
+  rxn_df[i,2] = attributes(subsystem_list$sbml$model$listOfReactions[[i]])$metaid
 }
 
 # Store Pathway ID
@@ -106,8 +106,11 @@ for (i in 1:length(rxn_rev)) {
   }
 }
 for (i in 1:nrxn) {
-  rxn_df[i,7] = as.character(rxn_rev[rxn_df[i,3]])
+  rxn_df[i,7] = as.character(rxn_rev[rxn_df[i,2]])
 }
+
+# Store temporary reaction name
+rxn_df[,8] = rep("normal",nrxn) 
 
 # == CONSTRUCT GENE DATA FRAME ==
 
@@ -159,7 +162,7 @@ for (i in 1:length(gene_list)) {
       }
       # Attribute reactions to the base reactant
       if(names(gene_list[[i]])[j] %in% gr){
-        gene_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$id)]] = list()
+        gene_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$metaid)]] = list()
       }
     }
   }
@@ -172,7 +175,7 @@ for (i in 1:length(gene_list)) {
   for (j in 1:length(gene_list[[i]])) {
     for (k in 1:length(gene_list[[i]][[j]])) {
       gene_df[row_index,1] = "E"
-      gene_df[row_index,2] = NA # ADD ENSEMBL VALUES LATER!
+      gene_df[row_index,2] = "temp" # ADD ENSEMBL VALUES LATER!
       gene_df[row_index,3] = attributes(gene_list[[i]])$Name
       gene_df[row_index,4] = attributes(gene_list[[i]][[j]])$x
       gene_df[row_index,5] = attributes(gene_list[[i]][[j]])$y
@@ -235,10 +238,11 @@ for (i in 1:length(met_list)) {
       for (m in 1:length(subsystem_list$sbml$model$listOfReactions[[k]]$annotation$extension$baseReactants)) {
         br = c(br,attributes(subsystem_list$sbml$model$listOfReactions[[k]]$annotation$extension$baseReactants[[m]])$alias)
       }
+      
       # Attribute reactions to the base reactant
       if(names(met_list[[i]])[j] %in% br){
-        met_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$id)]] = list()
-        attributes(met_list[[i]][[j]][[attributes(subsystem_list$sbml$model$listOfReactions[[k]])$id]])$edgetype = "outEdge" # Set direction of arrow
+        met_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$metaid)]] = list()
+        attributes(met_list[[i]][[j]][[attributes(subsystem_list$sbml$model$listOfReactions[[k]])$metaid]])$edgetype = "outEdge" # Set direction of arrow
         attributes(met_list[[i]][[j]])$collapsed = "false" # Not a cofactor
         }
       
@@ -249,8 +253,8 @@ for (i in 1:length(met_list)) {
       }
       # Attribute reactions to the base product
       if(names(met_list[[i]])[j] %in% bp){
-        met_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$id)]] = list()
-        attributes(met_list[[i]][[j]][[attributes(subsystem_list$sbml$model$listOfReactions[[k]])$id]])$edgetype = "inEdge" # Set direction of arrow
+        met_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$metaid)]] = list()
+        attributes(met_list[[i]][[j]][[attributes(subsystem_list$sbml$model$listOfReactions[[k]])$metaid]])$edgetype = "inEdge" # Set direction of arrow
         attributes(met_list[[i]][[j]])$collapsed = "false" # Not a cofactor
       }
       
@@ -261,8 +265,8 @@ for (i in 1:length(met_list)) {
       }
       # Attribute reactions to the cofactor reactant
       if(names(met_list[[i]])[j] %in% lr){
-        met_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$id)]] = list()
-        attributes(met_list[[i]][[j]][[attributes(subsystem_list$sbml$model$listOfReactions[[k]])$id]])$edgetype = "outEdge" # Set direction of arrow
+        met_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$metaid)]] = list()
+        attributes(met_list[[i]][[j]][[attributes(subsystem_list$sbml$model$listOfReactions[[k]])$metaid]])$edgetype = "outEdge" # Set direction of arrow
         attributes(met_list[[i]][[j]])$collapsed = "true" # Cofactor
       }
       
@@ -273,12 +277,20 @@ for (i in 1:length(met_list)) {
       }
       # Attribute reactions to the cofactor product
       if(names(met_list[[i]])[j] %in% lp){
-        met_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$id)]] = list()
-        attributes(met_list[[i]][[j]][[attributes(subsystem_list$sbml$model$listOfReactions[[k]])$id]])$edgetype = "outEdge" # Set direction of arrow
+        met_list[[i]][[j]][[gsub("e", "_", attributes(subsystem_list$sbml$model$listOfReactions[[k]])$metaid)]] = list()
+        attributes(met_list[[i]][[j]][[attributes(subsystem_list$sbml$model$listOfReactions[[k]])$metaid]])$edgetype = "inEdge" # Set direction of arrow
         attributes(met_list[[i]][[j]])$collapsed = "true" # Cofactor
       }
       
     }
+  }
+}
+
+
+
+for (i in 1:length(met_list)) {
+  for (j in 1:length(met_list[[i]])) {
+    if(names(met_list[[i]])[j] %in% br){print(met_list[[i]][j])}
   }
 }
 
@@ -321,7 +333,7 @@ for (i in 1:length(met_list)) {
   }
 }
 
-met_df = data.frame(matrix(NA, nrow = 0, ncol = 12)) # Create empty data frame, 6 cols + 6 more fore splinepoints
+met_df = data.frame(matrix(NA, nrow = 0, ncol = 13)) # Create empty data frame, 9 cols + 4 more for splinepoints
 
 row_index = 1
 for (i in 1:length(met_list)) {
@@ -334,6 +346,9 @@ for (i in 1:length(met_list)) {
       met_df[row_index,4] = attributes(met_list[[i]][[j]])$collapsed
       met_df[row_index,5] = attributes(met_list[[i]][[j]])$x
       met_df[row_index,6] = attributes(met_list[[i]][[j]])$y
+      met_df[row_index,7] = "Center"
+      met_df[row_index,8] = "0.0"
+      met_df[row_index,9] = "0.0"
     }
     else{
       met_df[row_index,1] = "MI"
@@ -342,11 +357,14 @@ for (i in 1:length(met_list)) {
       met_df[row_index,4] = attributes(met_list[[i]][[j]])$collapsed
       met_df[row_index,5] = attributes(met_list[[i]][[j]])$x
       met_df[row_index,6] = attributes(met_list[[i]][[j]])$y
+      met_df[row_index,7] = "Center"
+      met_df[row_index,8] = "0.0"
+      met_df[row_index,9] = "0.0"
     }
     row_index = row_index + 1
     for (k in 1:length(met_list[[i]][[j]])) {
       met_df[row_index,1] = "L"
-      met_df[row_index,2] = attributes(met_list$s118$sa142$r_4039)$edgetype
+      met_df[row_index,2] = attributes(met_list[[i]][[j]][[k]])$edgetype
       met_df[row_index,3] = names(met_list[[i]][[j]])[k]
       met_df[row_index,4] = attributes(met_list[[i]][[j]])$collapsed
       met_df[row_index,5] = NA
@@ -372,23 +390,3 @@ write.table(dfToExport, file = paste(PATH,"netfiles/",subsystem,".net",sep = "")
             col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
 
-
-
-
-
-
-
-shell_path <- '"C:/Program Files/Git/bin/bash.exe"'
-shell(cmd = "touch boi.txt", shell = shell_path, intern = TRUE, flag = "-c")
-
-?shell
-
-
-
-
-
-
-shell("touch boi.txt", shell = shell_path, flag = "-c")
-
-
-shell("touch boi.txt")
