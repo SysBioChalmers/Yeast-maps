@@ -20,12 +20,14 @@ require(xml2)
 install.packages("readr")
 require(readr)
 
+# == CHOOSE SUBSYSTEM ==
+# subsystem = "pyruvate metabolism"
+subsystem = "Metabolism of cofactor and vitamins"
 # == LOAD DATA ==
 
 # Load subsystem maps in SBML format
 PATH = "~/Documents/PhD/Yeast-maps/"
 setwd(PATH)
-subsystem = "pyruvate metabolism"
 PATH_xml = paste(PATH,"SBMLfiles/",subsystem,".xml",sep = "")
 subsystem_xml = read_xml(PATH_xml)
 subsystem_list = as_list(subsystem_xml)
@@ -222,6 +224,10 @@ for (i in 1:length(met_ids[,1])) {
 # Keep only metabolite names, i.e. not genes/proteins
 # Metabolites do not contain the "_" character, so we can filter using it
 met_ids = met_ids[!grepl("_", met_ids$Name),]
+# Print all sub-subsytem labels
+print(met_ids[!grepl("\\[", met_ids$Name),])
+# Metabolites always have a "["
+met_ids = met_ids[grepl("\\[", met_ids$Name),]
 # Remove duplicate values
 met_ids = unique(met_ids)
 
@@ -347,12 +353,13 @@ for (i in 1:length(met_list)) {
   }
 }
 
-met_df = data.frame(matrix(NA, nrow = 0, ncol = 13)) # Create empty data frame, 9 cols + 4 more for splinepoints
+met_df = data.frame(matrix(NA, nrow = df_rows, ncol = 13)) # Create empty data frame, 9 cols + 4 more for splinepoints
 
 row_index = 1
 for (i in 1:length(met_list)) {
   print(attributes(met_list[[i]])$Name)
   for (j in 1:length(met_list[[i]])) {
+    print(j)
     if(j == 1){
       met_df[row_index,1] = "MI"
       met_df[row_index,2] = attributes(met_list[[i]])$ModelID
@@ -386,6 +393,7 @@ for (i in 1:length(met_list)) {
       row_index = row_index + 1
     }
   }
+  print(i)
 }
 
 # Convert data frame values to character
