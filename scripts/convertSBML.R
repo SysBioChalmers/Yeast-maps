@@ -44,6 +44,9 @@ yeastGEM_rxn = data.frame(read_excel("scripts/yeast_8.3.xlsx"))
 yeastGEM_met = read_excel(paste(PATH,"scripts/yeastGEM.xlsx",sep = ""), sheet = "METS")
 colnames(yeastGEM_met)[1:2] = c("Metabolite.name", "Metabolite.description")
 
+# Load geneGroups
+geneGroups <- data.frame(read_csv("scripts/geneGroups.csv"))
+
 # == CONSTRUCT PATHWAY DATA FRAME ==
 
 pathway_df = data.frame("P", subsystem, subsystem, -100, -1, -1)
@@ -58,12 +61,10 @@ rxn_df = data.frame(matrix(NA, nrow = nrxn, ncol = 8)) # Create empty data frame
 # "R" denotes that each row is a reaction
 rxn_df[,1] = rep("R",nrxn)
 
-# Store temporary reaction name
-rxn_df[,3] = rep("temp",nrxn) 
-
 # Store reaction IDs
 for (i in 1:nrxn) {
   rxn_df[i,2] = attributes(subsystem_list$sbml$model$listOfReactions[[i]])$metaid
+  rxn_df[i,3] = attributes(subsystem_list$sbml$model$listOfReactions[[i]])$metaid
 }
 
 # Store Pathway ID
@@ -109,7 +110,7 @@ for (i in 1:nrxn) {
   rxn_df[i,7] = as.character(rxn_rev[rxn_df[i,2]])
 }
 
-# Store temporary reaction name
+# Store reaction type
 rxn_df[,8] = rep("normal",nrxn) 
 
 # == CONSTRUCT GENE DATA FRAME ==
@@ -167,19 +168,32 @@ for (i in 1:length(gene_list)) {
     }
   }
 }
+
+# Count up how many genes are in the subsystem
+ngene = 0
+for (i in 1:length(gene_list)) {
+  str_genes = geneGroups$string_agg[which(geneGroups$id %in% names(gene_list[[i]][[1]]))]
+  if(length(str_genes) == 1){
+    ngene = ngene + length(strsplit(str_genes,split = ", ")[[1]])
+  }
+}
+
 # Create empty data frame
-gene_df = data.frame(matrix(NA, nrow = 0, ncol = 6)) 
+gene_df = data.frame(matrix(NA, nrow = ngene, ncol = 6))
+
 # Fill data frame
 row_index = 1
 for (i in 1:length(gene_list)) {
-  for (j in 1:length(gene_list[[i]])) {
-    for (k in 1:length(gene_list[[i]][[j]])) {
+  str_genes = geneGroups$string_agg[which(geneGroups$id %in% names(gene_list[[i]][[1]]))]
+  if(length(str_genes) == 1){
+  str_genes = strsplit(str_genes,split = ", ")[[1]]
+    for (m in 1:length(str_genes)) {
       gene_df[row_index,1] = "E"
-      gene_df[row_index,2] = "temp" # ADD ENSEMBL VALUES LATER!
-      gene_df[row_index,3] = attributes(gene_list[[i]])$Name
-      gene_df[row_index,4] = attributes(gene_list[[i]][[j]])$x
-      gene_df[row_index,5] = attributes(gene_list[[i]][[j]])$y
-      gene_df[row_index,6] = names(gene_list[[i]][[j]])[k]
+      gene_df[row_index,2] = str_genes[m]
+      gene_df[row_index,3] = str_genes[m]
+      gene_df[row_index,4] = as.character(as.numeric(attributes(gene_list[[i]][[1]])$x) + round(runif(1,-5,5),digits = 1))
+      gene_df[row_index,5] = as.character(as.numeric(attributes(gene_list[[i]][[1]])$y) + round(runif(1,-5,5),digits = 1))
+      gene_df[row_index,6] = names(gene_list[[i]][[1]])
       row_index = row_index + 1
     }
   }

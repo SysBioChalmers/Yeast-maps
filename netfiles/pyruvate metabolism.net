@@ -1,62 +1,76 @@
 P	pyruvate metabolism	pyruvate metabolism	-100	-1	-1							
-R	r_0001	temp	pyruvate metabolism	1994.5	498.5	false	normal					
-R	r_0002	temp	pyruvate metabolism	1997.25	1077.75	false	normal					
-R	r_0004	temp	pyruvate metabolism	1651.25	308.5	false	normal					
-R	r_0111	temp	pyruvate metabolism	726.5	1379.25	false	normal					
-R	r_0112	temp	pyruvate metabolism	786.5	150.75	false	normal					
-R	r_0113	temp	pyruvate metabolism	726.5	1379.25	false	normal					
-R	r_0114	temp	pyruvate metabolism	786	465.75	false	normal					
-R	r_0175	temp	pyruvate metabolism	988.75	1550.5	false	normal					
-R	r_0543	temp	pyruvate metabolism	714.5	652.25	false	normal					
-R	r_0553	temp	pyruvate metabolism	2720.5	434.5	false	normal					
-R	r_0554	temp	pyruvate metabolism	2395.25	1347.25	false	normal					
-R	r_0688	temp	pyruvate metabolism	2428.5	262.25	false	normal					
-R	r_0696	temp	pyruvate metabolism	2039.75	115.5	false	normal					
-R	r_0697	temp	pyruvate metabolism	2720.5	434.5	false	normal					
-R	r_0716	temp	pyruvate metabolism	304.75	240.25	false	normal					
-R	r_0717	temp	pyruvate metabolism	324.25	885	false	normal					
-R	r_0718	temp	pyruvate metabolism	1472	1295.5	false	normal					
-R	r_0719	temp	pyruvate metabolism	1472	1295.5	false	normal					
-R	r_0958	temp	pyruvate metabolism	1467.25	670	false	normal					
-R	r_1137	temp	pyruvate metabolism	2339.75	786.25	false	normal					
-R	r_1138	temp	pyruvate metabolism	2339.75	786.25	true	normal					
-R	r_1635	temp	pyruvate metabolism	1016.25	308.5	true	normal					
-R	r_1637	temp	pyruvate metabolism	556.25	308	true	normal					
-R	r_1817	temp	pyruvate metabolism	377	596	true	normal					
-R	r_1838	temp	pyruvate metabolism	467.25	1551	false	normal					
-R	r_2034	temp	pyruvate metabolism	1652	790	false	normal					
-R	r_4039	temp	pyruvate metabolism	464.25	1207	true	normal					
-R	r_4185	temp	pyruvate metabolism	1439.10294117647	493.198529411765	false	normal					
-R	r_4236	temp	pyruvate metabolism	2501.5	502.875	true	normal					
-E	temp	g_4039	388.5	1241.0	r_4039							
-E	temp	g_2034	1546.5	811.5	r_2034							
-E	temp	g_1838	523.0	1585.0	r_1838							
-E	temp	g_1817	316.0	628.0	r_1817							
-E	temp	g_1637	608.0	368.5	r_1637							
-E	temp	g_1635	1081.0	370.0	r_1635							
-E	temp	g_1138	2251.0	804.5	r_1138							
-E	temp	g_1137	2425.5	838.5	r_1137							
-E	temp	g_0958	1356.5	693.5	r_0958							
-E	temp	g_0719	1210.0	1243.5	r_0719							
-E	temp	g_0718	1388.0	1268.5	r_0718							
-E	temp	g_0717	276.5	940.0	r_0717							
-E	temp	g_0716	235.0	280.0	r_0716							
-E	temp	g_0697	2648.5	321.0	r_0697							
-E	temp	g_0696	1961.0	174.0	r_0696							
-E	temp	g_0688	2337.0	248.0	r_0688							
-E	temp	g_0554	2328.5	1399.0	r_0554							
-E	temp	g_0553	2805.0	463.0	r_0553							
-E	temp	g_0543	616.5	700.5	r_0543							
-E	temp	g_0175	909.0	1533.5	r_0175							
-E	temp	g_0114	721.5	518.5	r_0114							
-E	temp	g_0113	711.0	1317.5	r_0113							
-E	temp	g_0112	742.0	212.5	r_0112							
-E	temp	g_0111	765.0	1431.5	r_0111							
-E	temp	g_0004	1577.5	379.0	r_0004							
-E	temp	g_0002	1965.5	1022.0	r_0002							
-E	temp	g_0001	1902.5	454.5	r_0001							
-E	temp	g_4185	1491.2058823529414	443.8970588235295	r_4185							
-E	temp	g_4236	2541.0	553.25	r_4236							
+R	r_0001	r_0001	pyruvate metabolism	1994.5	498.5	false	normal					
+R	r_0002	r_0002	pyruvate metabolism	1997.25	1077.75	false	normal					
+R	r_0004	r_0004	pyruvate metabolism	1651.25	308.5	false	normal					
+R	r_0111	r_0111	pyruvate metabolism	726.5	1379.25	false	normal					
+R	r_0112	r_0112	pyruvate metabolism	786.5	150.75	false	normal					
+R	r_0113	r_0113	pyruvate metabolism	726.5	1379.25	false	normal					
+R	r_0114	r_0114	pyruvate metabolism	786	465.75	false	normal					
+R	r_0175	r_0175	pyruvate metabolism	988.75	1550.5	false	normal					
+R	r_0543	r_0543	pyruvate metabolism	714.5	652.25	false	normal					
+R	r_0553	r_0553	pyruvate metabolism	2720.5	434.5	false	normal					
+R	r_0554	r_0554	pyruvate metabolism	2395.25	1347.25	false	normal					
+R	r_0688	r_0688	pyruvate metabolism	2428.5	262.25	false	normal					
+R	r_0696	r_0696	pyruvate metabolism	2039.75	115.5	false	normal					
+R	r_0697	r_0697	pyruvate metabolism	2720.5	434.5	false	normal					
+R	r_0716	r_0716	pyruvate metabolism	304.75	240.25	false	normal					
+R	r_0717	r_0717	pyruvate metabolism	324.25	885	false	normal					
+R	r_0718	r_0718	pyruvate metabolism	1472	1295.5	false	normal					
+R	r_0719	r_0719	pyruvate metabolism	1472	1295.5	false	normal					
+R	r_0958	r_0958	pyruvate metabolism	1467.25	670	false	normal					
+R	r_1137	r_1137	pyruvate metabolism	2339.75	786.25	false	normal					
+R	r_1138	r_1138	pyruvate metabolism	2339.75	786.25	true	normal					
+R	r_1635	r_1635	pyruvate metabolism	1016.25	308.5	true	normal					
+R	r_1637	r_1637	pyruvate metabolism	556.25	308	true	normal					
+R	r_1817	r_1817	pyruvate metabolism	377	596	true	normal					
+R	r_1838	r_1838	pyruvate metabolism	467.25	1551	false	normal					
+R	r_2034	r_2034	pyruvate metabolism	1652	790	false	normal					
+R	r_4039	r_4039	pyruvate metabolism	464.25	1207	true	normal					
+R	r_4185	r_4185	pyruvate metabolism	1439.10294117647	493.198529411765	false	normal					
+R	r_4236	r_4236	pyruvate metabolism	2501.5	502.875	true	normal					
+E	YBL015W	YBL015W	390.8	1239.9	r_4039							
+E	YHR162W	YHR162W	1550.3	809.4	r_2034							
+E	YGR243W	YGR243W	1544.5	816.3	r_2034							
+E	YGL080W	YGL080W	1548.7	810	r_2034							
+E	YDL182W	YDL182W	523.1	1581.9	r_1838							
+E	YDL131W	YDL131W	523.7	1589.1	r_1838							
+E	YGL062W	YGL062W	1353	695	r_0958							
+E	YBR218C	YBR218C	1355.1	694.8	r_0958							
+E	YKL029C	YKL029C	1207.8	1239.5	r_0719							
+E	YKL029C	YKL029C	1392.2	1272	r_0718							
+E	YNL117W	YNL117W	273.8	942.9	r_0717							
+E	YNL117W	YNL117W	235.2	281.2	r_0716							
+E	YIR031C	YIR031C	237.9	275.5	r_0716							
+E	YML004C	YML004C	2651.9	321.5	r_0697							
+E	YOL151W	YOL151W	1964	169.7	r_0696							
+E	YOL151W	YOL151W	2336	243.6	r_0688							
+E	YHR104W	YHR104W	2336.1	249.7	r_0688							
+E	YOR040W	YOR040W	2330.4	1403.8	r_0554							
+E	YDR272W	YDR272W	2805.6	467.1	r_0553							
+E	YDL182W	YDL182W	621	695.6	r_0543							
+E	YDL131W	YDL131W	618.4	703.2	r_0543							
+E	YOR374W	YOR374W	913.6	1538.5	r_0175							
+E	YER073W	YER073W	905.4	1536.8	r_0175							
+E	YLR153C	YLR153C	721.6	520.9	r_0114							
+E	YAL054C	YAL054C	713.7	1320.5	r_0113							
+E	YLR153C	YLR153C	742.6	212.5	r_0112							
+E	YAL054C	YAL054C	745.7	215.5	r_0112							
+E	YBL015W	YBL015W	767.2	1428.2	r_0111							
+E	YJR048W	YJR048W	1581.7	379.9	r_0004							
+E	YML054C	YML054C	1572.5	382.2	r_0004							
+E	YEL039C	YEL039C	1579.9	377.8	r_0004							
+E	YJR048W	YJR048W	1963.9	1022.8	r_0002							
+E	YEL039C	YEL039C	1961.7	1023.8	r_0002							
+E	YDL178W	YDL178W	1960.7	1019.1	r_0002							
+E	YEL071W	YEL071W	1900.8	453.8	r_0001							
+E	YJR048W	YJR048W	1904.5	449.6	r_0001							
+E	YEL039C	YEL039C	1901.2	450.3	r_0001							
+E	YDL174C	YDL174C	1907.3	459	r_0001							
+E	YER010C	YER010C	1492.60588235294	441.297058823529	r_4185							
+E	YPL280W	YPL280W	2540.7	552.85	r_4236							
+E	YOR391C	YOR391C	2544.8	556.25	r_4236							
+E	YMR322C	YMR322C	2545.8	553.55	r_4236							
+E	YDR533C	YDR533C	2540.2	552.55	r_4236							
 MI	s_1460	succinate[m]	true	413.0	1298.5	Center	0.0	0.0				
 L	inEdge	r_4039	true									
 MI	s_1464	succinyl-CoA[m]	false	463.5	1036.0	Center	0.0	0.0				
