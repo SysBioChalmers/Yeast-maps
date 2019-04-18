@@ -22,7 +22,7 @@ require(readr)
 
 # == CHOOSE SUBSYSTEM ==
 # subsystem = "pyruvate metabolism"
-subsystem = "Metabolism of cofactor and vitamins"
+subsystem = "pyruvate metabolism"
 # == LOAD DATA ==
 
 # Load subsystem maps in SBML format
@@ -364,23 +364,25 @@ for (i in 1:length(met_list)) {
       met_df[row_index,1] = "MI"
       met_df[row_index,2] = attributes(met_list[[i]])$ModelID
       met_df[row_index,3] = attributes(met_list[[i]])$Name
-      met_df[row_index,4] = attributes(met_list[[i]][[j]])$collapsed
-      met_df[row_index,5] = attributes(met_list[[i]][[j]])$x
-      met_df[row_index,6] = attributes(met_list[[i]][[j]])$y
-      met_df[row_index,7] = "Center"
-      met_df[row_index,8] = "0.0"
+      met_df[row_index,4] = ""
+      met_df[row_index,5] = attributes(met_list[[i]][[j]])$collapsed
+      met_df[row_index,6] = attributes(met_list[[i]][[j]])$x
+      met_df[row_index,7] = attributes(met_list[[i]][[j]])$y
+      met_df[row_index,8] = "Center"
       met_df[row_index,9] = "0.0"
+      met_df[row_index,10] = "0.0"
     }
     else{
       met_df[row_index,1] = "MI"
       met_df[row_index,2] = NA
       met_df[row_index,3] = NA
-      met_df[row_index,4] = attributes(met_list[[i]][[j]])$collapsed
-      met_df[row_index,5] = attributes(met_list[[i]][[j]])$x
-      met_df[row_index,6] = attributes(met_list[[i]][[j]])$y
-      met_df[row_index,7] = "Center"
-      met_df[row_index,8] = "0.0"
+      met_df[row_index,4] = ""
+      met_df[row_index,5] = attributes(met_list[[i]][[j]])$collapsed
+      met_df[row_index,6] = attributes(met_list[[i]][[j]])$x
+      met_df[row_index,7] = attributes(met_list[[i]][[j]])$y
+      met_df[row_index,8] = "Center"
       met_df[row_index,9] = "0.0"
+      met_df[row_index,10] = "0.0"
     }
     row_index = row_index + 1
     for (k in 1:length(met_list[[i]][[j]])) {
