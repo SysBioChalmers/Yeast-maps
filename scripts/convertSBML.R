@@ -22,13 +22,13 @@ require(readr)
 
 # == CHOOSE SUBSYSTEM ==
 # subsystem = "pyruvate metabolism"
-subsystem = "pyruvate metabolism"
+subsystem = "carbon metabolism"
 # == LOAD DATA ==
 
 # Load subsystem maps in SBML format
 PATH = "~/Documents/PhD/Yeast-maps/"
 setwd(PATH)
-PATH_xml = paste(PATH,"SBMLfiles/",subsystem,".xml",sep = "")
+PATH_xml = paste(PATH,"SBMLfiles/Carbohydrate metabolism/",subsystem,".xml",sep = "")
 subsystem_xml = read_xml(PATH_xml)
 subsystem_list = as_list(subsystem_xml)
 
@@ -306,14 +306,6 @@ for (i in 1:length(met_list)) {
   }
 }
 
-
-
-for (i in 1:length(met_list)) {
-  for (j in 1:length(met_list[[i]])) {
-    if(names(met_list[[i]])[j] %in% br){print(met_list[[i]][j])}
-  }
-}
-
 # Fuse incorrectly labeled duplicates, i.e. s123 "oxaloacetate [c]" and s96 "oxaloacetate[c]"
 index_duplicate = c() # Create empty vector for storing indexes of duplicates
 for (i in 1:length(met_list)) { # Loop over each metabolite
@@ -336,11 +328,15 @@ for (i in 1:length(met_list)) { # Loop over each metabolite
     }
   }
 }
-met_list = met_list[-index_duplicate] # Remove all incorrectly labeled duplicates
+if(!is.null(index_duplicate)){ # Remove all incorrectly labeled duplicates
+  met_list = met_list[-index_duplicate] 
+}
 
+test = c()
 # Add yeast model IDs
 for (i in 1:length(met_list)) {
   attributes(met_list[[i]])$ModelID = yeastGEM_met$`REPLACEMENT ID`[which(yeastGEM_met$Metabolite.description == attributes(met_list[[i]])$Name)]
+  test[i] = yeastGEM_met$`REPLACEMENT ID`[which(yeastGEM_met$Metabolite.description == attributes(met_list[[i]])$Name)]
 }
 
 # Store number of rows in data frame
@@ -353,7 +349,7 @@ for (i in 1:length(met_list)) {
   }
 }
 
-met_df = data.frame(matrix(NA, nrow = df_rows, ncol = 13)) # Create empty data frame, 9 cols + 4 more for splinepoints
+met_df = data.frame(matrix(NA, nrow = 1, ncol = 13)) # Create empty data frame, 9 cols + 4 more for splinepoints
 
 row_index = 1
 for (i in 1:length(met_list)) {
