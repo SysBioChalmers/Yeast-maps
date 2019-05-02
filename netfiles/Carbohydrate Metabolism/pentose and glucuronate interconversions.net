@@ -1,0 +1,96 @@
+P	pentose and glucuronate interconversions	pentose and glucuronate interconversions	-100	-1	-1							
+R	r_0205	r_0205	pentose and glucuronate interconversions	512.5	6.625	false	normal					
+R	r_0365	r_0365	pentose and glucuronate interconversions	15.5	122.5	false	normal					
+R	r_1092	r_1092	pentose and glucuronate interconversions	427	446.5	false	normal					
+R	r_1093	r_1093	pentose and glucuronate interconversions	214	313	false	normal					
+R	r_1094	r_1094	pentose and glucuronate interconversions	590.5	580.5	false	normal					
+R	r_4221	r_4221	pentose and glucuronate interconversions	387	166.25	true	normal					
+R	r_4489	r_4489	pentose and glucuronate interconversions	747	159.25	false	normal					
+R	r_4490	r_4490	pentose and glucuronate interconversions	587.5	313.625	true	normal					
+R	r_4492	r_4492	pentose and glucuronate interconversions	224	579.125	false	normal					
+E	YGR194C	YGR194C	607.8	546.6	r_1094							
+E	YHR104W	YHR104W	275.8	278.8	r_1093							
+E	YLR070C	YLR070C	499.2	458.4	r_1092							
+E	YJR153W	YJR153W	68.5	165.5	r_0365							
+E	YHR104W	YHR104W	599.3	44.8	r_0205							
+E	YDL246C	YDL246C	416.7	126.25	r_4221							
+MI	s_0794	H+[c]		true	694.0	545.0	Center	0.0	0.0			
+L	inEdge	r_1094	true									
+MI				true	88.0	276.0	Center	0.0	0.0			
+L	outEdge	r_1093	true									
+MI				true	500.0	502.0	Center	0.0	0.0			
+L	inEdge	r_1092	true									
+MI				true	349.0	39.0	Center	0.0	0.0			
+L	outEdge	r_0205	true									
+MI				true	313.99999999999994	616.25	Center	0.0	0.0			
+L	inEdge	r_4492	true									
+MI				true	685.0	288.25	Center	0.0	0.0			
+L	outEdge	r_4490	true									
+MI				true	702.0	252.25	Center	0.0	0.0			
+L	inEdge	r_4489	true									
+MI				true	516.0	190.25	Center	0.0	0.0			
+L	inEdge	r_4221	true									
+MI	s_0394	ADP[c]		true	684.0	621.0	Center	0.0	0.0			
+L	inEdge	r_1094	true									
+MI	s_0434	ATP[c]		true	502.0	617.0	Center	0.0	0.0			
+L	outEdge	r_1094	true									
+MI	s_0581	D-xylulose 5-phosphate[c]		false	754.0	582.0	Center	0.0	0.0			
+L	inEdge	r_1094	false									
+MI	s_1207	NADP(+)[c]		true	356.0	275.0	Center	0.0	0.0			
+L	inEdge	r_1093	true									
+MI				true	669.0	29.0	Center	0.0	0.0			
+L	inEdge	r_0205	true									
+MI				true	477.99999999999994	286.25	Center	0.0	0.0			
+L	inEdge	r_4490	true									
+MI	s_1212	NADPH[c]		true	102.0	339.0	Center	0.0	0.0			
+L	outEdge	r_1093	true									
+MI				true	353.0	69.0	Center	0.0	0.0			
+L	outEdge	r_0205	true									
+MI				true	590.0	282.25	Center	0.0	0.0			
+L	outEdge	r_4490	true									
+MI	s_0578	D-xylose[c]		false	1.0	312.0	Center	0.0	0.0			
+L	outEdge	r_1093	false									
+MI	s_1203	NADH[c]		true	369.0	514.0	Center	0.0	0.0			
+L	inEdge	r_1092	true									
+MI				true	346.99999999999994	550.25	Center	0.0	0.0			
+L	inEdge	r_4492	true									
+MI				true	788.0	265.25	Center	0.0	0.0			
+L	inEdge	r_4489	true									
+MI				true	509.0	136.25	Center	0.0	0.0			
+L	inEdge	r_4221	true									
+MI	s_1198	NAD[c]		true	378.0	366.0	Center	0.0	0.0			
+L	outEdge	r_1092	true									
+MI				true	134.99999999999994	608.25	Center	0.0	0.0			
+L	outEdge	r_4492	true									
+MI				true	789.0	58.249999999999986	Center	0.0	0.0			
+L	outEdge	r_4489	true									
+MI				true	226.0	184.25	Center	0.0	0.0			
+L	outEdge	r_4221	true									
+MI	s_0580	D-xylulose[c]		false	427.0	579.0	Center	0.0	0.0			
+L	inEdge	r_1092	false									
+L	outEdge	r_1094	false									
+L	inEdge	r_4492	false									
+MI	s_1566	xylitol[c]		false	427.0	314.0	Center	0.0	0.0			
+L	outEdge	r_1092	false									
+L	inEdge	r_1093	false									
+L	inEdge	r_4490	false									
+MI	s_0805	H2O[e]		true	72.0	33.0	Center	0.0	0.0			
+L	outEdge	r_0365	true									
+MI	s_0560	D-galacturonate[e]		false	15.0	241.0	Center	0.0	0.0			
+L	inEdge	r_0365	false									
+MI	s_1309	pectin[e]		false	16.0	4.0	Center	0.0	0.0			
+L	outEdge	r_0365	false									
+MI	s_0963	L-arabinose[c]		false	279.0	8.0	Center	0.0	0.0			
+L	outEdge	r_0205	false									
+MI	s_4181	D-arabinitol[c]		false	20.999999999999943	579.25	Center	0.0	0.0			
+L	outEdge	r_4492	false									
+MI	s_4180	L-xylulose[c]		false	748.0	313.25	Center	0.0	0.0			
+L	inEdge	r_4489	false									
+L	outEdge	r_4490	false									
+MI	s_0961	L-arabinitol[c]		false	746.0	5.25	Center	0.0	0.0			
+L	inEdge	r_0205	false									
+L	outEdge	r_4489	false									
+MI	s_1043	L-sorbose[c]		false	611.0	168.25	Center	0.0	0.0			
+L	inEdge	r_4221	false									
+MI	s_3861	L-iditol[c]		false	163.0	164.25	Center	0.0	0.0			
+L	outEdge	r_4221	false									
