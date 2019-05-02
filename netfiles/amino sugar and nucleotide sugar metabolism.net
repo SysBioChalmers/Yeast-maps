@@ -1,0 +1,100 @@
+P	amino sugar and nucleotide sugar metabolism	amino sugar and nucleotide sugar metabolism	-100	-1	-1							
+R	r_0271	r_0271	amino sugar and nucleotide sugar metabolism	2175.5	1120	false	normal					
+R	r_0272	r_0272	amino sugar and nucleotide sugar metabolism	2008.5	812	false	normal					
+R	r_0465	r_0465	amino sugar and nucleotide sugar metabolism	843	1138	false	normal					
+R	r_0760	r_0760	amino sugar and nucleotide sugar metabolism	844.5	817	true	normal					
+R	r_0882	r_0882	amino sugar and nucleotide sugar metabolism	1104	658	true	normal					
+R	r_0890	r_0890	amino sugar and nucleotide sugar metabolism	1063	977	true	normal					
+R	r_1069	r_1069	amino sugar and nucleotide sugar metabolism	1603	657.5	true	normal					
+R	r_4196	r_4196	amino sugar and nucleotide sugar metabolism	1465.66666666667	1175.75	true	normal					
+R	r_4197	r_4197	amino sugar and nucleotide sugar metabolism	1628.66666666667	1176.25	true	normal					
+R	r_4331	r_4331	amino sugar and nucleotide sugar metabolism	2173.33333333333	813.125	true	normal					
+E	YDL103C	YDL103C	1657.3	606.9	r_1069							
+E	YEL058W	YEL058W	978.9	1020.8	r_0890							
+E	YEL058W	YEL058W	1188.3	613.8	r_0882							
+E	YFL017C	YFL017C	777.8	781.5	r_0760							
+E	YNL192W	YNL192W	2013.3	924.9	r_0272							
+E	YBR038W	YBR038W	2009.5	925.5	r_0272							
+E	YBR023C	YBR023C	2009.4	926.2	r_0272							
+E	YLR308W	YLR308W	2261.1	1147.7	r_0271							
+E	YLR307W	YLR307W	2255.4	1142.1	r_0271							
+E	YLR286C	YLR286C	2112.06666666667	742.45	r_4331							
+E	YDR371W	YDR371W	2119.16666666667	748.65	r_4331							
+E	YML125C	YML125C	1697.56666666667	1202.45	r_4197							
+E	YKL150W	YKL150W	1695.96666666667	1205.95	r_4197							
+E	YIL043C	YIL043C	1696.46666666667	1206.25	r_4197							
+E	YML125C	YML125C	1518.46666666667	1213.85	r_4196							
+E	YIL043C	YIL043C	1517.66666666667	1219.15	r_4196							
+MI	s_0633	diphosphate[c]		true	1790.0	602.0	Center	0.0	0.0			
+L	inEdge	r_1069	true									
+MI	s_1559	UTP[c]		true	1461.0	604.0	Center	0.0	0.0			
+L	outEdge	r_1069	true									
+MI	s_0794	H+[c]		true	1472.0	693.0	Center	0.0	0.0			
+L	outEdge	r_1069	true									
+MI				true	903.0	699.0	Center	0.0	0.0			
+L	inEdge	r_0760	true									
+MI				true	2106.0	1018.0	Center	0.0	0.0			
+L	inEdge	r_0272	true									
+MI				true	2234.0	1223.0	Center	0.0	0.0			
+L	inEdge	r_0271	true									
+MI	s_0411	alpha-D-glucosamine 1-phosphate[c]		false	1283.0	977.0	Center	0.0	0.0			
+L	outEdge	r_0890	false									
+MI	s_1189	N-acetyl-alpha-D-glucosamine 1-phosphate[c]		false	1362.0	659.0	Center	0.0	0.0			
+L	inEdge	r_0882	false									
+L	outEdge	r_1069	false									
+MI	s_0529	coenzyme A[c]		true	797.0	705.0	Center	0.0	0.0			
+L	inEdge	r_0760	true									
+MI	s_0373	acetyl-CoA[c]		true	895.0	914.0	Center	0.0	0.0			
+L	outEdge	r_0760	true									
+MI	s_1190	N-acetyl-D-glucosamine 6-phosphate[c]		false	846.0	657.0	Center	0.0	0.0			
+L	inEdge	r_0760	false									
+L	outEdge	r_0882	false									
+MI	s_0803	H2O[c]		true	779.0	1043.0	Center	0.0	0.0			
+L	outEdge	r_0465	true									
+MI				true	2232.0	1013.0	Center	0.0	0.0			
+L	outEdge	r_0271	true									
+MI				true	2221.6666666666665	899.25	Center	0.0	0.0			
+L	outEdge	r_4331	true									
+MI	s_0557	D-fructose 6-phosphate[c]		false	843.0	1299.0	Center	0.0	0.0			
+L	inEdge	r_0465	false									
+MI	s_0419	ammonium[c]		true	892.0	1251.0	Center	0.0	0.0			
+L	inEdge	r_0465	true									
+MI	s_0412	alpha-D-glucosamine 6-phosphate[c]		false	843.0	977.0	Center	0.0	0.0			
+L	outEdge	r_0465	false									
+L	outEdge	r_0760	false									
+L	inEdge	r_0890	false									
+MI	s_1538	UDP[c]		true	2101.0	915.0	Center	0.0	0.0			
+L	inEdge	r_0272	true									
+MI	s_1544	UDP-N-acetyl-alpha-D-glucosamine[c]		false	1844.0	656.0	Center	0.0	0.0			
+L	outEdge	r_0272	false									
+L	inEdge	r_1069	false									
+MI	s_0510	chitosan[ce]		false	2178.0	1272.0	Center	0.0	0.0			
+L	inEdge	r_0271	false									
+MI	s_0362	acetate[c]		true	2114.0	1232.0	Center	0.0	0.0			
+L	inEdge	r_0271	true									
+MI	s_0509	chitin[c]		false	2173.0	968.0	Center	0.0	0.0			
+L	outEdge	r_0271	false									
+L	inEdge	r_0272	false									
+L	outEdge	r_4331	false									
+MI	s_4017	N-Acetyl-D-glucosamine[c]		false	2173.6666666666665	658.25	Center	0.0	0.0			
+L	inEdge	r_4331	false									
+MI	s_1200	NAD[m]		true	1589.6666666666665	1278.25	Center	0.0	0.0			
+L	inEdge	r_4197	true									
+MI	s_0799	H+[m]		true	1678.6666666666665	1278.25	Center	0.0	0.0			
+L	inEdge	r_4197	true									
+MI	s_3826	Ferricytochrome b5[m]		false	1628.6666666666665	996.25	Center	0.0	0.0			
+L	outEdge	r_4197	false									
+MI	s_1205	NADH[m]		true	1583.6666666666665	1058.25	Center	0.0	0.0			
+L	outEdge	r_4197	true									
+MI	s_3827	Ferrocytochrome b5[m]		false	1628.6666666666665	1356.25	Center	0.0	0.0			
+L	inEdge	r_4197	false									
+MI	s_1199	NAD[er]		true	1408.6666666666665	1282.25	Center	0.0	0.0			
+L	inEdge	r_4196	true									
+MI	s_0795	H+[er]		true	1507.6666666666665	1282.25	Center	0.0	0.0			
+L	inEdge	r_4196	true									
+MI	s_3824	Ferricytochrome b5[er]		false	1465.6666666666665	997.25	Center	0.0	0.0			
+L	outEdge	r_4196	false									
+MI	s_1204	NADH[er]		true	1413.6666666666665	1060.25	Center	0.0	0.0			
+L	outEdge	r_4196	true									
+MI	s_3825	Ferrocytochrome b5[er]		false	1465.6666666666665	1354.25	Center	0.0	0.0			
+L	inEdge	r_4196	false									
