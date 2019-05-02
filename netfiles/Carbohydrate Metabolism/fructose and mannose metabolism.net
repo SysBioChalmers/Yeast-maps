@@ -1,0 +1,103 @@
+P	fructose and mannose metabolism	fructose and mannose metabolism	-100	-1	-1							
+R	r_0090	r_0090	fructose and mannose metabolism	1026.5	423	false	normal					
+R	r_0323	r_0323	fructose and mannose metabolism	1268.5	952.5	false	normal					
+R	r_0448	r_0448	fructose and mannose metabolism	1026.5	423	false	normal					
+R	r_0691	r_0691	fructose and mannose metabolism	1026.5	948	false	normal					
+R	r_0722	r_0722	fructose and mannose metabolism	544.5	1226	false	normal					
+R	r_0723	r_0723	fructose and mannose metabolism	809	585.5	true	normal					
+R	r_0902	r_0902	fructose and mannose metabolism	594.5	770	true	normal					
+R	r_1797	r_1797	fructose and mannose metabolism	1812.5	962.5	false	normal					
+R	r_4183	r_4183	fructose and mannose metabolism	1453.125	1137.125	true	normal					
+R	r_4282	r_4282	fructose and mannose metabolism	1257.125	266.125	false	normal					
+E	YFL045C	YFL045C	524.8	727.1	r_0902							
+E	YER003C	YER003C	907.7	556.5	r_0723							
+E	YDL055C	YDL055C	430.6	1184.3	r_0722							
+E	YJR159W	YJR159W	917.1	915.7	r_0691							
+E	YJL155C	YJL155C	938.5	444.4	r_0448							
+E	YLR345W	YLR345W	944.3	447.8	r_0448							
+E	YJR159W	YJR159W	1349.6	958.5	r_0323							
+E	YDL246C	YDL246C	1346.6	960.4	r_0323							
+E	YOL136C	YOL136C	1099.7	429.5	r_0090							
+E	YIL107C	YIL107C	1101.2	431.7	r_0090							
+E	YLR345W	YLR345W	1186.45	291.55	r_4282							
+E	YNR073C	YNR073C	1367.35	1169.35	r_4183							
+E	YEL070W	YEL070W	1372.05	1164.05	r_4183							
+MI	s_0794	H+[c]		true	1752.0	833.0	Center	0.0	0.0			
+L	inEdge	r_1797	true									
+MI				true	695.0	1187.0	Center	0.0	0.0			
+L	outEdge	r_0722	true									
+MI				true	1105.0	847.0	Center	0.0	0.0			
+L	inEdge	r_0691	true									
+MI				true	1226.0	1041.0	Center	0.0	0.0			
+L	inEdge	r_0323	true									
+MI				true	1099.0	390.0	Center	0.0	0.0			
+L	inEdge	r_0090	true									
+MI				true	1146.25	204.25	Center	0.0	0.0			
+L	inEdge	r_4282	true									
+MI				true	1387.25	1080.25	Center	0.0	0.0			
+L	inEdge	r_4183	true									
+MI	s_0394	ADP[c]		true	1865.0	809.0	Center	0.0	0.0			
+L	inEdge	r_1797	true									
+MI				true	1094.0	330.0	Center	0.0	0.0			
+L	inEdge	r_0090	true									
+MI				true	1106.25	240.25	Center	0.0	0.0			
+L	inEdge	r_4282	true									
+MI	s_0434	ATP[c]		true	1870.0	1055.0	Center	0.0	0.0			
+L	outEdge	r_1797	true									
+MI				true	1077.0	522.0	Center	0.0	0.0			
+L	outEdge	r_0090	true									
+MI				true	1367.25	230.25	Center	0.0	0.0			
+L	outEdge	r_4282	true									
+MI	s_0555	D-fructose 1,6-bisphosphate[c]		false	1811.0	761.0	Center	0.0	0.0			
+L	inEdge	r_1797	false									
+MI	s_0556	D-fructose 1-phosphate[c]		false	1814.0	1164.0	Center	0.0	0.0			
+L	outEdge	r_1797	false									
+MI	s_0574	D-mannose 6-phosphate[c]		false	593.0	590.0	Center	0.0	0.0			
+L	outEdge	r_0723	false									
+L	inEdge	r_0902	false									
+MI	s_0633	diphosphate[c]		true	420.0	1269.0	Center	0.0	0.0			
+L	inEdge	r_0722	true									
+MI	s_0743	GDP-alpha-D-mannose[c]		false	315.0	1225.0	Center	0.0	0.0			
+L	inEdge	r_0722	false									
+MI	s_0785	GTP[c]		false	774.0	1227.0	Center	0.0	0.0			
+L	outEdge	r_0722	false									
+MI	s_0573	D-mannose 1-phosphate[c]		false	596.0	950.0	Center	0.0	0.0			
+L	outEdge	r_0722	false									
+L	outEdge	r_0902	false									
+MI	s_1203	NADH[c]		true	951.0	847.0	Center	0.0	0.0			
+L	inEdge	r_0691	true									
+MI				true	1314.0	1050.0	Center	0.0	0.0			
+L	inEdge	r_0323	true									
+MI				true	1328.25	1104.25	Center	0.0	0.0			
+L	inEdge	r_4183	true									
+MI	s_1198	NAD[c]		true	1087.0	964.0	Center	0.0	0.0			
+L	outEdge	r_0691	true									
+MI				true	1198.0	845.0	Center	0.0	0.0			
+L	outEdge	r_0323	true									
+MI				true	1544.25	1104.25	Center	0.0	0.0			
+L	outEdge	r_4183	true									
+MI	s_1043	L-sorbose[c]		false	1030.0	763.0	Center	0.0	0.0			
+L	inEdge	r_0691	false									
+MI	s_0989	L-glucitol[c]		false	1023.0	1133.0	Center	0.0	0.0			
+L	outEdge	r_0691	false									
+MI	s_1322	phosphate[c]		true	946.0	498.0	Center	0.0	0.0			
+L	inEdge	r_0448	true									
+MI	s_0803	H2O[c]		true	940.0	333.0	Center	0.0	0.0			
+L	outEdge	r_0448	true									
+MI	s_0553	D-fructose[c]		false	1264.0	1137.0	Center	0.0	0.0			
+L	inEdge	r_0323	false									
+L	inEdge	r_4183	false									
+MI	s_0561	D-glucitol[c]		false	1273.0	768.0	Center	0.0	0.0			
+L	outEdge	r_0323	false									
+MI	s_0442	beta-D-fructose 2,6-bisphosphate[c]		false	1028.0	265.0	Center	0.0	0.0			
+L	inEdge	r_0090	false									
+L	outEdge	r_0448	false									
+L	inEdge	r_4282	false									
+MI	s_0557	D-fructose 6-phosphate[c]		false	1025.0	581.0	Center	0.0	0.0			
+L	outEdge	r_0090	false									
+L	inEdge	r_0448	false									
+L	inEdge	r_0723	false									
+MI	s_3948	beta-D-Fructose 6-phosphate[c]		false	1486.25	267.25	Center	0.0	0.0			
+L	outEdge	r_4282	false									
+MI	s_3805	Mannitol[c]		false	1642.25	1137.25	Center	0.0	0.0			
+L	outEdge	r_4183	false									

@@ -1,0 +1,89 @@
+P	glyoxylate and dicarboxylate metabolism	glyoxylate and dicarboxylate metabolism	-100	-1	-1							
+R	r_0255	r_0255	glyoxylate and dicarboxylate metabolism	181	192.5	false	normal					
+R	r_0256	r_0256	glyoxylate and dicarboxylate metabolism	663	187.5	false	normal					
+R	r_0445	r_0445	glyoxylate and dicarboxylate metabolism	881	213.5	false	normal					
+R	r_0662	r_0662	glyoxylate and dicarboxylate metabolism	632.5	442.5	false	normal					
+R	r_1980	r_1980	glyoxylate and dicarboxylate metabolism	393	162.5	true	normal					
+R	r_4410	r_4410	glyoxylate and dicarboxylate metabolism	950.5	588.75	true	normal					
+R	r_4582	r_4582	glyoxylate and dicarboxylate metabolism	693.5	897.25	false	normal					
+R	r_4164	r_4164	glyoxylate and dicarboxylate metabolism	1112.5	188.75	true	normal					
+R	r_4315	r_4315	glyoxylate and dicarboxylate metabolism	577	760.25	true	normal					
+R	r_4350	r_4350	glyoxylate and dicarboxylate metabolism	400	579.75	false	normal					
+E	YER065C	YER065C	702.9	405.1	r_0662							
+E	YOR388C	YOR388C	835.2	158.3	r_0445							
+E	YDR256C	YDR256C	720.8	227.7	r_0256							
+E	YGR088W	YGR088W	98.8	123.8	r_0255							
+E	YBR222C	YBR222C	1185.1	224.15	r_4164							
+E	YNL274C	YNL274C	685.7	706.55	r_4315							
+MI	s_1458	succinate[c]		false	782.0	443.5	Center	0.0	0.0			
+L	inEdge	r_0662	false									
+MI	s_0940	isocitrate[c]		false	483.0	441.5	Center	0.0	0.0			
+L	outEdge	r_0662	false									
+MI	s_1203	NADH[c]		false	881.0	83.5	Center	0.0	0.0			
+L	inEdge	r_0445	false									
+MI				true	652.5	823.25	Center	0.0	0.0			
+L	inEdge	r_4315	true									
+MI	s_0456	carbon dioxide[c]		true	951.0	133.5	Center	0.0	0.0			
+L	inEdge	r_0445	true									
+MI	s_1198	NAD[c]		false	881.0	343.5	Center	0.0	0.0			
+L	outEdge	r_0445	false									
+MI				true	454.5	729.25	Center	0.0	0.0			
+L	outEdge	r_4315	true									
+MI	s_0722	formate[c]		true	951.0	263.5	Center	0.0	0.0			
+L	outEdge	r_0445	true									
+MI	s_0809	H2O[p]		false	663.0	322.5	Center	0.0	0.0			
+L	inEdge	r_0256	false									
+MI	s_1279	oxygen[p]		false	523.0	162.5	Center	0.0	0.0			
+L	inEdge	r_0256	false									
+L	inEdge	r_1980	false									
+MI	s_0840	hydrogen peroxide[p]		false	663.0	52.5	Center	0.0	0.0			
+L	outEdge	r_0256	false									
+MI	s_0803	H2O[c]		false	181.0	62.5	Center	0.0	0.0			
+L	inEdge	r_0255	false									
+MI				true	835.0	858.75	Center	0.0	0.0			
+L	outEdge	r_4582	true									
+MI				true	346.5	480.25	Center	0.0	0.0			
+L	outEdge	r_4350	true									
+MI	s_1275	oxygen[c]		false	263.0	162.5	Center	0.0	0.0			
+L	inEdge	r_0255	false									
+L	outEdge	r_1980	false									
+MI	s_0837	hydrogen peroxide[c]		false	181.0	322.5	Center	0.0	0.0			
+L	outEdge	r_0255	false									
+MI	s_4183	propionyl-CoA[c]		false	954.0	895.75	Center	0.0	0.0			
+L	outEdge	r_4582	false									
+MI	s_0794	H+[c]		true	545.0	927.75	Center	0.0	0.0			
+L	inEdge	r_4582	true									
+MI				true	688.5	788.25	Center	0.0	0.0			
+L	inEdge	r_4315	true									
+MI	s_4136	3-oxalomalate(3-)[c]		false	951.0	411.75	Center	0.0	0.0			
+L	outEdge	r_4410	false									
+MI	s_0529	coenzyme A[c]		true	537.0	865.75	Center	0.0	0.0			
+L	inEdge	r_4582	true									
+MI	s_1271	oxaloacetate[c]		false	950.0	765.75	Center	0.0	0.0			
+L	inEdge	r_4410	false									
+MI	s_4189	(2R,3S)-3-methylmalate[c]		false	433.0	898.75	Center	0.0	0.0			
+L	inEdge	r_4582	false									
+MI	s_3770	Oxalyl-CoA[p]		false	1112.5	370.75	Center	0.0	0.0			
+L	inEdge	r_4164	false									
+MI	s_0638	diphosphate[p]		true	1166.5	300.75	Center	0.0	0.0			
+L	inEdge	r_4164	true									
+MI	s_0534	coenzyme A[p]		true	1163.5	64.75	Center	0.0	0.0			
+L	outEdge	r_4164	true									
+MI	s_0426	AMP[p]		true	1065.5	308.75	Center	0.0	0.0			
+L	inEdge	r_4164	true									
+MI	s_3769	Oxalate[p]		false	1112.5	6.75	Center	0.0	0.0			
+L	outEdge	r_4164	false									
+MI	s_0439	ATP[p]		true	1061.5	67.75	Center	0.0	0.0			
+L	outEdge	r_4164	true									
+MI	s_0779	glyoxylate[c]		false	755.5	759.25	Center	0.0	0.0			
+L	inEdge	r_0662	false									
+L	inEdge	r_4410	false									
+L	outEdge	r_4582	false									
+L	inEdge	r_4315	false									
+MI	s_3997	glycolate[c]		false	398.5	761.25	Center	0.0	0.0			
+L	outEdge	r_4315	false									
+L	inEdge	r_4350	false									
+MI	s_4071	2-phosphoglycolate[c]		false	401.5	398.25	Center	0.0	0.0			
+L	outEdge	r_4350	false									
+MI	s_1322	phosphate[c]		true	354.5	684.25	Center	0.0	0.0			
+L	inEdge	r_4350	true									

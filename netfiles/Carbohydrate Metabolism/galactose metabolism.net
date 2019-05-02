@@ -1,0 +1,86 @@
+P	galactose metabolism	galactose metabolism	-100	-1	-1							
+R	r_0458	r_0458	galactose metabolism	333.25	851.125	false	normal					
+R	r_0459	r_0459	galactose metabolism	446	262	false	normal					
+R	r_1070	r_1070	galactose metabolism	791.5	261	true	normal					
+R	r_1071	r_1071	galactose metabolism	791.5	261	true	normal					
+R	r_1084	r_1084	galactose metabolism	445.5	92	true	normal					
+R	r_4222	r_4222	galactose metabolism	122	661.25	false	normal					
+R	r_4393	r_4393	galactose metabolism	1011.5	199.75	false	normal					
+R	r_4394	r_4394	galactose metabolism	1216	348.25	true	normal					
+R	r_4585	r_4585	galactose metabolism	716	682.75	false	normal					
+R	r_4586	r_4586	galactose metabolism	716	682.75	false	normal					
+E	YKL035W	YKL035W	531.9	31.8	r_1084							
+E	YHL012W	YHL012W	538.5	32.1	r_1084							
+E	YBR018C	YBR018C	715.3	274.6	r_1071							
+E	YBR019C	YBR019C	858.4	302.3	r_1070							
+E	YBR018C	YBR018C	489.9	374.9	r_0459							
+E	YBR020W	YBR020W	283.5	903.6	r_0458							
+E	YDR009W	YDR009W	186.6	698.15	r_4222							
+MI	s_0633	diphosphate[c]		true	647.0	31.0	Center	0.0	0.0			
+L	inEdge	r_1084	true									
+MI				true	609.0	465.0	Center	0.0	0.0			
+L	inEdge	r_0459	true									
+MI	s_0794	H+[c]		true	287.0	24.0	Center	0.0	0.0			
+L	outEdge	r_1084	true									
+MI				true	240.0	398.0	Center	0.0	0.0			
+L	outEdge	r_0459	true									
+MI				true	223.0	829.0	Center	0.0	0.0			
+L	inEdge	r_0458	true									
+MI				true	969.5	296.25	Center	0.0	0.0			
+L	inEdge	r_4393	true									
+MI				true	163.5	758.25	Center	0.0	0.0			
+L	inEdge	r_4222	true									
+MI	s_0567	D-glucose 1-phosphate[c]		true	367.0	306.0	Center	0.0	0.0			
+L	inEdge	r_1071	true									
+L	outEdge	r_1084	true									
+MI	s_1543	UDP-D-glucose[c]		false	791.0	91.0	Center	0.0	0.0			
+L	outEdge	r_1070	false									
+L	outEdge	r_1071	false									
+L	inEdge	r_1084	false									
+MI	s_1541	UDP-D-galactose[c]		false	792.0	431.0	Center	0.0	0.0			
+L	inEdge	r_0459	false									
+L	inEdge	r_1070	false									
+L	inEdge	r_1071	false									
+MI	s_1559	UTP[c]		false	100.0	93.0	Center	0.0	0.0			
+L	outEdge	r_0459	false									
+L	outEdge	r_1084	false									
+MI	s_0394	ADP[c]		true	205.0	880.0	Center	0.0	0.0			
+L	inEdge	r_0458	true									
+MI				true	1060.5	302.25	Center	0.0	0.0			
+L	inEdge	r_4393	true									
+MI				true	71.5	792.25	Center	0.0	0.0			
+L	inEdge	r_4222	true									
+MI	s_0434	ATP[c]		true	437.0	813.0	Center	0.0	0.0			
+L	outEdge	r_0458	true									
+MI				true	971.5	119.25	Center	0.0	0.0			
+L	outEdge	r_4393	true									
+MI				true	58.5	549.25	Center	0.0	0.0			
+L	outEdge	r_4222	true									
+MI	s_0558	D-galactose[c]		false	545.0	850.0	Center	0.0	0.0			
+L	outEdge	r_0458	false									
+MI				true	779.5000000000001	815.25	Center	0.0	0.0			
+L	inEdge	r_4585	true									
+MI	s_3998	sucrose[c]		true	638.5000000000001	583.25	Center	0.0	0.0			
+L	outEdge	r_4586	true									
+MI	s_0803	H2O[c]		true	776.5	575.25	Center	0.0	0.0			
+L	outEdge	r_4585	true									
+MI	s_4193	raffinose[c]		false	715.5000000000001	868.25	Center	0.0	0.0			
+L	inEdge	r_4585	false									
+L	inEdge	r_4586	false									
+MI	s_4192	stachyose[c]		false	716.5000000000001	497.25	Center	0.0	0.0			
+L	outEdge	r_4585	false									
+L	outEdge	r_4586	false									
+MI	s_0557	D-fructose 6-phosphate[c]		false	1419.5	348.25	Center	0.0	0.0			
+L	inEdge	r_4394	false									
+MI	s_4129	D-tagatofuranose 6-phosphate[c]		false	1012.5	348.25	Center	0.0	0.0			
+L	inEdge	r_4393	false									
+L	outEdge	r_4394	false									
+MI	s_4128	D-tagatose[c]		false	1010.5	51.25	Center	0.0	0.0			
+L	outEdge	r_4393	false									
+MI	s_0410	alpha-D-galactose 1-phosphate[c]		false	121.5	852.25	Center	0.0	0.0			
+L	inEdge	r_0458	false									
+L	outEdge	r_0459	false									
+L	outEdge	r_1071	false									
+L	inEdge	r_4222	false									
+MI	s_3862	alpha-D-Galactose[c]		false	122.5	470.25	Center	0.0	0.0			
+L	outEdge	r_4222	false									
