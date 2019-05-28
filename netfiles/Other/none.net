@@ -1,0 +1,228 @@
+P	none	none	-100	-1	-1							
+R	r_4158	r_4158	none	84.5	201.5	true	normal					
+R	r_4206	r_4206	none	1312.5	1076	true	normal					
+R	r_4218	r_4218	none	1181	642.5	true	normal					
+R	r_4219	r_4219	none	981.5	635.5	true	normal					
+R	r_4239	r_4239	none	798	635.5	true	normal					
+R	r_4247	r_4247	none	1428.5	352.5	false	normal					
+R	r_4276	r_4276	none	275.5	201.5	true	normal					
+R	r_4279	r_4279	none	55	1078	true	normal					
+R	r_4295	r_4295	none	1388	643	true	normal					
+R	r_4300	r_4300	none	1613.5	642	true	normal					
+R	r_4342	r_4342	none	1096	1072.5	false	normal					
+R	r_4344	r_4344	none	1199.5	198.5	false	normal					
+R	r_4351	r_4351	none	452	1072	false	normal					
+R	r_4357	r_4357	none	276	791.5	false	normal					
+R	r_4368	r_4368	none	679.5	1073	false	normal					
+R	r_4372	r_4372	none	71.5	633	false	normal					
+R	r_4384	r_4384	none	455	200.5	false	normal					
+R	r_4388	r_4388	none	879.5	1073.5	false	normal					
+R	r_4413	r_4413	none	666	199	false	normal					
+R	r_4418	r_4418	none	608.5	635.5	false	normal					
+R	r_4420	r_4420	none	238.5	1075.5	true	normal					
+R	r_4436	r_4436	none	829.5	352.5	false	normal					
+E	YMR110C	YMR110C	1678.3	670.8	r_4300							
+E	YMR110C	YMR110C	1448.6	669.5	r_4295							
+E	YLR151C	YLR151C	109.5	1103.8	r_4279							
+E	YLL051C	YLL051C	327.4	220.8	r_4276							
+E	YGL169W	YGL169W	1510.6	296.4	r_4247							
+E	YGL017W	YGL017W	851.2	665.2	r_4239							
+E	YDL219W	YDL219W	1037.1	667.7	r_4219							
+E	YDL219W	YDL219W	1236.7	688.7	r_4218							
+E	YKL218C	YKL218C	1367.5	1114.3	r_4206							
+E	YBR046C	YBR046C	134.8	227.9	r_4158							
+MI	s_1322	phosphate[c]		true	731.0	320.0	Center	0.0	0.0			
+L	inEdge	r_4436	true									
+MI				true	623.0	287.0	Center	0.0	0.0			
+L	inEdge	r_4413	true									
+MI				true	634.0	1177.0	Center	0.0	0.0			
+L	inEdge	r_4368	true									
+MI				true	383.0	821.0	Center	0.0	0.0			
+L	inEdge	r_4357	true									
+MI				true	401.0	1184.0	Center	0.0	0.0			
+L	inEdge	r_4351	true									
+MI				true	1152.0	270.0	Center	0.0	0.0			
+L	inEdge	r_4344	true									
+MI				true	1039.0	1167.0	Center	0.0	0.0			
+L	inEdge	r_4342	true									
+MI	s_0803	H2O[c]		true	930.0	322.0	Center	0.0	0.0			
+L	outEdge	r_4436	true									
+MI				true	622.0	92.0	Center	0.0	0.0			
+L	outEdge	r_4413	true									
+MI				true	827.0	962.0	Center	0.0	0.0			
+L	outEdge	r_4388	true									
+MI				true	17.0	530.0	Center	0.0	0.0			
+L	outEdge	r_4372	true									
+MI				true	631.0	967.0	Center	0.0	0.0			
+L	outEdge	r_4368	true									
+MI				true	152.0	825.0	Center	0.0	0.0			
+L	outEdge	r_4357	true									
+MI				true	408.0	942.0	Center	0.0	0.0			
+L	outEdge	r_4351	true									
+MI				true	1148.0	103.0	Center	0.0	0.0			
+L	outEdge	r_4344	true									
+MI				true	1052.0	981.0	Center	0.0	0.0			
+L	outEdge	r_4342	true									
+MI				true	1563.0	528.0	Center	0.0	0.0			
+L	outEdge	r_4300	true									
+MI				true	1436.0	535.0	Center	0.0	0.0			
+L	outEdge	r_4295	true									
+MI				true	1563.0	379.0	Center	0.0	0.0			
+L	inEdge	r_4247	true									
+MI				true	935.0	535.0	Center	0.0	0.0			
+L	outEdge	r_4219	true									
+MI				true	1125.0	534.0	Center	0.0	0.0			
+L	outEdge	r_4218	true									
+MI	s_4046	thymidine 5'-monophosphate[c]		false	992.0	351.0	Center	0.0	0.0			
+L	outEdge	r_4436	false									
+MI	s_0805	H2O[e]		true	192.0	967.0	Center	0.0	0.0			
+L	outEdge	r_4420	true									
+MI	s_0565	D-glucose[e]		true	194.0	1166.0	Center	0.0	0.0			
+L	inEdge	r_4420	true									
+MI	s_0554	D-fructose[e]		false	238.0	1257.0	Center	0.0	0.0			
+L	inEdge	r_4420	false									
+MI	s_4131	turanose[e]		false	239.0	894.0	Center	0.0	0.0			
+L	outEdge	r_4420	false									
+MI	s_0810	H2O[v]		true	563.0	532.0	Center	0.0	0.0			
+L	outEdge	r_4418	true									
+MI	s_3839	L-glycine[v]		true	551.0	723.0	Center	0.0	0.0			
+L	inEdge	r_4418	true									
+MI	s_1002	L-glutamine[v]		false	609.0	794.0	Center	0.0	0.0			
+L	inEdge	r_4418	false									
+MI	s_4058	Gly-Gln[v]		false	608.0	477.0	Center	0.0	0.0			
+L	outEdge	r_4418	false									
+MI	s_1493	thymidine[c]		false	667.0	354.0	Center	0.0	0.0			
+L	inEdge	r_4413	false									
+L	inEdge	r_4436	false									
+MI	s_4044	thymidine 3'-monophosphate[c]		false	665.0	44.0	Center	0.0	0.0			
+L	outEdge	r_4413	false									
+MI	s_0794	H+[c]		true	821.0	1174.0	Center	0.0	0.0			
+L	inEdge	r_4388	true									
+MI				true	502.0	100.0	Center	0.0	0.0			
+L	outEdge	r_4384	true									
+MI				true	14.0	726.0	Center	0.0	0.0			
+L	inEdge	r_4372	true									
+MI				true	1566.0	749.0	Center	0.0	0.0			
+L	inEdge	r_4300	true									
+MI				true	1432.0	744.0	Center	0.0	0.0			
+L	inEdge	r_4295	true									
+MI				true	321.0	296.0	Center	0.0	0.0			
+L	inEdge	r_4276	true									
+MI				true	853.0	720.0	Center	0.0	0.0			
+L	inEdge	r_4239	true									
+MI				true	933.0	730.0	Center	0.0	0.0			
+L	inEdge	r_4219	true									
+MI				true	133.0	97.0	Center	0.0	0.0			
+L	outEdge	r_4158	true									
+MI	s_4100	cytidine 2'-phosphate[c]		false	879.0	1256.0	Center	0.0	0.0			
+L	inEdge	r_4388	false									
+MI	s_4126	2',3'-cyclic CMP[c]		false	880.0	891.0	Center	0.0	0.0			
+L	outEdge	r_4388	false									
+MI	s_1207	NADP(+)[c]		true	403.0	287.0	Center	0.0	0.0			
+L	inEdge	r_4384	true									
+MI				true	231.0	293.0	Center	0.0	0.0			
+L	inEdge	r_4276	true									
+MI				true	36.0	282.0	Center	0.0	0.0			
+L	inEdge	r_4158	true									
+MI	s_3875	D-gluconate[c]		false	455.0	355.0	Center	0.0	0.0			
+L	inEdge	r_4384	false									
+MI	s_4117	5-dehydro-D-gluconate[c]		false	455.0	46.0	Center	0.0	0.0			
+L	outEdge	r_4384	false									
+MI	s_4102	2',3'-cyclic UMP[c]		false	72.0	474.0	Center	0.0	0.0			
+L	outEdge	r_4372	false									
+MI	s_1051	L-tyrosine[c]		false	680.0	1257.0	Center	0.0	0.0			
+L	inEdge	r_4368	false									
+MI	s_4096	O(4)-phospho-L-tyrosine[c]		false	679.0	889.0	Center	0.0	0.0			
+L	outEdge	r_4368	false									
+MI	s_1556	uridine[c]		false	481.0	791.0	Center	0.0	0.0			
+L	inEdge	r_4357	false									
+MI	s_4081	uridine 2'-phosphate[c]		false	71.0	792.0	Center	0.0	0.0			
+L	outEdge	r_4357	false									
+L	inEdge	r_4372	false									
+MI	s_4073	cysteamine[c]		false	451.0	1254.0	Center	0.0	0.0			
+L	inEdge	r_4351	false									
+MI	s_4072	cysteamine S-phosphate[c]		false	453.0	890.0	Center	0.0	0.0			
+L	outEdge	r_4351	false									
+MI	s_4064	O-phospho-L-threonine[c]		false	1200.0	44.0	Center	0.0	0.0			
+L	outEdge	r_4344	false									
+MI	s_0765	glycerol[c]		false	1096.0	1255.0	Center	0.0	0.0			
+L	inEdge	r_4342	false									
+MI	s_4062	glycerol 2-phosphate(2-)[c]		false	1096.0	890.0	Center	0.0	0.0			
+L	outEdge	r_4342	false									
+MI	s_1203	NADH[c]		true	1668.0	751.0	Center	0.0	0.0			
+L	inEdge	r_4300	true									
+MI				true	1341.0	739.0	Center	0.0	0.0			
+L	inEdge	r_4295	true									
+MI	s_1198	NAD[c]		true	1660.0	529.0	Center	0.0	0.0			
+L	outEdge	r_4300	true									
+MI				true	1344.0	533.0	Center	0.0	0.0			
+L	outEdge	r_4295	true									
+MI	s_3970	3alpha,7alpha-Dihydroxy-5beta-cholestanate[c]		false	1614.0	820.0	Center	0.0	0.0			
+L	inEdge	r_4300	false									
+MI	s_3969	3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al[c]		false	1613.0	464.0	Center	0.0	0.0			
+L	outEdge	r_4300	false									
+MI	s_3960	Propynoate[c]		false	1388.0	820.0	Center	0.0	0.0			
+L	inEdge	r_4295	false									
+MI	s_3959	2-Propynal[c]		false	1388.0	466.0	Center	0.0	0.0			
+L	outEdge	r_4295	false									
+MI	s_0638	diphosphate[p]		true	3.0	1184.0	Center	0.0	0.0			
+L	inEdge	r_4279	true									
+MI	s_0809	H2O[p]		true	102.0	959.0	Center	0.0	0.0			
+L	outEdge	r_4279	true									
+MI	s_0801	H+[p]		true	5.0	962.0	Center	0.0	0.0			
+L	outEdge	r_4279	true									
+MI	s_3943	8-oxo-dGMP[p]		false	55.0	1261.0	Center	0.0	0.0			
+L	inEdge	r_4279	false									
+MI	s_3942	8-oxo-dGTP[p]		false	55.0	895.0	Center	0.0	0.0			
+L	outEdge	r_4279	false									
+MI	s_0924	iron(2+)[c]		false	276.0	356.0	Center	0.0	0.0			
+L	inEdge	r_4276	false									
+MI	s_4031	iron(3+)[v]		false	275.0	47.0	Center	0.0	0.0			
+L	outEdge	r_4276	false									
+MI	s_0633	diphosphate[c]		true	1569.0	325.0	Center	0.0	0.0			
+L	inEdge	r_4247	true									
+MI	s_0434	ATP[c]		true	1296.0	379.0	Center	0.0	0.0			
+L	outEdge	r_4247	true									
+MI	s_3903	L-Threonylcarbamoyladenylate[c]		false	1658.0	352.0	Center	0.0	0.0			
+L	inEdge	r_4247	false									
+MI	s_1045	L-threonine[c]		false	1199.0	353.0	Center	0.0	0.0			
+L	outEdge	r_4247	false									
+L	inEdge	r_4344	false									
+MI	s_0445	bicarbonate[c]		true	1304.0	317.0	Center	0.0	0.0			
+L	outEdge	r_4247	true									
+MI	s_3885	L-Arginyl-protein[c]		false	796.0	796.0	Center	0.0	0.0			
+L	inEdge	r_4239	false									
+MI	s_1583	tRNA(Arg)[c]		true	753.0	734.0	Center	0.0	0.0			
+L	inEdge	r_4239	true									
+MI	s_3884	Protein[c]		true	747.0	535.0	Center	0.0	0.0			
+L	outEdge	r_4239	true									
+MI	s_0428	Arg-tRNA(Arg)[c]		false	800.0	475.0	Center	0.0	0.0			
+L	outEdge	r_4239	false									
+MI	s_3858	D-tyrosine[c]		false	980.0	799.0	Center	0.0	0.0			
+L	inEdge	r_4219	false									
+MI	s_1612	tRNA(Tyr)[c]		true	1036.0	740.0	Center	0.0	0.0			
+L	inEdge	r_4219	true									
+MI	s_3857	D-tyrosyl-tRNA(Tyr)[c]		false	983.0	472.0	Center	0.0	0.0			
+L	outEdge	r_4219	false									
+MI	s_1582	tRNA(Ala)[c]		false	1181.0	815.0	Center	0.0	0.0			
+L	inEdge	r_4218	false									
+MI	s_1003	L-glycine[c]		true	1123.0	758.0	Center	0.0	0.0			
+L	inEdge	r_4218	true									
+MI	s_3856	Glycyl-tRNA(Ala)[c]		false	1181.0	470.0	Center	0.0	0.0			
+L	outEdge	r_4218	false									
+MI	s_1271	oxaloacetate[c]		false	1313.0	1263.0	Center	0.0	0.0			
+L	inEdge	r_4206	false									
+MI	s_0419	ammonium[c]		true	1262.0	1168.0	Center	0.0	0.0			
+L	inEdge	r_4206	true									
+MI	s_3841	Threo-3-hydroxy-L-aspartate[c]		false	1312.0	889.0	Center	0.0	0.0			
+L	outEdge	r_4206	false									
+MI	s_3763	1,4-benzosemiquinone[c]		false	84.0	357.0	Center	0.0	0.0			
+L	inEdge	r_4158	false									
+MI	s_3762	quinone[c]		false	85.0	46.0	Center	0.0	0.0			
+L	outEdge	r_4158	false									
+MI	s_1212	NADPH[c]		true	39.0	92.0	Center	0.0	0.0			
+L	outEdge	r_4158	true									
+MI				true	405.25	99.30000000000001	Center	0.0	0.0			
+L	outEdge	r_4384	true									
+MI				true	230.25	107.30000000000001	Center	0.0	0.0			
+L	outEdge	r_4276	true									
