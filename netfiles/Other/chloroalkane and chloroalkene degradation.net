@@ -1,0 +1,44 @@
+P	chloroalkane and chloroalkene degradation	chloroalkane and chloroalkene degradation	-100	-1	-1							
+R	r_4303	r_4303	chloroalkane and chloroalkene degradation	424	314.5	true	normal					
+R	r_4304	r_4304	chloroalkane and chloroalkene degradation	599	314	true	normal					
+R	r_4305	r_4305	chloroalkane and chloroalkene degradation	92	312	true	normal					
+R	r_4575	r_4575	chloroalkane and chloroalkene degradation	272.5	313	false	normal					
+E	YMR110C	YMR110C	144	341.7	r_4305							
+E	YMR110C	YMR110C	654.6	354.3	r_4304							
+E	YMR110C	YMR110C	469.5	338	r_4303							
+MI	s_0794	H+[c]		true	228.0	204.0	Center	0.0	0.0			
+L	outEdge	r_4575	true									
+MI				true	136.0	400.0	Center	0.0	0.0			
+L	inEdge	r_4305	true									
+MI				true	553.0	419.0	Center	0.0	0.0			
+L	inEdge	r_4304	true									
+MI				true	466.0	382.0	Center	0.0	0.0			
+L	inEdge	r_4303	true									
+MI	s_0456	carbon dioxide[c]		true	228.0	423.0	Center	0.0	0.0			
+L	inEdge	r_4575	true									
+MI	s_0359	acetaldehyde[c]		false	273.0	473.0	Center	0.0	0.0			
+L	inEdge	r_4575	false									
+MI	s_4184	3-oxopropanoate[c]		false	272.0	153.0	Center	0.0	0.0			
+L	outEdge	r_4575	false									
+MI	s_1203	NADH[c]		true	33.0	404.0	Center	0.0	0.0			
+L	inEdge	r_4305	true									
+MI	s_1198	NAD[c]		true	46.0	214.0	Center	0.0	0.0			
+L	outEdge	r_4305	true									
+MI	s_0803	H2O[c]		true	136.0	215.0	Center	0.0	0.0			
+L	outEdge	r_4305	true									
+MI				true	551.0	225.0	Center	0.0	0.0			
+L	outEdge	r_4304	true									
+MI				true	378.0	212.0	Center	0.0	0.0			
+L	outEdge	r_4303	true									
+MI	s_3980	Chloroacetic acid[c]		false	92.0	467.0	Center	0.0	0.0			
+L	inEdge	r_4305	false									
+MI	s_3979	Chloroacetaldehyde[c]		false	92.0	157.0	Center	0.0	0.0			
+L	outEdge	r_4305	false									
+MI	s_3978	cis-3-Chloroacrylic acid[c]		false	599.0	473.0	Center	0.0	0.0			
+L	inEdge	r_4304	false									
+MI	s_3977	cis-3-Chloroallyl aldehyde[c]		false	599.0	155.0	Center	0.0	0.0			
+L	outEdge	r_4304	false									
+MI	s_3976	trans-3-Chloroacrylic acid[c]		false	425.0	473.0	Center	0.0	0.0			
+L	inEdge	r_4303	false									
+MI	s_3975	trans-3-Chloroallyl aldehyde[c]		false	423.0	156.0	Center	0.0	0.0			
+L	outEdge	r_4303	false									
