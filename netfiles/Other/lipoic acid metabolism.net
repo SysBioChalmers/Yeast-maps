@@ -1,0 +1,68 @@
+P	lipoic acid metabolism	lipoic acid metabolism	-100	-1	-1							
+R	r_4256	r_4256	lipoic acid metabolism	915.5	393	false	normal					
+R	r_4258	r_4258	lipoic acid metabolism	710	389.5	false	normal					
+R	r_4280	r_4280	lipoic acid metabolism	383	178.5	true	normal					
+R	r_4281	r_4281	lipoic acid metabolism	124.5	425	true	normal					
+R	r_4323	r_4323	lipoic acid metabolism	504	561.5	true	normal					
+R	r_4324	r_4324	lipoic acid metabolism	504	561.5	true	normal					
+E	YOR196C	YOR196C	428.3	584.3	r_4324							
+E	YOR196C	YOR196C	582.1	592.3	r_4323							
+E	YLR239C	YLR239C	173.9	467.2	r_4281							
+E	YLR239C	YLR239C	421	134.7	r_4280							
+E	YJL046W	YJL046W	791.6	411.1	r_4258							
+E	YJL046W	YJL046W	966.5	428.4	r_4256							
+MI	s_4005	5'-Deoxyadenosine[m]		false	504.0	784.0	Center	0.0	0.0			
+L	inEdge	r_4323	false									
+L	inEdge	r_4324	false									
+MI	s_1031	L-methionine[m]		true	400.0	739.0	Center	0.0	0.0			
+L	inEdge	r_4323	true									
+L	inEdge	r_4324	true									
+MI	s_4004	Sulfur donor[m]		true	447.0	390.0	Center	0.0	0.0			
+L	outEdge	r_4324	true									
+MI				true	567.3333333333333	413.3333333333333	Center	0.0	0.0			
+L	outEdge	r_4323	true									
+MI	s_1419	S-adenosyl-L-methionine[m]		false	504.0	339.0	Center	0.0	0.0			
+L	outEdge	r_4323	false									
+L	outEdge	r_4324	false									
+MI	s_3944	Apoprotein[m]		true	77.0	292.0	Center	0.0	0.0			
+L	outEdge	r_4281	true									
+MI				true	287.0	219.0	Center	0.0	0.0			
+L	outEdge	r_4280	true									
+MI	s_3947	Protein N6-(lipoyl)lysine[m]		true	124.0	621.0	Center	0.0	0.0			
+L	inEdge	r_4281	true									
+L	inEdge	r_4323	true									
+MI	s_3946	Lipoyl-[acp][m]		true	125.0	229.0	Center	0.0	0.0			
+L	outEdge	r_4281	true									
+L	inEdge	r_4324	true									
+MI	s_3945	Protein N6-(octanoyl)lysine[m]		true	523.0	179.0	Center	0.0	0.0			
+L	inEdge	r_4280	true									
+L	outEdge	r_4323	true									
+MI	s_1845	ACP1[m]		true	457.0	221.0	Center	0.0	0.0			
+L	inEdge	r_4280	true									
+MI				true	71.33333333333326	550.3333333333333	Center	0.0	0.0			
+L	inEdge	r_4281	true									
+MI	s_1254	octanoyl-ACP[m]		true	243.0	178.0	Center	0.0	0.0			
+L	outEdge	r_4280	true									
+L	outEdge	r_4324	true									
+MI	s_0633	diphosphate[c]		true	664.0	527.0	Center	0.0	0.0			
+L	inEdge	r_4258	true									
+MI				true	965.0	543.0	Center	0.0	0.0			
+L	inEdge	r_4256	true									
+MI	s_3917	Apoprotein[c]		true	660.0	263.0	Center	0.0	0.0			
+L	outEdge	r_4258	true									
+MI	s_3915	(R)-Lipoate[c]		false	711.0	190.0	Center	0.0	0.0			
+L	outEdge	r_4258	false									
+MI				false	917.0	191.0	Center	0.0	0.0			
+L	outEdge	r_4256	false									
+MI	s_0434	ATP[c]		true	762.0	264.0	Center	0.0	0.0			
+L	outEdge	r_4258	true									
+MI				true	964.0	260.0	Center	0.0	0.0			
+L	outEdge	r_4256	true									
+MI	s_3918	Protein N6-(lipoyl)lysine[c]		false	709.0	589.0	Center	0.0	0.0			
+L	inEdge	r_4258	false									
+MI	s_0423	AMP[c]		true	768.0	532.0	Center	0.0	0.0			
+L	inEdge	r_4258	true									
+MI	s_0794	H+[c]		true	857.0	256.0	Center	0.0	0.0			
+L	outEdge	r_4256	true									
+MI	s_3916	Lipoyl-AMP[c]		false	914.0	595.0	Center	0.0	0.0			
+L	inEdge	r_4256	false									
