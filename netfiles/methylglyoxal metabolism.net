@@ -1,0 +1,103 @@
+P	methylglyoxal metabolism	methylglyoxal metabolism	-100	-1	-1							
+R	r_4175	r_4175	methylglyoxal metabolism	88	555	true	normal					
+R	r_4176	r_4176	methylglyoxal metabolism	953	563	true	normal					
+R	r_4177	r_4177	methylglyoxal metabolism	771	560	true	normal					
+R	r_4178	r_4178	methylglyoxal metabolism	424	558.5	true	normal					
+R	r_4179	r_4179	methylglyoxal metabolism	257.5	560	true	normal					
+R	r_4180	r_4180	methylglyoxal metabolism	610.5	559.5	true	normal					
+E	YPL088W	YPL088W	685.3	581.8	r_4180							
+E	YOL165C	YOL165C	687.8	576.5	r_4180							
+E	YNL331C	YNL331C	679	582	r_4180							
+E	YJR155W	YJR155W	686	578.1	r_4180							
+E	YDL243C	YDL243C	684.3	581.2	r_4180							
+E	YCR107W	YCR107W	682.7	577.9	r_4180							
+E	YPL088W	YPL088W	322.5	589.8	r_4179							
+E	YOL165C	YOL165C	313.1	593.8	r_4179							
+E	YNL331C	YNL331C	318.2	595.4	r_4179							
+E	YJR155W	YJR155W	318.6	594.4	r_4179							
+E	YDL243C	YDL243C	321.9	592.5	r_4179							
+E	YCR107W	YCR107W	322.1	590	r_4179							
+E	YPL088W	YPL088W	469.3	592.1	r_4178							
+E	YOL165C	YOL165C	478.7	586.9	r_4178							
+E	YNL331C	YNL331C	475	590.3	r_4178							
+E	YJR155W	YJR155W	477.8	593.1	r_4178							
+E	YDL243C	YDL243C	473.8	588.6	r_4178							
+E	YCR107W	YCR107W	470.6	589.8	r_4178							
+E	YPL088W	YPL088W	839.5	598.8	r_4177							
+E	YOL165C	YOL165C	839.2	594.8	r_4177							
+E	YNL331C	YNL331C	844.9	602.7	r_4177							
+E	YJR155W	YJR155W	839.3	594.6	r_4177							
+E	YDL243C	YDL243C	844.9	599.4	r_4177							
+E	YCR107W	YCR107W	840.6	597.3	r_4177							
+E	YPL088W	YPL088W	1025	585.2	r_4176							
+E	YOL165C	YOL165C	1023.8	587.5	r_4176							
+E	YNL331C	YNL331C	1018.5	584.8	r_4176							
+E	YJR155W	YJR155W	1021.7	588.2	r_4176							
+E	YDL243C	YDL243C	1021	589.6	r_4176							
+E	YCR107W	YCR107W	1023.2	593.8	r_4176							
+E	YPL088W	YPL088W	133.2	582.2	r_4175							
+E	YOL165C	YOL165C	138.9	582.8	r_4175							
+E	YNL331C	YNL331C	138.2	588.3	r_4175							
+E	YJR155W	YJR155W	139.2	588.1	r_4175							
+E	YDL243C	YDL243C	140.5	587.2	r_4175							
+E	YCR107W	YCR107W	140.3	583.5	r_4175							
+MI	s_1203	NADH[c]		true	564.0	661.0	Center	0.0	0.0			
+L	inEdge	r_4180	true									
+MI				true	211.0	661.0	Center	0.0	0.0			
+L	inEdge	r_4179	true									
+MI				true	379.0	659.0	Center	0.0	0.0			
+L	inEdge	r_4178	true									
+MI				true	731.0	666.0	Center	0.0	0.0			
+L	inEdge	r_4177	true									
+MI				true	909.0	681.0	Center	0.0	0.0			
+L	inEdge	r_4176	true									
+MI				true	42.0	653.0	Center	0.0	0.0			
+L	inEdge	r_4175	true									
+MI	s_0794	H+[c]		true	658.0	663.0	Center	0.0	0.0			
+L	inEdge	r_4180	true									
+MI				true	301.0	665.0	Center	0.0	0.0			
+L	inEdge	r_4179	true									
+MI				true	474.0	662.0	Center	0.0	0.0			
+L	inEdge	r_4178	true									
+MI				true	821.0	672.0	Center	0.0	0.0			
+L	inEdge	r_4177	true									
+MI				true	999.0	679.0	Center	0.0	0.0			
+L	inEdge	r_4176	true									
+MI				true	135.0	655.0	Center	0.0	0.0			
+L	inEdge	r_4175	true									
+MI	s_1198	NAD[c]		true	561.0	454.0	Center	0.0	0.0			
+L	outEdge	r_4180	true									
+MI				true	205.0	462.0	Center	0.0	0.0			
+L	outEdge	r_4179	true									
+MI				true	375.0	450.0	Center	0.0	0.0			
+L	outEdge	r_4178	true									
+MI				true	723.0	435.0	Center	0.0	0.0			
+L	outEdge	r_4177	true									
+MI				true	902.0	436.0	Center	0.0	0.0			
+L	outEdge	r_4176	true									
+MI				true	38.0	442.0	Center	0.0	0.0			
+L	outEdge	r_4175	true									
+MI	s_3800	benzaldehyde[c]		false	611.0	732.0	Center	0.0	0.0			
+L	inEdge	r_4180	false									
+MI	s_3799	benzyl alcohol[c]		false	610.0	387.0	Center	0.0	0.0			
+L	outEdge	r_4180	false									
+MI	s_3798	4-methylbenzaldehyde[c]		false	259.0	731.0	Center	0.0	0.0			
+L	inEdge	r_4179	false									
+MI	s_3797	4-methylbenzyl alcohol[c]		false	256.0	389.0	Center	0.0	0.0			
+L	outEdge	r_4179	false									
+MI	s_3796	p-cumic aldehyde[c]		false	424.0	728.0	Center	0.0	0.0			
+L	inEdge	r_4178	false									
+MI	s_3795	4-isopropylbenzyl alcohol[c]		false	424.0	389.0	Center	0.0	0.0			
+L	outEdge	r_4178	false									
+MI	s_3794	3-methylbenzaldehyde[c]		false	771.0	734.0	Center	0.0	0.0			
+L	inEdge	r_4177	false									
+MI	s_3793	3-methylbenzyl alcohol[c]		false	771.0	386.0	Center	0.0	0.0			
+L	outEdge	r_4177	false									
+MI	s_3792	3-hydroxybenzaldehyde[c]		false	953.0	742.0	Center	0.0	0.0			
+L	inEdge	r_4176	false									
+MI	s_3791	3-hydroxybenzyl alcohol[c]		false	953.0	384.0	Center	0.0	0.0			
+L	outEdge	r_4176	false									
+MI	s_3790	3-chlorobenzaldehyde[c]		false	89.0	724.0	Center	0.0	0.0			
+L	inEdge	r_4175	false									
+MI	s_3789	3-chlorobenzyl alcohol[c]		false	87.0	386.0	Center	0.0	0.0			
+L	outEdge	r_4175	false									
