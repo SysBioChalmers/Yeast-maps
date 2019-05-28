@@ -1,0 +1,218 @@
+P	n-glycan biosynthesis	n-glycan biosynthesis	-100	-1	-1							
+R	r_0228	r_0228	n-glycan biosynthesis	256	546.5	false	normal					
+R	r_0360	r_0360	n-glycan biosynthesis	666	346.5	false	normal					
+R	r_0361	r_0361	n-glycan biosynthesis	666	546.5	false	normal					
+R	r_4159	r_4159	n-glycan biosynthesis	440	1083.5	true	normal					
+R	r_4165	r_4165	n-glycan biosynthesis	1975	909.5	true	normal					
+R	r_4166	r_4166	n-glycan biosynthesis	1975	1196	true	normal					
+R	r_4170	r_4170	n-glycan biosynthesis	701.5	928.5	true	normal					
+R	r_4240	r_4240	n-glycan biosynthesis	1972	394	true	normal					
+R	r_4241	r_4241	n-glycan biosynthesis	1974	658.5	true	normal					
+R	r_4243	r_4243	n-glycan biosynthesis	1633.5	1614	true	normal					
+R	r_4244	r_4244	n-glycan biosynthesis	1378.5	1432	true	normal					
+R	r_4250	r_4250	n-glycan biosynthesis	1204	679	true	normal					
+R	r_4253	r_4253	n-glycan biosynthesis	1768	252	true	normal					
+R	r_4271	r_4271	n-glycan biosynthesis	1974.5	1518.5	true	normal					
+R	r_4272	r_4272	n-glycan biosynthesis	2153.5	1356.5	true	normal					
+R	r_4310	r_4310	n-glycan biosynthesis	1123.5	1610.5	true	normal					
+R	r_4311	r_4311	n-glycan biosynthesis	1336.5	1791.5	true	normal					
+R	r_4313	r_4313	n-glycan biosynthesis	906.5	1244	true	normal					
+R	r_4314	r_4314	n-glycan biosynthesis	1159	757.5	true	normal					
+R	r_4316	r_4316	n-glycan biosynthesis	1162.5	1073	true	normal					
+R	r_4320	r_4320	n-glycan biosynthesis	1160	434.5	true	normal					
+R	r_4321	r_4321	n-glycan biosynthesis	1362.5	253	true	normal					
+R	r_4328	r_4328	n-glycan biosynthesis	961.5	529	true	normal					
+E	YPR183W	YPR183W	732.4	605.2	r_0361							
+E	YMR013C	YMR013C	731.7	370	r_0360							
+E	YBR110W	YBR110W	379.8	561.8	r_0228							
+E	YPL227C	YPL227C	891	477.5	r_4328							
+E	YOR067C	YOR067C	1459.8	215.5	r_4321							
+E	YOR002W	YOR002W	1082.7	404.3	r_4320							
+E	YNR030W	YNR030W	1085.6	1060.9	r_4316							
+E	YNL219C	YNL219C	1080.1	747.3	r_4314							
+E	YNL219C	YNL219C	1004.1	1282.3	r_4313							
+E	YNL048W	YNL048W	1383.9	1837.7	r_4311							
+E	YNL048W	YNL048W	1058.1	1642.6	r_4310							
+E	YLR057W	YLR057W	2244.3	1330.6	r_4272							
+E	YJR131W	YJR131W	2239.7	1329.6	r_4272							
+E	YLR057W	YLR057W	1922.7	1570.1	r_4271							
+E	YJR131W	YJR131W	1917.1	1569.8	r_4271							
+E	YGR227W	YGR227W	1823.1	218	r_4253							
+E	YGR036C	YGR036C	1485.9	754.2	r_4250							
+E	YGL065C	YGL065C	1332.1	1381.1	r_4244							
+E	YGL065C	YGL065C	1716.5	1570.9	r_4243							
+E	YGL027C	YGL027C	2040.2	682.9	r_4241							
+E	YGL022W	YGL022W	2034.5	446.9	r_4240							
+E	YBR243C	YBR243C	611.8	890.6	r_4170							
+E	YBR229C	YBR229C	2023.4	1221.1	r_4166							
+E	YBR229C	YBR229C	2030.2	947	r_4165							
+E	YGL047W	YGL047W	395	1119.6	r_4159							
+E	YBR070C	YBR070C	388.8	1119.4	r_4159							
+MI	s_0739	GDP[c]		true	586.0	581.5	Center	0.0	0.0			
+L	inEdge	r_0361	true									
+MI				true	366.0	601.5	Center	0.0	0.0			
+L	inEdge	r_0228	true									
+MI	s_0644	dolichyl D-mannosyl phosphate[er]		false	666.0	651.5	Center	0.0	0.0			
+L	inEdge	r_0361	false									
+MI				true	1380.5	1126.0	Center	0.0	0.0			
+L	outEdge	r_4313	true									
+L	outEdge	r_4314	true									
+L	outEdge	r_4316	true									
+MI	s_0794	H+[c]		true	576.0	341.5	Center	0.0	0.0			
+L	inEdge	r_0360	true									
+MI	s_0645	dolichyl phosphate[c]		false	666.0	441.5	Center	0.0	0.0			
+L	inEdge	r_0360	false									
+L	outEdge	r_0361	false									
+MI	s_0467	CDP[c]		true	596.0	401.5	Center	0.0	0.0			
+L	inEdge	r_0360	true									
+MI	s_0642	dolichol[c]		false	666.0	251.5	Center	0.0	0.0			
+L	outEdge	r_0360	false									
+MI	s_0539	CTP[c]		true	596.0	301.5	Center	0.0	0.0			
+L	outEdge	r_0360	true									
+MI	s_0443	beta-D-mannosyldiacetylchitobiosyldiphosphodolichol[c]		false	256.0	651.5	Center	0.0	0.0			
+L	inEdge	r_0228	false									
+MI	s_1184	N,N'-diacetylchitobiosyldiphosphodolichol[c]		false	256.0	441.5	Center	0.0	0.0			
+L	outEdge	r_0228	false									
+MI	s_0743	GDP-alpha-D-mannose[c]		true	456.0	521.5	Center	0.0	0.0			
+L	outEdge	r_0228	true									
+L	outEdge	r_0361	true									
+MI	s_4015	UDP-D-glucose[er]		true	924.5	700.0	Center	0.0	0.0			
+L	outEdge	r_4328	true									
+MI	s_0795	H+[er]		true	1500.5	286.0	Center	0.0	0.0			
+L	inEdge	r_4321	true									
+MI				true	1207.5	308.0	Center	0.0	0.0			
+L	inEdge	r_4320	true									
+MI				true	1066.5	1193.0	Center	0.0	0.0			
+L	inEdge	r_4313	true									
+MI				true	1472.5	1749.0	Center	0.0	0.0			
+L	inEdge	r_4311	true									
+MI				true	1171.5	1713.0	Center	0.0	0.0			
+L	inEdge	r_4310	true									
+MI				true	1899.5	281.0	Center	0.0	0.0			
+L	inEdge	r_4253	true									
+MI				true	1236.5	1385.0	Center	0.0	0.0			
+L	inEdge	r_4244	true									
+MI				true	1697.5	1499.0	Center	0.0	0.0			
+L	inEdge	r_4243	true									
+MI				true	1931.5	476.0	Center	0.0	0.0			
+L	inEdge	r_4240	true									
+MI				true	400.5	1183.0	Center	0.0	0.0			
+L	inEdge	r_4159	true									
+MI	s_4001	G10598[er]		false	1160.5	255.0	Center	0.0	0.0			
+L	inEdge	r_4320	false									
+L	outEdge	r_4321	false									
+MI	s_3996	G00007[er]		false	1159.5	614.0	Center	0.0	0.0			
+L	inEdge	r_4314	false									
+L	outEdge	r_4320	false									
+MI	s_3995	G10597[er]		false	1158.5	901.0	Center	0.0	0.0			
+L	outEdge	r_4314	false									
+L	inEdge	r_4316	false									
+MI	s_3994	G10596[er]		false	1166.5	1245.0	Center	0.0	0.0			
+L	inEdge	r_4313	false									
+L	outEdge	r_4316	false									
+MI	s_3993	G10595[er]		false	646.5	1243.0	Center	0.0	0.0			
+L	outEdge	r_4313	false									
+MI	s_3990	G00006[er]		false	1548.5	1794.0	Center	0.0	0.0			
+L	inEdge	r_4311	false									
+MI	s_3989	G10526[er]		false	1124.5	1789.0	Center	0.0	0.0			
+L	inEdge	r_4310	false									
+L	outEdge	r_4311	false									
+MI	s_0804	H2O[er]		true	2060.5	1381.0	Center	0.0	0.0			
+L	outEdge	r_4272	true									
+MI				true	1928.5	1414.0	Center	0.0	0.0			
+L	outEdge	r_4271	true									
+MI				true	1384.5	583.0	Center	0.0	0.0			
+L	outEdge	r_4250	true									
+MI				true	1920.5	588.0	Center	0.0	0.0			
+L	outEdge	r_4241	true									
+MI				true	1919.5	1090.0	Center	0.0	0.0			
+L	outEdge	r_4166	true									
+MI				true	1912.5	820.0	Center	0.0	0.0			
+L	outEdge	r_4165	true									
+MI	s_3891	G10694[er]		false	2331.5	1358.0	Center	0.0	0.0			
+L	inEdge	r_4272	false									
+MI	s_3933	D-mannose[er]		true	2192.5	1565.0	Center	0.0	0.0			
+L	inEdge	r_4271	true									
+L	inEdge	r_4272	true									
+MI	s_3932	G00012[er]		false	1973.5	1682.0	Center	0.0	0.0			
+L	inEdge	r_4271	false									
+MI	s_3912	G10599[er]		false	1564.5	251.0	Center	0.0	0.0			
+L	outEdge	r_4253	false									
+L	inEdge	r_4321	false									
+MI	s_3911	Dolichyl beta-D-glucosyl phosphate[er]		false	960.5	129.0	Center	0.0	0.0			
+L	outEdge	r_4253	false									
+L	outEdge	r_4320	false									
+L	outEdge	r_4321	false									
+L	inEdge	r_4328	false									
+MI	s_1323	phosphate[er]		true	1487.5	846.0	Center	0.0	0.0			
+L	inEdge	r_4250	true									
+MI	s_3896	G00005[er]		false	1122.5	1432.0	Center	0.0	0.0			
+L	inEdge	r_4244	false									
+L	outEdge	r_4310	false									
+MI	s_3895	G00004[er]		false	1634.5	1432.0	Center	0.0	0.0			
+L	inEdge	r_4243	false									
+L	outEdge	r_4244	false									
+MI	s_3892	GDP[er]		true	1072.5	1706.0	Center	0.0	0.0			
+L	inEdge	r_4310	true									
+MI				true	1475.3333333333333	1835.6666666666667	Center	0.0	0.0			
+L	inEdge	r_4311	true									
+MI				true	1589.3333333333333	1492.6666666666667	Center	0.0	0.0			
+L	inEdge	r_4243	true									
+MI				true	1221.3333333333333	1459.6666666666667	Center	0.0	0.0			
+L	inEdge	r_4244	true									
+MI	s_3894	G00003[er]		false	1632.5	1796.0	Center	0.0	0.0			
+L	outEdge	r_4243	false									
+MI	s_3890	GDP-alpha-D-mannose[er]		true	1288.5	1560.0	Center	0.0	0.0			
+L	outEdge	r_4243	true									
+L	outEdge	r_4244	true									
+L	outEdge	r_4310	true									
+L	outEdge	r_4311	true									
+MI	s_3889	G00009[er]		false	1972.5	535.0	Center	0.0	0.0			
+L	inEdge	r_4240	false									
+L	outEdge	r_4241	false									
+MI	s_3888	Dolichyl diphosphate[er]		false	1445.5	429.0	Center	0.0	0.0			
+L	inEdge	r_4240	false									
+L	outEdge	r_4250	false									
+MI	s_3887	G00008[er]		false	1971.5	253.0	Center	0.0	0.0			
+L	outEdge	r_4240	false									
+L	inEdge	r_4253	false									
+MI	s_3886	Protein asparagine[er]		true	1908.5	319.0	Center	0.0	0.0			
+L	outEdge	r_4240	true									
+MI	s_3781	UMP[er]		true	527.5	957.0	Center	0.0	0.0			
+L	inEdge	r_4170	true									
+MI	s_0646	dolichyl phosphate[er]		false	962.5	929.0	Center	0.0	0.0			
+L	outEdge	r_4170	false									
+L	inEdge	r_4250	false									
+L	inEdge	r_4253	false									
+L	inEdge	r_4313	false									
+L	inEdge	r_4314	false									
+L	inEdge	r_4316	false									
+L	inEdge	r_4320	false									
+L	inEdge	r_4321	false									
+L	outEdge	r_4328	false									
+MI	s_3774	G00011[er]		false	1975.5	1355.0	Center	0.0	0.0			
+L	inEdge	r_4166	false									
+L	outEdge	r_4271	false									
+L	outEdge	r_4272	false									
+MI	s_3773	G00010[er]		false	1974.5	1037.0	Center	0.0	0.0			
+L	inEdge	r_4165	false									
+L	outEdge	r_4166	false									
+MI	s_3772	D-glucose[er]		true	1685.5	785.0	Center	0.0	0.0			
+L	inEdge	r_4165	true									
+L	inEdge	r_4166	true									
+L	inEdge	r_4241	true									
+MI	s_3771	G00171[er]		false	1975.5	782.0	Center	0.0	0.0			
+L	outEdge	r_4165	false									
+L	inEdge	r_4241	false									
+MI	s_3767	N,N'-Chitobiosyldiphosphodolichol[er]		false	439.5	1239.0	Center	0.0	0.0			
+L	inEdge	r_4159	false									
+MI	s_3766	UDP[er]		true	903.5	363.0	Center	0.0	0.0			
+L	inEdge	r_4328	true									
+MI				true	483.08333333333326	1186.0	Center	0.0	0.0			
+L	inEdge	r_4159	true									
+MI	s_3765	N-Acetyl-D-glucosaminyldiphosphodolichol[er]		false	440.5	928.0	Center	0.0	0.0			
+L	outEdge	r_4159	false									
+L	inEdge	r_4170	false									
+MI	s_3764	UDP-N-acetyl-alpha-D-glucosamine[er]		true	765.5	1046.0	Center	0.0	0.0			
+L	outEdge	r_4159	true									
+L	outEdge	r_4170	true									
