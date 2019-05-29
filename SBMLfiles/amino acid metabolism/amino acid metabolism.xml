@@ -40991,7 +40991,7 @@
 <celldesigner:proteinReference>pr1965</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4043"/>
+<celldesigner:catalyzed reaction="r_1965"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -41005,7 +41005,7 @@
 <celldesigner:geneReference>gn1965</celldesigner:geneReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4043"/>
+<celldesigner:catalyzed reaction="r_1965"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -41173,7 +41173,7 @@
 <celldesigner:proteinReference>pr0479</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4050"/>
+<celldesigner:catalyzed reaction="r_0479"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -41198,7 +41198,7 @@
 <celldesigner:proteinReference>pr0221</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4052"/>
+<celldesigner:catalyzed reaction="r_0221"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -41212,7 +41212,7 @@
 <celldesigner:geneReference>gn0221</celldesigner:geneReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4052"/>
+<celldesigner:catalyzed reaction="r_0221"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -41226,7 +41226,7 @@
 <celldesigner:geneReference>gn0479</celldesigner:geneReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4050"/>
+<celldesigner:catalyzed reaction="r_0479"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -41306,7 +41306,7 @@
 <celldesigner:proteinReference>pr0220</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4053"/>
+<celldesigner:catalyzed reaction="r_0220"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -41320,7 +41320,7 @@
 <celldesigner:geneReference>gn0220</celldesigner:geneReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4053"/>
+<celldesigner:catalyzed reaction="r_0220"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -41334,7 +41334,7 @@
 <celldesigner:proteinReference>pr0480</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4051"/>
+<celldesigner:catalyzed reaction="r_0480"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -41348,7 +41348,7 @@
 <celldesigner:geneReference>gn0480</celldesigner:geneReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re4051"/>
+<celldesigner:catalyzed reaction="r_0480"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -45248,7 +45248,7 @@
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
 <celldesigner:catalyzed reaction="re4169"/>
-<celldesigner:catalyzed reaction="re4170"/>
+<celldesigner:catalyzed reaction="r_4363"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -45263,7 +45263,7 @@
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
 <celldesigner:catalyzed reaction="re4169"/>
-<celldesigner:catalyzed reaction="re4170"/>
+<celldesigner:catalyzed reaction="r_4363"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -70935,7 +70935,7 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="r_1965" id="re4043" reversible="false">
+<reaction metaid="r_1965" id="r_1965" reversible="false">
 <annotation>
 <celldesigner:extension>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
@@ -71006,7 +71006,7 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re4050" id="re4050" reversible="false">
+<reaction metaid="r_0479" id="r_0479" reversible="false">
 <annotation>
 <celldesigner:extension>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
@@ -71145,7 +71145,7 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re4051" id="re4051" reversible="false">
+<reaction metaid="r_0480" id="r_0480" reversible="false">
 <annotation>
 <celldesigner:extension>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
@@ -71284,7 +71284,7 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re4052" id="re4052" reversible="false">
+<reaction metaid="r_0221" id="r_0221" reversible="false">
 <annotation>
 <celldesigner:extension>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
@@ -71423,7 +71423,7 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re4053" id="re4053" reversible="false">
+<reaction metaid="r_0220" id="r_0220" reversible="false">
 <annotation>
 <celldesigner:extension>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
@@ -81344,7 +81344,7 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re4170" id="re4170" reversible="false">
+<reaction metaid="r_4363" id="r_4363" reversible="false">
 <annotation>
 <celldesigner:extension>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
