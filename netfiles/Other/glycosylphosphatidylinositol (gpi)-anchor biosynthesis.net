@@ -1,0 +1,30 @@
+P	glycosylphosphatidylinositol (gpi)-anchor biosynthesis	glycosylphosphatidylinositol (gpi)-anchor biosynthesis	-100	-1	-1							
+R	r_4234	r_4234	glycosylphosphatidylinositol (gpi)-anchor biosynthesis	292.5	176	true	normal					
+R	r_4322	r_4322	glycosylphosphatidylinositol (gpi)-anchor biosynthesis	52	174	true	normal					
+E	YOR149C	YOR149C	107.3	193.3	r_4322							
+E	YPL096C-A	YPL096C-A	351	199.2	r_4234							
+E	YPL175W	YPL175W	357.2	207	r_4234							
+E	YPL076W	YPL076W	353.6	208.8	r_4234							
+E	YNL038W	YNL038W	357.6	204.9	r_4234							
+E	YGR216C	YGR216C	348.7	199.7	r_4234							
+E	YDR437W	YDR437W	356.4	205.3	r_4234							
+MI	s_0795	H+[er]		true	99.0	271.0	Center	0.0	0.0			
+L	inEdge	r_4322	true									
+MI				true	339.0	287.0	Center	0.0	0.0			
+L	inEdge	r_4234	true									
+MI	s_4003	G00140[er]		true	9.0	275.0	Center	0.0	0.0			
+L	inEdge	r_4322	true									
+MI	s_0646	dolichyl phosphate[er]		false	51.0	343.0	Center	0.0	0.0			
+L	inEdge	r_4322	false									
+MI	s_4002	G00149[er]		true	9.0	88.0	Center	0.0	0.0			
+L	outEdge	r_4322	true									
+MI	s_0644	dolichyl D-mannosyl phosphate[er]		false	53.0	5.0	Center	0.0	0.0			
+L	outEdge	r_4322	false									
+MI	s_3879	G00143[er]		false	293.0	342.0	Center	0.0	0.0			
+L	inEdge	r_4234	false									
+MI	s_3766	UDP[er]		true	230.0	288.0	Center	0.0	0.0			
+L	inEdge	r_4234	true									
+MI	s_3878	1-phosphatidyl-1D-myo-inositol[er]		true	235.0	67.0	Center	0.0	0.0			
+L	outEdge	r_4234	true									
+MI	s_3764	UDP-N-acetyl-alpha-D-glucosamine[er]		false	292.0	10.0	Center	0.0	0.0			
+L	outEdge	r_4234	false									

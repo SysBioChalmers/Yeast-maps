@@ -1,0 +1,65 @@
+P	sulfur relay system	sulfur relay system	-100	-1	-1							
+R	r_0550	r_0550	sulfur relay system	439	138.5	false	normal					
+R	r_0551	r_0551	sulfur relay system	213	397.5	false	normal					
+R	r_0552	r_0552	sulfur relay system	89	138.5	false	normal					
+R	r_1991	r_1991	sulfur relay system	264	8.5	true	normal					
+R	r_2037	r_2037	sulfur relay system	264	268.5	true	normal					
+R	r_4326	r_4326	sulfur relay system	47	608.25	true	normal					
+R	r_4481	r_4481	sulfur relay system	285.25	601.75	false	normal					
+E	YLR043C	YLR043C	15.3	55.3	r_0552							
+E	YLR109W	YLR109W	21	55.8	r_0552							
+E	YGR209C	YGR209C	21.2	59.1	r_0552							
+E	YCR083W	YCR083W	276.2	351.5	r_0551							
+E	YBL064C	YBL064C	281	351.7	r_0551							
+E	YLR043C	YLR043C	393.6	71.8	r_0550							
+E	YGR209C	YGR209C	390.2	68.6	r_0550							
+E	YDR453C	YDR453C	388.2	66.1	r_0550							
+E	YOR286W	YOR286W	109.2	629.35	r_4326							
+E	YOR285W	YOR285W	106.8	630.75	r_4326							
+E	YOR251C	YOR251C	101.2	626.45	r_4326							
+MI	s_0809	H2O[p]		true	129.0	58.5	Center	0.0	0.0			
+L	inEdge	r_0552	true									
+MI	s_1623	TRX1 disulphide[p]		false	89.0	8.5	Center	0.0	0.0			
+L	inEdge	r_0552	false									
+L	inEdge	r_1991	false									
+MI	s_1619	TRX1[p]		false	89.0	268.5	Center	0.0	0.0			
+L	outEdge	r_0552	false									
+L	inEdge	r_2037	false									
+MI	s_0840	hydrogen peroxide[p]		true	139.0	188.5	Center	0.0	0.0			
+L	outEdge	r_0552	true									
+MI	s_0807	H2O[m]		true	303.0	437.5	Center	0.0	0.0			
+L	inEdge	r_0551	true									
+MI	s_1621	TRX1 disulphide[m]		false	383.0	397.5	Center	0.0	0.0			
+L	inEdge	r_0551	false									
+MI	s_1617	TRX1[m]		false	43.0	397.5	Center	0.0	0.0			
+L	outEdge	r_0551	false									
+MI	s_0838	hydrogen peroxide[m]		true	133.0	437.5	Center	0.0	0.0			
+L	outEdge	r_0551	true									
+MI	s_0803	H2O[c]		true	499.0	58.5	Center	0.0	0.0			
+L	inEdge	r_0550	true									
+MI	s_1620	TRX1 disulphide[c]		false	439.0	8.5	Center	0.0	0.0			
+L	inEdge	r_0550	false									
+L	outEdge	r_1991	false									
+MI	s_1616	TRX1[c]		false	439.0	268.5	Center	0.0	0.0			
+L	outEdge	r_0550	false									
+L	outEdge	r_2037	false									
+MI	s_0837	hydrogen peroxide[c]		true	499.0	200.5	Center	0.0	0.0			
+L	outEdge	r_0550	true									
+MI	s_4009	hydrogen cyanide[m]		false	47.0	481.25	Center	0.0	0.0			
+L	outEdge	r_4326	false									
+MI	s_4012	thiocyanate[m]		false	47.0	735.25	Center	0.0	0.0			
+L	inEdge	r_4326	false									
+MI	s_0799	H+[m]		true	4.0	692.25	Center	0.0	0.0			
+L	inEdge	r_4326	true									
+MI	s_4010	thiosulfate[m]		true	6.0	532.25	Center	0.0	0.0			
+L	outEdge	r_4326	true									
+MI	s_4011	sulphite[m]		true	99.0	689.25	Center	0.0	0.0			
+L	inEdge	r_4326	true									
+MI	s_0794	H+[c]		true	245.75	673.25	Center	0.0	0.0			
+L	inEdge	r_4481	true									
+MI	s_1467	sulphate[c]		false	285.75	721.25	Center	0.0	0.0			
+L	inEdge	r_4481	false									
+MI	s_0841	hydrogen sulfide[c]		false	284.75	482.25	Center	0.0	0.0			
+L	outEdge	r_4481	false									
+MI	s_1275	oxygen[c]		true	238.75	531.25	Center	0.0	0.0			
+L	outEdge	r_4481	true									
