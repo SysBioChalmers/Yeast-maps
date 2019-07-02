@@ -1,0 +1,136 @@
+P	porphyrin and chlorophyll metabolism	porphyrin and chlorophyll metabolism	-100	-1	-1							
+R	r_0081	r_0081	porphyrin and chlorophyll metabolism	623.5	1164	false	normal					
+R	r_0304	r_0304	porphyrin and chlorophyll metabolism	1185	1245	false	normal					
+R	r_0436	r_0436	porphyrin and chlorophyll metabolism	2161.5	1376.5	false	normal					
+R	r_0531	r_0531	porphyrin and chlorophyll metabolism	2453.5	1373.5	false	normal					
+R	r_0557	r_0557	porphyrin and chlorophyll metabolism	591.5	678.5	false	normal					
+R	r_0935	r_0935	porphyrin and chlorophyll metabolism	389.5	814.5	false	normal					
+R	r_0942	r_0942	porphyrin and chlorophyll metabolism	1784	1379	false	normal					
+R	r_0998	r_0998	porphyrin and chlorophyll metabolism	1773	675.5	false	normal					
+R	r_0999	r_0999	porphyrin and chlorophyll metabolism	2178.5	674.5	false	normal					
+R	r_1081	r_1081	porphyrin and chlorophyll metabolism	1185.5	895.5	false	normal					
+R	r_1082	r_1082	porphyrin and chlorophyll metabolism	1384	677	false	normal					
+R	r_1083	r_1083	porphyrin and chlorophyll metabolism	990.5	678	false	normal					
+R	r_1179	r_1179	porphyrin and chlorophyll metabolism	2132.5	888.5	false	normal					
+R	r_1622	r_1622	porphyrin and chlorophyll metabolism	391	1057	true	normal					
+R	r_1978	r_1978	porphyrin and chlorophyll metabolism	1587.5	1207	true	normal					
+R	r_2022	r_2022	porphyrin and chlorophyll metabolism	1365	1378.5	true	normal					
+E	YOR278W	YOR278W	1070.3	645.7	r_1083							
+E	YKR069W	YKR069W	1432.2	629.8	r_1082							
+E	YDR047W	YDR047W	1237.1	930.6	r_1081							
+E	YBR213W	YBR213W	2254.8	631.8	r_0999							
+E	YBR213W	YBR213W	1821.6	627.3	r_0998							
+E	YER014W	YER014W	1860	1400.9	r_0942							
+E	YGL040C	YGL040C	307.7	787.3	r_0935							
+E	YDL205C	YDL205C	644.1	645.4	r_0557							
+E	YPL172C	YPL172C	2514.4	1331.3	r_0531							
+E	YOR176W	YOR176W	2233.7	1416.3	r_0436							
+E	YDR044W	YDR044W	1244.6	1287.7	r_0304							
+E	YDR232W	YDR232W	558.5	1204	r_0081							
+MI	s_0803	H2O[c]		true	1121.0	715.0	Center	0.0	0.0			
+L	inEdge	r_1083	true									
+MI				true	432.0	743.0	Center	0.0	0.0			
+L	inEdge	r_0935	true									
+MI				true	485.0	710.0	Center	0.0	0.0			
+L	outEdge	r_0557	true									
+MI				true	1231.0	1346.0	Center	0.0	0.0			
+L	inEdge	r_0304	true									
+MI	s_0794	H+[c]		true	1538.0	625.0	Center	0.0	0.0			
+L	inEdge	r_1082	true									
+MI				true	1138.0	768.0	Center	0.0	0.0			
+L	outEdge	r_1081	true									
+MI				true	2302.0	710.0	Center	0.0	0.0			
+L	inEdge	r_0999	true									
+MI				true	1899.0	645.0	Center	0.0	0.0			
+L	inEdge	r_0998	true									
+MI				true	330.0	736.0	Center	0.0	0.0			
+L	inEdge	r_0935	true									
+MI				true	1239.0	1148.0	Center	0.0	0.0			
+L	outEdge	r_0304	true									
+MI	s_1413	S-adenosyl-L-homocysteine[c]		true	1520.0	718.0	Center	0.0	0.0			
+L	inEdge	r_1082	true									
+MI	s_1416	S-adenosyl-L-methionine[c]		true	1287.0	735.0	Center	0.0	0.0			
+L	outEdge	r_1082	true									
+MI	s_0456	carbon dioxide[c]		true	1130.0	1021.0	Center	0.0	0.0			
+L	inEdge	r_1081	true									
+MI				true	1133.0	1335.0	Center	0.0	0.0			
+L	inEdge	r_0304	true									
+MI	s_1558	uroporphyrinogen III[c]		false	1187.0	678.0	Center	0.0	0.0			
+L	outEdge	r_1081	false									
+L	outEdge	r_1082	false									
+L	inEdge	r_1083	false									
+MI	s_1430	siroheme[c]		false	2392.0	674.0	Center	0.0	0.0			
+L	inEdge	r_0999	false									
+MI	s_0924	iron(2+)[c]		false	2132.0	779.0	Center	0.0	0.0			
+L	outEdge	r_0999	false									
+L	outEdge	r_1179	false									
+MI	s_1203	NADH[c]		true	1899.0	709.0	Center	0.0	0.0			
+L	inEdge	r_0998	true									
+MI	s_1198	NAD[c]		true	1651.0	719.0	Center	0.0	0.0			
+L	outEdge	r_0998	true									
+MI	s_1431	sirohydrochlorin[c]		false	1965.0	675.0	Center	0.0	0.0			
+L	inEdge	r_0998	false									
+L	outEdge	r_0999	false									
+MI	s_1375	precorrin-2[c]		false	1581.0	676.0	Center	0.0	0.0			
+L	outEdge	r_0998	false									
+L	inEdge	r_1082	false									
+MI	s_0807	H2O[m]		true	1913.0	1342.0	Center	0.0	0.0			
+L	inEdge	r_0942	true									
+MI				true	2340.0	1340.0	Center	0.0	0.0			
+L	outEdge	r_0531	true									
+MI	s_1385	protoporphyrinogen[m]		false	1544.0	1380.0	Center	0.0	0.0			
+L	outEdge	r_0942	false									
+L	inEdge	r_2022	false									
+MI	s_1278	oxygen[m]		false	1729.0	1206.0	Center	0.0	0.0			
+L	outEdge	r_0942	false									
+L	inEdge	r_1978	false									
+MI	s_0315	5-aminolevulinate[c]		false	390.0	950.0	Center	0.0	0.0			
+L	outEdge	r_0935	false									
+L	outEdge	r_1622	false									
+MI	s_1378	preuroporphyrinogen[c]		false	794.0	678.0	Center	0.0	0.0			
+L	inEdge	r_0557	false									
+L	outEdge	r_1083	false									
+MI	s_0419	ammonium[c]		true	699.0	702.0	Center	0.0	0.0			
+L	inEdge	r_0557	true									
+MI	s_1372	porphobilinogen[c]		false	389.0	679.0	Center	0.0	0.0			
+L	outEdge	r_0557	false									
+L	inEdge	r_0935	false									
+MI	s_0636	diphosphate[m]		true	2541.0	1410.0	Center	0.0	0.0			
+L	inEdge	r_0531	true									
+MI	s_0812	heme o[m]		false	2608.0	1372.0	Center	0.0	0.0			
+L	inEdge	r_0531	false									
+MI	s_0191	farnesyl diphosphate[m]		true	2369.0	1417.0	Center	0.0	0.0			
+L	outEdge	r_0531	true									
+MI	s_0799	H+[m]		true	2241.0	1324.0	Center	0.0	0.0			
+L	inEdge	r_0436	true									
+MI				true	766.0	1197.0	Center	0.0	0.0			
+L	outEdge	r_0081	true									
+MI	s_0712	ferroheme b[m]		false	2299.0	1375.0	Center	0.0	0.0			
+L	inEdge	r_0436	false									
+L	outEdge	r_0531	false									
+MI	s_1383	protoporphyrin[m]		false	2024.0	1378.0	Center	0.0	0.0			
+L	outEdge	r_0436	false									
+L	inEdge	r_0942	false									
+MI	s_0926	iron(2+)[m]		false	2133.0	998.0	Center	0.0	0.0			
+L	outEdge	r_0436	false									
+L	inEdge	r_1179	false									
+MI	s_1384	protoporphyrinogen[c]		false	1186.0	1377.0	Center	0.0	0.0			
+L	inEdge	r_0304	false									
+L	outEdge	r_2022	false									
+MI	s_1275	oxygen[c]		false	1446.0	1208.0	Center	0.0	0.0			
+L	outEdge	r_0304	false									
+L	outEdge	r_1978	false									
+MI	s_0538	coproporphyrinogen III[c]		false	1184.0	1113.0	Center	0.0	0.0			
+L	outEdge	r_0304	false									
+L	inEdge	r_1081	false									
+MI	s_0532	coenzyme A[m]		true	481.0	1131.0	Center	0.0	0.0			
+L	inEdge	r_0081	true									
+MI	s_0460	carbon dioxide[m]		true	481.0	1186.0	Center	0.0	0.0			
+L	inEdge	r_0081	true									
+MI	s_0317	5-aminolevulinate[m]		false	392.0	1164.0	Center	0.0	0.0			
+L	inEdge	r_0081	false									
+L	inEdge	r_1622	false									
+MI	s_1464	succinyl-CoA[m]		false	855.0	1164.0	Center	0.0	0.0			
+L	outEdge	r_0081	false									
+MI	s_1005	L-glycine[m]		true	775.0	1131.0	Center	0.0	0.0			
+L	outEdge	r_0081	true									

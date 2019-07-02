@@ -1,0 +1,137 @@
+P	pantothenate and coa biosynthesis	pantothenate and coa biosynthesis	-100	-1	-1							
+R	r_0019	r_0019	pantothenate and coa biosynthesis	1106.5	601	false	normal					
+R	r_0063	r_0063	pantothenate and coa biosynthesis	634.5	823	false	normal					
+R	r_0119	r_0119	pantothenate and coa biosynthesis	2010	1157	false	normal					
+R	r_0334	r_0334	pantothenate and coa biosynthesis	1093.5	1156.5	false	normal					
+R	r_0841	r_0841	pantothenate and coa biosynthesis	1562.5	928	false	normal					
+R	r_0842	r_0842	pantothenate and coa biosynthesis	1928.5	598.5	false	normal					
+R	r_0843	r_0843	pantothenate and coa biosynthesis	1492	599.5	false	normal					
+R	r_0905	r_0905	pantothenate and coa biosynthesis	2168.5	762	false	normal					
+R	r_0906	r_0906	pantothenate and coa biosynthesis	1981	927	false	normal					
+R	r_1568	r_1568	pantothenate and coa biosynthesis	920.5	738	true	normal					
+R	r_1736	r_1736	pantothenate and coa biosynthesis	1148	927	false	normal					
+R	r_1996	r_1996	pantothenate and coa biosynthesis	1790.5	1042.5	true	normal					
+R	r_1997	r_1997	pantothenate and coa biosynthesis	1565.5	1156.5	false	normal					
+E	YOR054C	YOR054C	1942	971.8	r_0906							
+E	YKR072C	YKR072C	1940.1	972.3	r_0906							
+E	YKL088W	YKL088W	1937.3	970.9	r_0906							
+E	YIL083C	YIL083C	2216.5	789.9	r_0905							
+E	YIL145C	YIL145C	1517.4	534.1	r_0843							
+E	YDR531W	YDR531W	1955.4	540.7	r_0842							
+E	YGR277C	YGR277C	1468.5	960.4	r_0841							
+E	YDR196C	YDR196C	1042.4	1203.3	r_0334							
+E	YPL148C	YPL148C	2005.4	1193.2	r_0119							
+E	YBR176W	YBR176W	694.5	839.6	r_0063							
+E	YHR063C	YHR063C	1171.8	563.9	r_0019							
+MI	s_0636	diphosphate[m]		true	1411.0	1124.0	Center	0.0	0.0			
+L	inEdge	r_1997	true									
+MI	s_0799	H+[m]		true	1700.0	1122.0	Center	0.0	0.0			
+L	outEdge	r_1997	true									
+MI				true	958.0	1120.0	Center	0.0	0.0			
+L	inEdge	r_0334	true									
+MI				true	1889.0	1113.0	Center	0.0	0.0			
+L	inEdge	r_0119	true									
+MI	s_0437	ATP[m]		true	1713.0	1188.0	Center	0.0	0.0			
+L	outEdge	r_1997	true									
+MI				true	1256.0	1122.0	Center	0.0	0.0			
+L	outEdge	r_0334	true									
+MI	s_0794	H+[c]		true	1041.0	894.0	Center	0.0	0.0			
+L	inEdge	r_1736	true									
+MI				true	2058.0	894.0	Center	0.0	0.0			
+L	outEdge	r_0906	true									
+MI				true	2283.0	852.0	Center	0.0	0.0			
+L	inEdge	r_0905	true									
+MI				true	1606.0	515.0	Center	0.0	0.0			
+L	inEdge	r_0843	true									
+MI				true	2054.0	551.0	Center	0.0	0.0			
+L	inEdge	r_0842	true									
+MI				true	1694.0	899.0	Center	0.0	0.0			
+L	outEdge	r_0841	true									
+MI				true	990.0	572.0	Center	0.0	0.0			
+L	outEdge	r_0019	true									
+MI	s_0529	coenzyme A[c]		true	1005.0	960.0	Center	0.0	0.0			
+L	inEdge	r_1736	true									
+MI	s_0394	ADP[c]		false	962.0	926.0	Center	0.0	0.0			
+L	inEdge	r_1736	false									
+MI				true	2017.0	627.0	Center	0.0	0.0			
+L	inEdge	r_0842	true									
+MI	s_0434	ATP[c]		true	1273.0	892.0	Center	0.0	0.0			
+L	outEdge	r_1736	true									
+MI				true	1371.0	666.0	Center	0.0	0.0			
+L	outEdge	r_0843	true									
+MI				true	1801.0	638.0	Center	0.0	0.0			
+L	outEdge	r_0842	true									
+MI				true	1682.0	965.0	Center	0.0	0.0			
+L	outEdge	r_0841	true									
+MI	s_0456	carbon dioxide[c]		true	1868.0	886.0	Center	0.0	0.0			
+L	inEdge	r_0906	true									
+MI	s_0633	diphosphate[c]		true	2217.0	873.0	Center	0.0	0.0			
+L	inEdge	r_0905	true									
+MI				true	1635.0	556.0	Center	0.0	0.0			
+L	inEdge	r_0843	true									
+MI				true	1448.0	891.0	Center	0.0	0.0			
+L	inEdge	r_0841	true									
+MI	s_0526	CMP[c]		true	2113.0	863.0	Center	0.0	0.0			
+L	inEdge	r_0905	true									
+MI	s_1188	N-[(R)-4-phosphonopantothenoyl]-L-cysteine[c]		false	2171.0	926.0	Center	0.0	0.0			
+L	inEdge	r_0905	false									
+L	outEdge	r_0906	false									
+MI	s_0981	L-cysteine[c]		true	2214.0	662.0	Center	0.0	0.0			
+L	outEdge	r_0905	true									
+MI	s_0539	CTP[c]		true	2118.0	646.0	Center	0.0	0.0			
+L	outEdge	r_0905	true									
+MI	s_0423	AMP[c]		true	1607.0	643.0	Center	0.0	0.0			
+L	inEdge	r_0843	true									
+MI	s_0441	beta-alanine[c]		true	1326.0	562.0	Center	0.0	0.0			
+L	outEdge	r_0843	true									
+MI	s_0017	(R)-4'-phosphopantothenic acid[c]		false	2166.0	598.0	Center	0.0	0.0			
+L	inEdge	r_0842	false									
+L	outEdge	r_0905	false									
+MI	s_0031	(R)-pantothenate[c]		false	1691.0	599.0	Center	0.0	0.0			
+L	outEdge	r_0842	false									
+L	inEdge	r_0843	false									
+MI	s_0197	3'-dephospho-CoA[c]		false	1334.0	928.0	Center	0.0	0.0			
+L	inEdge	r_0841	false									
+L	outEdge	r_1736	false									
+MI	s_1307	pantetheine 4'-phosphate[c]		false	1791.0	928.0	Center	0.0	0.0			
+L	outEdge	r_0841	false									
+L	inEdge	r_0906	false									
+L	outEdge	r_1996	false									
+MI	s_0532	coenzyme A[m]		true	938.0	1192.0	Center	0.0	0.0			
+L	inEdge	r_0334	true									
+MI				false	2230.0	1157.0	Center	0.0	0.0			
+L	outEdge	r_0119	false									
+MI	s_0397	ADP[m]		false	846.0	1157.0	Center	0.0	0.0			
+L	inEdge	r_0334	false									
+MI	s_0200	3'-dephospho-CoA[m]		false	1341.0	1156.0	Center	0.0	0.0			
+L	outEdge	r_0334	false									
+L	inEdge	r_1997	false									
+MI	s_0807	H2O[m]		true	2139.0	1116.0	Center	0.0	0.0			
+L	outEdge	r_0119	true									
+MI				true	681.0	687.0	Center	0.0	0.0			
+L	outEdge	r_0063	true									
+MI	s_1308	pantetheine 4'-phosphate[m]		false	1790.0	1157.0	Center	0.0	0.0			
+L	inEdge	r_0119	false									
+L	inEdge	r_1996	false									
+L	outEdge	r_1997	false									
+MI	s_0392	adenosine 3',5'-bismonophosphate[m]		true	1885.0	1196.0	Center	0.0	0.0			
+L	inEdge	r_0119	true									
+MI	s_1488	THF[m]		false	633.0	1048.0	Center	0.0	0.0			
+L	inEdge	r_0063	false									
+MI	s_0150	2-dehydropantoate[m]		false	921.0	874.0	Center	0.0	0.0			
+L	inEdge	r_0063	false									
+L	inEdge	r_1568	false									
+MI	s_0307	5,10-methylenetetrahydrofolate[m]		false	636.0	598.0	Center	0.0	0.0			
+L	outEdge	r_0063	false									
+MI	s_0233	3-methyl-2-oxobutanoate[m]		true	562.0	684.0	Center	0.0	0.0			
+L	outEdge	r_0063	true									
+MI	s_1207	NADP(+)[c]		true	1213.0	636.0	Center	0.0	0.0			
+L	inEdge	r_0019	true									
+MI	s_1212	NADPH[c]		true	999.0	636.0	Center	0.0	0.0			
+L	outEdge	r_0019	true									
+MI	s_0030	(R)-pantoate[c]		false	1293.0	600.0	Center	0.0	0.0			
+L	inEdge	r_0019	false									
+L	outEdge	r_0843	false									
+MI	s_0149	2-dehydropantoate[c]		false	920.0	602.0	Center	0.0	0.0			
+L	outEdge	r_0019	false									
+L	outEdge	r_1568	false									

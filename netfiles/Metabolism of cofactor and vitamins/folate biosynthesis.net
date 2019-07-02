@@ -1,0 +1,169 @@
+P	folate biosynthesis	folate biosynthesis	-100	-1	-1							
+R	r_0017	r_0017	folate biosynthesis	1317	1246	false	normal					
+R	r_0066	r_0066	folate biosynthesis	827.5	713.5	false	normal					
+R	r_0067	r_0067	folate biosynthesis	1108	712.5	false	normal					
+R	r_0188	r_0188	folate biosynthesis	1574.5	513.5	false	normal					
+R	r_0344	r_0344	folate biosynthesis	509	1457.5	false	normal					
+R	r_0345	r_0345	folate biosynthesis	163	1475.5	false	normal					
+R	r_0346	r_0346	folate biosynthesis	791	1638	false	normal					
+R	r_0347	r_0347	folate biosynthesis	1575.5	1104	false	normal					
+R	r_0348	r_0348	folate biosynthesis	1790.5	515	false	normal					
+R	r_0350	r_0350	folate biosynthesis	1575	1440.5	false	normal					
+R	r_0351	r_0351	folate biosynthesis	1316	1439.5	false	normal					
+R	r_0524	r_0524	folate biosynthesis	1342	318.5	false	normal					
+R	r_1031	r_1031	folate biosynthesis	507.5	1052	true	normal					
+R	r_1606	r_1606	folate biosynthesis	1259	879	true	normal					
+R	r_1738	r_1738	folate biosynthesis	1575	834	true	normal					
+R	r_1743	r_1743	folate biosynthesis	334.5	1638.5	true	normal					
+R	r_1744	r_1744	folate biosynthesis	1790	321.5	false	normal					
+R	r_1745	r_1745	folate biosynthesis	1323	1635.5	true	normal					
+R	r_4189	r_4189	folate biosynthesis	1834.75	990.25	true	normal					
+E	YOR241W	YOR241W	445.8	1001.5	r_1031							
+E	YKL132C	YKL132C	444.6	994.2	r_1031							
+E	YGR267C	YGR267C	1389.9	270.2	r_0524							
+E	YNL256W	YNL256W	1123.8	1463.8	r_0351							
+E	YNL256W	YNL256W	1640	1486.7	r_0350							
+E	YDL100C	YDL100C	2071.8	547.9	r_0348							
+E	YNL256W	YNL256W	1641	1132.1	r_0347							
+E	YMR113W	YMR113W	744.3	1687.1	r_0346							
+E	YOR236W	YOR236W	121.6	1426.8	r_0345							
+E	YOR236W	YOR236W	427.5	1447.3	r_0344							
+E	YDR481C	YDR481C	1657	546.2	r_0188							
+E	YMR289W	YMR289W	1156.5	661.1	r_0067							
+E	YNR033W	YNR033W	889.9	678.8	r_0066							
+E	YNL256W	YNL256W	1304.2	1295	r_0017							
+E	YHL018W	YHL018W	1895.85	1023.45	r_4189							
+MI	s_0794	H+[c]		true	1920.0	292.0	Center	0.0	0.0			
+L	inEdge	r_1744	true									
+MI				true	413.0	928.0	Center	0.0	0.0			
+L	inEdge	r_1031	true									
+MI				true	1494.0	286.0	Center	0.0	0.0			
+L	inEdge	r_0524	true									
+MI				true	622.0	1602.0	Center	0.0	0.0			
+L	inEdge	r_0346	true									
+MI				true	461.0	1570.0	Center	0.0	0.0			
+L	outEdge	r_0344	true									
+MI				true	1633.0	615.0	Center	0.0	0.0			
+L	inEdge	r_0188	true									
+MI				true	1243.0	669.0	Center	0.0	0.0			
+L	inEdge	r_0067	true									
+MI	s_0633	diphosphate[c]		true	1913.0	361.0	Center	0.0	0.0			
+L	inEdge	r_1744	true									
+MI	s_0803	H2O[c]		true	1683.0	358.0	Center	0.0	0.0			
+L	outEdge	r_1744	true									
+MI				true	1183.0	346.0	Center	0.0	0.0			
+L	outEdge	r_0524	true									
+MI				true	1962.0	403.0	Center	0.0	0.0			
+L	outEdge	r_0348	true									
+MI				true	1534.0	409.0	Center	0.0	0.0			
+L	outEdge	r_0188	true									
+MI	s_1322	phosphate[c]		true	460.0	882.0	Center	0.0	0.0			
+L	inEdge	r_1031	true									
+MI				true	1960.0	627.0	Center	0.0	0.0			
+L	inEdge	r_0348	true									
+MI				true	661.0	1563.0	Center	0.0	0.0			
+L	inEdge	r_0346	true									
+MI				true	1514.0	635.0	Center	0.0	0.0			
+L	inEdge	r_0188	true									
+MI	s_0394	ADP[c]		true	564.0	896.0	Center	0.0	0.0			
+L	inEdge	r_1031	true									
+MI				true	630.0	1681.0	Center	0.0	0.0			
+L	inEdge	r_0346	true									
+MI	s_0434	ATP[c]		true	556.0	1230.0	Center	0.0	0.0			
+L	outEdge	r_1031	true									
+MI				true	930.0	1672.0	Center	0.0	0.0			
+L	outEdge	r_0346	true									
+MI	s_0308	5,6,7,8-tetrahydrofolyl-L-glutamic acid[c]		false	507.0	828.0	Center	0.0	0.0			
+L	inEdge	r_1031	false									
+MI	s_0722	formate[c]		true	1469.0	361.0	Center	0.0	0.0			
+L	inEdge	r_0524	true									
+MI	s_0785	GTP[c]		false	1110.0	317.0	Center	0.0	0.0			
+L	outEdge	r_0524	false									
+MI	s_0636	diphosphate[m]		true	1016.0	1538.0	Center	0.0	0.0			
+L	inEdge	r_0351	true									
+MI	s_0807	H2O[m]		true	1532.0	1554.0	Center	0.0	0.0			
+L	inEdge	r_0350	true									
+MI				true	1791.75	1074.25	Center	0.0	0.0			
+L	inEdge	r_4189	true									
+MI	s_0348	7,8-dihydropteroate[m]		false	1574.0	1634.0	Center	0.0	0.0			
+L	inEdge	r_0350	false									
+L	inEdge	r_0351	false									
+L	inEdge	r_1745	false									
+MI	s_0273	4-aminobenzoate[m]		false	1257.0	1046.0	Center	0.0	0.0			
+L	outEdge	r_0350	false									
+L	outEdge	r_0351	false									
+L	inEdge	r_1606	false									
+MI	s_0345	7,8-dihydroneopterin 3'-phosphate[c]		false	2006.0	323.0	Center	0.0	0.0			
+L	outEdge	r_0348	false									
+L	inEdge	r_1744	false									
+MI	s_0777	glycolaldehyde[m]		true	1519.0	1196.0	Center	0.0	0.0			
+L	inEdge	r_0347	true									
+MI	s_0344	7,8-dihydroneopterin[m]		false	1575.0	961.0	Center	0.0	0.0			
+L	outEdge	r_0347	false									
+L	inEdge	r_1738	false									
+MI	s_0347	7,8-dihydropteroate[c]		false	1072.0	1637.0	Center	0.0	0.0			
+L	outEdge	r_0346	false									
+L	outEdge	r_1745	false									
+MI	s_1210	NADP(+)[m]		true	215.0	1364.0	Center	0.0	0.0			
+L	inEdge	r_0345	true									
+MI	s_1214	NADPH[m]		true	199.0	1586.0	Center	0.0	0.0			
+L	outEdge	r_0345	true									
+MI	s_0799	H+[m]		true	105.0	1581.0	Center	0.0	0.0			
+L	outEdge	r_0345	true									
+MI				true	1170.0	1214.0	Center	0.0	0.0			
+L	inEdge	r_0017	true									
+MI	s_1488	THF[m]		false	167.0	1313.0	Center	0.0	0.0			
+L	inEdge	r_0345	false									
+MI	s_0626	dihydrofolic acid[m]		false	159.0	1638.0	Center	0.0	0.0			
+L	outEdge	r_0345	false									
+L	inEdge	r_1743	false									
+MI	s_1207	NADP(+)[c]		true	561.0	1392.0	Center	0.0	0.0			
+L	inEdge	r_0344	true									
+MI	s_1212	NADPH[c]		true	558.0	1562.0	Center	0.0	0.0			
+L	outEdge	r_0344	true									
+MI	s_1487	THF[c]		false	508.0	1276.0	Center	0.0	0.0			
+L	inEdge	r_0344	false									
+L	outEdge	r_1031	false									
+MI	s_0625	dihydrofolic acid[c]		false	510.0	1639.0	Center	0.0	0.0			
+L	outEdge	r_0344	false									
+L	inEdge	r_0346	false									
+L	outEdge	r_1743	false									
+MI	s_0343	7,8-dihydroneopterin[c]		false	1575.0	707.0	Center	0.0	0.0			
+L	inEdge	r_0188	false									
+L	inEdge	r_0348	false									
+L	outEdge	r_1738	false									
+MI	s_0346	7,8-dihydroneopterin 3'-triphosphate[c]		false	1574.0	320.0	Center	0.0	0.0			
+L	outEdge	r_0188	false									
+L	inEdge	r_0524	false									
+L	outEdge	r_1744	false									
+MI	s_1399	pyruvate[c]		true	1197.0	741.0	Center	0.0	0.0			
+L	inEdge	r_0067	true									
+MI	s_0271	4-aminobenzoate[c]		false	1261.0	712.0	Center	0.0	0.0			
+L	inEdge	r_0067	false									
+L	outEdge	r_1606	false									
+MI	s_0991	L-glutamate[c]		true	854.0	1111.0	Center	0.0	0.0			
+L	inEdge	r_0066	true									
+L	outEdge	r_0346	true									
+L	outEdge	r_1031	true									
+MI	s_0269	4-amino-4-deoxychorismate[c]		false	955.0	713.0	Center	0.0	0.0			
+L	inEdge	r_0066	false									
+L	outEdge	r_0067	false									
+MI	s_0999	L-glutamine[c]		true	756.0	757.0	Center	0.0	0.0			
+L	outEdge	r_0066	true									
+MI	s_0515	chorismate[c]		false	700.0	714.0	Center	0.0	0.0			
+L	outEdge	r_0066	false									
+MI	s_0424	AMP[m]		true	1169.0	1284.0	Center	0.0	0.0			
+L	inEdge	r_0017	true									
+MI	s_0437	ATP[m]		true	1479.0	1279.0	Center	0.0	0.0			
+L	outEdge	r_0017	true									
+MI	s_0006	(2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl trihydrogen diphosphate[m]		false	1058.0	1245.0	Center	0.0	0.0			
+L	inEdge	r_0017	false									
+L	outEdge	r_0351	false									
+MI	s_0148	2-amino-6-(hydroxymethyl)-7,8-dihydropteridin-4-ol[m]		false	1576.0	1247.0	Center	0.0	0.0			
+L	outEdge	r_0017	false									
+L	inEdge	r_0347	false									
+L	outEdge	r_0350	false									
+MI	s_3811	4a-Hydroxytetrahydrobiopterin[m]		false	1833.75	818.25	Center	0.0	0.0			
+L	outEdge	r_4189	false									
+MI	s_3812	Dihydrobiopterin[m]		false	1835.75	1162.25	Center	0.0	0.0			
+L	inEdge	r_4189	false									
