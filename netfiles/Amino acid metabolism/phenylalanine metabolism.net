@@ -1,0 +1,95 @@
+P	phenylalanine metabolism	phenylalanine metabolism	-100	-1	-1							
+R	r_0169	r_0169	phenylalanine metabolism	100	125	false	normal					
+R	r_0170	r_0170	phenylalanine metabolism	100	475	false	normal					
+R	r_0171	r_0171	phenylalanine metabolism	100	125	false	normal					
+R	r_0185	r_0185	phenylalanine metabolism	100	575	false	normal					
+R	r_0854	r_0854	phenylalanine metabolism	100	750	false	normal					
+R	r_1591	r_1591	phenylalanine metabolism	100	325	true	normal					
+R	r_2003	r_2003	phenylalanine metabolism	100	275	true	normal					
+R	r_4227	r_4227	phenylalanine metabolism	150	1450	true	normal					
+R	r_4340	r_4340	phenylalanine metabolism	200	2150	true	normal					
+R	r_4568	r_4568	phenylalanine metabolism	150	1750	false	normal					
+E	YEL066W	YEL066W	201.7	2397.3	r_4340							
+E	YDR242W	YDR242W	204.3	2049.2	r_4227							
+E	YDR380W	YDR380W	204.4	1602.8	r_0854							
+E	YMR170C	YMR170C	99.7	1347.4	r_0185							
+E	YMR169C	YMR169C	99.9	1349	r_0185							
+E	YMR318C	YMR318C	96.9	996.8	r_0171							
+E	YCR105W	YCR105W	97.3	1004.2	r_0171							
+E	YMR083W	YMR083W	104.3	752.6	r_0170							
+E	YGL256W	YGL256W	97.5	751	r_0170							
+E	YOL086C	YOL086C	102.8	401.6	r_0169							
+E	YDL168W	YDL168W	101.7	402.6	r_0169							
+E	YBR145W	YBR145W	97.1	399.3	r_0169							
+MI	s_0794	H+[c]		true	200	2500	Center	0.0	0.0			
+L	outEdge	r_4568	true									
+MI				true	200	2300	Center	0.0	0.0			
+L	inEdge	r_4340	true									
+MI				true	100	1450	Center	0.0	0.0			
+L	outEdge	r_0854	true									
+MI				true	100	1200	Center	0.0	0.0			
+L	inEdge	r_0185	true									
+MI				true	100	800	Center	0.0	0.0			
+L	outEdge	r_0171	true									
+MI				true	100	200	Center	0.0	0.0			
+L	outEdge	r_0169	true									
+MI	s_4194	4-hydroxyphenyl acetate[c]		false	200	2450	Center	0.0	0.0			
+L	inEdge	r_4568	false									
+MI	s_0529	coenzyme A[c]		true	200	2250	Center	0.0	0.0			
+L	inEdge	r_4340	true									
+MI	s_4033	[protein]-N(6)-acetyl-L-lysine[c]		false	200	2200	Center	0.0	0.0			
+L	inEdge	r_4340	false									
+MI	s_4032	[protein]-L-lysine[c]		true	200	2150	Center	0.0	0.0			
+L	outEdge	r_4340	true									
+MI	s_0373	acetyl-CoA[c]		false	200	2100	Center	0.0	0.0			
+L	outEdge	r_4340	false									
+MI	s_0803	H2O[c]		true	200	1950	Center	0.0	0.0			
+L	outEdge	r_4227	true									
+MI				true	100	1100	Center	0.0	0.0			
+L	outEdge	r_0185	true									
+MI	s_0419	ammonium[c]		true	200	1900	Center	0.0	0.0			
+L	inEdge	r_4227	true									
+MI	s_3867	2-Phenylacetamide[c]		false	200	1850	Center	0.0	0.0			
+L	outEdge	r_4227	false									
+MI	s_0456	carbon dioxide[c]		true	100	1500	Center	0.0	0.0			
+L	inEdge	r_0854	true									
+MI	s_0951	keto-phenylpyruvate[c]		false	100	1400	Center	0.0	0.0			
+L	outEdge	r_0854	false									
+MI	s_1203	NADH[c]		true	100	1250	Center	0.0	0.0			
+L	inEdge	r_0185	true									
+MI				true	100	250	Center	0.0	0.0			
+L	outEdge	r_0169	true									
+MI	s_1198	NAD[c]		true	100	1150	Center	0.0	0.0			
+L	outEdge	r_0185	true									
+MI				true	100	300	Center	0.0	0.0			
+L	inEdge	r_0169	true									
+MI	s_1321	phenylacetic acid[c]		false	100	1050	Center	0.0	0.0			
+L	inEdge	r_0185	false									
+L	inEdge	r_4227	false									
+L	outEdge	r_4568	false									
+MI	s_1207	NADP(+)[c]		true	100	900	Center	0.0	0.0			
+L	inEdge	r_0171	true									
+MI	s_1212	NADPH[c]		true	100	850	Center	0.0	0.0			
+L	outEdge	r_0171	true									
+MI	s_1200	NAD[m]		true	100	650	Center	0.0	0.0			
+L	inEdge	r_0170	true									
+MI	s_1205	NADH[m]		true	100	600	Center	0.0	0.0			
+L	outEdge	r_0170	true									
+MI	s_0799	H+[m]		true	100	550	Center	0.0	0.0			
+L	outEdge	r_0170	true									
+MI	s_0187	2-phenylethanol[m]		false	100	500	Center	0.0	0.0			
+L	inEdge	r_0170	false									
+L	outEdge	r_1591	false									
+MI	s_1320	phenylacetaldehyde[m]		false	100	450	Center	0.0	0.0			
+L	outEdge	r_0170	false									
+L	inEdge	r_2003	false									
+MI	s_0185	2-phenylethanol[c]		false	100	150	Center	0.0	0.0			
+L	inEdge	r_0169	false									
+L	inEdge	r_0171	false									
+L	inEdge	r_1591	false									
+MI	s_1318	phenylacetaldehyde[c]		false	100	100	Center	0.0	0.0			
+L	outEdge	r_0169	false									
+L	outEdge	r_0171	false									
+L	outEdge	r_0185	false									
+L	inEdge	r_0854	false									
+L	outEdge	r_2003	false									

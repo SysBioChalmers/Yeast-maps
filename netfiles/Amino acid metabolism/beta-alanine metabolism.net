@@ -1,0 +1,50 @@
+P	beta-alanine metabolism	beta-alanine metabolism	-100	-1	-1							
+R	r_0172	r_0172	beta-alanine metabolism	100	125	false	normal					
+R	r_4572	r_4572	beta-alanine metabolism	100	525	true	normal					
+R	r_4573	r_4573	beta-alanine metabolism	100	775	false	normal					
+R	r_4574	r_4574	beta-alanine metabolism	100	950	false	normal					
+E	YMR170C	YMR170C	103	454.9	r_0172							
+E	YMR169C	YMR169C	100.9	448.2	r_0172							
+E	YMR110C	YMR110C	104	445.5	r_0172							
+MI	s_1212	NADPH[c]		true	100	1350	Center	0.0	0.0			
+L	inEdge	r_4574	true									
+MI	s_0456	carbon dioxide[c]		true	100	1300	Center	0.0	0.0			
+L	inEdge	r_4574	true									
+MI				true	100	950	Center	0.0	0.0			
+L	inEdge	r_4573	true									
+MI	s_4184	3-oxopropanoate[c]		true	100	1250	Center	0.0	0.0			
+L	outEdge	r_4574	true									
+MI				true	100	900	Center	0.0	0.0			
+L	outEdge	r_4573	true									
+MI				true	100	600	Center	0.0	0.0			
+L	inEdge	r_4572	true									
+MI	s_1207	NADP(+)[c]		true	100	1200	Center	0.0	0.0			
+L	outEdge	r_4574	true									
+MI	s_0529	coenzyme A[c]		false	100	1150	Center	0.0	0.0			
+L	outEdge	r_4574	false									
+MI				false	100	800	Center	0.0	0.0			
+L	outEdge	r_4573	false									
+MI	s_1203	NADH[c]		true	100	1000	Center	0.0	0.0			
+L	inEdge	r_4573	true									
+MI				true	100	350	Center	0.0	0.0			
+L	inEdge	r_0172	true									
+MI	s_1198	NAD[c]		true	100	850	Center	0.0	0.0			
+L	outEdge	r_4573	true									
+MI				true	100	250	Center	0.0	0.0			
+L	outEdge	r_0172	true									
+MI	s_0373	acetyl-CoA[c]		false	100	750	Center	0.0	0.0			
+L	inEdge	r_4573	false									
+L	inEdge	r_4574	false									
+MI	s_0991	L-glutamate[c]		false	100	550	Center	0.0	0.0			
+L	inEdge	r_4572	false									
+MI	s_0180	2-oxoglutarate[c]		false	100	500	Center	0.0	0.0			
+L	outEdge	r_4572	false									
+MI	s_0794	H+[c]		true	100	300	Center	0.0	0.0			
+L	inEdge	r_0172	true									
+MI	s_0803	H2O[c]		true	100	200	Center	0.0	0.0			
+L	outEdge	r_0172	true									
+MI	s_0441	beta-alanine[c]		true	100	150	Center	0.0	0.0			
+L	inEdge	r_0172	true									
+L	outEdge	r_4572	true									
+MI	s_0208	3-aminopropanal[c]		false	100	100	Center	0.0	0.0			
+L	outEdge	r_0172	false									
