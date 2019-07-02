@@ -1,0 +1,153 @@
+P	ubiquinone and other terpenoid-quinone biosynthesis	ubiquinone and other terpenoid-quinone biosynthesis	-100	-1	-1							
+R	r_0021	r_0021	ubiquinone and other terpenoid-quinone biosynthesis	3337	1992.5	false	normal					
+R	r_0022	r_0022	ubiquinone and other terpenoid-quinone biosynthesis	3602	2112.5	false	normal					
+R	r_0043	r_0043	ubiquinone and other terpenoid-quinone biosynthesis	2672	1537.5	false	normal					
+R	r_0044	r_0044	ubiquinone and other terpenoid-quinone biosynthesis	3137	2227.5	false	normal					
+R	r_0070	r_0070	ubiquinone and other terpenoid-quinone biosynthesis	2712	857.5	false	normal					
+R	r_0461	r_0461	ubiquinone and other terpenoid-quinone biosynthesis	3022	822.5	false	normal					
+R	r_0532	r_0532	ubiquinone and other terpenoid-quinone biosynthesis	3327	1622.5	false	normal					
+R	r_0555	r_0555	ubiquinone and other terpenoid-quinone biosynthesis	2402	1122.5	false	normal					
+R	r_0963	r_0963	ubiquinone and other terpenoid-quinone biosynthesis	3072	1807.5	false	normal					
+R	r_0985	r_0985	ubiquinone and other terpenoid-quinone biosynthesis	2672	2067.5	false	normal					
+R	r_1100	r_1100	ubiquinone and other terpenoid-quinone biosynthesis	2672	1792.5	true	normal					
+R	r_1601	r_1601	ubiquinone and other terpenoid-quinone biosynthesis	2672	1262.5	true	normal					
+R	r_1611	r_1611	ubiquinone and other terpenoid-quinone biosynthesis	2342	762.5	true	normal					
+R	r_1685	r_1685	ubiquinone and other terpenoid-quinone biosynthesis	2522	632.5	false	normal					
+R	r_1978	r_1978	ubiquinone and other terpenoid-quinone biosynthesis	3057	1502.5	true	normal					
+E	YOR125C	YOR125C	2613.1	2114.3	r_0985							
+E	YOL096C	YOL096C	2613.6	2113.4	r_0985							
+E	YML110C	YML110C	2622.6	2111.3	r_0985							
+E	YLR201C	YLR201C	2615.8	2114.4	r_0985							
+E	YGR255C	YGR255C	2613.8	2109.8	r_0985							
+E	YGL119W	YGL119W	2613.9	2109.8	r_0985							
+E	YDR204W	YDR204W	2621.6	2111.9	r_0985							
+E	YOR125C	YOR125C	3003	1758.1	r_0963							
+E	YOL096C	YOL096C	3008.7	1756.7	r_0963							
+E	YML110C	YML110C	3009.9	1757.2	r_0963							
+E	YLR201C	YLR201C	3005	1757	r_0963							
+E	YGR255C	YGR255C	3007.2	1755.2	r_0963							
+E	YGL119W	YGL119W	3003	1751	r_0963							
+E	YDR204W	YDR204W	3007.5	1757.8	r_0963							
+E	YNR041C	YNR041C	2473.4	1169	r_0555							
+E	YOR125C	YOR125C	3404.1	1596.8	r_0532							
+E	YOL096C	YOL096C	3405.1	1595.7	r_0532							
+E	YML110C	YML110C	3405.1	1597.7	r_0532							
+E	YLR201C	YLR201C	3407.1	1592.7	r_0532							
+E	YGR255C	YGR255C	3404.2	1601.4	r_0532							
+E	YGL119W	YGL119W	3406.3	1595.6	r_0532							
+E	YDR204W	YDR204W	3407.6	1592.5	r_0532							
+E	YDR539W	YDR539W	3211.7	2185.7	r_0044							
+E	YDR538W	YDR538W	3217	2181.2	r_0044							
+E	YDR376W	YDR376W	2604.7	1580.2	r_0043							
+E	YPL252C	YPL252C	2602.2	1583.9	r_0043							
+E	YOR125C	YOR125C	3532.2	2088.4	r_0022							
+E	YOL096C	YOL096C	3536.7	2091.7	r_0022							
+E	YML110C	YML110C	3536	2092.5	r_0022							
+E	YLR201C	YLR201C	3528.9	2089.3	r_0022							
+E	YGR255C	YGR255C	3531.4	2090.6	r_0022							
+E	YGL119W	YGL119W	3528.1	2089.7	r_0022							
+E	YDR204W	YDR204W	3534.4	2090.2	r_0022							
+E	YOR125C	YOR125C	3222.4	2033.7	r_0021							
+E	YOL096C	YOL096C	3219.7	2036.6	r_0021							
+E	YML110C	YML110C	3219.4	2029.5	r_0021							
+E	YLR201C	YLR201C	3223.7	2037.5	r_0021							
+E	YGR255C	YGR255C	3220.6	2037.4	r_0021							
+E	YGL119W	YGL119W	3217.7	2037.3	r_0021							
+E	YDR204W	YDR204W	3219.2	2033.1	r_0021							
+MI	s_1399	pyruvate[c]		true	2422.0	591.5	Center	0.0	0.0			
+L	inEdge	r_1685	true									
+MI	s_0286	4-hydroxybenzoate[c]		false	2342.0	632.5	Center	0.0	0.0			
+L	outEdge	r_1611	false									
+L	inEdge	r_1685	false									
+MI	s_0515	chorismate[c]		false	2702.0	632.5	Center	0.0	0.0			
+L	outEdge	r_1685	false									
+MI	s_0799	H+[m]		true	2721.0	2177.5	Center	0.0	0.0			
+L	inEdge	r_0985	true									
+MI				true	3122.0	1912.5	Center	0.0	0.0			
+L	outEdge	r_0963	true									
+MI				true	3202.0	1652.5	Center	0.0	0.0			
+L	outEdge	r_0532	true									
+MI				true	2652.0	932.5	Center	0.0	0.0			
+L	inEdge	r_0070	true									
+MI				true	2965.0	2184.5	Center	0.0	0.0			
+L	outEdge	r_0044	true									
+MI				true	3172.0	1962.5	Center	0.0	0.0			
+L	inEdge	r_0021	true									
+MI	s_0213	3-hexaprenyl-4,5-dihydroxybenzoic acid[m]		false	2672.0	1912.5	Center	0.0	0.0			
+L	outEdge	r_0985	false									
+L	inEdge	r_1100	false									
+MI	s_1200	NAD[m]		true	3114.0	1689.5	Center	0.0	0.0			
+L	inEdge	r_0963	true									
+MI	s_0807	H2O[m]		true	3031.0	1697.5	Center	0.0	0.0			
+L	inEdge	r_0963	true									
+MI				true	2652.0	812.5	Center	0.0	0.0			
+L	outEdge	r_0070	true									
+MI				true	3542.0	2032.5	Center	0.0	0.0			
+L	inEdge	r_0022	true									
+MI	s_1205	NADH[m]		true	3028.0	1913.5	Center	0.0	0.0			
+L	outEdge	r_0963	true									
+MI	s_0636	diphosphate[m]		true	2553.0	1087.5	Center	0.0	0.0			
+L	inEdge	r_0555	true									
+MI	s_0216	3-hexaprenyl-4-hydroxybenzoic acid[m]		false	2672.0	1122.5	Center	0.0	0.0			
+L	inEdge	r_0555	false									
+L	inEdge	r_1601	false									
+MI	s_0831	hexaprenyl diphosphate[m]		false	2132.0	1122.5	Center	0.0	0.0			
+L	outEdge	r_0555	false									
+MI	s_1535	ubiquinol-6[m]		false	3582.0	1622.5	Center	0.0	0.0			
+L	inEdge	r_0532	false									
+MI	s_0154	2-hexaprenyl-5-hydroxy-6-methoxy-3-methyl-1,4-benzoquinone[m]		false	3072.0	1622.5	Center	0.0	0.0			
+L	outEdge	r_0532	false									
+L	inEdge	r_0963	false									
+MI	s_0633	diphosphate[c]		true	2956.0	914.5	Center	0.0	0.0			
+L	inEdge	r_0461	true									
+MI	s_1311	pentaprenyl diphosphate[c]		false	3022.0	992.5	Center	0.0	0.0			
+L	inEdge	r_0461	false									
+MI	s_0943	isopentenyl diphosphate[c]		true	2932.0	732.5	Center	0.0	0.0			
+L	outEdge	r_0461	true									
+MI	s_0189	geranylgeranyl diphosphate[c]		false	3022.0	652.5	Center	0.0	0.0			
+L	outEdge	r_0461	false									
+MI	s_0532	coenzyme A[m]		false	2712.0	1002.5	Center	0.0	0.0			
+L	inEdge	r_0070	false									
+MI	s_0287	4-hydroxybenzoate[m]		false	2342.0	892.5	Center	0.0	0.0			
+L	inEdge	r_0070	false									
+L	outEdge	r_0555	false									
+L	inEdge	r_1611	false									
+MI	s_0290	4-hydroxybenzoyl-CoA[m]		false	2712.0	712.5	Center	0.0	0.0			
+L	outEdge	r_0070	false									
+MI	s_0460	carbon dioxide[m]		true	3352.0	2182.5	Center	0.0	0.0			
+L	inEdge	r_0044	true									
+MI	s_0214	3-hexaprenyl-4-hydroxy-5-methoxybenzoic acid[m]		false	2672.0	2222.5	Center	0.0	0.0			
+L	outEdge	r_0044	false									
+L	inEdge	r_0985	false									
+MI	s_0212	3-hexaprenyl-4,5-dihydroxybenzoic acid[c]		false	2672.0	1672.5	Center	0.0	0.0			
+L	inEdge	r_0043	false									
+L	outEdge	r_1100	false									
+MI	s_1275	oxygen[c]		false	2882.0	1502.5	Center	0.0	0.0			
+L	outEdge	r_0043	false									
+L	outEdge	r_1978	false									
+MI	s_0215	3-hexaprenyl-4-hydroxybenzoic acid[c]		false	2672.0	1402.5	Center	0.0	0.0			
+L	outEdge	r_0043	false									
+L	outEdge	r_1601	false									
+MI	s_1278	oxygen[m]		false	3232.0	1502.5	Center	0.0	0.0			
+L	inEdge	r_1978	false									
+MI				true	3137.0	1859.5	Center	0.0	0.0			
+L	outEdge	r_0963	true									
+MI				true	3662.0	2162.5	Center	0.0	0.0			
+L	outEdge	r_0022	true									
+MI	s_0157	2-hexaprenyl-6-methoxyphenol[m]		false	3602.0	2232.5	Center	0.0	0.0			
+L	outEdge	r_0022	false									
+L	inEdge	r_0044	false									
+MI	s_1415	S-adenosyl-L-homocysteine[m]		true	3382.0	1902.5	Center	0.0	0.0			
+L	inEdge	r_0021	true									
+L	inEdge	r_0532	true									
+L	inEdge	r_0985	true									
+MI	s_0156	2-hexaprenyl-6-methoxy-3-methyl-1,4-benzoquinone[m]		false	3072.0	1992.5	Center	0.0	0.0			
+L	inEdge	r_0021	false									
+L	outEdge	r_0963	false									
+MI	s_1419	S-adenosyl-L-methionine[m]		true	2812.0	1552.5	Center	0.0	0.0			
+L	outEdge	r_0021	true									
+L	outEdge	r_0532	true									
+L	outEdge	r_0985	true									
+MI	s_0155	2-hexaprenyl-6-methoxy-1,4-benzoquinone[m]		false	3602.0	1992.5	Center	0.0	0.0			
+L	outEdge	r_0021	false									
+L	inEdge	r_0022	false									
