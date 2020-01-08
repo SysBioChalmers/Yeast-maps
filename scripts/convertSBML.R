@@ -17,18 +17,18 @@ require(SBMLR)
 
 #install.packages("xml2")
 require(xml2)
-install.packages("readr")
+#install.packages("readr")
 require(readr)
 
 # == CHOOSE SUBSYSTEM ==
-# subsystem = "pyruvate metabolism"
-subsystem = "carbon metabolism"
+main_subsystem = "Lipid metabolism"
+subsystem = "glycerolipid metabolism or glycerophospholipid metabolism"
 # == LOAD DATA ==
 
 # Load subsystem maps in SBML format
 PATH = "~/Documents/PhD/Yeast-maps/"
 setwd(PATH)
-PATH_xml = paste(PATH,"SBMLfiles/Carbohydrate metabolism/",subsystem,".xml",sep = "")
+PATH_xml = paste(PATH,"SBMLfiles/",main_subsystem,"/",subsystem,".xml",sep = "")
 subsystem_xml = read_xml(PATH_xml)
 subsystem_list = as_list(subsystem_xml)
 
@@ -335,6 +335,8 @@ if(!is.null(index_duplicate)){ # Remove all incorrectly labeled duplicates
 test = c()
 # Add yeast model IDs
 for (i in 1:length(met_list)) {
+  print(i)
+  print(yeastGEM_met$`REPLACEMENT ID`[which(yeastGEM_met$Metabolite.description == attributes(met_list[[i]])$Name)])
   attributes(met_list[[i]])$ModelID = yeastGEM_met$`REPLACEMENT ID`[which(yeastGEM_met$Metabolite.description == attributes(met_list[[i]])$Name)]
   test[i] = yeastGEM_met$`REPLACEMENT ID`[which(yeastGEM_met$Metabolite.description == attributes(met_list[[i]])$Name)]
 }
@@ -353,6 +355,8 @@ met_df = data.frame(matrix(NA, nrow = 1, ncol = 13)) # Create empty data frame, 
 
 row_index = 1
 for (i in 1:length(met_list)) {
+  #print(paste("i=",i,sep = ""))
+  print(i)
   print(attributes(met_list[[i]])$Name)
   for (j in 1:length(met_list[[i]])) {
     print(j)
@@ -367,6 +371,7 @@ for (i in 1:length(met_list)) {
       met_df[row_index,8] = "Center"
       met_df[row_index,9] = "0.0"
       met_df[row_index,10] = "0.0"
+      #print("pass")
     }
     else{
       met_df[row_index,1] = "MI"
@@ -379,6 +384,7 @@ for (i in 1:length(met_list)) {
       met_df[row_index,8] = "Center"
       met_df[row_index,9] = "0.0"
       met_df[row_index,10] = "0.0"
+      #print("pass")
     }
     row_index = row_index + 1
     for (k in 1:length(met_list[[i]][[j]])) {
@@ -391,7 +397,6 @@ for (i in 1:length(met_list)) {
       row_index = row_index + 1
     }
   }
-  print(i)
 }
 
 # Convert data frame values to character
@@ -405,7 +410,7 @@ met_df[] <- lapply(met_df, as.character)
 library(dplyr)
 dfToExport = bind_rows(pathway_df,rxn_df,gene_df,met_df)
 
-write.table(dfToExport, file = paste(PATH,"netfiles/",subsystem,".net",sep = ""), append = FALSE, quote = FALSE, sep = "\t",
+write.table(dfToExport, file = paste(PATH,"netfiles/", subsystem,".net",sep = ""), append = FALSE, quote = FALSE, sep = "\t",
             eol = "\n", na = "", dec = ".", row.names = FALSE,
             col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
