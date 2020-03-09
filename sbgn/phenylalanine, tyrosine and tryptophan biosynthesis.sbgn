@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+  <map language="process description">
+    <glyph class="simple chemical" id="ID1">
+      <label text="YHR137W"/>
+      <bbox h="30.0" w="60.0" x="575.5416822999216" y="2186.687763291448"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID2">
+      <label text="YHR137W"/>
+      <bbox h="30.0" w="60.0" x="181.70718924178618" y="2698.3670155760706"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID3">
+      <label text="YHR137W"/>
+      <bbox h="30.0" w="60.0" x="-236.60642557365725" y="2493.65393012581"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID4">
+      <label text="YGL202W"/>
+      <bbox h="30.0" w="60.0" x="996.607359323099" y="2560.5124040025667"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID5">
+      <label text="YGL202W"/>
+      <bbox h="30.0" w="60.0" x="-674.154192909326" y="3119.783113377699"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID6">
+      <label text="YGL026C"/>
+      <bbox h="30.0" w="60.0" x="958.6185806940825" y="1860.1950153813268"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID7">
+      <label text="YDR127W"/>
+      <bbox h="30.0" w="60.0" x="203.43286778160132" y="872.0747083055294"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID8">
+      <label text="YDR127W"/>
+      <bbox h="30.0" w="60.0" x="750.594584227726" y="872.2836750431283"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID9">
+      <label text="YDR127W"/>
+      <bbox h="30.0" w="60.0" x="-492.2951233554207" y="948.2204117206378"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID10">
+      <label text="YDR127W"/>
+      <bbox h="30.0" w="60.0" x="436.07698827005333" y="609.1619599387642"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID11">
+      <label text="YDR127W"/>
+      <bbox h="30.0" w="60.0" x="998.723892437959" y="746.5673305801026"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID12">
+      <label text="YBR166C"/>
+      <bbox h="30.0" w="60.0" x="-73.61859534707708" y="2188.84613635205"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID13">
+      <label text="YNL316C"/>
+      <bbox h="30.0" w="60.0" x="-580.503310845924" y="2314.5034519778737"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID14">
+      <label text="YDR007W"/>
+      <bbox h="30.0" w="60.0" x="723.7974280947083" y="1280.2122260122223"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID15">
+      <label text="YKL211C"/>
+      <bbox h="30.0" w="60.0" x="1001.816738906637" y="1451.689285050522"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID16">
+      <label text="YKL211C"/>
+      <bbox h="30.0" w="60.0" x="-171.26046043589957" y="1780.1269251117847"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID17">
+      <label text="YGL148W"/>
+      <bbox h="30.0" w="60.0" x="-312.2951233554206" y="1430.844671153528"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID18">
+      <label text="YPR060C"/>
+      <bbox h="30.0" w="60.0" x="-479.871795471135" y="1903.649517263864"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID19">
+      <label text="YER090W"/>
+      <bbox h="30.0" w="60.0" x="-111.26046043589957" y="1780.1269251117847"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID20">
+      <label text="YDR354W"/>
+      <bbox h="30.0" w="60.0" x="525.1974047296148" y="1446.8301759609058"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID21">
+      <label text="YDR035W"/>
+      <bbox h="30.0" w="60.0" x="-430.5878589843021" y="458.7968327379848"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID22">
+      <label text="YDR035W"/>
+      <bbox h="30.0" w="60.0" x="-306.2531680039443" y="210.00000000000003"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID23">
+      <label text="YBR249C"/>
+      <bbox h="30.0" w="60.0" x="-370.5878589843021" y="458.7968327379848"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID24">
+      <label text="YBR249C"/>
+      <bbox h="30.0" w="60.0" x="-366.2531680039443" y="210.00000000000003"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID25">
+      <label text="s_1051"/>
+      <bbox h="40.0" w="60.0" x="776.2" y="2108.8"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID26">
+      <label text="s_0955"/>
+      <bbox h="40.0" w="60.0" x="-157.0" y="2349.5"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID27">
+      <label text="s_0855"/>
+      <bbox h="40.0" w="60.0" x="575.9" y="2768.4"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID28">
+      <label text="s_0803"/>
+      <bbox h="40.0" w="60.0" x="1181.1" y="2035.6999999999998"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID29">
+      <label text="s_0803"/>
+      <bbox h="40.0" w="60.0" x="-760.5" y="2399.5"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID30">
+      <label text="s_0803"/>
+      <bbox h="40.0" w="60.0" x="1181.8" y="1536.7"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID31">
+      <label text="s_0803"/>
+      <bbox h="40.0" w="60.0" x="-490.6" y="618.8"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID32">
+      <label text="s_0803"/>
+      <bbox h="40.0" w="60.0" x="1178.7" y="831.6"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID33">
+      <label text="s_1048"/>
+      <bbox h="40.0" w="60.0" x="1090.3" y="2243.2"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID34">
+      <label text="s_0764"/>
+      <bbox h="40.0" w="60.0" x="1285.6" y="1945.7"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID35">
+      <label text="s_1039"/>
+      <bbox h="40.0" w="60.0" x="890.0" y="1945.7"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID36">
+      <label text="s_0794"/>
+      <bbox h="40.0" w="60.0" x="113.4" y="1032.1"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID37">
+      <label text="s_0794"/>
+      <bbox h="40.0" w="60.0" x="840.6" y="1032.3"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID38">
+      <label text="s_0794"/>
+      <bbox h="40.0" w="60.0" x="-760.5" y="2219.5"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID39">
+      <label text="s_0794"/>
+      <bbox h="40.0" w="60.0" x="1181.8" y="1356.7"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID40">
+      <label text="s_0794"/>
+      <bbox h="40.0" w="60.0" x="72.1" y="1643.6"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID41">
+      <label text="s_0394"/>
+      <bbox h="40.0" w="60.0" x="109.4" y="1093.4"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID42">
+      <label text="s_0434"/>
+      <bbox h="40.0" w="60.0" x="293.4" y="1032.1"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID43">
+      <label text="s_1207"/>
+      <bbox h="40.0" w="60.0" x="660.6" y="1032.3"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID44">
+      <label text="s_1207"/>
+      <bbox h="40.0" w="60.0" x="-163.6" y="2018.8"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID45">
+      <label text="s_1212"/>
+      <bbox h="40.0" w="60.0" x="844.7" y="1087.8"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID46">
+      <label text="s_1212"/>
+      <bbox h="40.0" w="60.0" x="16.4" y="2018.8"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID47">
+      <label text="s_1429"/>
+      <bbox h="40.0" w="60.0" x="488.20000000000005" y="942.1"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID48">
+      <label text="s_0456"/>
+      <bbox h="40.0" w="60.0" x="17.9" y="1958.2"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID49">
+      <label text="s_0456"/>
+      <bbox h="40.0" w="60.0" x="-760.5" y="2449.5"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID50">
+      <label text="s_0456"/>
+      <bbox h="40.0" w="60.0" x="1181.8" y="1586.7"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID51">
+      <label text="s_0204"/>
+      <bbox h="40.0" w="60.0" x="217.7" y="2108.8"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID52">
+      <label text="s_0951"/>
+      <bbox h="40.0" w="60.0" x="-674.2" y="2568.0"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID53">
+      <label text="s_0951"/>
+      <bbox h="40.0" w="60.0" x="181.7" y="2915.6"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID54">
+      <label text="s_1032"/>
+      <bbox h="40.0" w="60.0" x="-157.0" y="2768.4"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID55">
+      <label text="s_0180"/>
+      <bbox h="40.0" w="60.0" x="1090.3" y="3039.8"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID56">
+      <label text="s_0086"/>
+      <bbox h="40.0" w="60.0" x="1090.3" y="1683.9"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID57">
+      <label text="s_0076"/>
+      <bbox h="40.0" w="60.0" x="1090.3" y="1200.2"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID58">
+      <label text="s_1322"/>
+      <bbox h="40.0" w="60.0" x="-492.3" y="1515.8"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID59">
+      <label text="s_1322"/>
+      <bbox h="40.0" w="60.0" x="-312.3" y="1033.2"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID60">
+      <label text="s_1322"/>
+      <bbox h="40.0" w="60.0" x="-310.6" y="618.8"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID61">
+      <label text="s_1322"/>
+      <bbox h="40.0" w="60.0" x="526.1" y="439.2"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID62">
+      <label text="s_1377"/>
+      <bbox h="40.0" w="60.0" x="-402.3" y="2108.8"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID63">
+      <label text="s_1399"/>
+      <bbox h="40.0" w="60.0" x="-194.076359065047" y="1551.0860508592614"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID64">
+      <label text="s_1399"/>
+      <bbox h="40.0" w="60.0" x="575.5" y="1857.9"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID65">
+      <label text="s_1399"/>
+      <bbox h="40.0" w="60.0" x="89.9" y="2568.0"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID66">
+      <label text="s_0991"/>
+      <bbox h="40.0" w="60.0" x="-37.86086980163006" y="1480.596195524117"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID67">
+      <label text="s_0991"/>
+      <bbox h="40.0" w="60.0" x="-898.4" y="3039.8"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID68">
+      <label text="s_0991"/>
+      <bbox h="40.0" w="60.0" x="1316.6" y="2474.7"/>
+      <clone/>
+    </glyph>
+    <glyph class="simple chemical" id="ID69">
+      <label text="s_0999"/>
+      <bbox h="40.0" w="60.0" x="-37.503622965127136" y="1889.9810692822116"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID70">
+      <label text="s_0515"/>
+      <bbox h="40.0" w="60.0" x="-402.3" y="1707.6"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID71">
+      <label text="s_0633"/>
+      <bbox h="40.0" w="60.0" x="345.2" y="1351.8"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID72">
+      <label text="s_1187"/>
+      <bbox h="40.0" w="60.0" x="435.2" y="1200.2"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID73">
+      <label text="s_1386"/>
+      <bbox h="40.0" w="60.0" x="188.89800700668064" y="1440.8022643532045"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID74">
+      <label text="s_0427"/>
+      <bbox h="40.0" w="60.0" x="435.2" y="1707.6"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID75">
+      <label text="s_0324"/>
+      <bbox h="40.0" w="60.0" x="-402.3" y="1182.7"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID76">
+      <label text="s_0261"/>
+      <bbox h="40.0" w="60.0" x="-138.0" y="942.1"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID77">
+      <label text="s_1360"/>
+      <bbox h="40.0" w="60.0" x="-402.3" y="741.6"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID78">
+      <label text="s_0551"/>
+      <bbox h="40.0" w="60.0" x="-810.6" y="529.2"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID79">
+      <label text="s_0349"/>
+      <bbox h="40.0" w="60.0" x="69.3" y="529.2"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID80">
+      <label text="s_0211"/>
+      <bbox h="40.0" w="60.0" x="1088.7" y="942.1"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID81">
+      <label text="s_0210"/>
+      <bbox h="40.0" w="60.0" x="1088.7" y="529.2"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID82">
+      <label text="s_1326"/>
+      <bbox h="40.0" w="60.0" x="-246.3" y="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID83">
+      <label text="s_0807"/>
+      <bbox h="40.0" w="60.0" x="-426.3" y="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID84">
+      <label text="s_0350"/>
+      <bbox h="40.0" w="60.0" x="69.3" y="130.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID85">
+      <label text="s_1361"/>
+      <bbox h="40.0" w="60.0" x="-336.3786110926002" y="-91.92786859721915"/>
+    </glyph>
+    <glyph class="simple chemical" id="ID86">
+      <label text="s_0552"/>
+      <bbox h="40.0" w="60.0" x="-810.6" y="130.0"/>
+    </glyph>
+    <glyph class="process" id="ID87">
+      <label text="r_0020"/>
+      <bbox h="60.0" w="60.0" x="-336.3" y="120.0"/>
+      <port id="ID87.1" x="-366.3" y="150.0"/>
+      <port id="ID87.2" x="-246.3" y="150.0"/>
+    </glyph>
+    <glyph class="process" id="ID93">
+      <label text="r_0039"/>
+      <bbox h="60.0" w="60.0" x="1088.7" y="731.6"/>
+      <port id="ID93.1" x="1058.7" y="761.6"/>
+      <port id="ID93.2" x="1178.7" y="761.6"/>
+    </glyph>
+    <glyph class="process" id="ID97">
+      <label text="r_0040"/>
+      <bbox h="60.0" w="60.0" x="436.1" y="519.2"/>
+      <port id="ID97.1" x="406.1" y="549.2"/>
+      <port id="ID97.2" x="526.1" y="549.2"/>
+    </glyph>
+    <glyph class="process" id="ID101">
+      <label text="r_0042"/>
+      <bbox h="60.0" w="60.0" x="-402.3" y="519.2"/>
+      <port id="ID101.1" x="-432.3" y="549.2"/>
+      <port id="ID101.2" x="-312.3" y="549.2"/>
+    </glyph>
+    <glyph class="process" id="ID107">
+      <label text="r_0065"/>
+      <bbox h="60.0" w="60.0" x="-402.3" y="932.1"/>
+      <port id="ID107.1" x="-432.3" y="962.1"/>
+      <port id="ID107.2" x="-312.3" y="962.1"/>
+    </glyph>
+    <glyph class="process" id="ID112">
+      <label text="r_0202"/>
+      <bbox h="60.0" w="60.0" x="435.2" y="1431.8"/>
+      <port id="ID112.1" x="405.2" y="1461.8"/>
+      <port id="ID112.2" x="525.2" y="1461.8"/>
+    </glyph>
+    <glyph class="process" id="ID117">
+      <label text="r_0203"/>
+      <bbox h="60.0" w="60.0" x="-37.4" y="1697.6"/>
+      <port id="ID117.1" x="-67.4" y="1727.6"/>
+      <port id="ID117.2" x="52.6" y="1727.6"/>
+    </glyph>
+    <glyph class="process" id="ID124">
+      <label text="r_0278"/>
+      <bbox h="60.0" w="60.0" x="-402.3" y="1888.6"/>
+      <port id="ID124.1" x="-432.3" y="1918.6"/>
+      <port id="ID124.2" x="-312.3" y="1918.6"/>
+    </glyph>
+    <glyph class="process" id="ID127">
+      <label text="r_0279"/>
+      <bbox h="60.0" w="60.0" x="-402.3" y="1415.8"/>
+      <port id="ID127.1" x="-432.3" y="1445.8"/>
+      <port id="ID127.2" x="-312.3" y="1445.8"/>
+    </glyph>
+    <glyph class="process" id="ID131">
+      <label text="r_0566"/>
+      <bbox h="60.0" w="60.0" x="1090.3" y="1436.7"/>
+      <port id="ID131.1" x="1060.3" y="1466.7"/>
+      <port id="ID131.2" x="1180.3" y="1466.7"/>
+    </glyph>
+    <glyph class="process" id="ID137">
+      <label text="r_0851"/>
+      <bbox h="60.0" w="60.0" x="-674.2" y="3029.8"/>
+      <port id="ID137.1" x="-704.2" y="3059.8"/>
+      <port id="ID137.2" x="-584.2" y="3059.8"/>
+    </glyph>
+    <glyph class="process" id="ID142">
+      <label text="r_0913"/>
+      <bbox h="60.0" w="60.0" x="723.8" y="1190.2"/>
+      <port id="ID142.1" x="693.8" y="1220.2"/>
+      <port id="ID142.2" x="813.8" y="1220.2"/>
+    </glyph>
+    <glyph class="process" id="ID145">
+      <label text="r_0938"/>
+      <bbox h="60.0" w="60.0" x="-674.2" y="2299.5"/>
+      <port id="ID145.1" x="-704.2" y="2329.5"/>
+      <port id="ID145.2" x="-584.2" y="2329.5"/>
+    </glyph>
+    <glyph class="process" id="ID151">
+      <label text="r_0939"/>
+      <bbox h="60.0" w="60.0" x="-73.6" y="2098.8"/>
+      <port id="ID151.1" x="-103.6" y="2128.8"/>
+      <port id="ID151.2" x="16.4" y="2128.8"/>
+    </glyph>
+    <glyph class="process" id="ID157">
+      <label text="r_0996"/>
+      <bbox h="60.0" w="60.0" x="750.6" y="932.1"/>
+      <port id="ID157.1" x="720.6" y="962.1"/>
+      <port id="ID157.2" x="840.6" y="962.1"/>
+    </glyph>
+    <glyph class="process" id="ID163">
+      <label text="r_0997"/>
+      <bbox h="60.0" w="60.0" x="203.4" y="932.1"/>
+      <port id="ID163.1" x="173.4" y="962.1"/>
+      <port id="ID163.2" x="293.4" y="962.1"/>
+    </glyph>
+    <glyph class="process" id="ID169">
+      <label text="r_1055"/>
+      <bbox h="60.0" w="60.0" x="1090.3" y="1935.7"/>
+      <port id="ID169.1" x="1060.3" y="1965.7"/>
+      <port id="ID169.2" x="1180.3" y="1965.7"/>
+    </glyph>
+    <glyph class="process" id="ID175">
+      <label text="r_1056"/>
+      <bbox h="60.0" w="60.0" x="1090.3" y="2464.7"/>
+      <port id="ID175.1" x="1060.3" y="2494.7"/>
+      <port id="ID175.2" x="1180.3" y="2494.7"/>
+    </glyph>
+    <glyph class="process" id="ID180">
+      <label text="r_1567"/>
+      <bbox h="60.0" w="60.0" x="69.3" y="312.6"/>
+      <port id="ID180.1" x="39.3" y="342.6"/>
+      <port id="ID180.2" x="159.3" y="342.6"/>
+    </glyph>
+    <glyph class="process" id="ID183">
+      <label text="r_1708"/>
+      <bbox h="60.0" w="60.0" x="-810.6" y="312.6"/>
+      <port id="ID183.1" x="-840.6" y="342.6"/>
+      <port id="ID183.2" x="-720.6" y="342.6"/>
+    </glyph>
+    <glyph class="process" id="ID186">
+      <label text="r_2117"/>
+      <bbox h="60.0" w="60.0" x="-157.0" y="2558.0"/>
+      <port id="ID186.1" x="-187.0" y="2588.0"/>
+      <port id="ID186.2" x="-67.0" y="2588.0"/>
+    </glyph>
+    <glyph class="process" id="ID191">
+      <label text="r_2118"/>
+      <bbox h="60.0" w="60.0" x="181.7" y="2758.4"/>
+      <port id="ID191.1" x="151.7" y="2788.4"/>
+      <port id="ID191.2" x="271.7" y="2788.4"/>
+    </glyph>
+    <glyph class="process" id="ID196">
+      <label text="r_2119"/>
+      <bbox h="60.0" w="60.0" x="575.5" y="2098.8"/>
+      <port id="ID196.1" x="545.5" y="2128.8"/>
+      <port id="ID196.2" x="665.5" y="2128.8"/>
+    </glyph>
+    <arc class="consumption" id="ID88" source="ID83" target="ID87.1">
+      <start x="-396.3" y="60.0"/>
+      <end x="-396.3" y="60.0"/>
+    </arc>
+    <arc class="consumption" id="ID89" source="ID85" target="ID87.1">
+      <start x="-306.3786110926002" y="-71.92786859721915"/>
+      <end x="-306.3786110926002" y="-71.92786859721915"/>
+    </arc>
+    <arc class="consumption" id="ID90" source="ID86" target="ID87.1">
+      <start x="-780.6" y="150.0"/>
+      <end x="-780.6" y="150.0"/>
+    </arc>
+    <arc class="production" id="ID91" source="ID87.2" target="ID82">
+      <start x="-246.3" y="150.0"/>
+      <end x="-246.3" y="150.0"/>
+    </arc>
+    <arc class="production" id="ID92" source="ID87.2" target="ID84">
+      <start x="-246.3" y="150.0"/>
+      <end x="-246.3" y="150.0"/>
+    </arc>
+    <arc class="consumption" id="ID94" source="ID81" target="ID93.1">
+      <start x="1118.7" y="549.2"/>
+      <end x="1118.7" y="549.2"/>
+    </arc>
+    <arc class="production" id="ID95" source="ID93.2" target="ID32">
+      <start x="1178.7" y="761.6"/>
+      <end x="1178.7" y="761.6"/>
+    </arc>
+    <arc class="production" id="ID96" source="ID93.2" target="ID80">
+      <start x="1178.7" y="761.6"/>
+      <end x="1178.7" y="761.6"/>
+    </arc>
+    <arc class="consumption" id="ID98" source="ID79" target="ID97.1">
+      <start x="99.3" y="549.2"/>
+      <end x="99.3" y="549.2"/>
+    </arc>
+    <arc class="production" id="ID99" source="ID97.2" target="ID61">
+      <start x="526.1" y="549.2"/>
+      <end x="526.1" y="549.2"/>
+    </arc>
+    <arc class="production" id="ID100" source="ID97.2" target="ID81">
+      <start x="526.1" y="549.2"/>
+      <end x="526.1" y="549.2"/>
+    </arc>
+    <arc class="consumption" id="ID102" source="ID31" target="ID101.1">
+      <start x="-460.6" y="638.8"/>
+      <end x="-460.6" y="638.8"/>
+    </arc>
+    <arc class="consumption" id="ID103" source="ID77" target="ID101.1">
+      <start x="-372.3" y="761.6"/>
+      <end x="-372.3" y="761.6"/>
+    </arc>
+    <arc class="consumption" id="ID104" source="ID78" target="ID101.1">
+      <start x="-780.6" y="549.2"/>
+      <end x="-780.6" y="549.2"/>
+    </arc>
+    <arc class="production" id="ID105" source="ID101.2" target="ID60">
+      <start x="-312.3" y="549.2"/>
+      <end x="-312.3" y="549.2"/>
+    </arc>
+    <arc class="production" id="ID106" source="ID101.2" target="ID79">
+      <start x="-312.3" y="549.2"/>
+      <end x="-312.3" y="549.2"/>
+    </arc>
+    <arc class="consumption" id="ID108" source="ID76" target="ID107.1">
+      <start x="-108.0" y="962.1"/>
+      <end x="-108.0" y="962.1"/>
+    </arc>
+    <arc class="consumption" id="ID109" source="ID77" target="ID107.1">
+      <start x="-372.3" y="761.6"/>
+      <end x="-372.3" y="761.6"/>
+    </arc>
+    <arc class="production" id="ID110" source="ID107.2" target="ID59">
+      <start x="-312.3" y="962.1"/>
+      <end x="-312.3" y="962.1"/>
+    </arc>
+    <arc class="production" id="ID111" source="ID107.2" target="ID75">
+      <start x="-312.3" y="962.1"/>
+      <end x="-312.3" y="962.1"/>
+    </arc>
+    <arc class="consumption" id="ID113" source="ID73" target="ID112.1">
+      <start x="218.89800700668064" y="1460.8022643532045"/>
+      <end x="218.89800700668064" y="1460.8022643532045"/>
+    </arc>
+    <arc class="consumption" id="ID114" source="ID74" target="ID112.1">
+      <start x="465.2" y="1727.6"/>
+      <end x="465.2" y="1727.6"/>
+    </arc>
+    <arc class="production" id="ID115" source="ID112.2" target="ID71">
+      <start x="525.2" y="1461.8"/>
+      <end x="525.2" y="1461.8"/>
+    </arc>
+    <arc class="production" id="ID116" source="ID112.2" target="ID72">
+      <start x="525.2" y="1461.8"/>
+      <end x="525.2" y="1461.8"/>
+    </arc>
+    <arc class="consumption" id="ID118" source="ID69" target="ID117.1">
+      <start x="-7.503622965127136" y="1909.9810692822116"/>
+      <end x="-7.503622965127136" y="1909.9810692822116"/>
+    </arc>
+    <arc class="consumption" id="ID119" source="ID70" target="ID117.1">
+      <start x="-372.3" y="1727.6"/>
+      <end x="-372.3" y="1727.6"/>
+    </arc>
+    <arc class="production" id="ID120" source="ID117.2" target="ID40">
+      <start x="52.6" y="1727.6"/>
+      <end x="52.6" y="1727.6"/>
+    </arc>
+    <arc class="production" id="ID121" source="ID117.2" target="ID63">
+      <start x="52.6" y="1727.6"/>
+      <end x="52.6" y="1727.6"/>
+    </arc>
+    <arc class="production" id="ID122" source="ID117.2" target="ID66">
+      <start x="52.6" y="1727.6"/>
+      <end x="52.6" y="1727.6"/>
+    </arc>
+    <arc class="production" id="ID123" source="ID117.2" target="ID74">
+      <start x="52.6" y="1727.6"/>
+      <end x="52.6" y="1727.6"/>
+    </arc>
+    <arc class="consumption" id="ID125" source="ID70" target="ID124.1">
+      <start x="-372.3" y="1727.6"/>
+      <end x="-372.3" y="1727.6"/>
+    </arc>
+    <arc class="production" id="ID126" source="ID124.2" target="ID62">
+      <start x="-312.3" y="1918.6"/>
+      <end x="-312.3" y="1918.6"/>
+    </arc>
+    <arc class="consumption" id="ID128" source="ID75" target="ID127.1">
+      <start x="-372.3" y="1202.7"/>
+      <end x="-372.3" y="1202.7"/>
+    </arc>
+    <arc class="production" id="ID129" source="ID127.2" target="ID58">
+      <start x="-312.3" y="1445.8"/>
+      <end x="-312.3" y="1445.8"/>
+    </arc>
+    <arc class="production" id="ID130" source="ID127.2" target="ID70">
+      <start x="-312.3" y="1445.8"/>
+      <end x="-312.3" y="1445.8"/>
+    </arc>
+    <arc class="consumption" id="ID132" source="ID39" target="ID131.1">
+      <start x="1211.8" y="1376.7"/>
+      <end x="1211.8" y="1376.7"/>
+    </arc>
+    <arc class="consumption" id="ID133" source="ID57" target="ID131.1">
+      <start x="1120.3" y="1220.2"/>
+      <end x="1120.3" y="1220.2"/>
+    </arc>
+    <arc class="production" id="ID134" source="ID131.2" target="ID30">
+      <start x="1180.3" y="1466.7"/>
+      <end x="1180.3" y="1466.7"/>
+    </arc>
+    <arc class="production" id="ID135" source="ID131.2" target="ID50">
+      <start x="1180.3" y="1466.7"/>
+      <end x="1180.3" y="1466.7"/>
+    </arc>
+    <arc class="production" id="ID136" source="ID131.2" target="ID56">
+      <start x="1180.3" y="1466.7"/>
+      <end x="1180.3" y="1466.7"/>
+    </arc>
+    <arc class="consumption" id="ID138" source="ID54" target="ID137.1">
+      <start x="-127.0" y="2788.4"/>
+      <next x="-433.68" y="2788.37"/>
+      <end x="-127.0" y="2788.4"/>
+    </arc>
+    <arc class="consumption" id="ID139" source="ID55" target="ID137.1">
+      <start x="1120.3" y="3059.8"/>
+      <end x="1120.3" y="3059.8"/>
+    </arc>
+    <arc class="production" id="ID140" source="ID137.2" target="ID52">
+      <start x="-584.2" y="3059.8"/>
+      <end x="-584.2" y="3059.8"/>
+    </arc>
+    <arc class="production" id="ID141" source="ID137.2" target="ID67">
+      <start x="-584.2" y="3059.8"/>
+      <end x="-584.2" y="3059.8"/>
+    </arc>
+    <arc class="consumption" id="ID143" source="ID72" target="ID142.1">
+      <start x="465.2" y="1220.2"/>
+      <end x="465.2" y="1220.2"/>
+    </arc>
+    <arc class="production" id="ID144" source="ID142.2" target="ID57">
+      <start x="813.8" y="1220.2"/>
+      <end x="813.8" y="1220.2"/>
+    </arc>
+    <arc class="consumption" id="ID146" source="ID38" target="ID145.1">
+      <start x="-730.5" y="2239.5"/>
+      <end x="-730.5" y="2239.5"/>
+    </arc>
+    <arc class="consumption" id="ID147" source="ID62" target="ID145.1">
+      <start x="-372.3" y="2128.8"/>
+      <next x="-644.15" y="2128.85"/>
+      <end x="-372.3" y="2128.8"/>
+    </arc>
+    <arc class="production" id="ID148" source="ID145.2" target="ID29">
+      <start x="-584.2" y="2329.5"/>
+      <end x="-584.2" y="2329.5"/>
+    </arc>
+    <arc class="production" id="ID149" source="ID145.2" target="ID49">
+      <start x="-584.2" y="2329.5"/>
+      <end x="-584.2" y="2329.5"/>
+    </arc>
+    <arc class="production" id="ID150" source="ID145.2" target="ID52">
+      <start x="-584.2" y="2329.5"/>
+      <end x="-584.2" y="2329.5"/>
+    </arc>
+    <arc class="consumption" id="ID152" source="ID44" target="ID151.1">
+      <start x="-133.6" y="2038.8"/>
+      <end x="-133.6" y="2038.8"/>
+    </arc>
+    <arc class="consumption" id="ID153" source="ID62" target="ID151.1">
+      <start x="-372.3" y="2128.8"/>
+      <end x="-372.3" y="2128.8"/>
+    </arc>
+    <arc class="production" id="ID154" source="ID151.2" target="ID46">
+      <start x="16.4" y="2128.8"/>
+      <end x="16.4" y="2128.8"/>
+    </arc>
+    <arc class="production" id="ID155" source="ID151.2" target="ID48">
+      <start x="16.4" y="2128.8"/>
+      <end x="16.4" y="2128.8"/>
+    </arc>
+    <arc class="production" id="ID156" source="ID151.2" target="ID51">
+      <start x="16.4" y="2128.8"/>
+      <end x="16.4" y="2128.8"/>
+    </arc>
+    <arc class="consumption" id="ID158" source="ID37" target="ID157.1">
+      <start x="870.6" y="1052.3"/>
+      <end x="870.6" y="1052.3"/>
+    </arc>
+    <arc class="consumption" id="ID159" source="ID45" target="ID157.1">
+      <start x="874.7" y="1107.8"/>
+      <end x="874.7" y="1107.8"/>
+    </arc>
+    <arc class="consumption" id="ID160" source="ID80" target="ID157.1">
+      <start x="1118.7" y="962.1"/>
+      <end x="1118.7" y="962.1"/>
+    </arc>
+    <arc class="production" id="ID161" source="ID157.2" target="ID43">
+      <start x="840.6" y="962.1"/>
+      <end x="840.6" y="962.1"/>
+    </arc>
+    <arc class="production" id="ID162" source="ID157.2" target="ID47">
+      <start x="840.6" y="962.1"/>
+      <end x="840.6" y="962.1"/>
+    </arc>
+    <arc class="consumption" id="ID164" source="ID42" target="ID163.1">
+      <start x="323.4" y="1052.1"/>
+      <end x="323.4" y="1052.1"/>
+    </arc>
+    <arc class="consumption" id="ID165" source="ID47" target="ID163.1">
+      <start x="518.2" y="962.1"/>
+      <end x="518.2" y="962.1"/>
+    </arc>
+    <arc class="production" id="ID166" source="ID163.2" target="ID36">
+      <start x="293.4" y="962.1"/>
+      <end x="293.4" y="962.1"/>
+    </arc>
+    <arc class="production" id="ID167" source="ID163.2" target="ID41">
+      <start x="293.4" y="962.1"/>
+      <end x="293.4" y="962.1"/>
+    </arc>
+    <arc class="production" id="ID168" source="ID163.2" target="ID76">
+      <start x="293.4" y="962.1"/>
+      <end x="293.4" y="962.1"/>
+    </arc>
+    <arc class="consumption" id="ID170" source="ID35" target="ID169.1">
+      <start x="920.0" y="1965.7"/>
+      <end x="920.0" y="1965.7"/>
+    </arc>
+    <arc class="consumption" id="ID171" source="ID56" target="ID169.1">
+      <start x="1120.3" y="1703.9"/>
+      <end x="1120.3" y="1703.9"/>
+    </arc>
+    <arc class="production" id="ID172" source="ID169.2" target="ID28">
+      <start x="1180.3" y="1965.7"/>
+      <end x="1180.3" y="1965.7"/>
+    </arc>
+    <arc class="production" id="ID173" source="ID169.2" target="ID33">
+      <start x="1180.3" y="1965.7"/>
+      <end x="1180.3" y="1965.7"/>
+    </arc>
+    <arc class="production" id="ID174" source="ID169.2" target="ID34">
+      <start x="1180.3" y="1965.7"/>
+      <end x="1180.3" y="1965.7"/>
+    </arc>
+    <arc class="consumption" id="ID176" source="ID33" target="ID175.1">
+      <start x="1120.3" y="2263.2"/>
+      <end x="1120.3" y="2263.2"/>
+    </arc>
+    <arc class="consumption" id="ID177" source="ID55" target="ID175.1">
+      <start x="1120.3" y="3059.8"/>
+      <end x="1120.3" y="3059.8"/>
+    </arc>
+    <arc class="production" id="ID178" source="ID175.2" target="ID27">
+      <start x="1180.3" y="2494.7"/>
+      <next x="807.86" y="2494.69"/>
+      <end x="1180.3" y="2494.7"/>
+    </arc>
+    <arc class="production" id="ID179" source="ID175.2" target="ID68">
+      <start x="1180.3" y="2494.7"/>
+      <end x="1180.3" y="2494.7"/>
+    </arc>
+    <arc class="consumption" id="ID181" source="ID79" target="ID180.1">
+      <start x="99.3" y="549.2"/>
+      <end x="99.3" y="549.2"/>
+    </arc>
+    <arc class="production" id="ID182" source="ID180.2" target="ID84">
+      <start x="159.3" y="342.6"/>
+      <end x="159.3" y="342.6"/>
+    </arc>
+    <arc class="consumption" id="ID184" source="ID78" target="ID183.1">
+      <start x="-780.6" y="549.2"/>
+      <end x="-780.6" y="549.2"/>
+    </arc>
+    <arc class="production" id="ID185" source="ID183.2" target="ID86">
+      <start x="-720.6" y="342.6"/>
+      <end x="-720.6" y="342.6"/>
+    </arc>
+    <arc class="consumption" id="ID187" source="ID54" target="ID186.1">
+      <start x="-127.0" y="2788.4"/>
+      <end x="-127.0" y="2788.4"/>
+    </arc>
+    <arc class="consumption" id="ID188" source="ID65" target="ID186.1">
+      <start x="119.9" y="2588.0"/>
+      <end x="119.9" y="2588.0"/>
+    </arc>
+    <arc class="production" id="ID189" source="ID186.2" target="ID26">
+      <start x="-67.0" y="2588.0"/>
+      <end x="-67.0" y="2588.0"/>
+    </arc>
+    <arc class="production" id="ID190" source="ID186.2" target="ID52">
+      <start x="-67.0" y="2588.0"/>
+      <end x="-67.0" y="2588.0"/>
+    </arc>
+    <arc class="consumption" id="ID192" source="ID33" target="ID191.1">
+      <start x="1120.3" y="2263.2"/>
+      <next x="734.6" y="2263.24"/>
+      <end x="1120.3" y="2263.2"/>
+    </arc>
+    <arc class="consumption" id="ID193" source="ID53" target="ID191.1">
+      <start x="211.7" y="2935.6"/>
+      <end x="211.7" y="2935.6"/>
+    </arc>
+    <arc class="production" id="ID194" source="ID191.2" target="ID27">
+      <start x="271.7" y="2788.4"/>
+      <end x="271.7" y="2788.4"/>
+    </arc>
+    <arc class="production" id="ID195" source="ID191.2" target="ID54">
+      <start x="271.7" y="2788.4"/>
+      <end x="271.7" y="2788.4"/>
+    </arc>
+    <arc class="consumption" id="ID197" source="ID26" target="ID196.1">
+      <start x="-127.0" y="2369.5"/>
+      <end x="-127.0" y="2369.5"/>
+    </arc>
+    <arc class="consumption" id="ID198" source="ID51" target="ID196.1">
+      <start x="247.7" y="2128.8"/>
+      <end x="247.7" y="2128.8"/>
+    </arc>
+    <arc class="production" id="ID199" source="ID196.2" target="ID25">
+      <start x="665.5" y="2128.8"/>
+      <end x="665.5" y="2128.8"/>
+    </arc>
+    <arc class="production" id="ID200" source="ID196.2" target="ID64">
+      <start x="665.5" y="2128.8"/>
+      <end x="665.5" y="2128.8"/>
+    </arc>
+  </map>
+</sbgn>
