@@ -1,3 +1,150 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:12af3fa5beedabfea7725a4b53e0ee230d6b556e7b59fcab109304c4c640e8d1
-size 6013
+<?xml version='1.0' encoding='UTF-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="carnitine_metabolism" version="http://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3">
+    <glyph class="simple chemical" id="met1">
+      <label text="(R)-carnitine"/>
+      <bbox x="440.9" y="345.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met2">
+      <label text="acetyl-CoA"/>
+      <bbox x="530.9" y="345.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met3">
+      <label text="O-acetylcarnitine"/>
+      <bbox x="440.9" y="765.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met4">
+      <label text="coenzyme A"/>
+      <bbox x="401.9" y="608.0" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met5">
+      <label text="(R)-carnitine"/>
+      <bbox x="740.9" y="445.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met6">
+      <label text="acetyl-CoA"/>
+      <bbox x="740.9" y="535.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met7">
+      <label text="O-acetylcarnitine"/>
+      <bbox x="1161.0" y="445.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met8">
+      <label text="coenzyme A"/>
+      <bbox x="1013.9" y="520.0" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met9">
+      <label text="O-acetylcarnitine"/>
+      <bbox x="740.9" y="745.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met10">
+      <label text="(R)-carnitine"/>
+      <bbox x="1161.0" y="745.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met11">
+      <label text="acetyl-CoA"/>
+      <bbox x="1161.0" y="835.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met12">
+      <label text="coenzyme A"/>
+      <bbox x="933.9" y="820.0" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene1">
+      <label text="YAT1 / YAR035W"/>
+      <bbox x="525.9" y="560.0" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene2">
+      <label text="YAT2 / YER024W"/>
+      <bbox x="585.9" y="560.0" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene3">
+      <label text="CAT2 / YML042W"/>
+      <bbox x="950.9" y="380.0" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene4">
+      <label text="CAT2 / YML042W"/>
+      <bbox x="950.9" y="680.0" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_0252">
+      <label text="r_0252"/>
+      <bbox x="455.9" y="560.0" w="30.0" h="30.0"/>
+      <port id="process_r_0252.1" x="473.1" y="550.1"/>
+      <port id="process_r_0252.2" x="468.7" y="599.9"/>
+    </glyph>
+    <glyph class="process" id="process_r_0253">
+      <label text="r_0253"/>
+      <bbox x="965.9" y="450.0" w="30.0" h="30.0"/>
+      <port id="process_r_0253.1" x="956.0" y="462.8"/>
+      <port id="process_r_0253.2" x="1005.8" y="467.2"/>
+    </glyph>
+    <glyph class="process" id="process_r_0254">
+      <label text="r_0254"/>
+      <bbox x="965.9" y="750.0" w="30.0" h="30.0"/>
+      <port id="process_r_0254.1" x="956.0" y="767.2"/>
+      <port id="process_r_0254.2" x="1005.8" y="762.8"/>
+    </glyph>
+    <arc class="consumption" id="process_r_0252_c0" source="met1" target="process_r_0252.1">
+      <start x="470.9" y="387.0"/>
+      <end x="473.1" y="550.1"/>
+    </arc>
+    <arc class="consumption" id="process_r_0252_c1" source="met2" target="process_r_0252.1">
+      <start x="528.9" y="365.0"/>
+      <next x="470.9" y="365.0"/>
+      <end x="473.1" y="550.1"/>
+    </arc>
+    <arc class="production" id="process_r_0252_p2" source="process_r_0252.2" target="met3">
+      <start x="468.7" y="599.9"/>
+      <end x="470.9" y="763.0"/>
+    </arc>
+    <arc class="production" id="process_r_0252_p3" source="process_r_0252.2" target="met4">
+      <start x="468.7" y="599.9"/>
+      <end x="417.3" y="609.6"/>
+    </arc>
+    <arc class="catalysis" id="process_r_0252_e0" source="gene1" target="process_r_0252">
+      <start x="525.9" y="575.0"/>
+      <end x="500.9" y="575.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_0253_c0" source="met5" target="process_r_0253.1">
+      <start x="802.9" y="465.0"/>
+      <end x="956.0" y="462.8"/>
+    </arc>
+    <arc class="consumption" id="process_r_0253_c1" source="met6" target="process_r_0253.1">
+      <start x="770.9" y="533.0"/>
+      <next x="770.9" y="465.0"/>
+      <end x="956.0" y="462.8"/>
+    </arc>
+    <arc class="production" id="process_r_0253_p2" source="process_r_0253.2" target="met7">
+      <start x="1005.8" y="467.2"/>
+      <end x="1159.0" y="465.0"/>
+    </arc>
+    <arc class="production" id="process_r_0253_p3" source="process_r_0253.2" target="met8">
+      <start x="1005.8" y="467.2"/>
+      <end x="1015.5" y="518.6"/>
+    </arc>
+    <arc class="catalysis" id="process_r_0253_e0" source="gene3" target="process_r_0253">
+      <start x="980.9" y="410.0"/>
+      <end x="980.9" y="435.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_0254_c0" source="met9" target="process_r_0254.1">
+      <start x="802.9" y="765.0"/>
+      <end x="956.0" y="767.2"/>
+    </arc>
+    <arc class="production" id="process_r_0254_p1" source="process_r_0254.2" target="met10">
+      <start x="1005.8" y="762.8"/>
+      <end x="1159.0" y="765.0"/>
+    </arc>
+    <arc class="production" id="process_r_0254_p2" source="process_r_0254.2" target="met11">
+      <start x="1005.8" y="762.8"/>
+      <next x="1191.0" y="765.0"/>
+      <end x="1191.0" y="833.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_0254_c3" source="met12" target="process_r_0254.1">
+      <start x="946.3" y="818.6"/>
+      <end x="956.0" y="767.2"/>
+    </arc>
+    <arc class="catalysis" id="process_r_0254_e0" source="gene4" target="process_r_0254">
+      <start x="980.9" y="710.0"/>
+      <end x="980.9" y="735.0"/>
+    </arc>
+  </map>
+</sbgn>

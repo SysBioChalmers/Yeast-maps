@@ -1,3 +1,149 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:560717b7ca8f9b120939b5f0b4092c37346c75163480b47375a9ef5e2c5b4cd0
-size 5874
+<?xml version='1.0' encoding='UTF-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="cyclic_nucleotide_metabolism" version="http://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3">
+    <glyph class="simple chemical" id="met1">
+      <label text="2',3'-cyclic AMP"/>
+      <bbox x="821.5" y="345.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met2">
+      <label text="adenosine 2'-phosphate"/>
+      <bbox x="821.5" y="765.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met3">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="782.5" y="528.0" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met4">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="782.5" y="608.0" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met5">
+      <label text="2',3'-cyclic UMP"/>
+      <bbox x="1121.5" y="345.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met6">
+      <label text="uridine 2'-phosphate"/>
+      <bbox x="1121.5" y="765.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met7">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="1082.5" y="528.0" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met8">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="1082.5" y="608.0" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met9">
+      <label text="2',3'-cyclic CMP"/>
+      <bbox x="821.5" y="1045.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met10">
+      <label text="cytidine 2'-phosphate"/>
+      <bbox x="1241.5" y="1045.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met11">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="1014.5" y="1120.0" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met12">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="1094.5" y="1120.0" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene1">
+      <label text="CPD1 / YGR247W"/>
+      <bbox x="906.5" y="560.0" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene2">
+      <label text="CPD1 / YGR247W"/>
+      <bbox x="1206.5" y="560.0" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene3">
+      <label text="CPD1 / YGR247W"/>
+      <bbox x="1031.5" y="980.0" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_0155">
+      <label text="r_0155"/>
+      <bbox x="836.5" y="560.0" w="30.0" h="30.0"/>
+      <port id="process_r_0155.1" x="851.5" y="550.0"/>
+      <port id="process_r_0155.2" x="851.5" y="600.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_4372">
+      <label text="r_4372"/>
+      <bbox x="1136.5" y="560.0" w="30.0" h="30.0"/>
+      <port id="process_r_4372.1" x="1151.5" y="550.0"/>
+      <port id="process_r_4372.2" x="1151.5" y="600.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_4388">
+      <label text="r_4388"/>
+      <bbox x="1046.5" y="1050.0" w="30.0" h="30.0"/>
+      <port id="process_r_4388.1" x="1036.5" y="1065.0"/>
+      <port id="process_r_4388.2" x="1086.5" y="1065.0"/>
+    </glyph>
+    <arc class="consumption" id="process_r_0155_c0" source="met1" target="process_r_0155.1">
+      <start x="851.5" y="387.0"/>
+      <end x="851.5" y="550.0"/>
+    </arc>
+    <arc class="production" id="process_r_0155_p1" source="process_r_0155.2" target="met2">
+      <start x="851.5" y="600.0"/>
+      <end x="851.5" y="763.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_0155_c2" source="met3" target="process_r_0155.1">
+      <start x="797.9" y="540.4"/>
+      <end x="851.5" y="550.0"/>
+    </arc>
+    <arc class="production" id="process_r_0155_p3" source="process_r_0155.2" target="met4">
+      <start x="851.5" y="600.0"/>
+      <end x="797.9" y="609.6"/>
+    </arc>
+    <arc class="catalysis" id="process_r_0155_e0" source="gene1" target="process_r_0155">
+      <start x="906.5" y="575.0"/>
+      <end x="881.5" y="575.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_4372_c0" source="met5" target="process_r_4372.1">
+      <start x="1151.5" y="387.0"/>
+      <end x="1151.5" y="550.0"/>
+    </arc>
+    <arc class="production" id="process_r_4372_p1" source="process_r_4372.2" target="met6">
+      <start x="1151.5" y="600.0"/>
+      <end x="1151.5" y="763.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_4372_c2" source="met7" target="process_r_4372.1">
+      <start x="1097.9" y="540.4"/>
+      <end x="1151.5" y="550.0"/>
+    </arc>
+    <arc class="production" id="process_r_4372_p3" source="process_r_4372.2" target="met8">
+      <start x="1151.5" y="600.0"/>
+      <end x="1097.9" y="609.6"/>
+    </arc>
+    <arc class="catalysis" id="process_r_4372_e0" source="gene2" target="process_r_4372">
+      <start x="1206.5" y="575.0"/>
+      <end x="1181.5" y="575.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_4388_c0" source="met9" target="process_r_4388.1">
+      <start x="883.5" y="1065.0"/>
+      <end x="1036.5" y="1065.0"/>
+    </arc>
+    <arc class="production" id="process_r_4388_p1" source="process_r_4388.2" target="met10">
+      <start x="1086.5" y="1065.0"/>
+      <end x="1239.5" y="1065.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_4388_c2" source="met11" target="process_r_4388.1">
+      <start x="1026.9" y="1118.6"/>
+      <end x="1036.5" y="1065.0"/>
+    </arc>
+    <arc class="production" id="process_r_4388_p3" source="process_r_4388.2" target="met12">
+      <start x="1086.5" y="1065.0"/>
+      <end x="1096.1" y="1118.6"/>
+    </arc>
+    <arc class="catalysis" id="process_r_4388_e0" source="gene3" target="process_r_4388">
+      <start x="1061.5" y="1010.0"/>
+      <end x="1061.5" y="1035.0"/>
+    </arc>
+  </map>
+</sbgn>

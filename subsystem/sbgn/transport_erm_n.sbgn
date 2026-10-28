@@ -1,3 +1,181 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3bdfa1ef21463f367cc2fd373236ffc4ad94d37253c67ea5f823e771ffd34356
-size 7925
+<?xml version='1.0' encoding='UTF-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="transport_erm_n" version="http://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3">
+    <glyph class="simple chemical" id="met1">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)"/>
+      <bbox x="468.9" y="574.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met2">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)"/>
+      <bbox x="898.9" y="574.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met3">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)"/>
+      <bbox x="468.9" y="660.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met4">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)"/>
+      <bbox x="898.9" y="660.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met5">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)"/>
+      <bbox x="468.9" y="746.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met6">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)"/>
+      <bbox x="898.9" y="746.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met7">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)"/>
+      <bbox x="468.9" y="832.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met8">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)"/>
+      <bbox x="898.9" y="832.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met9">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)"/>
+      <bbox x="468.9" y="918.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met10">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)"/>
+      <bbox x="898.9" y="918.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met11">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)"/>
+      <bbox x="468.9" y="1004.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met12">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)"/>
+      <bbox x="898.9" y="1004.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met13">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)"/>
+      <bbox x="468.9" y="1090.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met14">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)"/>
+      <bbox x="898.9" y="1090.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met15">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1)"/>
+      <bbox x="468.9" y="1176.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met16">
+      <label text="1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1)"/>
+      <bbox x="898.9" y="1176.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3929">
+      <label text="r_3929"/>
+      <bbox x="763.9" y="579.0" w="30.0" h="30.0"/>
+      <port id="process_r_3929.1" x="753.9" y="594.0"/>
+      <port id="process_r_3929.2" x="803.9" y="594.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3933">
+      <label text="r_3933"/>
+      <bbox x="763.9" y="665.0" w="30.0" h="30.0"/>
+      <port id="process_r_3933.1" x="753.9" y="680.0"/>
+      <port id="process_r_3933.2" x="803.9" y="680.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3930">
+      <label text="r_3930"/>
+      <bbox x="763.9" y="751.0" w="30.0" h="30.0"/>
+      <port id="process_r_3930.1" x="753.9" y="766.0"/>
+      <port id="process_r_3930.2" x="803.9" y="766.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3934">
+      <label text="r_3934"/>
+      <bbox x="763.9" y="837.0" w="30.0" h="30.0"/>
+      <port id="process_r_3934.1" x="753.9" y="852.0"/>
+      <port id="process_r_3934.2" x="803.9" y="852.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3931">
+      <label text="r_3931"/>
+      <bbox x="763.9" y="923.0" w="30.0" h="30.0"/>
+      <port id="process_r_3931.1" x="753.9" y="938.0"/>
+      <port id="process_r_3931.2" x="803.9" y="938.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3935">
+      <label text="r_3935"/>
+      <bbox x="763.9" y="1009.0" w="30.0" h="30.0"/>
+      <port id="process_r_3935.1" x="753.9" y="1024.0"/>
+      <port id="process_r_3935.2" x="803.9" y="1024.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3932">
+      <label text="r_3932"/>
+      <bbox x="763.9" y="1095.0" w="30.0" h="30.0"/>
+      <port id="process_r_3932.1" x="753.9" y="1110.0"/>
+      <port id="process_r_3932.2" x="803.9" y="1110.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3936">
+      <label text="r_3936"/>
+      <bbox x="763.9" y="1181.0" w="30.0" h="30.0"/>
+      <port id="process_r_3936.1" x="753.9" y="1196.0"/>
+      <port id="process_r_3936.2" x="803.9" y="1196.0"/>
+    </glyph>
+    <arc class="consumption" id="process_r_3929_c0" source="met1" target="process_r_3929.1">
+      <start x="530.9" y="594.0"/>
+      <end x="753.9" y="594.0"/>
+    </arc>
+    <arc class="production" id="process_r_3929_p1" source="process_r_3929.2" target="met2">
+      <start x="803.9" y="594.0"/>
+      <end x="896.9" y="594.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_3933_c0" source="met3" target="process_r_3933.1">
+      <start x="530.9" y="680.0"/>
+      <end x="753.9" y="680.0"/>
+    </arc>
+    <arc class="production" id="process_r_3933_p1" source="process_r_3933.2" target="met4">
+      <start x="803.9" y="680.0"/>
+      <end x="896.9" y="680.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_3930_c0" source="met5" target="process_r_3930.1">
+      <start x="530.9" y="766.0"/>
+      <end x="753.9" y="766.0"/>
+    </arc>
+    <arc class="production" id="process_r_3930_p1" source="process_r_3930.2" target="met6">
+      <start x="803.9" y="766.0"/>
+      <end x="896.9" y="766.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_3934_c0" source="met7" target="process_r_3934.1">
+      <start x="530.9" y="852.0"/>
+      <end x="753.9" y="852.0"/>
+    </arc>
+    <arc class="production" id="process_r_3934_p1" source="process_r_3934.2" target="met8">
+      <start x="803.9" y="852.0"/>
+      <end x="896.9" y="852.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_3931_c0" source="met9" target="process_r_3931.1">
+      <start x="530.9" y="938.0"/>
+      <end x="753.9" y="938.0"/>
+    </arc>
+    <arc class="production" id="process_r_3931_p1" source="process_r_3931.2" target="met10">
+      <start x="803.9" y="938.0"/>
+      <end x="896.9" y="938.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_3935_c0" source="met11" target="process_r_3935.1">
+      <start x="530.9" y="1024.0"/>
+      <end x="753.9" y="1024.0"/>
+    </arc>
+    <arc class="production" id="process_r_3935_p1" source="process_r_3935.2" target="met12">
+      <start x="803.9" y="1024.0"/>
+      <end x="896.9" y="1024.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_3932_c0" source="met13" target="process_r_3932.1">
+      <start x="530.9" y="1110.0"/>
+      <end x="753.9" y="1110.0"/>
+    </arc>
+    <arc class="production" id="process_r_3932_p1" source="process_r_3932.2" target="met14">
+      <start x="803.9" y="1110.0"/>
+      <end x="896.9" y="1110.0"/>
+    </arc>
+    <arc class="consumption" id="process_r_3936_c0" source="met15" target="process_r_3936.1">
+      <start x="530.9" y="1196.0"/>
+      <end x="753.9" y="1196.0"/>
+    </arc>
+    <arc class="production" id="process_r_3936_p1" source="process_r_3936.2" target="met16">
+      <start x="803.9" y="1196.0"/>
+      <end x="896.9" y="1196.0"/>
+    </arc>
+  </map>
+</sbgn>

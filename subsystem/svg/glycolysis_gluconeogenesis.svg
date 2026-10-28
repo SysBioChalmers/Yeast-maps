@@ -1,3 +1,771 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3a87783ab10a751edecbda5d93d88fcb84a007adedf962401b770a3ff1f8be7b
-size 108889
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" width="4061.9" height="4265" version="1.2" data-modelname="Yeast-GEM" data-modelversion="9.1.1" data-pluginversion="1.6">
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description about="license" dc:description="Copyright Department of Biology and Biological Engineering, Chalmers University of Technology. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Obtained from https://metabolicatlas.org" cc:license="http://creativecommons.org/licenses/by-sa/4.0/"/>
+      <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g id="Glycolysis / gluconeogenesis" class="subsystem">
+    <path class="shape" d="M1648.0 1996.0L1679.1 1990.8L1814.3 1968.3L1840.0 1964.0M1988.0 2140.0L1988.0 2118.0L1988.0 1964.0L1870.0 1964.0L1840.0 1964.0M1648.0 2612.0L1648.0 2634.0L1648.0 2654.0L1648.0 2684.0M1648.0 2920.0L1648.0 2898.0L1648.0 2714.0L1648.0 2684.0M1648.0 1408.0L1616.0 1408.0L1548.0 1408.0L1548.0 1284.0L1548.0 1254.0M1648.0 1100.0L1616.0 1100.0L1548.0 1100.0L1548.0 1224.0L1548.0 1254.0M1648.0 1408.0L1648.0 1430.0L1648.0 1478.0L1648.0 1508.0M1044.0 1708.0L1044.0 1686.0L1044.0 1508.0L1618.0 1508.0L1648.0 1508.0M1012.9 1645.3L1012.9 1623.3L1012.9 1508.0L1618.0 1508.0L1648.0 1508.0M1648.0 792.0L1648.0 814.0L1648.0 922.0L1648.0 952.0M1648.0 1100.0L1648.0 1078.0L1648.0 982.0L1648.0 952.0M1648.0 1996.0L1648.0 1974.0L1648.0 1816.0L1578.0 1816.0L1548.0 1816.0M1260.0 1746.0L1260.0 1768.0L1260.0 1816.0L1518.0 1816.0L1548.0 1816.0M2120.0 660.0L2088.0 660.7L1953.4 663.4L1924.0 664.0M1648.0 792.0L1648.0 770.0L1648.0 664.0L1894.0 664.0L1924.0 664.0M300.0 2920.0L332.0 2920.0L944.0 2920.0L974.0 2920.0M1648.0 2920.0L1616.0 2920.0L1004.0 2920.0L974.0 2920.0M1648.0 1100.0L1616.0 1100.0L1548.0 1100.0L1548.0 1224.0L1548.0 1254.0M1648.0 1408.0L1616.0 1408.0L1548.0 1408.0L1548.0 1284.0L1548.0 1254.0M1648.0 1996.0L1648.0 2018.0L1648.0 2078.0L1648.0 2108.0M1648.0 2304.0L1648.0 2282.0L1648.0 2138.0L1648.0 2108.0M1648.0 2304.0L1648.0 2326.0L1648.0 2428.0L1648.0 2458.0M1648.0 2612.0L1648.0 2590.0L1648.0 2488.0L1648.0 2458.0M1648.0 2920.0L1648.0 2942.0L1648.0 3154.0L1648.0 3184.0M1648.0 3448.0L1648.0 3426.0L1648.0 3214.0L1648.0 3184.0M1044.0 1708.0L1075.3 1703.4L1233.9 1679.9L1260.0 1676.0M1260.0 1746.0L1260.0 1724.0L1260.0 1706.0L1260.0 1676.0M2438.2 649.8L2470.2 649.8L2710.2 649.8L2740.2 649.8M3042.2 649.8L3010.2 649.8L2770.2 649.8L2740.2 649.8M2438.2 341.8L2438.2 363.8L2438.2 396.8L3028.2 396.8L3058.2 396.8M3678.2 451.8L3678.2 429.8L3678.2 396.8L3088.2 396.8L3058.2 396.8M3042.2 649.8L3042.2 627.8L3042.2 495.8L3330.2 495.8L3360.2 495.8M2438.2 341.8L2438.2 363.8L2438.2 471.8L2438.2 501.8M2438.2 649.8L2438.2 627.8L2438.2 531.8L2438.2 501.8M1300.0 2400.0L1300.0 2422.0L1300.0 2518.3L1300.0 2548.3M1300.0 2696.6L1300.0 2674.6L1300.0 2578.3L1300.0 2548.3M1300.0 2400.0L1300.0 2378.0L1300.0 2230.0L1300.0 2200.0M1300.0 2000.0L1300.0 2022.0L1300.0 2170.0L1300.0 2200.0M332.0 2086.7L364.0 2086.7L502.0 2086.7L532.0 2086.7M732.0 2086.7L700.0 2086.7L562.0 2086.7L532.0 2086.7M1044.0 1708.0L1044.0 1730.0L1044.0 2086.7L562.0 2086.7L532.0 2086.7M332.0 2086.7L332.0 2064.7L332.0 1948.7L332.0 1918.7M332.0 1750.7L332.0 1772.7L332.0 1888.7L332.0 1918.7M1648.0 3448.0L1616.0 3448.0L1468.0 3448.0L1438.0 3448.0M1228.0 3448.0L1260.0 3448.0L1408.0 3448.0L1438.0 3448.0M1228.0 3448.0L1196.0 3448.0L1048.0 3448.0L1018.0 3448.0M1228.0 3538.0L1228.0 3516.0L1228.0 3448.0L1048.0 3448.0L1018.0 3448.0M808.0 3448.0L840.0 3448.0L988.0 3448.0L1018.0 3448.0M2000.0 900.0L1968.0 900.0L1924.1 900.0L1924.1 1268.5L1924.1 1298.5M1648.0 1100.0L1648.0 1122.0L1648.0 1149.6L1924.1 1149.6L1924.1 1268.5L1924.1 1298.5M1329.8 381.8L1329.8 403.8L1329.8 551.8L1329.8 581.8M1329.8 781.8L1329.8 759.8L1329.8 611.8L1329.8 581.8M700.0 1500.0L700.0 1522.0L700.0 1680.0L700.0 1710.0M700.0 1920.0L700.0 1898.0L700.0 1740.0L700.0 1710.0M2000.0 900.0L2032.0 900.0L2180.0 900.0L2210.0 900.0M2720.0 1200.0L2720.0 1178.0L2720.0 900.0L2240.0 900.0L2210.0 900.0M2000.0 1800.0L2032.0 1800.0L2180.0 1800.0L2210.0 1800.0M2420.0 1800.0L2388.0 1800.0L2240.0 1800.0L2210.0 1800.0M2300.0 1200.0L2332.0 1200.0L2480.0 1200.0L2510.0 1200.0M2720.0 1200.0L2688.0 1200.0L2540.0 1200.0L2510.0 1200.0M600.0 2400.0L632.0 2400.0L780.0 2400.0L810.0 2400.0M1020.0 2400.0L988.0 2400.0L840.0 2400.0L810.0 2400.0M1020.0 2490.0L1020.0 2468.0L1020.0 2400.0L840.0 2400.0L810.0 2400.0M800.0 3800.0L832.0 3800.0L980.0 3800.0L1010.0 3800.0M1228.0 3448.0L1196.0 3448.0L1173.5 3448.0L1173.5 3800.0L1040.0 3800.0L1010.0 3800.0M1640.0 3800.0L1608.0 3800.0L1460.0 3800.0L1430.0 3800.0M1228.0 3448.0L1260.0 3448.0L1329.0 3448.0L1329.0 3800.0L1400.0 3800.0L1430.0 3800.0M380.0 3800.0L412.0 3800.0L560.0 3800.0L590.0 3800.0M800.0 3800.0L768.0 3800.0L620.0 3800.0L590.0 3800.0M2060.0 3800.0L2028.0 3800.0L1880.0 3800.0L1850.0 3800.0M1640.0 3800.0L1672.0 3800.0L1820.0 3800.0L1850.0 3800.0M700.0 1920.0L732.0 1920.0L940.0 1920.0L940.0 1922.0L940.0 1952.0M1300.0 2000.0L1268.0 2000.0L940.0 2000.0L940.0 1982.0L940.0 1952.0M2420.0 1800.0L2420.0 1778.0L2420.0 1450.0L2064.0 1450.0L2034.0 1450.0M1648.0 1100.0L1680.0 1100.0L1744.5 1100.0L1744.5 1450.0L2004.0 1450.0L2034.0 1450.0M1329.8 781.8L1361.8 781.8L1425.5 781.8L1425.5 982.8L1425.5 1012.8M1648.0 1100.0L1648.0 1078.0L1648.0 1056.4L1425.5 1056.4L1425.5 1042.8L1425.5 1012.8M2129.1 500.9L2161.1 500.9L2249.1 500.9L2279.1 500.9M2120.0 660.0L2152.0 660.0L2279.1 660.0L2279.1 530.9L2279.1 500.9M2438.2 341.8L2438.2 363.8L2438.2 421.4L2279.1 421.4L2279.1 470.9L2279.1 500.9" fill="none" stroke="#64c4ff" stroke-width="80" opacity=".5" stroke-linejoin="round" stroke-linecap="round"/>
+    <text y="20" transform="matrix(1,0,0,1,2030.9,200)" fill="#64c4ff" stroke="#333" font-family="sans-serif" font-size="100" font-weight="700" text-anchor="middle">Glycolysis / gluconeogenesis</text>
+  </g>
+  <g id="fes" fill="none" stroke="#666" stroke-width="3">
+    <path class="fe r_0356" d="M1679.1 1990.8L1814.3 1968.3M1988.0 2118.0L1988.0 1964.0L1870.0 1964.0M1892.7 1928.1L1857.9 1951.9"/>
+    <path class="fe r_0366" d="M1648.0 2634.0L1648.0 2654.0M1648.0 2898.0L1648.0 2714.0M1594.4 2718.6L1629.8 2695.8"/>
+    <path class="fe r_0449" d="M1616.0 1408.0L1548.0 1408.0L1548.0 1284.0M1616.0 1100.0L1548.0 1100.0L1548.0 1224.0M1601.6 1288.6L1566.2 1265.8M1601.6 1219.4L1566.2 1242.2"/>
+    <path class="fe r_0450" d="M1648.0 1430.0L1648.0 1478.0M1044.0 1686.0L1044.0 1508.0L1618.0 1508.0M1012.9 1623.3L1012.9 1508.0L1618.0 1508.0"/>
+    <path class="fe r_0467" d="M1648.0 814.0L1648.0 922.0M1648.0 1078.0L1648.0 982.0"/>
+    <path class="fe r_0486" d="M1648.0 1974.0L1648.0 1816.0L1578.0 1816.0M1503.0 1790.0L1529.0 1805.0M1470.1 1872.2L1530.6 1828.6M1548.0 1868.0L1548.0 1846.0M1625.9 1872.2L1565.4 1828.6M1260.0 1768.0L1260.0 1816.0L1518.0 1816.0"/>
+    <path class="fe r_0534" d="M2088.0 660.7L1953.4 663.4M1648.0 770.0L1648.0 664.0L1894.0 664.0M1942.9 603.1L1931.1 641.1M1898.0 619.0L1913.0 645.0M1833.9 630.9L1902.1 655.9"/>
+    <path class="fe r_0884" d="M332.0 2920.0L944.0 2920.0M1616.0 2920.0L1004.0 2920.0M939.4 2973.6L962.2 2938.2M974.0 2972.0L974.0 2950.0M1051.9 2976.2L991.4 2932.6"/>
+    <path class="fe r_0886" d="M1616.0 1100.0L1548.0 1100.0L1548.0 1224.0M1616.0 1408.0L1548.0 1408.0L1548.0 1284.0M1494.4 1219.4L1529.8 1242.2M1494.4 1288.6L1529.8 1265.8M1491.8 1331.9L1535.4 1271.4"/>
+    <path class="fe r_0892" d="M1648.0 2018.0L1648.0 2078.0M1648.0 2282.0L1648.0 2138.0M1594.4 2073.4L1629.8 2096.2M1594.4 2142.6L1629.8 2119.8"/>
+    <path class="fe r_0893" d="M1648.0 2326.0L1648.0 2428.0M1648.0 2590.0L1648.0 2488.0"/>
+    <path class="fe r_0962" d="M1648.0 2942.0L1648.0 3154.0M1648.0 3426.0L1648.0 3214.0M1594.4 3149.4L1629.8 3172.2M1591.8 3106.1L1635.4 3166.6M1594.4 3218.6L1629.8 3195.8"/>
+    <path class="fe r_1054" d="M1075.3 1703.4L1233.9 1679.9M1260.0 1724.0L1260.0 1706.0"/>
+    <path class="fe r_4284" d="M2470.2 649.8L2710.2 649.8M3010.2 649.8L2770.2 649.8M2705.6 703.4L2728.4 668.0M2740.2 701.8L2740.2 679.8M2818.1 706.0L2757.6 662.4"/>
+    <path class="fe r_4285" d="M2438.2 363.8L2438.2 396.8L3028.2 396.8M3678.2 429.8L3678.2 396.8L3088.2 396.8M3019.0 447.1L3045.1 413.7M3103.2 370.8L3077.2 385.8M3130.8 459.6L3074.3 410.7"/>
+    <path class="fe r_4288" d="M3678.2 363.8L3678.2 495.8L3390.2 495.8M3042.2 627.8L3042.2 495.8L3330.2 495.8"/>
+    <path class="fe r_4750" d="M2438.2 363.8L2438.2 471.8M2438.2 627.8L2438.2 531.8"/>
+    <path class="fe r_0165" d="M1300.0 2422.0L1300.0 2518.3M1300.0 2674.6L1300.0 2578.3M1246.4 2513.7L1281.8 2536.5M1243.8 2470.4L1287.4 2530.8M1246.4 2582.9L1281.8 2560.0"/>
+    <path class="fe r_0174" d="M1300.0 2378.0L1300.0 2230.0M1300.0 2022.0L1300.0 2170.0M1353.6 2234.6L1318.2 2211.8M1356.2 2277.9L1312.6 2217.4M1353.6 2165.4L1318.2 2188.2M1356.2 2122.1L1312.6 2182.6"/>
+    <path class="fe r_0990" d="M364.0 2086.7L502.0 2086.7M700.0 2086.7L562.0 2086.7M1044.0 1730.0L1044.0 2086.7L562.0 2086.7"/>
+    <path class="fe r_2126" d="M332.0 2064.7L332.0 1948.7M332.0 1772.7L332.0 1888.7M385.6 1953.2L350.2 1930.4M385.6 1884.1L350.2 1906.9"/>
+    <path class="fe r_0959" d="M1616.0 3448.0L1468.0 3448.0M1260.0 3448.0L1408.0 3448.0M1472.6 3394.4L1449.8 3429.8M1403.4 3394.4L1426.2 3429.8"/>
+    <path class="fe r_0960" d="M1196.0 3448.0L1048.0 3448.0M1228.0 3516.0L1228.0 3448.0L1048.0 3448.0M840.0 3448.0L988.0 3448.0M1052.6 3394.4L1029.8 3429.8M983.4 3394.4L1006.2 3429.8"/>
+    <path class="fe r_0533" d="M1866.8 1270.7L1903.9 1288.7M1875.1 1339.3L1907.8 1312.2M1877.8 1382.6L1913.5 1317.9M1968.0 900.0L1924.1 900.0L1924.1 1268.5M1648.0 1122.0L1648.0 1149.6L1924.1 1149.6L1924.1 1268.5"/>
+    <path class="fe r_0535" d="M1329.8 403.8L1329.8 551.8M1329.8 759.8L1329.8 611.8M1276.2 547.2L1311.6 570.0M1276.2 616.4L1311.6 593.6M1273.6 659.7L1317.2 599.2"/>
+    <path class="fe r_0961" d="M700.0 1522.0L700.0 1680.0M700.0 1898.0L700.0 1740.0M646.4 1675.4L681.8 1698.2M643.8 1632.1L687.4 1692.6M646.4 1744.6L681.8 1721.8M643.8 1787.9L687.4 1727.4"/>
+    <path class="fe r_4283" d="M2032.0 900.0L2180.0 900.0M2175.4 953.6L2198.2 918.2M2210.0 952.0L2210.0 930.0M2287.9 956.2L2227.4 912.6M2720.0 1178.0L2720.0 900.0L2240.0 900.0"/>
+    <path class="fe r_4286" d="M2032.0 1800.0L2180.0 1800.0M2388.0 1800.0L2240.0 1800.0M2175.4 1853.6L2198.2 1818.2M2210.0 1852.0L2210.0 1830.0M2287.9 1856.2L2227.4 1812.6"/>
+    <path class="fe r_4287" d="M2332.0 1200.0L2480.0 1200.0M2688.0 1200.0L2540.0 1200.0M2475.4 1253.6L2498.2 1218.2M2510.0 1252.0L2510.0 1230.0M2587.9 1256.2L2527.4 1212.6"/>
+    <path class="fe r_0322" d="M632.0 2400.0L780.0 2400.0M988.0 2400.0L840.0 2400.0M1020.0 2468.0L1020.0 2400.0L840.0 2400.0"/>
+    <path class="fe r_0163" d="M832.0 3800.0L980.0 3800.0M975.4 3853.6L998.2 3818.2M1010.0 3852.0L1010.0 3830.0M1087.9 3856.2L1027.4 3812.6M1196.0 3448.0L1173.5 3448.0L1173.5 3800.0L1040.0 3800.0"/>
+    <path class="fe r_0173" d="M1608.0 3800.0L1460.0 3800.0M1475.0 3774.0L1449.0 3789.0M1352.1 3856.2L1412.6 3812.6M1430.0 3852.0L1430.0 3830.0M1507.9 3856.2L1447.4 3812.6M1260.0 3448.0L1329.0 3448.0L1329.0 3800.0L1400.0 3800.0"/>
+    <path class="fe r_2115" d="M412.0 3800.0L560.0 3800.0M768.0 3800.0L620.0 3800.0M545.0 3774.0L571.0 3789.0M512.1 3856.2L572.6 3812.6M624.6 3853.6L601.8 3818.2"/>
+    <path class="fe r_2116" d="M2028.0 3800.0L1880.0 3800.0M1672.0 3800.0L1820.0 3800.0M1850.0 3748.0L1850.0 3770.0M1927.9 3743.8L1867.4 3787.4M1805.0 3826.0L1831.0 3811.0M1772.1 3743.8L1832.6 3787.4"/>
+    <path class="fe r_0111" d="M732.0 1920.0L940.0 1920.0L940.0 1922.0M1268.0 2000.0L940.0 2000.0L940.0 1982.0M898.6 2000.6L926.2 1968.2M889.8 1965.5L916.3 1958.3M1009.8 2018.0L955.4 1966.6"/>
+    <path class="fe r_0465" d="M2420.0 1778.0L2420.0 1450.0L2064.0 1450.0M1680.0 1100.0L1744.5 1100.0L1744.5 1450.0L2004.0 1450.0M2095.6 1433.5L2057.7 1443.7M2044.4 1387.1L2038.2 1424.2"/>
+    <path class="fe r_0723" d="M1361.8 781.8L1425.5 781.8L1425.5 982.8M1648.0 1078.0L1648.0 1056.4L1425.5 1056.4L1425.5 1042.8"/>
+    <path class="fe r_4318" d="M2161.1 500.9L2249.1 500.9M2152.0 660.0L2279.1 660.0L2279.1 530.9M2438.2 363.8L2438.2 421.4L2279.1 421.4L2279.1 470.9M2227.6 463.3L2261.8 488.2"/>
+  </g>
+  <g id="fehs" fill="#666">
+    <path class="feh r_0356" d="M1679.1 1990.8L1690.9 1982.8L1692.9 1994.6L1679.1 1990.8M1988.0 2118.0L1982.0 2105.0L1994.0 2105.0L1988.0 2118.0M1892.7 1928.1L1885.4 1940.4L1878.6 1930.5L1892.7 1928.1"/>
+    <path class="feh r_0366" d="M1648.0 2634.0L1654.0 2647.0L1642.0 2647.0L1648.0 2634.0M1648.0 2898.0L1642.0 2885.0L1654.0 2885.0L1648.0 2898.0M1594.4 2718.6L1602.1 2706.5L1608.6 2716.6L1594.4 2718.6"/>
+    <path class="feh r_0449" d="M1616.0 1100.0L1603.0 1106.0L1603.0 1094.0L1616.0 1100.0M1601.6 1219.4L1593.9 1231.5L1587.4 1221.4L1601.6 1219.4"/>
+    <path class="feh r_0450" d="M1648.0 1430.0L1654.0 1443.0L1642.0 1443.0L1648.0 1430.0M1044.0 1686.0L1038.0 1673.0L1050.0 1673.0L1044.0 1686.0M1012.9 1623.3L1006.9 1610.3L1018.9 1610.3L1012.9 1623.3"/>
+    <path class="feh r_0467" d="M1648.0 814.0L1654.0 827.0L1642.0 827.0L1648.0 814.0M1648.0 1078.0L1642.0 1065.0L1654.0 1065.0L1648.0 1078.0"/>
+    <path class="feh r_0486" d="M1648.0 1974.0L1642.0 1961.0L1654.0 1961.0L1648.0 1974.0M1503.0 1790.0L1517.2 1791.3L1511.2 1801.7L1503.0 1790.0M1470.1 1872.2L1477.1 1859.7L1484.2 1869.4L1470.1 1872.2M1548.0 1868.0L1542.0 1855.0L1554.0 1855.0L1548.0 1868.0M1625.9 1872.2L1611.8 1869.4L1618.9 1859.7L1625.9 1872.2M1260.0 1768.0L1266.0 1781.0L1254.0 1781.0L1260.0 1768.0"/>
+    <path class="feh r_0534" d="M1648.0 770.0L1642.0 757.0L1654.0 757.0L1648.0 770.0M1898.0 619.0L1909.7 627.2L1899.3 633.2L1898.0 619.0M1833.9 630.9L1848.1 629.7L1844.0 641.0L1833.9 630.9"/>
+    <path class="feh r_0884" d="M1616.0 2920.0L1603.0 2926.0L1603.0 2914.0L1616.0 2920.0M974.0 2972.0L968.0 2959.0L980.0 2959.0L974.0 2972.0M1051.9 2976.2L1037.8 2973.4L1044.9 2963.7L1051.9 2976.2"/>
+    <path class="feh r_0886" d="M1616.0 1408.0L1603.0 1414.0L1603.0 1402.0L1616.0 1408.0M1494.4 1288.6L1502.1 1276.5L1508.6 1286.6L1494.4 1288.6M1491.8 1331.9L1494.6 1317.8L1504.3 1324.9L1491.8 1331.9"/>
+    <path class="feh r_0892" d="M1648.0 2018.0L1654.0 2031.0L1642.0 2031.0L1648.0 2018.0M1648.0 2282.0L1642.0 2269.0L1654.0 2269.0L1648.0 2282.0M1594.4 2073.4L1608.6 2075.4L1602.1 2085.5L1594.4 2073.4M1594.4 2142.6L1602.1 2130.5L1608.6 2140.6L1594.4 2142.6"/>
+    <path class="feh r_0893" d="M1648.0 2326.0L1654.0 2339.0L1642.0 2339.0L1648.0 2326.0M1648.0 2590.0L1642.0 2577.0L1654.0 2577.0L1648.0 2590.0"/>
+    <path class="feh r_0962" d="M1648.0 3426.0L1642.0 3413.0L1654.0 3413.0L1648.0 3426.0M1594.4 3218.6L1602.1 3206.5L1608.6 3216.6L1594.4 3218.6"/>
+    <path class="feh r_1054" d="M1075.3 1703.4L1087.3 1695.5L1089.0 1707.4L1075.3 1703.4M1260.0 1724.0L1254.0 1711.0L1266.0 1711.0L1260.0 1724.0"/>
+    <path class="feh r_4284" d="M3010.2 649.8L2997.2 655.8L2997.2 643.8L3010.2 649.8M2740.2 701.8L2734.2 688.8L2746.2 688.8L2740.2 701.8M2818.1 706.0L2804.0 703.2L2811.1 693.5L2818.1 706.0"/>
+    <path class="feh r_4285" d="M3678.2 429.8L3672.2 416.8L3684.2 416.8L3678.2 429.8M3103.2 370.8L3095.0 382.5L3089.0 372.1L3103.2 370.8M3130.8 459.6L3117.1 455.6L3124.9 446.6L3130.8 459.6"/>
+    <path class="feh r_4288" d="M3678.2 363.8L3684.2 376.8L3672.2 376.8L3678.2 363.8M3042.2 627.8L3036.2 614.8L3048.2 614.8L3042.2 627.8"/>
+    <path class="feh r_4750" d="M2438.2 363.8L2444.2 376.8L2432.2 376.8L2438.2 363.8M2438.2 627.8L2432.2 614.8L2444.2 614.8L2438.2 627.8"/>
+    <path class="feh r_0165" d="M1300.0 2674.6L1294.0 2661.6L1306.0 2661.6L1300.0 2674.6M1246.4 2582.9L1254.1 2570.8L1260.6 2580.8L1246.4 2582.9"/>
+    <path class="feh r_0174" d="M1300.0 2022.0L1306.0 2035.0L1294.0 2035.0L1300.0 2022.0M1353.6 2165.4L1345.9 2177.5L1339.4 2167.4L1353.6 2165.4M1356.2 2122.1L1353.4 2136.2L1343.7 2129.1L1356.2 2122.1"/>
+    <path class="feh r_0990" d="M364.0 2086.7L377.0 2080.7L377.0 2092.7L364.0 2086.7M700.0 2086.7L687.0 2092.7L687.0 2080.7L700.0 2086.7M1044.0 1730.0L1050.0 1743.0L1038.0 1743.0L1044.0 1730.0"/>
+    <path class="feh r_2126" d="M332.0 1772.7L338.0 1785.7L326.0 1785.7L332.0 1772.7M385.6 1884.1L377.9 1896.2L371.4 1886.1L385.6 1884.1"/>
+    <path class="feh r_0959" d="M1260.0 3448.0L1273.0 3442.0L1273.0 3454.0L1260.0 3448.0M1403.4 3394.4L1415.5 3402.1L1405.4 3408.6L1403.4 3394.4"/>
+    <path class="feh r_0960" d="M840.0 3448.0L853.0 3442.0L853.0 3454.0L840.0 3448.0M983.4 3394.4L995.5 3402.1L985.4 3408.6L983.4 3394.4"/>
+    <path class="feh r_0533" d="M1875.1 1339.3L1881.3 1326.4L1888.9 1335.6L1875.1 1339.3M1877.8 1382.6L1878.8 1368.4L1889.3 1374.1L1877.8 1382.6M1648.0 1122.0L1654.0 1135.0L1642.0 1135.0L1648.0 1122.0"/>
+    <path class="feh r_0535" d="M1329.8 759.8L1323.8 746.8L1335.8 746.8L1329.8 759.8M1276.2 616.4L1283.9 604.3L1290.4 614.4L1276.2 616.4M1273.6 659.7L1276.4 645.6L1286.1 652.7L1273.6 659.7"/>
+    <path class="feh r_0961" d="M700.0 1898.0L694.0 1885.0L706.0 1885.0L700.0 1898.0M646.4 1744.6L654.1 1732.5L660.6 1742.6L646.4 1744.6M643.8 1787.9L646.6 1773.8L656.3 1780.9L643.8 1787.9"/>
+    <path class="feh r_4283" d="M2210.0 952.0L2204.0 939.0L2216.0 939.0L2210.0 952.0M2287.9 956.2L2273.8 953.4L2280.9 943.7L2287.9 956.2M2720.0 1178.0L2714.0 1165.0L2726.0 1165.0L2720.0 1178.0"/>
+    <path class="feh r_4286" d="M2388.0 1800.0L2375.0 1806.0L2375.0 1794.0L2388.0 1800.0M2210.0 1852.0L2204.0 1839.0L2216.0 1839.0L2210.0 1852.0M2287.9 1856.2L2273.8 1853.4L2280.9 1843.7L2287.9 1856.2"/>
+    <path class="feh r_4287" d="M2688.0 1200.0L2675.0 1206.0L2675.0 1194.0L2688.0 1200.0M2510.0 1252.0L2504.0 1239.0L2516.0 1239.0L2510.0 1252.0M2587.9 1256.2L2573.8 1253.4L2580.9 1243.7L2587.9 1256.2"/>
+    <path class="feh r_0322" d="M632.0 2400.0L645.0 2394.0L645.0 2406.0L632.0 2400.0M988.0 2400.0L975.0 2406.0L975.0 2394.0L988.0 2400.0M1020.0 2468.0L1014.0 2455.0L1026.0 2455.0L1020.0 2468.0"/>
+    <path class="feh r_0163" d="M1010.0 3852.0L1004.0 3839.0L1016.0 3839.0L1010.0 3852.0M1087.9 3856.2L1073.8 3853.4L1080.9 3843.7L1087.9 3856.2M1196.0 3448.0L1183.0 3454.0L1183.0 3442.0L1196.0 3448.0"/>
+    <path class="feh r_0173" d="M1608.0 3800.0L1595.0 3806.0L1595.0 3794.0L1608.0 3800.0M1430.0 3852.0L1424.0 3839.0L1436.0 3839.0L1430.0 3852.0M1507.9 3856.2L1493.8 3853.4L1500.9 3843.7L1507.9 3856.2"/>
+    <path class="feh r_2115" d="M768.0 3800.0L755.0 3806.0L755.0 3794.0L768.0 3800.0M624.6 3853.6L612.5 3845.9L622.6 3839.4L624.6 3853.6"/>
+    <path class="feh r_2116" d="M1672.0 3800.0L1685.0 3794.0L1685.0 3806.0L1672.0 3800.0M1805.0 3826.0L1813.2 3814.3L1819.2 3824.7L1805.0 3826.0M1772.1 3743.8L1786.2 3746.6L1779.1 3756.3L1772.1 3743.8"/>
+    <path class="feh r_0111" d="M1268.0 2000.0L1255.0 2006.0L1255.0 1994.0L1268.0 2000.0M889.8 1965.5L900.8 1956.3L903.9 1967.9L889.8 1965.5M1009.8 2018.0L996.2 2013.4L1004.5 2004.7L1009.8 2018.0"/>
+    <path class="feh r_0465" d="M1680.0 1100.0L1693.0 1094.0L1693.0 1106.0L1680.0 1100.0M2044.4 1387.1L2048.2 1400.9L2036.3 1398.9L2044.4 1387.1"/>
+    <path class="feh r_0723" d="M1361.8 781.8L1374.8 775.8L1374.8 787.8L1361.8 781.8M1648.0 1078.0L1642.0 1065.0L1654.0 1065.0L1648.0 1078.0"/>
+    <path class="feh r_4318" d="M2161.1 500.9L2174.1 494.9L2174.1 506.9L2161.1 500.9M2152.0 660.0L2165.0 654.0L2165.0 666.0L2152.0 660.0M2438.2 363.8L2444.2 376.8L2432.2 376.8L2438.2 363.8M2227.6 463.3L2241.6 466.1L2234.5 475.8L2227.6 463.3"/>
+  </g>
+  <g id="ees" fill="none" stroke="#666" stroke-width="3">
+    <path class="ee r_0356" d="M1831.1 1985.1L1831.1 2013.5"/>
+    <path class="ee r_0366" d="M1678.0 2684.0L1703.0 2684.0"/>
+    <path class="ee r_0449" d="M1518.0 1254.0L1493.0 1254.0"/>
+    <path class="ee r_0450" d="M1626.9 1499.1L1593.1 1487.0"/>
+    <path class="ee r_0467" d="M1678.0 952.0L1703.0 952.0"/>
+    <path class="ee r_0486" d="M1548.0 1786.0L1548.0 1761.0"/>
+    <path class="ee r_0534" d="M1930.6 687.4L1930.6 715.9"/>
+    <path class="ee r_0884" d="M974.0 2890.0L974.0 2865.0"/>
+    <path class="ee r_0886" d="M1578.0 1254.0L1603.0 1254.0"/>
+    <path class="ee r_0892" d="M1665.6 2120.4L1703.0 2153.0"/>
+    <path class="ee r_0893" d="M1678.0 2458.0L1703.0 2458.0"/>
+    <path class="ee r_0962" d="M1678.0 3184.0L1703.0 3184.0"/>
+    <path class="ee r_1054" d="M1260.0 1706.0L1260.0 1826.0"/>
+    <path class="ee r_4284" d="M2740.2 619.8L2740.2 594.8"/>
+    <path class="ee r_4285" d="M3060.6 369.2L3060.6 342.1"/>
+    <path class="ee r_4288" d="M3350.4 475.6L3350.4 447.8"/>
+    <path class="ee r_4750" d="M2468.2 501.8L2493.2 501.8"/>
+    <path class="ee r_0165" d="M1330.0 2548.3L1355.0 2548.3"/>
+    <path class="ee r_0174" d="M1270.0 2200.0L1245.0 2200.0"/>
+    <path class="ee r_0990" d="M532.0 2056.7L532.0 2031.7"/>
+    <path class="ee r_2126" d="M302.0 1918.7L277.0 1918.7"/>
+    <path class="ee r_0959" d="M1438.0 3478.0L1438.0 3503.0"/>
+    <path class="ee r_0960" d="M1018.0 3478.0L1018.0 3503.0"/>
+    <path class="ee r_0533" d="M1950.9 1295.3L1978.1 1295.3"/>
+    <path class="ee r_0535" d="M1359.8 581.8L1384.8 581.8"/>
+    <path class="ee r_0961" d="M721.2 1718.8L755.0 1740.0"/>
+    <path class="ee r_4283" d="M2210.0 870.0L2210.0 845.0"/>
+    <path class="ee r_4286" d="M2210.0 1770.0L2210.0 1745.0"/>
+    <path class="ee r_4287" d="M2510.0 1170.0L2510.0 1145.0"/>
+    <path class="ee r_0322" d="M810.0 2370.0L810.0 2345.0"/>
+    <path class="ee r_0163" d="M1010.0 3770.0L1010.0 3745.0"/>
+    <path class="ee r_0173" d="M1430.0 3770.0L1430.0 3745.0"/>
+    <path class="ee r_2115" d="M590.0 3770.0L590.0 3745.0"/>
+    <path class="ee r_2116" d="M1850.0 3830.0L1850.0 3855.0"/>
+    <path class="ee r_0111" d="M943.5 1925.5L943.5 1897.6"/>
+    <path class="ee r_0723" d="M1453.3 1010.6L1487.4 1010.6"/>
+    <path class="ee r_4318" d="M2307.5 502.5L2334.0 502.5"/>
+  </g>
+  <g id="nodes">
+    <g class="met s_0075 r_0356 r_0486 r_0892" transform="matrix(1,0,0,1,1648,1996)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        1,3-bisphospho-D-
+      </text><text y="16">
+        glycerate
+      </text></g></g>
+    <g class="met s_0140 r_0356" transform="matrix(1,0,0,1,1988,2140)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        2,3-bisphospho-D-
+      </text><text y="16">
+        glyceric acid
+      </text></g></g>
+    <g id="r_0356" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1840,1964)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1840,1964)">
+        r_0356
+      </text></g>
+    <g class="met s_0794 r_0356" transform="matrix(1,0,0,1,1901,1922.5)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="enz YKL152C r_0356"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1782.7,2013.5)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1782.7,2013.5)"><tspan x="30" y="13">GPM1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YKL152C</tspan></text></g>
+    <g class="met s_0188 r_0366 r_0893" transform="matrix(1,0,0,1,1648,2612)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        2-phospho-D-
+      </text><text y="16">
+        glyceric acid
+      </text></g></g>
+    <g class="met s_1360 r_0366 r_0884 r_0962" transform="matrix(1,0,0,1,1648,2920)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        phosphoenolpyruv
+      </text><text y="16">
+        ate
+      </text></g></g>
+    <g id="r_0366" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1648,2684)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1648,2684)">
+        r_0366
+      </text></g>
+    <g class="met s_0803 r_0366" transform="matrix(1,0,0,1,1586,2724)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H2O
+      </text></g>
+    <g class="enz YGR254W r_0366"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1703,2654)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1703,2654)"><tspan x="30" y="13">ENO1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGR254W</tspan></text></g>
+    <g class="enz YHR174W r_0366"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1763,2654)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1763,2654)"><tspan x="30" y="13">ENO2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YHR174W</tspan></text></g>
+    <g class="enz YMR323W r_0366"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1823,2654)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1823,2654)"><tspan x="30" y="13">ERR3</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YMR323W</tspan></text></g>
+    <g class="enz YOR393W r_0366"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1703,2684)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1703,2684)"><tspan x="30" y="13">ERR1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOR393W</tspan></text></g>
+    <g class="enz YPL281C r_0366"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1763,2684)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1763,2684)"><tspan x="30" y="13">ERR2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YPL281C</tspan></text></g>
+    <g class="met s_0555 r_0449 r_0450 r_0886" transform="matrix(1,0,0,1,1648,1408)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        D-fructose 1,6-
+      </text><text y="16">
+        bisphosphate
+      </text></g></g>
+    <g class="met s_0557 r_0449 r_0467 r_0886 r_0533 r_0465 r_0723" transform="matrix(1,0,0,1,1648,1100)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        D-fructose 6-
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g id="r_0449" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1548,1254)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1548,1254)">
+        r_0449
+      </text></g>
+    <g class="met s_0803 r_0449" transform="matrix(1,0,0,1,1610,1294)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_1322 r_0449" transform="matrix(1,0,0,1,1610,1214)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        phosphate
+      </text></g>
+    <g class="enz YLR377C r_0449"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1433,1239)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1433,1239)"><tspan x="30" y="13">FBP1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR377C</tspan></text></g>
+    <g class="met s_0629 r_0450 r_1054 r_0990" transform="matrix(1,0,0,1,1044,1708)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        dihydroxyacetone
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g class="met s_0764 r_0450" transform="matrix(1,0,0,1,1012.9,1645.3)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        glyceraldehyde 3-
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g id="r_0450" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1648,1508)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1648,1508)">
+        r_0450
+      </text></g>
+    <g class="enz YKL060C r_0450"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1533.1,1457)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1533.1,1457)"><tspan x="30" y="13">FBA1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YKL060C</tspan></text></g>
+    <g class="met s_0568 r_0467 r_0534" transform="matrix(1,0,0,1,1648,792)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        D-glucose 6-
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g id="r_0467" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1648,952)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1648,952)">
+        r_0467
+      </text></g>
+    <g class="enz YBR196C r_0467"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1703,937)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1703,937)"><tspan x="30" y="13">PGI1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YBR196C</tspan></text></g>
+    <g id="r_0486" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1548,1816)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1548,1816)">
+        r_0486
+      </text></g>
+    <g class="met s_1198 r_0486" transform="matrix(1,0,0,1,1494.3,1785)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NAD
+      </text></g>
+    <g class="met s_1322 r_0486" transform="matrix(1,0,0,1,1462,1878)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        phosphate
+      </text></g>
+    <g class="met s_0794 r_0486" transform="matrix(1,0,0,1,1548,1878)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1203 r_0486" transform="matrix(1,0,0,1,1634,1878)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NADH
+      </text></g>
+    <g class="enz YGR192C r_0486"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1458,1731)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1458,1731)"><tspan x="30" y="13">TDH3</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGR192C</tspan></text></g>
+    <g class="enz YJL052W r_0486"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1518,1731)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1518,1731)"><tspan x="30" y="13">TDH1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YJL052W</tspan></text></g>
+    <g class="enz YJR009C r_0486"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1578,1731)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1578,1731)"><tspan x="30" y="13">TDH2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YJR009C</tspan></text></g>
+    <g class="met s_0563 r_0534 r_4318" transform="matrix(1,0,0,1,2120,660)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        D-glucose
+      </text></g>
+    <g id="r_0534" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1924,664)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1924,664)">
+        r_0534
+      </text></g>
+    <g class="met s_0434 r_0534" transform="matrix(1,0,0,1,1945.8,593.5)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_0534" transform="matrix(1,0,0,1,1893,610.3)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_0534" transform="matrix(1,0,0,1,1824.5,627.5)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="enz YCL040W r_0534"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1856.9,715.9)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1856.9,715.9)"><tspan x="30" y="13">GLK1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YCL040W</tspan></text></g>
+    <g class="enz YDR516C r_0534"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1916.9,715.9)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1916.9,715.9)"><tspan x="30" y="13">EMI2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YDR516C</tspan></text></g>
+    <g class="enz YFR053C r_0534"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1976.9,715.9)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1976.9,715.9)"><tspan x="30" y="13">HXK1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YFR053C</tspan></text></g>
+    <g class="enz YGL253W r_0534"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1856.9,745.9)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1856.9,745.9)"><tspan x="30" y="13">HXK2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGL253W</tspan></text></g>
+    <g class="enz YLR446W r_0534"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1916.9,745.9)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1916.9,745.9)">YLR446W</text></g>
+    <g class="met s_1271 r_0884" transform="matrix(1,0,0,1,300,2920)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        oxaloacetate
+      </text></g>
+    <g id="r_0884" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,974,2920)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,974,2920)">
+        r_0884
+      </text></g>
+    <g class="met s_0434 r_0884" transform="matrix(1,0,0,1,934,2982)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_0884" transform="matrix(1,0,0,1,974,2982)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0456 r_0884" transform="matrix(1,0,0,1,1060,2982)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        carbon dioxide
+      </text></g>
+    <g class="enz YKR097W r_0884"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,944,2835)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,944,2835)"><tspan x="30" y="13">PCK1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YKR097W</tspan></text></g>
+    <g id="r_0886" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1548,1254)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1548,1254)">
+        r_0886
+      </text></g>
+    <g class="met s_0434 r_0886" transform="matrix(1,0,0,1,1486,1214)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_0886" transform="matrix(1,0,0,1,1486,1294)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_0886" transform="matrix(1,0,0,1,1486,1340)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="enz YGR240C r_0886"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1603,1239)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1603,1239)"><tspan x="30" y="13">PFK1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGR240C</tspan></text></g>
+    <g class="enz YMR205C r_0886"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1663,1239)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1663,1239)"><tspan x="30" y="13">PFK2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YMR205C</tspan></text></g>
+    <g class="met s_0260 r_0892 r_0893" transform="matrix(1,0,0,1,1648,2304)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        3-phosphonato-D-
+      </text><text y="16">
+        glycerate(3-)
+      </text></g></g>
+    <g id="r_0892" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1648,2108)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1648,2108)">
+        r_0892
+      </text></g>
+    <g class="met s_0394 r_0892" transform="matrix(1,0,0,1,1586,2068)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0434 r_0892" transform="matrix(1,0,0,1,1586,2148)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="enz YCR012W r_0892"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1703,2153)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1703,2153)"><tspan x="30" y="13">PGK1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YCR012W</tspan></text></g>
+    <g id="r_0893" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1648,2458)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1648,2458)">
+        r_0893
+      </text></g>
+    <g class="enz YKL152C r_0893"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1703,2443)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1703,2443)"><tspan x="30" y="13">GPM1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YKL152C</tspan></text></g>
+    <g class="enz YOR283W r_0893"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1763,2443)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1763,2443)">YOR283W</text></g>
+    <g class="met s_1399 r_0962 r_0959" transform="matrix(1,0,0,1,1648,3448)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        pyruvate
+      </text></g>
+    <g id="r_0962" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1648,3184)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1648,3184)">
+        r_0962
+      </text></g>
+    <g class="met s_0394 r_0962" transform="matrix(1,0,0,1,1586,3144)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_0962" transform="matrix(1,0,0,1,1586,3098)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="met s_0434 r_0962" transform="matrix(1,0,0,1,1586,3224)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="enz YAL038W r_0962"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1703,3169)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1703,3169)"><tspan x="30" y="13">CDC19</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YAL038W</tspan></text></g>
+    <g class="enz YOR347C r_0962"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1763,3169)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1763,3169)"><tspan x="30" y="13">PYK2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOR347C</tspan></text></g>
+    <g class="met s_0764 r_1054 r_0486" transform="matrix(1,0,0,1,1260,1746)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        glyceraldehyde 3-
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g id="r_1054" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1260,1676)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1260,1676)">
+        r_1054
+      </text></g>
+    <g class="enz YDR050C r_1054"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1230,1826)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1230,1826)"><tspan x="30" y="13">TPI1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YDR050C</tspan></text></g>
+    <g class="met s_3949 r_4284 r_4750" transform="matrix(1,0,0,1,2438.2,649.8)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        beta-D-Glucose
+      </text></g>
+    <g class="met s_3950 r_4284 r_4288" transform="matrix(1,0,0,1,3042.2,649.8)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        beta-D-Glucose 6-
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g id="r_4284" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2740.2,649.8)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2740.2,649.8)">
+        r_4284
+      </text></g>
+    <g class="met s_0434 r_4284" transform="matrix(1,0,0,1,2700.2,711.8)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_4284" transform="matrix(1,0,0,1,2740.2,711.8)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_4284" transform="matrix(1,0,0,1,2826.2,711.8)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="enz YLR446W r_4284"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2710.2,564.8)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2710.2,564.8)">YLR446W</text></g>
+    <g class="met s_3951 r_4285 r_4750 r_4318" transform="matrix(1,0,0,1,2438.2,341.8)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        alpha-D-Glucose
+      </text></g>
+    <g class="met s_3952 r_4285 r_4288" transform="matrix(1,0,0,1,3678.2,451.8)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        alpha-D-Glucose
+      </text><text y="16">
+        6-phosphate
+      </text></g></g>
+    <g id="r_4285" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3058.2,396.8)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3058.2,396.8)">
+        r_4285
+      </text></g>
+    <g class="met s_0434 r_4285" transform="matrix(1,0,0,1,3012.9,455)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_4285" transform="matrix(1,0,0,1,3111.9,365.8)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_4285" transform="matrix(1,0,0,1,3138.4,466.2)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="enz YLR446W r_4285"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3034.4,312.1)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3034.4,312.1)">YLR446W</text></g>
+    <g id="r_4288" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3360.2,495.8)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3360.2,495.8)">
+        r_4288
+      </text></g>
+    <g class="enz YMR099C r_4288"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3299.7,417.8)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3299.7,417.8)">YMR099C</text></g>
+    <g id="r_4750" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2438.2,501.8)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2438.2,501.8)">
+        r_4750
+      </text></g>
+    <g class="enz YBR019C r_4750"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2493.2,486.8)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2493.2,486.8)"><tspan x="30" y="13">GAL10</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YBR019C</tspan></text></g>
+    <g class="met s_0361 r_0165 r_0174" transform="matrix(1,0,0,1,1300,2400)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        acetaldehyde
+      </text></g>
+    <g class="met s_0682 r_0165" transform="matrix(1,0,0,1,1300,2696.6)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ethanol
+      </text></g>
+    <g id="r_0165" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1300,2548.3)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1300,2548.3)">
+        r_0165
+      </text></g>
+    <g class="met s_0799 r_0165" transform="matrix(1,0,0,1,1238,2508.3)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1205 r_0165" transform="matrix(1,0,0,1,1238,2462.3)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NADH
+      </text></g>
+    <g class="met s_1200 r_0165" transform="matrix(1,0,0,1,1238,2588.3)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NAD
+      </text></g>
+    <g class="enz YGL256W r_0165"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1355,2533.3)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1355,2533.3)"><tspan x="30" y="13">ADH4</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGL256W</tspan></text></g>
+    <g class="enz YMR083W r_0165"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1415,2533.3)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1415,2533.3)"><tspan x="30" y="13">ADH3</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YMR083W</tspan></text></g>
+    <g class="met s_0365 r_0174 r_0111" transform="matrix(1,0,0,1,1300,2000)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        acetate
+      </text></g>
+    <g id="r_0174" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1300,2200)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1300,2200)">
+        r_0174
+      </text></g>
+    <g class="met s_0807 r_0174" transform="matrix(1,0,0,1,1362,2240)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_1200 r_0174" transform="matrix(1,0,0,1,1362,2286)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NAD
+      </text></g>
+    <g class="met s_0799 r_0174" transform="matrix(1,0,0,1,1362,2160)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1205 r_0174" transform="matrix(1,0,0,1,1362,2114)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NADH
+      </text></g>
+    <g class="enz YOR374W r_0174"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1185,2185)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1185,2185)"><tspan x="30" y="13">ALD4</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOR374W</tspan></text></g>
+    <g class="met s_1426 r_0990 r_2126" transform="matrix(1,0,0,1,332,2086.7)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        sedoheptulose 1,
+      </text><text y="16">
+        7-bisphosphate
+      </text></g></g>
+    <g class="met s_0551 r_0990" transform="matrix(1,0,0,1,732,2086.7)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        D-erythrose 4-
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g id="r_0990" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,532,2086.7)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,532,2086.7)">
+        r_0990
+      </text></g>
+    <g class="enz YKL060C r_0990"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,502,2001.7)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,502,2001.7)"><tspan x="30" y="13">FBA1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YKL060C</tspan></text></g>
+    <g class="met s_1427 r_2126" transform="matrix(1,0,0,1,332,1750.7)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        sedoheptulose 7-
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g id="r_2126" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,332,1918.7)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,332,1918.7)">
+        r_2126
+      </text></g>
+    <g class="met s_0803 r_2126" transform="matrix(1,0,0,1,394,1958.7)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_1322 r_2126" transform="matrix(1,0,0,1,394,1878.7)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        phosphate
+      </text></g>
+    <g class="enz YKR043C r_2126"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,217,1903.7)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,217,1903.7)"><tspan x="30" y="13">SHB17</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YKR043C</tspan></text></g>
+    <g class="met s_0359 r_0959 r_0960 r_0163 r_0173" transform="matrix(1,0,0,1,1228,3448)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        acetaldehyde
+      </text></g>
+    <g id="r_0959" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1438,3448)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1438,3448)">
+        r_0959
+      </text></g>
+    <g class="met s_0794 r_0959" transform="matrix(1,0,0,1,1478,3386)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="met s_0456 r_0959" transform="matrix(1,0,0,1,1398,3386)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        carbon dioxide
+      </text></g>
+    <g class="enz YGR087C r_0959"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1348,3503)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1348,3503)"><tspan x="30" y="13">PDC6</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGR087C</tspan></text></g>
+    <g class="enz YLR044C r_0959"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1408,3503)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1408,3503)"><tspan x="30" y="13">PDC1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR044C</tspan></text></g>
+    <g class="enz YLR134W r_0959"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1468,3503)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1468,3503)"><tspan x="30" y="13">PDC5</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR134W</tspan></text></g>
+    <g class="met s_1399 r_0960" transform="matrix(1,0,0,1,1228,3538)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        pyruvate
+      </text></g>
+    <g class="met s_0020 r_0960" transform="matrix(1,0,0,1,808,3448)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        (R)-acetoin
+      </text></g>
+    <g id="r_0960" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1018,3448)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1018,3448)">
+        r_0960
+      </text></g>
+    <g class="met s_0794 r_0960" transform="matrix(1,0,0,1,1058,3386)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="met s_0456 r_0960" transform="matrix(1,0,0,1,978,3386)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        carbon dioxide
+      </text></g>
+    <g class="enz YGR087C r_0960"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,928,3503)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,928,3503)"><tspan x="30" y="13">PDC6</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGR087C</tspan></text></g>
+    <g class="enz YLR044C r_0960"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,988,3503)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,988,3503)"><tspan x="30" y="13">PDC1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR044C</tspan></text></g>
+    <g class="enz YLR134W r_0960"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1048,3503)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1048,3503)"><tspan x="30" y="13">PDC5</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR134W</tspan></text></g>
+    <g id="r_0533" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1924.1,1298.5)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1924.1,1298.5)">
+        r_0533
+      </text></g>
+    <g class="met s_0434 r_0533" transform="matrix(1,0,0,1,1857.8,1266.3)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_0533" transform="matrix(1,0,0,1,1867.4,1345.7)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_0533" transform="matrix(1,0,0,1,1873,1391.4)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="enz YFR053C r_0533"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1978.1,1266)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1978.1,1266)"><tspan x="30" y="13">HXK1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YFR053C</tspan></text></g>
+    <g class="enz YGL253W r_0533"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2038.1,1266)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2038.1,1266)"><tspan x="30" y="13">HXK2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGL253W</tspan></text></g>
+    <g class="enz YLR446W r_0533"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2098.1,1266)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2098.1,1266)">YLR446W</text></g>
+    <g class="met s_0571 r_0535" transform="matrix(1,0,0,1,1329.8,381.8)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        D-mannose
+      </text></g>
+    <g class="met s_0574 r_0535 r_0723" transform="matrix(1,0,0,1,1329.8,781.8)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        D-mannose 6-
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g id="r_0535" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1329.8,581.8)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1329.8,581.8)">
+        r_0535
+      </text></g>
+    <g class="met s_0434 r_0535" transform="matrix(1,0,0,1,1267.8,541.8)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_0535" transform="matrix(1,0,0,1,1267.8,621.8)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_0535" transform="matrix(1,0,0,1,1267.8,667.8)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="enz YFR053C r_0535"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1384.8,566.8)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1384.8,566.8)"><tspan x="30" y="13">HXK1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YFR053C</tspan></text></g>
+    <g class="enz YGL253W r_0535"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1444.8,566.8)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1444.8,566.8)"><tspan x="30" y="13">HXK2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGL253W</tspan></text></g>
+    <g class="enz YLR446W r_0535"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1504.8,566.8)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1504.8,566.8)">YLR446W</text></g>
+    <g class="met s_1401 r_0961" transform="matrix(1,0,0,1,700,1500)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        pyruvate
+      </text></g>
+    <g class="met s_0376 r_0961 r_0111" transform="matrix(1,0,0,1,700,1920)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        acetyl-CoA
+      </text></g>
+    <g id="r_0961" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,700,1710)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,700,1710)">
+        r_0961
+      </text></g>
+    <g class="met s_0532 r_0961" transform="matrix(1,0,0,1,638,1670)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        coenzyme A
+      </text></g>
+    <g class="met s_1200 r_0961" transform="matrix(1,0,0,1,638,1624)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NAD
+      </text></g>
+    <g class="met s_0460 r_0961" transform="matrix(1,0,0,1,638,1750)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        carbon dioxide
+      </text></g>
+    <g class="met s_1205 r_0961" transform="matrix(1,0,0,1,638,1796)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NADH
+      </text></g>
+    <g class="enz YBR221C r_0961"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,755,1740)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,755,1740)"><tspan x="30" y="13">PDB1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YBR221C</tspan></text></g>
+    <g class="enz YER178W r_0961"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,815,1740)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,815,1740)"><tspan x="30" y="13">PDA1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YER178W</tspan></text></g>
+    <g class="enz YFL018C r_0961"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,875,1740)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,875,1740)"><tspan x="30" y="13">LPD1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YFL018C</tspan></text></g>
+    <g class="enz YGR193C r_0961"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,755,1770)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,755,1770)"><tspan x="30" y="13">PDX1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGR193C</tspan></text></g>
+    <g class="enz YNL071W r_0961"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,815,1770)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,815,1770)"><tspan x="30" y="13">LAT1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YNL071W</tspan></text></g>
+    <g class="met s_0553 r_4283 r_0533" transform="matrix(1,0,0,1,2000,900)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        D-fructose
+      </text></g>
+    <g id="r_4283" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2210,900)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2210,900)">
+        r_4283
+      </text></g>
+    <g class="met s_0434 r_4283" transform="matrix(1,0,0,1,2170,962)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_4283" transform="matrix(1,0,0,1,2210,962)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_4283" transform="matrix(1,0,0,1,2296,962)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="enz YLR446W r_4283"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2180,815)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2180,815)">YLR446W</text></g>
+    <g class="met s_3953 r_4286" transform="matrix(1,0,0,1,2000,1800)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        D-Glucosamine
+      </text></g>
+    <g class="met s_0412 r_4286 r_0465" transform="matrix(1,0,0,1,2420,1800)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-14">
+        alpha-D-
+      </text><text y="6">
+        glucosamine 6-
+      </text><text y="26">
+        phosphate
+      </text></g></g>
+    <g id="r_4286" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2210,1800)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2210,1800)">
+        r_4286
+      </text></g>
+    <g class="met s_0434 r_4286" transform="matrix(1,0,0,1,2170,1862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_4286" transform="matrix(1,0,0,1,2210,1862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_4286" transform="matrix(1,0,0,1,2296,1862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="enz YLR446W r_4286"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2180,1715)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2180,1715)">YLR446W</text></g>
+    <g class="met s_3954 r_4287" transform="matrix(1,0,0,1,2300,1200)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        beta-D-Fructose
+      </text></g>
+    <g class="met s_3948 r_4287 r_4283" transform="matrix(1,0,0,1,2720,1200)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        beta-D-Fructose
+      </text><text y="16">
+        6-phosphate
+      </text></g></g>
+    <g id="r_4287" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2510,1200)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2510,1200)">
+        r_4287
+      </text></g>
+    <g class="met s_0434 r_4287" transform="matrix(1,0,0,1,2470,1262)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_4287" transform="matrix(1,0,0,1,2510,1262)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0794 r_4287" transform="matrix(1,0,0,1,2596,1262)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="enz YLR446W r_4287"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2480,1115)"/><text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2480,1115)">YLR446W</text></g>
+    <g class="met s_0556 r_0322" transform="matrix(1,0,0,1,600,2400)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        D-fructose 1-
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g class="met s_0570 r_0322" transform="matrix(1,0,0,1,1020,2400)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        D-glyceraldehyde
+      </text></g>
+    <g class="met s_0629 r_0322" transform="matrix(1,0,0,1,1020,2490)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text y="-4">
+        dihydroxyacetone
+      </text><text y="16">
+        phosphate
+      </text></g></g>
+    <g id="r_0322" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,810,2400)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,810,2400)">
+        r_0322
+      </text></g>
+    <g class="enz YKL060C r_0322"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,780,2315)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,780,2315)"><tspan x="30" y="13">FBA1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YKL060C</tspan></text></g>
+    <g class="met s_0680 r_0163 r_2115" transform="matrix(1,0,0,1,800,3800)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ethanol
+      </text></g>
+    <g id="r_0163" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1010,3800)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1010,3800)">
+        r_0163
+      </text></g>
+    <g class="met s_1198 r_0163" transform="matrix(1,0,0,1,970,3862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NAD
+      </text></g>
+    <g class="met s_0794 r_0163" transform="matrix(1,0,0,1,1010,3862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1203 r_0163" transform="matrix(1,0,0,1,1096,3862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NADH
+      </text></g>
+    <g class="enz YMR303C r_0163"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,980,3715)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,980,3715)"><tspan x="30" y="13">ADH2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YMR303C</tspan></text></g>
+    <g class="met s_0362 r_0173 r_2116" transform="matrix(1,0,0,1,1640,3800)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        acetate
+      </text></g>
+    <g id="r_0173" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1430,3800)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1430,3800)">
+        r_0173
+      </text></g>
+    <g class="met s_0803 r_0173" transform="matrix(1,0,0,1,1483.7,3769)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_1207 r_0173" transform="matrix(1,0,0,1,1344,3862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NADP(+)
+      </text></g>
+    <g class="met s_0794 r_0173" transform="matrix(1,0,0,1,1430,3862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1212 r_0173" transform="matrix(1,0,0,1,1516,3862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NADPH
+      </text></g>
+    <g class="enz YPL061W r_0173"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1400,3715)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1400,3715)"><tspan x="30" y="13">ALD6</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YPL061W</tspan></text></g>
+    <g class="met s_0359 r_2115" transform="matrix(1,0,0,1,380,3800)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        acetaldehyde
+      </text></g>
+    <g id="r_2115" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,590,3800)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,590,3800)">
+        r_2115
+      </text></g>
+    <g class="met s_0794 r_2115" transform="matrix(1,0,0,1,536.3,3769)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1203 r_2115" transform="matrix(1,0,0,1,504,3862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NADH
+      </text></g>
+    <g class="met s_1198 r_2115" transform="matrix(1,0,0,1,630,3862)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NAD
+      </text></g>
+    <g class="enz YBR145W r_2115"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,530,3715)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,530,3715)"><tspan x="30" y="13">ADH5</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YBR145W</tspan></text></g>
+    <g class="enz YOL086C r_2115"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,590,3715)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,590,3715)"><tspan x="30" y="13">ADH1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOL086C</tspan></text></g>
+    <g class="met s_0359 r_2116" transform="matrix(1,0,0,1,2060,3800)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        acetaldehyde
+      </text></g>
+    <g id="r_2116" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1850,3800)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1850,3800)">
+        r_2116
+      </text></g>
+    <g class="met s_0803 r_2116" transform="matrix(1,0,0,1,1850,3738)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_1198 r_2116" transform="matrix(1,0,0,1,1936,3738)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NAD
+      </text></g>
+    <g class="met s_0794 r_2116" transform="matrix(1,0,0,1,1796.3,3831)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1203 r_2116" transform="matrix(1,0,0,1,1764,3738)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NADH
+      </text></g>
+    <g class="enz YER073W r_2116"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1760,3855)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1760,3855)"><tspan x="30" y="13">ALD5</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YER073W</tspan></text></g>
+    <g class="enz YMR110C r_2116"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1820,3855)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1820,3855)"><tspan x="30" y="13">HFD1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YMR110C</tspan></text></g>
+    <g class="enz YMR170C r_2116"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1880,3855)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1880,3855)"><tspan x="30" y="13">ALD2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YMR170C</tspan></text></g>
+    <g class="enz YOR374W r_2116"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1760,3885)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1760,3885)"><tspan x="30" y="13">ALD4</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOR374W</tspan></text></g>
+    <g id="r_0111" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,940,1952)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,940,1952)">
+        r_0111
+      </text></g>
+    <g class="met s_0807 r_0111" transform="matrix(1,0,0,1,892.2,2008.2)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_0532 r_0111" transform="matrix(1,0,0,1,880.1,1968)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        coenzyme A
+      </text></g>
+    <g class="met s_0799 r_0111" transform="matrix(1,0,0,1,1017.1,2024.8)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="enz YBL015W r_0111"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,919.3,1867.6)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,919.3,1867.6)"><tspan x="30" y="13">ACH1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YBL015W</tspan></text></g>
+    <g id="r_0465" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2034,1450)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2034,1450)">
+        r_0465
+      </text></g>
+    <g class="met s_0803 r_0465" transform="matrix(1,0,0,1,2105.3,1430.9)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_0419 r_0465" transform="matrix(1,0,0,1,2046,1377.2)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ammonium
+      </text></g>
+    <g id="r_0723" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1425.5,1012.8)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1425.5,1012.8)">
+        r_0723
+      </text></g>
+    <g class="enz YER003C r_0723"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1487.4,990.7)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1487.4,990.7)"><tspan x="30" y="13">PMI40</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YER003C</tspan></text></g>
+    <g class="met s_3999 r_4318" transform="matrix(1,0,0,1,2129.1,500.9)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        Isomaltose
+      </text></g>
+    <g id="r_4318" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2279.1,500.9)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2279.1,500.9)">
+        r_4318
+      </text></g>
+    <g class="met s_0803 r_4318" transform="matrix(1,0,0,1,2219.5,457.4)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H2O
+      </text></g>
+    <g class="enz YOL157C r_4318"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2334,490.8)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2334,490.8)"><tspan x="30" y="13">IMA2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOL157C</tspan></text></g>
+  </g>
+  <g id="license" transform="translate(1243.9,2376)">
+    <path d="M3.408.476l113.354.202c1.584 0 3-.235 3 3.16l-.14 37.33H.547V3.7C.547 2.026.71.476 3.407.476z" fill="#aab2ab" transform="matrix(1.5,0,0,1.5,2623.0,1814.0)"/>
+    <g transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.9937807,0,0,0.9936694,-177.69409,-74.436409) matrix(0.872921,0,0,0.872921,50.12536,143.2144)">
+      <path id="path5906_2_" d="M187.21-55.68c.005 8.681-7.028 15.722-15.709 15.728-8.68.005-15.722-7.028-15.727-15.708v-.02c-.005-8.68 7.028-15.721 15.708-15.726 8.682-.006 15.722 7.028 15.727 15.708v.019z" fill="#fff"/>
+      <g id="g5706_2_" transform="translate(-289.6157,99.0653)">
+        <path id="path5708_2_" d="M473.885-167.547c3.485 3.486 5.228 7.754 5.228 12.802 0 5.05-1.713 9.272-5.138 12.668-3.636 3.576-7.932 5.364-12.89 5.364-4.898 0-9.12-1.772-12.665-5.32-3.546-3.545-5.318-7.782-5.318-12.712 0-4.928 1.772-9.195 5.318-12.802 3.455-3.487 7.677-5.23 12.665-5.23 5.048 0 9.314 1.743 12.8 5.23zm-23.118 2.345c-2.947 2.976-4.42 6.463-4.42 10.462 0 3.998 1.458 7.455 4.374 10.37 2.917 2.917 6.389 4.375 10.417 4.375 4.029 0 7.53-1.472 10.507-4.419 2.826-2.735 4.24-6.177 4.24-10.326 0-4.118-1.437-7.613-4.308-10.485-2.871-2.87-6.35-4.306-10.439-4.306-4.088 0-7.546 1.443-10.371 4.329zm7.754 8.703c-.45-.982-1.124-1.472-2.023-1.472-1.59 0-2.384 1.069-2.384 3.208 0 2.14.795 3.21 2.384 3.21 1.05 0 1.799-.522 2.248-1.566l2.203 1.173c-1.05 1.865-2.625 2.799-4.725 2.799-1.62 0-2.918-.497-3.892-1.49-.976-.993-1.463-2.362-1.463-4.107 0-1.716.502-3.078 1.507-4.086 1.006-1.008 2.257-1.513 3.758-1.513 2.22 0 3.81.875 4.771 2.623l-2.384 1.22zm10.363 0c-.45-.982-1.111-1.472-1.982-1.472-1.621 0-2.432 1.069-2.432 3.208 0 2.14.81 3.21 2.432 3.21 1.051 0 1.787-.522 2.207-1.566l2.252 1.173c-1.048 1.865-2.62 2.799-4.717 2.799-1.618 0-2.913-.497-3.887-1.49-.972-.993-1.46-2.362-1.46-4.107 0-1.716.495-3.078 1.484-4.086.987-1.008 2.245-1.513 3.773-1.513 2.216 0 3.804.875 4.761 2.623l-2.43 1.22z"/>
+      </g>
+    </g>
+    <path d="M117.753 0H2.247A2.25 2.25 0 0 0 0 2.247v39.245c0 .28.227.508.507.508h118.985c.28 0 .508-.228.508-.508V2.247A2.25 2.25 0 0 0 117.753 0zM2.247 1.015h115.506c.68 0 1.232.553 1.232 1.232v27.245H36.428c-3.026 5.47-8.856 9.185-15.546 9.185-6.694 0-12.522-3.711-15.547-9.185h-4.32V2.247c0-.68.552-1.232 1.232-1.232z" transform="matrix(1.5,0,0,1.5,2623.0,1814.0)"/>
+    <path d="M86.264 37.732c.08.155.186.28.32.376.132.096.287.167.466.213.18.047.365.07.556.07.13 0 .268-.01.416-.032.148-.022.287-.064.417-.126a.9.9 0 0 0 .323-.255.635.635 0 0 0 .13-.413.581.581 0 0 0-.172-.435 1.355 1.355 0 0 0-.45-.279 4.54 4.54 0 0 0-.628-.194 16.854 16.854 0 0 1-.713-.186 6.254 6.254 0 0 1-.723-.227 2.486 2.486 0 0 1-.63-.348 1.637 1.637 0 0 1-.45-.533 1.63 1.63 0 0 1-.17-.775c0-.34.072-.635.217-.886.146-.25.336-.459.57-.626.235-.167.5-.29.797-.371a3.4 3.4 0 0 1 .89-.12c.346 0 .678.038.996.116.317.077.6.203.847.376.248.173.444.394.59.664.144.269.217.595.217.979h-1.413a1.192 1.192 0 0 0-.124-.492.826.826 0 0 0-.282-.306 1.197 1.197 0 0 0-.402-.158 2.455 2.455 0 0 0-.494-.046 1.72 1.72 0 0 0-.35.037.943.943 0 0 0-.318.13.796.796 0 0 0-.236.232.63.63 0 0 0-.092.352c0 .13.024.236.073.316.05.08.148.155.293.222a3.7 3.7 0 0 0 .601.205c.256.068.591.154 1.006.26.123.024.294.07.513.134.22.065.437.169.653.31.217.143.403.334.561.571.157.239.236.543.236.914 0 .304-.06.585-.177.845-.117.26-.292.484-.524.672-.232.19-.519.336-.861.441a4.078 4.078 0 0 1-1.192.158c-.365 0-.72-.045-1.063-.135a2.675 2.675 0 0 1-.91-.423 2.107 2.107 0 0 1-.625-.734c-.155-.298-.228-.65-.222-1.058h1.413c0 .222.04.411.12.565zm8.206-4.985l2.477 6.622h-1.513l-.5-1.475h-2.478l-.52 1.475h-1.465l2.505-6.622h1.493zm.083 4.06l-.835-2.427H93.7l-.864 2.428h1.717zM59.997 32.747c.315 0 .603.029.863.084.26.056.484.147.67.274.185.126.33.295.432.505.102.21.153.47.153.778 0 .334-.076.612-.228.834-.151.223-.376.405-.673.547.41.118.715.323.917.617.202.294.303.649.303 1.063 0 .334-.066.623-.196.867a1.7 1.7 0 0 1-.525.599c-.22.154-.471.269-.753.343a3.381 3.381 0 0 1-.87.111h-3.215v-6.622h3.122zm-.187 2.679c.26 0 .474-.062.642-.185.167-.124.25-.324.25-.601a.77.77 0 0 0-.083-.38.62.62 0 0 0-.224-.231.945.945 0 0 0-.32-.116 2.12 2.12 0 0 0-.376-.032h-1.365v1.545h1.476zm.086 2.81c.142 0 .278-.014.408-.042a.993.993 0 0 0 .345-.139.707.707 0 0 0 .237-.264.903.903 0 0 0 .088-.426c0-.34-.096-.583-.288-.728-.193-.145-.447-.218-.762-.218h-1.59v1.817h1.562zm2.794-5.489h1.634l1.55 2.616 1.542-2.616h1.624l-2.459 4.08v2.542h-1.46v-2.578l-2.43-4.044zM102.403 14.98c.004 5.846-4.731 10.588-10.577 10.592-5.846.005-10.588-4.73-10.593-10.576v-.015C81.229 9.135 85.965 4.394 91.81 4.389c5.846-.004 10.59 4.731 10.593 10.576v.016z" transform="matrix(1.5,0,0,1.5,2623.0,1814.0)" fill="#fff"/>
+    <path d="M91.742 3.386c-3.212 0-5.93 1.12-8.156 3.362-2.283 2.32-3.425 5.064-3.425 8.233 0 3.169 1.142 5.894 3.425 8.174 2.283 2.28 5.002 3.42 8.156 3.42 3.193 0 5.96-1.15 8.303-3.449 2.205-2.183 3.308-4.899 3.308-8.145 0-3.246-1.123-5.991-3.367-8.233-2.245-2.241-4.993-3.362-8.244-3.362zm.03 2.087c2.631 0 4.866.927 6.705 2.783 1.857 1.836 2.786 4.077 2.786 6.725 0 2.666-.909 4.88-2.728 6.638-1.916 1.894-4.17 2.84-6.764 2.84-2.593 0-4.828-.937-6.705-2.81-1.877-1.876-2.815-4.098-2.815-6.668 0-2.57.948-4.812 2.844-6.725 1.82-1.856 4.044-2.783 6.676-2.783z" transform="matrix(1.5,0,0,1.5,2623.0,1814.0)"/>
+    <path d="M86.603 13.344c.462-2.917 2.516-4.477 5.09-4.477 3.702 0 5.958 2.686 5.958 6.268 0 3.495-2.4 6.21-6.016 6.21-2.488 0-4.714-1.53-5.12-4.534h2.921c.088 1.56 1.1 2.108 2.546 2.108 1.648 0 2.72-1.53 2.72-3.87 0-2.455-.927-3.755-2.663-3.755-1.272 0-2.37.462-2.603 2.05l.85-.004-2.3 2.299-2.299-2.3.916.005z" transform="matrix(1.5,0,0,1.5,2623.0,1814.0)"/>
+    <g transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(1,0,0,1,-177.69409,-74.436409)">
+      <circle cx="242.562" cy="90.225" r="10.806" fill="#fff"/>
+      <path d="M245.69 87.098a.754.754 0 0 0-.754-.754h-4.772a.754.754 0 0 0-.754.754v4.773h1.33v5.652h3.618V91.87h1.332v-4.773z"/>
+      <circle cx="242.55" cy="84.083" r="1.632"/>
+      <path clip-rule="evenodd" d="M242.535 78.318c-3.232 0-5.969 1.128-8.208 3.384-2.298 2.333-3.446 5.095-3.446 8.284 0 3.19 1.148 5.932 3.446 8.227s5.034 3.442 8.208 3.442c3.213 0 5.998-1.156 8.353-3.471 2.22-2.197 3.33-4.93 3.33-8.198 0-3.267-1.129-6.028-3.387-8.284-2.26-2.256-5.025-3.384-8.296-3.384zm.029 2.1c2.648 0 4.897.934 6.747 2.8 1.87 1.848 2.805 4.104 2.805 6.768 0 2.684-.915 4.911-2.746 6.681-1.928 1.906-4.197 2.858-6.806 2.858-2.61 0-4.858-.942-6.747-2.83-1.89-1.885-2.833-4.122-2.833-6.709 0-2.586.954-4.842 2.862-6.767 1.83-1.867 4.07-2.801 6.718-2.801z" fill-rule="evenodd"/>
+    </g>
+    <g>
+      <path d="M293.225 111.749a5.67 5.67 0 0 0 5.67 0l43.428-25.073a5.669 5.669 0 0 0 2.834-4.91V31.62a5.669 5.669 0 0 0-2.834-4.91L298.895 1.637a5.67 5.67 0 0 0-5.67 0L249.797 26.71a5.67 5.67 0 0 0-2.835 4.91v50.146a5.67 5.67 0 0 0 2.835 4.91l43.428 25.073z" fill="#4a4a4a" transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M293.225 103.269a5.67 5.67 0 0 0 5.67 0l36.084-20.833a5.67 5.67 0 0 0 2.835-4.91V35.86a5.67 5.67 0 0 0-2.835-4.91 668212.39 668212.39 0 0 0-36.084-20.833 5.67 5.67 0 0 0-5.67 0 668212.39 668212.39 0 0 0-36.084 20.833 5.67 5.67 0 0 0-2.835 4.91v41.666a5.67 5.67 0 0 0 2.835 4.91l36.084 20.833z" fill="#c9d4ce" transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M361.937 1.637a5.667 5.667 0 0 1 5.669 0l43.428 25.073a5.668 5.668 0 0 1 2.835 4.91v50.146a5.668 5.668 0 0 1-2.835 4.91l-43.428 25.073a5.667 5.667 0 0 1-5.669 0l-43.428-25.073a5.67 5.67 0 0 1-2.835-4.91V31.62a5.67 5.67 0 0 1 2.835-4.91l43.428-25.073z" fill="#25543c" transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M296.06 70.866c7.822-.009 14.166-6.368 14.156-14.19-.009-7.822-6.368-14.166-14.19-14.156-7.822.009-14.166 6.367-14.156 14.19.009 7.822 6.368 14.166 14.19 14.156z" fill="#fff" transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M296.038 66.614c5.476-.006 9.916-4.457 9.909-9.933-.006-5.476-4.457-9.916-9.933-9.909-5.476.006-9.916 4.457-9.909 9.933.006 5.475 4.457 9.916 9.933 9.909z" fill="#25543c" transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M340.265 44.634c6.649.008 12.041 5.412 12.033 12.061-.008 6.65-5.413 12.041-12.062 12.033-6.649-.008-12.041-5.412-12.033-12.061.008-6.649 5.413-12.041 12.062-12.033zM374.731 64.5c6.649.008 12.041 5.413 12.033 12.062-.008 6.649-5.413 12.041-12.062 12.033-6.649-.008-12.041-5.413-12.033-12.062.008-6.649 5.413-12.041 12.062-12.033zM374.695 24.791c6.649.008 12.041 5.413 12.033 12.062-.008 6.649-5.412 12.041-12.061 12.033-6.65-.008-12.041-5.413-12.033-12.062.008-6.649 5.412-12.041 12.061-12.033z" fill="#fff" transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path fill="#fff" d="M309.921 53.875h18.618v5.669h-18.618zM363.134 40.246l-14.132 8.159 2.835 4.91 14.132-8.159-2.835-4.91zM363.157 73.153l-14.175-8.184 2.835-4.909 14.175 8.183-2.835 4.91z" transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <g fill="#4a4a4a">
+        <path d="M0 14.868h5.852v2.433c1.127-1.225 2.09-2.054 2.887-2.487.85-.45 1.916-.676 3.199-.676 2.862 0 5.124 1.298 6.789 3.893 1.838-2.595 4.326-3.893 7.465-3.893 5.705 0 8.557 3.596 8.557 10.787v16.274h-5.878V26.574c0-2.523-.295-4.308-.885-5.353-.606-1.063-1.603-1.595-2.991-1.595-1.612 0-2.787.631-3.524 1.893-.737 1.261-1.105 3.289-1.105 6.082v13.598h-5.879V26.655c0-4.686-1.3-7.029-3.901-7.029-1.647 0-2.848.64-3.602 1.92-.755 1.279-1.132 3.298-1.132 6.055v13.598H0V14.868zM65.206 29.466H47.052c.156 2.163.832 3.884 2.028 5.164 1.197 1.261 2.731 1.892 4.604 1.892 1.457 0 2.662-.36 3.615-1.081.937-.721 2.003-2.055 3.2-4.001l4.942 2.865c-.763 1.352-1.57 2.51-2.419 3.474-.85.964-1.76 1.757-2.731 2.379a10.707 10.707 0 0 1-3.148 1.365c-1.127.288-2.349.433-3.667.433-3.78 0-6.815-1.262-9.103-3.785-2.289-2.541-3.434-5.911-3.434-10.11 0-4.164 1.11-7.534 3.33-10.111 2.236-2.541 5.202-3.812 8.895-3.812 3.728 0 6.676 1.235 8.843 3.704 2.15 2.451 3.225 5.848 3.225 10.192l-.026 1.432zm-6.008-4.974c-.815-3.244-2.783-4.866-5.904-4.866-.711 0-1.379.113-2.003.338a5.668 5.668 0 0 0-1.703.973c-.512.424-.95.933-1.314 1.528a7.246 7.246 0 0 0-.832 2.027h11.756zM78.107 14.138v27.061h-5.852V14.138h-2.83V8.461h2.83V0h5.852v8.461h5.35v5.677h-5.35zM111.66 41.199h-5.878v-2.758c-2.411 2.343-5.003 3.515-7.777 3.515-3.503 0-6.399-1.316-8.688-3.947-2.271-2.685-3.407-6.038-3.407-10.057 0-3.946 1.136-7.235 3.407-9.867 2.272-2.631 5.116-3.947 8.532-3.947 2.947 0 5.592 1.262 7.933 3.785v-3.055h5.878v26.331zM91.658 27.952c0 2.524.651 4.578 1.951 6.164 1.335 1.604 3.017 2.406 5.046 2.406 2.167 0 3.919-.775 5.254-2.325 1.335-1.604 2.003-3.64 2.003-6.109s-.668-4.506-2.003-6.11c-1.335-1.568-3.069-2.352-5.202-2.352-2.011 0-3.693.793-5.046 2.379-1.335 1.604-2.003 3.587-2.003 5.947zM124.899 41.199h-5.852V0h5.852v17.923c2.341-2.523 4.994-3.785 7.959-3.785 3.416 0 6.259 1.325 8.531 3.974 2.272 2.632 3.407 5.912 3.407 9.84 0 4.055-1.144 7.408-3.433 10.057-2.272 2.631-5.141 3.947-8.609 3.947-2.931 0-5.549-1.172-7.855-3.515v2.758zm14.149-12.976c0-2.523-.659-4.578-1.977-6.164-1.335-1.622-3.008-2.433-5.019-2.433-2.151 0-3.902.784-5.254 2.352-1.336 1.55-2.003 3.568-2.003 6.056 0 2.559.659 4.604 1.977 6.136 1.317 1.568 3.051 2.352 5.201 2.352 2.029 0 3.711-.784 5.046-2.352 1.353-1.586 2.029-3.568 2.029-5.947zM149.79 27.844c0-3.802 1.309-7.037 3.928-9.705 2.618-2.667 5.808-4.001 9.571-4.001 3.78 0 6.988 1.343 9.624 4.028 2.601 2.686 3.901 5.984 3.901 9.895 0 3.946-1.309 7.253-3.927 9.921-2.636 2.649-5.87 3.974-9.702 3.974-3.797 0-6.979-1.352-9.545-4.055-2.567-2.668-3.85-6.02-3.85-10.057zm5.982.108c0 2.632.677 4.713 2.029 6.245 1.387 1.55 3.217 2.325 5.488 2.325 2.289 0 4.118-.766 5.488-2.298s2.055-3.577 2.055-6.136c0-2.56-.685-4.605-2.055-6.137-1.387-1.55-3.216-2.325-5.488-2.325-2.237 0-4.049.775-5.436 2.325-1.387 1.55-2.081 3.55-2.081 6.001zM183.005 0h5.852v41.199h-5.852zM196.27 14.868h5.852v26.33h-5.852zM195.439 4.698c0-1.028.367-1.916 1.103-2.665.735-.748 1.615-1.123 2.641-1.123 1.043 0 1.932.375 2.667 1.123.735.732 1.102 1.629 1.102 2.691 0 1.062-.367 1.968-1.102 2.717-.718.748-1.599 1.123-2.641 1.123-1.043 0-1.932-.375-2.667-1.123-.736-.749-1.103-1.664-1.103-2.743zM229.25 16.004v8.083c-1.335-1.694-2.532-2.857-3.589-3.488-1.041-.648-2.263-.973-3.668-.973-2.202 0-4.031.802-5.488 2.406-1.456 1.604-2.185 3.614-2.185 6.029 0 2.469.703 4.496 2.107 6.082 1.422 1.586 3.234 2.379 5.436 2.379 1.405 0 2.645-.315 3.72-.946 1.04-.613 2.262-1.802 3.667-3.569v8.029c-2.376 1.28-4.751 1.92-7.127 1.92-3.919 0-7.196-1.316-9.831-3.947-2.636-2.649-3.954-5.939-3.954-9.867 0-3.929 1.335-7.245 4.006-9.949 2.67-2.703 5.947-4.055 9.831-4.055 2.497 0 4.855.622 7.075 1.866z" transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      </g>
+      <g fill="#25543c">
+        <path d="M41.28 99.658H16.108l-6.55 12.718H0l29.094-55.653 28.066 55.653h-9.711L41.28 99.658zm-3.618-7.427l-8.72-17.805-9.14 17.805h17.86zM77.98 64.581v47.795h-8.873V64.581H55.589v-7.9h35.872v7.9H77.98zM108.255 56.681v47.795h17.289v7.9H99.382V56.681h8.873zM171.252 99.658H146.08l-6.55 12.718h-9.558l29.094-55.653 28.066 55.653h-9.711l-6.169-12.718zm-3.618-7.427l-8.72-17.805-9.14 17.805h17.86zM227.727 65.919l-7.198 3.961c-1.345-2.169-2.627-3.584-3.846-4.244-1.269-.755-2.907-1.132-4.912-1.132-2.463 0-4.507.649-6.132 1.945-1.624 1.274-2.437 2.877-2.437 4.811 0 2.664 2.133 4.81 6.398 6.437l5.864 2.229c4.773 1.792 8.264 3.979 10.473 6.561 2.209 2.582 3.313 5.747 3.313 9.497 0 5.022-1.803 9.172-5.408 12.45-3.63 3.301-8.136 4.952-13.519 4.952-5.102 0-9.317-1.403-12.643-4.209-3.275-2.806-5.318-6.756-6.131-11.849l8.988-1.84c.406 3.207 1.117 5.424 2.132 6.65 1.828 2.358 4.494 3.537 7.997 3.537 2.767 0 5.065-.861 6.893-2.582 1.828-1.721 2.742-3.902 2.742-6.543 0-1.062-.159-2.034-.476-2.918a7.301 7.301 0 0 0-1.485-2.441c-.673-.743-1.543-1.438-2.609-2.087-1.066-.648-2.336-1.267-3.808-1.857l-5.674-2.193c-8.048-3.16-12.072-7.781-12.072-13.865 0-4.103 1.688-7.534 5.065-10.293 3.376-2.782 7.578-4.173 12.605-4.173 6.778 0 12.072 3.065 15.88 9.196z" transform="matrix(1.5,0,0,1.5,2623.0,1814.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

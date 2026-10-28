@@ -1,3 +1,1029 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9b3f74510580dec833f803069ea5e8fc2520225d5cbdd079482163917db559e3
-size 90647
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" width="3935" height="2847.4" version="1.2" data-modelname="Yeast-GEM" data-modelversion="9.1.1" data-pluginversion="1.6">
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description about="license" dc:description="Copyright Department of Biology and Biological Engineering, Chalmers University of Technology. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Obtained from https://metabolicatlas.org" cc:license="http://creativecommons.org/licenses/by-sa/4.0/"/>
+      <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g id="Nicotinate and nicotinamide metabolism" class="subsystem" data-bounds="minX:300.0;maxX:3339.8;minY:300.0;maxY:2407.5">
+    <path class="shape" d="M1825.7 642.5L1571.5 642.5L2165.7 642.5L1825.7 642.5M747.0 1844.6L514.8 1844.6L963.6 1844.6L747.0 1844.6M2248.8 833.8L1931.1 833.8L2569.2 833.8L2248.8 833.8M618.6 1571.6L856.0 1571.7L618.6 1571.6L618.6 1267.7L618.6 1571.6M618.6 1571.6L369.5 1571.7L618.6 1571.6M2404.1 2079.3L2641.1 2079.3L2404.1 2079.3L2404.1 1852.2L2404.1 2079.3M2404.1 2079.3L2404.1 2407.5L2404.1 2079.3M3339.8 2079.3L3339.8 1852.2L3339.8 2407.5L3339.8 2079.3M3339.8 2079.3L3114.5 2079.3L3339.8 2079.3M1502.8 1852.2L1502.8 2168.7L1502.8 1852.2L1181.2 1852.2L1502.8 1852.2M1502.8 1852.2L1853.3 1852.2L1502.8 1852.2M300.0 2168.6L893.9 2168.7L300.0 2168.6L300.0 1953.0L300.0 2168.6M300.0 2168.6L300.0 2407.5L300.0 2168.6M1181.2 1543.5L1181.2 1267.7L1181.2 1852.2L1181.2 1543.5M1181.2 836.6L824.9 836.6L1563.9 836.6L1181.2 836.6M1181.2 836.6L1181.2 1267.7L1181.2 836.6M1181.2 836.6L1181.8 607.2L1181.2 836.6M2983.3 1267.7L2569.2 1267.7L3326.6 1267.7L2983.3 1267.7M2983.3 1640.2L2569.2 1640.2L3326.6 1640.2L2983.3 1640.2M2136.8 1852.2L1853.3 1852.2L2404.1 1852.2L2136.8 1852.2M1853.3 2168.6L1853.3 2407.5L1853.3 2168.6L1502.8 2168.7L1853.3 2168.6M1853.3 2168.6L1853.3 1852.2L1853.3 2168.6M893.9 2407.4L1201.8 2407.4L893.9 2407.4L893.9 2168.7L893.9 2407.4M893.9 2407.4L300.0 2407.5L893.9 2407.4M1612.0 1267.7L1934.4 1267.7L1612.0 1267.7L1611.6 1037.1L1612.0 1267.7M1612.0 1267.7L1181.2 1267.7L1612.0 1267.7M2252.1 1267.7L1934.4 1267.7L2569.2 1267.7L2252.1 1267.7M2865.4 1852.2L2404.1 1852.2M3339.8 1852.2L2865.4 1852.2M2865.4 2407.4L2404.1 2407.5L2865.4 2407.4L3339.8 2407.5L2865.4 2407.4M2865.4 2079.3L2641.1 2079.3L3114.5 2079.3L2865.4 2079.3M890.3 1267.7L1181.2 1267.7L618.6 1267.7L890.3 1267.7M2569.2 1468.6L2569.2 1267.7L2569.2 1640.2L2569.2 1468.6M2569.2 1032.3L2569.2 1267.7L2569.2 833.8L2569.2 1032.3M1206.4 2168.6L1502.8 2168.7L1206.4 2168.6L893.9 2168.7L1206.4 2168.6M1501.8 2407.4L1853.3 2407.5L1501.8 2407.4L1201.8 2407.4L1501.8 2407.4M1600.0 1600.0L1810.0 1600.0M2020.0 1600.0L1810.0 1600.0M300.0 1000.0L510.0 1000.0M720.0 1000.0L510.0 1000.0M400.0 600.0L610.0 600.0M820.0 600.0L610.0 600.0M3400.0 300.0L3400.0 510.0M3400.0 720.0L3400.0 510.0" fill="none" stroke="#ffff9c" stroke-width="80" opacity=".5" stroke-linejoin="round" stroke-linecap="round"/>
+    <text y="20" transform="matrix(1,0,0,1,1967.5,380.5)" fill="#ffff9c" stroke="#333" font-family="sans-serif" font-size="100" font-weight="700" text-anchor="middle">Nicotinate and nicotinamide metabolism</text>
+  </g>
+  <g id="fes" fill="none" stroke="#666" stroke-width="3">
+    <path class="fe r_0076" d="M1749.8 566.6L1809.2 626.0M1604.5 642.5L1792.7 642.5M1842.2 626.0L1901.6 566.6M1858.7 642.5L2132.7 642.5"/>
+    <path class="fe r_0078" d="M671.2 1768.8L730.5 1828.1M547.8 1844.6L714.0 1844.6M763.5 1828.1L822.9 1768.8M780.0 1844.6L930.6 1844.6"/>
+    <path class="fe r_0764" d="M1964.1 833.8L2215.8 833.8M2172.9 757.9L2232.3 817.3M2265.3 817.3L2324.6 757.9M2261.7 813.7L2326.0 714.0M2281.8 833.8L2536.2 833.8"/>
+    <path class="fe r_0767" d="M823.0 1571.7L651.5 1571.7M694.5 1495.8L635.1 1555.2M602.1 1555.1L542.7 1495.8M618.6 1538.7L618.6 1290.7M585.6 1571.7L402.5 1571.7"/>
+    <path class="fe r_0768" d="M2483.3 1956.1L2417.0 2059.2M2480.0 2003.4L2420.6 2062.8M2608.1 2079.3L2437.1 2079.3M2404.1 1875.2L2404.1 2046.3M2420.6 2095.8L2480.0 2155.2M2417.0 2099.4L2483.3 2202.5M2414.7 2101.7L2485.5 2251.2M2413.1 2103.3L2487.1 2300.6M2404.1 2112.3L2404.1 2384.5"/>
+    <path class="fe r_0769" d="M3260.7 1956.1L3326.9 2059.2M3264.0 2003.5L3323.3 2062.8M3147.5 2079.3L3306.8 2079.3M3339.8 1875.2L3339.8 2046.3M3323.3 2095.8L3264.0 2155.2M3326.9 2099.4L3260.7 2202.5M3329.2 2101.7L3258.4 2251.2M3330.8 2103.3L3256.9 2300.6M3339.8 2112.3L3339.8 2384.5"/>
+    <path class="fe r_0774" d="M1427.2 1925.5L1486.0 1868.5M1502.8 2145.7L1502.8 1885.2M1214.2 1852.2L1469.8 1852.2M1519.5 1868.5L1578.4 1925.5M1535.8 1852.2L1820.3 1852.2M1563.9 1874.4L1524.8 1860.2M1441.7 1874.4L1480.8 1860.2M1563.9 1830.0L1524.8 1844.2"/>
+    <path class="fe r_0775" d="M375.7 2094.2L316.7 2152.3M860.9 2168.7L333.0 2168.6M300.0 1976.0L300.0 2135.7M316.4 2185.3L376.0 2245.9M300.0 2201.6L300.0 2384.5M361.1 2190.8L322.0 2176.6M361.1 2146.4L322.0 2160.6M267.5 2224.9L289.0 2187.6"/>
+    <path class="fe r_0781" d="M1258.6 1467.5L1197.8 1527.1M1181.2 1290.7L1181.2 1510.5M1197.8 1559.8L1258.6 1619.5M1181.2 1576.5L1181.2 1829.2"/>
+    <path class="fe r_0782" d="M857.9 836.6L1148.2 836.6M1181.2 1244.7L1181.2 869.6M1214.2 836.6L1530.9 836.6M1181.3 803.7L1181.8 630.2"/>
+    <path class="fe r_0783" d="M2907.4 1343.5L2966.8 1284.2M2900.2 1408.6L2971.1 1288.4M2602.2 1267.7L2950.3 1267.7M3016.3 1267.7L3293.6 1267.7M2999.8 1284.2L3059.2 1343.5"/>
+    <path class="fe r_0784" d="M2907.4 1716.1L2966.8 1656.7M2904.3 1763.1L2970.4 1660.3M2602.2 1640.2L2950.3 1640.2M2999.8 1656.7L3059.2 1716.1M3016.3 1640.2L3293.6 1640.2"/>
+    <path class="fe r_0785" d="M2060.9 1776.3L2120.3 1835.7M2055.2 1724.4L2123.9 1832.1M1886.3 1852.2L2103.8 1852.2M2153.3 1835.7L2212.7 1776.3M2169.8 1852.2L2371.1 1852.2"/>
+    <path class="fe r_0786" d="M1777.2 2247.0L1837.1 2185.4M1853.3 2384.5L1853.3 2201.6M1535.8 2168.7L1820.3 2168.7M1840.2 2148.7L1774.3 2048.1M1836.6 2152.4L1777.7 2095.3M1853.3 2135.6L1853.3 1875.2"/>
+    <path class="fe r_0787" d="M969.8 2331.6L910.4 2390.9M1168.8 2407.4L926.9 2407.4M893.9 2191.7L893.9 2374.5M877.4 2391.0L818.0 2331.6M880.4 2388.0L802.7 2276.7M860.9 2407.5L333.0 2407.5"/>
+    <path class="fe r_0943" d="M1687.9 1191.8L1628.5 1251.2M1901.4 1267.7L1645.0 1267.7M1595.5 1251.2L1536.1 1191.8M1612.0 1234.7L1611.6 1060.1M1579.0 1267.7L1214.2 1267.7"/>
+    <path class="fe r_0983" d="M2176.2 1191.8L2235.6 1251.2M1967.4 1267.7L2219.1 1267.7M2268.6 1251.2L2327.9 1191.8M2264.8 1247.4L2325.4 1150.7M2285.1 1267.7L2536.2 1267.7"/>
+    <path class="fe r_1726" d="M2437.1 1852.2L2832.4 1852.2M2898.4 1852.2L3306.8 1852.2"/>
+    <path class="fe r_1890" d="M2437.1 2407.5L2832.4 2407.5M2898.4 2407.5L3306.8 2407.5"/>
+    <path class="fe r_1892" d="M2674.1 2079.3L2832.4 2079.3M2898.4 2079.3L3081.5 2079.3"/>
+    <path class="fe r_1966" d="M1148.2 1267.7L923.3 1267.7M857.3 1267.7L651.6 1267.7"/>
+    <path class="fe r_1970" d="M2569.2 1290.7L2569.2 1435.6M2569.2 1501.6L2569.2 1617.2"/>
+    <path class="fe r_1971" d="M2569.2 1244.7L2569.2 1065.3M2569.2 999.3L2569.2 856.8"/>
+    <path class="fe r_2023" d="M1469.8 2168.7L1239.3 2168.7M1173.4 2168.7L926.9 2168.7"/>
+    <path class="fe r_2036" d="M1820.3 2407.5L1534.8 2407.5M1468.8 2407.4L1234.8 2407.4"/>
+    <path class="fe r_0765" d="M1632.0 1600.0L1780.0 1600.0M1988.0 1600.0L1840.0 1600.0M1775.4 1653.6L1798.2 1618.2M1810.0 1652.0L1810.0 1630.0M1887.9 1656.2L1827.4 1612.6"/>
+    <path class="fe r_0766" d="M332.0 1000.0L480.0 1000.0M688.0 1000.0L540.0 1000.0M475.4 1053.6L498.2 1018.2M510.0 1052.0L510.0 1030.0M587.9 1056.2L527.4 1012.6"/>
+    <path class="fe r_0771" d="M432.0 600.0L580.0 600.0M788.0 600.0L640.0 600.0M575.4 653.6L598.2 618.2M610.0 652.0L610.0 630.0M687.9 656.2L627.4 612.6"/>
+    <path class="fe r_0772" d="M3400.0 322.0L3400.0 480.0M3400.0 698.0L3400.0 540.0M3346.4 475.4L3381.8 498.2M3346.4 544.6L3381.8 521.8M3343.8 587.9L3387.4 527.4"/>
+    <path class="fe r_0314" d="M2165.7 620.5L2165.7 492.6L991.9 492.6L991.9 1362.0M995.6 1844.6L997.5 1844.6L997.5 1392.0L1021.9 1392.0M978.4 1329.7L986.6 1367.4M1007.3 1297.3L996.1 1366.2M929.5 1378.6L967.2 1386.7"/>
+    <path class="fe r_2031" d="M931.6 1844.6L797.6 1844.6L797.6 1401.5L772.2 1401.5M1611.6 1059.1L1611.6 1128.2L742.2 1128.2L742.2 1371.5M670.6 1228.6L733.4 1380.2M787.2 1427.5L761.2 1412.5"/>
+  </g>
+  <g id="fehs" fill="#666">
+    <path class="feh r_0076" d="M1804.2 613.9L1797.2 621.0L1810.6 627.4M1780.7 637.5L1780.7 647.5L1794.7 642.5M1889.5 571.6L1896.6 578.6L1903.0 565.2M2120.7 637.5L2120.7 647.5L2134.7 642.5"/>
+    <path class="feh r_0078" d="M725.5 1816.1L718.5 1823.1L731.9 1829.5M702.0 1839.6L702.0 1849.6L716.0 1844.6M810.8 1773.7L817.9 1780.8L824.3 1767.3M918.6 1839.6L918.6 1849.6L932.6 1844.6"/>
+    <path class="feh r_0764" d="M2203.8 828.8L2203.8 838.8L2217.8 833.8M2227.3 805.2L2220.3 812.3L2233.7 818.7M2312.6 762.9L2319.7 770.0L2326.1 756.5M2315.3 721.4L2323.7 726.8L2327.0 712.3M2524.2 828.8L2524.2 838.8L2538.2 833.8"/>
+    <path class="feh r_0767" d="M663.5 1576.7L663.5 1566.7L649.5 1571.7M647.1 1550.2L640.0 1543.1L633.6 1556.6M547.7 1507.9L554.8 1500.8L541.3 1494.4M613.6 1302.7L623.6 1302.7L618.6 1288.7M414.5 1576.7L414.5 1566.7L400.5 1571.7"/>
+    <path class="feh r_0768" d="M2427.7 2051.8L2419.3 2046.4L2416.0 2060.9M2432.6 2057.9L2425.6 2050.8L2419.2 2064.2M2449.1 2084.3L2449.1 2074.3L2435.1 2079.3M2409.1 2034.3L2399.1 2034.3L2404.1 2048.3M2475.0 2143.1L2467.9 2150.2L2481.4 2156.6M2481.0 2189.7L2472.6 2195.1L2484.4 2204.2M2484.9 2238.2L2475.9 2242.5L2486.4 2253.0M2487.5 2287.6L2478.2 2291.1L2487.8 2302.4M2409.1 2372.5L2399.1 2372.5L2404.1 2386.5"/>
+    <path class="feh r_0769" d="M3324.6 2046.4L3316.2 2051.8L3328.0 2060.9M3262.9 1968.9L3271.3 1963.5L3259.6 1954.5M3318.4 2050.8L3311.3 2057.9L3324.8 2064.2M3268.9 2015.5L3276.0 2008.4L3262.6 2002.0M3294.8 2074.3L3294.8 2084.3L3308.8 2079.3M3159.5 2084.3L3159.5 2074.3L3145.5 2079.3M3344.8 2034.3L3334.8 2034.3L3339.8 2048.3M3334.8 1887.2L3344.8 1887.2L3339.8 1873.2M3276.0 2150.2L3268.9 2143.2L3262.6 2156.6M3311.3 2100.8L3318.4 2107.8L3324.8 2094.4M3271.3 2195.1L3262.9 2189.7L3259.6 2204.2M3316.2 2106.8L3324.6 2112.2L3328.0 2097.7M3268.1 2242.5L3259.0 2238.3L3257.5 2253.1M3319.6 2110.4L3328.6 2114.7L3330.1 2099.9M3265.8 2291.1L3256.4 2287.6L3256.2 2302.5M3321.9 2112.8L3331.3 2116.3L3331.5 2101.4M3344.8 2372.5L3334.8 2372.5L3339.8 2386.5M3334.8 2124.3L3344.8 2124.3L3339.8 2110.3"/>
+    <path class="feh r_0774" d="M1473.9 1873.2L1480.9 1880.4L1487.4 1867.1M1497.8 1897.2L1507.8 1897.2L1502.8 1883.2M1457.8 1847.2L1457.8 1857.2L1471.8 1852.2M1573.3 1913.5L1566.3 1920.7L1579.9 1926.9M1808.3 1847.2L1808.3 1857.2L1822.3 1852.2M1563.9 1874.4L1549.6 1875.6L1553.7 1864.3L1563.9 1874.4M1563.9 1830.0L1553.7 1840.1L1549.6 1828.8L1563.9 1830.0"/>
+    <path class="feh r_0775" d="M328.7 2147.4L321.7 2140.3L315.2 2153.7M345.0 2173.6L345.0 2163.6L331.0 2168.6M305.0 2123.7L295.0 2123.7L300.0 2137.7M371.1 2233.9L364.0 2240.9L377.4 2247.4M305.0 2372.5L295.0 2372.5L300.0 2386.5M361.1 2190.8L346.8 2192.0L350.9 2180.7L361.1 2190.8M267.5 2224.9L268.8 2210.6L279.2 2216.6L267.5 2224.9"/>
+    <path class="feh r_0781" d="M1209.9 1522.3L1202.9 1515.2L1196.4 1528.5M1186.2 1498.5L1176.2 1498.5L1181.2 1512.5M1253.5 1607.5L1246.5 1614.6L1260.0 1620.9M1186.2 1817.2L1176.2 1817.2L1181.2 1831.2"/>
+    <path class="feh r_0782" d="M1136.2 831.6L1136.2 841.6L1150.2 836.6M1176.2 881.6L1186.2 881.6L1181.2 867.6M1518.9 831.6L1518.9 841.6L1532.9 836.6M1176.7 642.2L1186.7 642.2L1181.8 628.2"/>
+    <path class="feh r_0783" d="M2954.8 1289.1L2961.8 1296.2L2968.2 1282.8M2960.7 1296.2L2969.3 1301.3L2972.1 1286.7M2938.3 1262.7L2938.3 1272.7L2952.3 1267.7M3281.6 1262.7L3281.6 1272.7L3295.6 1267.7M3054.2 1331.5L3047.1 1338.6L3060.6 1345.0"/>
+    <path class="feh r_0784" d="M2954.8 1661.7L2961.8 1668.8L2968.2 1655.3M2959.7 1667.7L2968.1 1673.1L2971.5 1658.7M2938.3 1635.2L2938.3 1645.2L2952.3 1640.2M3054.2 1704.1L3047.1 1711.2L3060.6 1717.5M3281.6 1635.2L3281.6 1645.2L3295.6 1640.2"/>
+    <path class="feh r_0785" d="M2115.3 1823.7L2108.3 1830.8L2121.7 1837.1M2121.7 1819.3L2113.2 1824.7L2125.0 1833.8M2091.8 1847.2L2091.8 1857.2L2105.8 1852.2M2200.6 1781.3L2207.7 1788.4L2214.1 1774.9M2359.1 1847.2L2359.1 1857.2L2373.1 1852.2"/>
+    <path class="feh r_0786" d="M1825.1 2190.5L1832.3 2197.5L1838.5 2184.0M1848.3 2213.6L1858.3 2213.6L1853.3 2199.6M1808.3 2163.7L1808.3 2173.7L1822.3 2168.7M1776.7 2060.9L1785.0 2055.4L1773.2 2046.4M1782.8 2107.3L1789.8 2100.1L1776.2 2093.9M1848.3 1887.2L1858.3 1887.2L1853.3 1873.2"/>
+    <path class="feh r_0787" d="M922.5 2386.0L915.4 2378.9L909.0 2392.4M938.9 2412.4L938.9 2402.4L924.9 2407.4M898.9 2362.5L888.9 2362.5L893.9 2376.5M823.0 2343.6L830.1 2336.6L816.6 2330.2M805.5 2289.4L813.7 2283.7L801.6 2275.1M345.0 2412.5L345.0 2402.5L331.0 2407.5"/>
+    <path class="feh r_0943" d="M1640.5 1246.2L1633.5 1239.2L1627.1 1252.6M1657.0 1272.7L1657.0 1262.7L1643.0 1267.7M1541.1 1203.9L1548.2 1196.8L1534.7 1190.4M1606.6 1072.1L1616.6 1072.1L1611.6 1058.1M1226.2 1272.7L1226.2 1262.7L1212.2 1267.7"/>
+    <path class="feh r_0983" d="M2230.6 1239.2L2223.6 1246.2L2237.0 1252.6M2207.1 1262.7L2207.1 1272.7L2221.1 1267.7M2315.9 1196.8L2323.0 1203.8L2329.3 1190.4M2314.8 1158.2L2323.3 1163.6L2326.5 1149.0M2524.2 1262.7L2524.2 1272.7L2538.2 1267.7"/>
+    <path class="feh r_1726" d="M2820.4 1847.2L2820.4 1857.2L2834.4 1852.2M2449.1 1857.2L2449.1 1847.2L2435.1 1852.2M3294.8 1847.2L3294.8 1857.2L3308.8 1852.2M2910.4 1857.2L2910.4 1847.2L2896.4 1852.2"/>
+    <path class="feh r_1890" d="M2820.4 2402.5L2820.4 2412.5L2834.4 2407.5M2449.1 2412.5L2449.1 2402.5L2435.1 2407.5M3294.8 2402.5L3294.8 2412.5L3308.8 2407.5M2910.4 2412.5L2910.4 2402.5L2896.4 2407.5"/>
+    <path class="feh r_1892" d="M2820.4 2074.3L2820.4 2084.3L2834.4 2079.3M2686.1 2084.3L2686.1 2074.3L2672.1 2079.3M3069.5 2074.3L3069.5 2084.3L3083.5 2079.3M2910.4 2084.3L2910.4 2074.3L2896.4 2079.3"/>
+    <path class="feh r_1966" d="M935.3 1272.7L935.3 1262.7L921.3 1267.7M1136.2 1262.7L1136.2 1272.7L1150.2 1267.7M663.6 1272.7L663.6 1262.7L649.6 1267.7M845.3 1262.7L845.3 1272.7L859.3 1267.7"/>
+    <path class="feh r_1970" d="M2574.2 1423.6L2564.2 1423.6L2569.2 1437.6M2564.2 1302.7L2574.2 1302.7L2569.2 1288.7M2574.2 1605.2L2564.2 1605.2L2569.2 1619.2M2564.2 1513.6L2574.2 1513.6L2569.2 1499.6"/>
+    <path class="feh r_1971" d="M2564.2 1077.3L2574.2 1077.3L2569.2 1063.3M2574.2 1232.7L2564.2 1232.7L2569.2 1246.7M2564.2 868.8L2574.2 868.8L2569.2 854.8M2574.2 987.3L2564.2 987.3L2569.2 1001.3"/>
+    <path class="feh r_2023" d="M1251.3 2173.7L1251.3 2163.7L1237.3 2168.7M1457.8 2163.7L1457.8 2173.7L1471.8 2168.7M938.9 2173.7L938.9 2163.7L924.9 2168.7M1161.4 2163.7L1161.4 2173.7L1175.4 2168.7"/>
+    <path class="feh r_2036" d="M1546.8 2412.5L1546.8 2402.5L1532.8 2407.5M1808.3 2402.5L1808.3 2412.5L1822.3 2407.5M1246.8 2412.4L1246.8 2402.4L1232.8 2407.4M1456.8 2402.4L1456.8 2412.4L1470.8 2407.4"/>
+    <path class="feh r_0765" d="M1988.0 1600.0L1975.0 1606.0L1975.0 1594.0L1988.0 1600.0M1810.0 1652.0L1804.0 1639.0L1816.0 1639.0L1810.0 1652.0M1887.9 1656.2L1873.8 1653.4L1880.9 1643.7L1887.9 1656.2"/>
+    <path class="feh r_0766" d="M688.0 1000.0L675.0 1006.0L675.0 994.0L688.0 1000.0M510.0 1052.0L504.0 1039.0L516.0 1039.0L510.0 1052.0M587.9 1056.2L573.8 1053.4L580.9 1043.7L587.9 1056.2"/>
+    <path class="feh r_0771" d="M788.0 600.0L775.0 606.0L775.0 594.0L788.0 600.0M610.0 652.0L604.0 639.0L616.0 639.0L610.0 652.0M687.9 656.2L673.8 653.4L680.9 643.7L687.9 656.2"/>
+    <path class="feh r_0772" d="M3400.0 698.0L3394.0 685.0L3406.0 685.0L3400.0 698.0M3346.4 544.6L3354.1 532.5L3360.6 542.6L3346.4 544.6M3343.8 587.9L3346.6 573.8L3356.3 580.9L3343.8 587.9"/>
+    <path class="feh r_0314" d="M995.6 1844.6L1008.6 1838.6L1008.6 1850.6L995.6 1844.6M929.5 1378.6L943.5 1375.5L941.0 1387.2L929.5 1378.6"/>
+    <path class="feh r_2031" d="M931.6 1844.6L918.6 1850.6L918.6 1838.6L931.6 1844.6M1611.6 1059.1L1617.6 1072.1L1605.6 1072.1L1611.6 1059.1M670.6 1228.6L681.2 1238.3L670.1 1242.9L670.6 1228.6M787.2 1427.5L773.0 1426.2L779.0 1415.8L787.2 1427.5"/>
+  </g>
+  <g id="ees" fill="none" stroke="#666" stroke-width="3">
+    <path class="ee r_0076" d="M1825.7 717.5L1825.7 642.5"/>
+    <path class="ee r_0078" d="M747.0 1919.6L747.0 1844.6"/>
+    <path class="ee r_0764" d="M2248.8 908.8L2248.8 833.8"/>
+    <path class="ee r_0767" d="M618.6 1646.6L618.6 1571.6"/>
+    <path class="ee r_0768" d="M2314.1 2079.3L2404.1 2079.3"/>
+    <path class="ee r_0769" d="M3429.8 2079.3L3339.8 2079.3"/>
+    <path class="ee r_0774" d="M1502.8 1774.4L1502.8 1852.2"/>
+    <path class="ee r_0775" d="M210.0 2170.2L300.0 2168.6"/>
+    <path class="ee r_0781" d="M1092.8 1543.5L1181.2 1543.5"/>
+    <path class="ee r_0782" d="M1078.9 937.7L1181.2 836.6"/>
+    <path class="ee r_0783" d="M2983.3 1192.7L2983.3 1267.7"/>
+    <path class="ee r_0784" d="M2983.3 1565.2L2983.3 1640.2"/>
+    <path class="ee r_0785" d="M2136.8 1927.2L2136.8 1852.2"/>
+    <path class="ee r_0786" d="M1943.3 2171.4L1853.3 2168.6"/>
+    <path class="ee r_0787" d="M893.9 2482.4L893.9 2407.4"/>
+    <path class="ee r_0943" d="M1612.0 1342.7L1612.0 1267.7"/>
+    <path class="ee r_0983" d="M2252.1 1342.7L2252.1 1267.7"/>
+    <path class="ee r_0765" d="M1810.0 1570.0L1810.0 1545.0"/>
+    <path class="ee r_0766" d="M510.0 970.0L510.0 945.0"/>
+    <path class="ee r_0771" d="M610.0 570.0L610.0 545.0"/>
+    <path class="ee r_0772" d="M3430.0 510.0L3455.0 510.0"/>
+    <path class="ee r_0314" d="M1019.7 1394.2L1053.8 1394.2"/>
+  </g>
+  <g id="nodes">
+    <g id="r_0076" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1825.7,642.5)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1825.7,642.5)">
+        r_0076
+      </text>
+    </g>
+    <g id="r_0078" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,747.0,1844.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,747.0,1844.6)">
+        r_0078
+      </text>
+    </g>
+    <g id="r_0764" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2248.8,833.8)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2248.8,833.8)">
+        r_0764
+      </text>
+    </g>
+    <g id="r_0767" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,618.6,1571.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,618.6,1571.6)">
+        r_0767
+      </text>
+    </g>
+    <g id="r_0768" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2404.1,2079.3)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2404.1,2079.3)">
+        r_0768
+      </text>
+    </g>
+    <g id="r_0769" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3339.8,2079.3)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3339.8,2079.3)">
+        r_0769
+      </text>
+    </g>
+    <g id="r_0774" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1502.8,1852.2)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1502.8,1852.2)">
+        r_0774
+      </text>
+    </g>
+    <g id="r_0775" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,300.0,2168.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,300.0,2168.6)">
+        r_0775
+      </text>
+    </g>
+    <g id="r_0781" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1181.2,1543.5)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1181.2,1543.5)">
+        r_0781
+      </text>
+    </g>
+    <g id="r_0782" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1181.2,836.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1181.2,836.6)">
+        r_0782
+      </text>
+    </g>
+    <g id="r_0783" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2983.3,1267.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2983.3,1267.7)">
+        r_0783
+      </text>
+    </g>
+    <g id="r_0784" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2983.3,1640.2)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2983.3,1640.2)">
+        r_0784
+      </text>
+    </g>
+    <g id="r_0785" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2136.8,1852.2)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2136.8,1852.2)">
+        r_0785
+      </text>
+    </g>
+    <g id="r_0786" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1853.3,2168.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1853.3,2168.6)">
+        r_0786
+      </text>
+    </g>
+    <g id="r_0787" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,893.9,2407.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,893.9,2407.4)">
+        r_0787
+      </text>
+    </g>
+    <g id="r_0943" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1612.0,1267.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1612.0,1267.7)">
+        r_0943
+      </text>
+    </g>
+    <g id="r_0983" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2252.1,1267.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2252.1,1267.7)">
+        r_0983
+      </text>
+    </g>
+    <g id="r_1726" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2865.4,1852.2)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2865.4,1852.2)">
+        r_1726
+      </text>
+    </g>
+    <g id="r_1890" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2865.4,2407.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2865.4,2407.4)">
+        r_1890
+      </text>
+    </g>
+    <g id="r_1892" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2865.4,2079.3)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2865.4,2079.3)">
+        r_1892
+      </text>
+    </g>
+    <g id="r_1966" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,890.3,1267.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,890.3,1267.7)">
+        r_1966
+      </text>
+    </g>
+    <g id="r_1970" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2569.2,1468.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2569.2,1468.6)">
+        r_1970
+      </text>
+    </g>
+    <g id="r_1971" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2569.2,1032.3)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2569.2,1032.3)">
+        r_1971
+      </text>
+    </g>
+    <g id="r_2023" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1206.4,2168.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1206.4,2168.6)">
+        r_2023
+      </text>
+    </g>
+    <g id="r_2036" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1501.8,2407.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1501.8,2407.4)">
+        r_2036
+      </text>
+    </g>
+    <g class="met s_0803 r_0076" transform="matrix(1,0,0,1,1735.7,552.5)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-53.3" y="6">
+        H2O[c]
+      </text>
+    </g>
+    <g class="met s_0526 r_0076" transform="matrix(1,0,0,1,1571.5,642.5)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        CMP[c]
+      </text>
+    </g>
+    <g class="met s_1322 r_0076" transform="matrix(1,0,0,1,1915.7,552.5)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="89.3" y="6">
+        phosphate[c]
+      </text>
+    </g>
+    <g class="met s_0543 r_0076 r_0314" transform="matrix(1,0,0,1,2165.7,642.5)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        cytidine[c]
+      </text>
+    </g>
+    <g class="met s_0803 r_0078" transform="matrix(1,0,0,1,657.0,1754.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-53.3" y="6">
+        H2O[c]
+      </text>
+    </g>
+    <g class="met s_1545 r_0078" transform="matrix(1,0,0,1,514.8,1844.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        UMP[c]
+      </text>
+    </g>
+    <g class="met s_1322 r_0078" transform="matrix(1,0,0,1,837.0,1754.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="89.3" y="6">
+        phosphate[c]
+      </text>
+    </g>
+    <g class="met s_1556 r_0078 r_0314 r_2031" transform="matrix(1,0,0,1,963.6,1844.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        uridine[c]
+      </text>
+    </g>
+    <g class="met s_1202 r_0764" transform="matrix(1,0,0,1,1931.1,833.8)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        NAD[p]
+      </text>
+    </g>
+    <g class="met s_0809 r_0764" transform="matrix(1,0,0,1,2158.8,743.8)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-54" y="6">
+        H2O[p]
+      </text>
+    </g>
+    <g class="met s_0801 r_0764" transform="matrix(1,0,0,1,2338.8,743.8)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="45" y="6">
+        H+[p]
+      </text>
+    </g>
+    <g class="met s_0426 r_0764" transform="matrix(1,0,0,1,2336.8,697.2)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="56" y="6">
+        AMP[p]
+      </text>
+    </g>
+    <g class="met s_1228 r_0764 r_1971" transform="matrix(1,0,0,1,2569.2,833.8)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        NMN[p]
+      </text>
+    </g>
+    <g class="met s_1201 r_0767" transform="matrix(1,0,0,1,856.0,1571.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        NAD[n]
+      </text>
+    </g>
+    <g class="met s_0808 r_0767" transform="matrix(1,0,0,1,708.6,1481.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="54" y="6">
+        H2O[n]
+      </text>
+    </g>
+    <g class="met s_0800 r_0767" transform="matrix(1,0,0,1,528.6,1481.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-45" y="6">
+        H+[n]
+      </text>
+    </g>
+    <g class="met s_1217 r_0767 r_1966" transform="matrix(1,0,0,1,618.6,1267.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        nicotinamide[n]
+      </text>
+    </g>
+    <g class="met s_0402 r_0767" transform="matrix(1,0,0,1,369.5,1571.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ADP-ribose[n]
+      </text>
+    </g>
+    <g class="met s_0434 r_0768" transform="matrix(1,0,0,1,2494.1,1939.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="51.6" y="6">
+        ATP[c]
+      </text>
+    </g>
+    <g class="met s_0803 r_0768" transform="matrix(1,0,0,1,2494.1,1989.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="53.3" y="6">
+        H2O[c]
+      </text>
+    </g>
+    <g class="met s_0999 r_0768 r_1892" transform="matrix(1,0,0,1,2641.1,2079.3)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        L-glutamine[c]
+      </text>
+    </g>
+    <g class="met s_0591 r_0785 r_0768 r_1726" transform="matrix(1,0,0,1,2404.1,1852.2)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        deamido-NAD(+)[c]
+      </text>
+    </g>
+    <g class="met s_0794 r_0768" transform="matrix(1,0,0,1,2494.1,2169.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="44.3" y="6">
+        H+[c]
+      </text>
+    </g>
+    <g class="met s_0633 r_0768" transform="matrix(1,0,0,1,2494.1,2219.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="100" y="6">
+        diphosphate[c]
+      </text>
+    </g>
+    <g class="met s_1198 r_0768" transform="matrix(1,0,0,1,2494.1,2269.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="54.6" y="6">
+        NAD[c]
+      </text>
+    </g>
+    <g class="met s_0423 r_0768" transform="matrix(1,0,0,1,2494.1,2319.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="55.3" y="6">
+        AMP[c]
+      </text>
+    </g>
+    <g class="met s_0991 r_0768 r_1890" transform="matrix(1,0,0,1,2404.1,2407.5)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        L-glutamate[c]
+      </text>
+    </g>
+    <g class="met s_0438 r_0769" transform="matrix(1,0,0,1,3249.8,1939.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-52.3" y="6">
+        ATP[n]
+      </text>
+    </g>
+    <g class="met s_0808 r_0769" transform="matrix(1,0,0,1,3249.8,1989.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-54" y="6">
+        H2O[n]
+      </text>
+    </g>
+    <g class="met s_1001 r_1892 r_0769" transform="matrix(1,0,0,1,3114.5,2079.3)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        L-glutamine[n]
+      </text>
+    </g>
+    <g class="met s_0593 r_1726 r_0769" transform="matrix(1,0,0,1,3339.8,1852.2)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        deamido-NAD(+)[n]
+      </text>
+    </g>
+    <g class="met s_1201 r_0769" transform="matrix(1,0,0,1,3249.8,2169.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-55.3" y="6">
+        NAD[n]
+      </text>
+    </g>
+    <g class="met s_0637 r_0769" transform="matrix(1,0,0,1,3249.8,2219.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-100.6" y="6">
+        diphosphate[n]
+      </text>
+    </g>
+    <g class="met s_0800 r_0769" transform="matrix(1,0,0,1,3249.8,2269.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-45" y="6">
+        H+[n]
+      </text>
+    </g>
+    <g class="met s_0425 r_0769" transform="matrix(1,0,0,1,3249.8,2319.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-56" y="6">
+        AMP[n]
+      </text>
+    </g>
+    <g class="met s_0994 r_0769 r_1890" transform="matrix(1,0,0,1,3339.8,2407.5)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        L-glutamate[n]
+      </text>
+    </g>
+    <g class="met s_0434 r_0774" transform="matrix(1,0,0,1,1412.8,1939.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_1386 r_0774 r_0786 r_2023" transform="matrix(1,0,0,1,1502.8,2168.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        PRPP[c]
+      </text>
+    </g>
+    <g class="met s_1219 r_0781 r_0774" transform="matrix(1,0,0,1,1181.2,1852.2)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        nicotinate[c]
+      </text>
+    </g>
+    <g class="met s_0633 r_0774" transform="matrix(1,0,0,1,1592.8,1939.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="100" y="6">
+        diphosphate[c]
+      </text>
+    </g>
+    <g class="met s_1222 r_0774 r_0786 r_0785" transform="matrix(1,0,0,1,1853.3,1852.2)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          nicotinic acid D-
+        </text>
+        <text y="16">
+          ribonucleotide[c]
+        </text>
+      </g>
+    </g>
+    <g class="met s_0437 r_0775" transform="matrix(1,0,0,1,390.0,2080.2)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ATP
+      </text></g>
+    <g class="met s_1387 r_2023 r_0775 r_0787" transform="matrix(1,0,0,1,893.9,2168.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        PRPP[m]
+      </text>
+    </g>
+    <g class="met s_1221 r_0775" transform="matrix(1,0,0,1,300.0,1953.0)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        nicotinate[m]
+      </text>
+    </g>
+    <g class="met s_0636 r_0775" transform="matrix(1,0,0,1,390.0,2260.2)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="104" y="6">
+        diphosphate[m]
+      </text>
+    </g>
+    <g class="met s_1223 r_0775 r_0787" transform="matrix(1,0,0,1,300.0,2407.5)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          nicotinic acid D-
+        </text>
+        <text y="16">
+          ribonucleotide[m]
+        </text>
+      </g>
+    </g>
+    <g class="met s_0803 r_0781" transform="matrix(1,0,0,1,1272.8,1453.5)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="53.3" y="6">
+        H2O[c]
+      </text>
+    </g>
+    <g class="met s_1216 r_0943 r_0781 r_0782 r_1966" transform="matrix(1,0,0,1,1181.2,1267.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        nicotinamide[c]
+      </text>
+    </g>
+    <g class="met s_0419 r_0781" transform="matrix(1,0,0,1,1272.8,1633.5)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="92.6" y="6">
+        ammonium[c]
+      </text>
+    </g>
+    <g class="met s_1416 r_0782" transform="matrix(1,0,0,1,824.9,836.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          S-adenosyl-L-
+        </text>
+        <text y="16">
+          methionine[c]
+        </text>
+      </g>
+    </g>
+    <g class="met s_1413 r_0782" transform="matrix(1,0,0,1,1563.9,836.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          S-adenosyl-L-
+        </text>
+        <text y="16">
+          homocysteine[c]
+        </text>
+      </g>
+    </g>
+    <g class="met s_0087 r_0782" transform="matrix(1,0,0,1,1181.8,607.2)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          1-
+        </text>
+        <text y="16">
+          methylnicotinamide[c]
+        </text>
+      </g>
+    </g>
+    <g class="met s_0794 r_0783" transform="matrix(1,0,0,1,2893.3,1357.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-44.3" y="6">
+        H+[c]
+      </text>
+    </g>
+    <g class="met s_0434 r_0783" transform="matrix(1,0,0,1,2890.0,1425.9)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-51.6" y="6">
+        ATP[c]
+      </text>
+    </g>
+    <g class="met s_1224 r_0983 r_0783 r_1970 r_1971" transform="matrix(1,0,0,1,2569.2,1267.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        NMN[c]
+      </text>
+    </g>
+    <g class="met s_0633 r_0783" transform="matrix(1,0,0,1,3326.6,1267.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        diphosphate[c]
+      </text>
+    </g>
+    <g class="met s_1198 r_0783" transform="matrix(1,0,0,1,3073.3,1357.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="54.6" y="6">
+        NAD[c]
+      </text>
+    </g>
+    <g class="met s_0800 r_0784" transform="matrix(1,0,0,1,2893.3,1730.2)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-45" y="6">
+        H+[n]
+      </text>
+    </g>
+    <g class="met s_0438 r_0784" transform="matrix(1,0,0,1,2893.5,1780.0)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-52.3" y="6">
+        ATP[n]
+      </text>
+    </g>
+    <g class="met s_1227 r_1970 r_0784" transform="matrix(1,0,0,1,2569.2,1640.2)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        NMN[n]
+      </text>
+    </g>
+    <g class="met s_1201 r_0784" transform="matrix(1,0,0,1,3073.3,1730.2)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="55.3" y="6">
+        NAD[n]
+      </text>
+    </g>
+    <g class="met s_0637 r_0784" transform="matrix(1,0,0,1,3326.6,1640.2)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        diphosphate[n]
+      </text>
+    </g>
+    <g class="met s_0794 r_0785" transform="matrix(1,0,0,1,2046.8,1762.2)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-44.3" y="6">
+        H+[c]
+      </text>
+    </g>
+    <g class="met s_0434 r_0785" transform="matrix(1,0,0,1,2044.4,1707.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-51.6" y="6">
+        ATP[c]
+      </text>
+    </g>
+    <g class="met s_0633 r_0785" transform="matrix(1,0,0,1,2226.8,1762.2)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="100" y="6">
+        diphosphate[c]
+      </text>
+    </g>
+    <g class="met s_0794 r_0786" transform="matrix(1,0,0,1,1763.3,2261.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-44.3" y="6">
+        H+[c]
+      </text>
+    </g>
+    <g class="met s_1403 r_0786 r_2036" transform="matrix(1,0,0,1,1853.3,2407.5)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        quinolinate[c]
+      </text>
+    </g>
+    <g class="met s_0633 r_0786" transform="matrix(1,0,0,1,1763.3,2031.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-100" y="6">
+        diphosphate[c]
+      </text>
+    </g>
+    <g class="met s_0456 r_0786" transform="matrix(1,0,0,1,1763.3,2081.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-114" y="6">
+        carbon dioxide[c]
+      </text>
+    </g>
+    <g class="met s_0799 r_0787" transform="matrix(1,0,0,1,983.9,2317.5)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="48.3" y="6">
+        H+[m]
+      </text>
+    </g>
+    <g class="met s_1404 r_2036 r_0787" transform="matrix(1,0,0,1,1201.8,2407.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        quinolinate[m]
+      </text>
+    </g>
+    <g class="met s_0636 r_0787" transform="matrix(1,0,0,1,803.9,2317.5)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-104" y="6">
+        diphosphate[m]
+      </text>
+    </g>
+    <g class="met s_0460 r_0787" transform="matrix(1,0,0,1,791.3,2260.3)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-118" y="6">
+        carbon dioxide[m]
+      </text>
+    </g>
+    <g class="met s_1322 r_0943" transform="matrix(1,0,0,1,1702.0,1177.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="89.3" y="6">
+        phosphate[c]
+      </text>
+    </g>
+    <g class="met s_1218 r_0943 r_0983" transform="matrix(1,0,0,1,1934.4,1267.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        nicotinamide ribose[c]
+      </text>
+    </g>
+    <g class="met s_0794 r_0943" transform="matrix(1,0,0,1,1522.0,1177.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-44.3" y="6">
+        H+[c]
+      </text>
+    </g>
+    <g class="met s_0415 r_0943 r_2031" transform="matrix(1,0,0,1,1611.6,1037.1)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          α-D-ribose 1-
+        </text>
+        <text y="16">
+          phosphate(2-)[c]
+        </text>
+      </g>
+    </g>
+    <g class="met s_0434 r_0983" transform="matrix(1,0,0,1,2162.1,1177.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-51.6" y="6">
+        ATP[c]
+      </text>
+    </g>
+    <g class="met s_0794 r_0983" transform="matrix(1,0,0,1,2342.1,1177.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="44.3" y="6">
+        H+[c]
+      </text>
+    </g>
+    <g class="met s_0394 r_0983" transform="matrix(1,0,0,1,2336.1,1133.8)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="54" y="6">
+        ADP[c]
+      </text>
+    </g>
+    <g class="enz YGL224C r_0076">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1765.7,702.5)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1765.7,702.5)"><tspan x="30" y="13">SDT1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGL224C</tspan></text>
+    </g>
+    <g class="enz YER037W r_0076">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1825.7,702.5)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1825.7,702.5)"><tspan x="30" y="13">PHM8</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YER037W</tspan></text>
+    </g>
+    <g class="enz YGL224C r_0078">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,687.0,1904.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,687.0,1904.6)"><tspan x="30" y="13">SDT1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGL224C</tspan></text>
+    </g>
+    <g class="enz YER037W r_0078">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,747.0,1904.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,747.0,1904.6)"><tspan x="30" y="13">PHM8</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YER037W</tspan></text>
+    </g>
+    <g class="enz YGL067W r_0764">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2218.8,893.8)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2218.8,893.8)"><tspan x="30" y="13">NPY1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGL067W</tspan></text>
+    </g>
+    <g class="enz YPL015C r_0767">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,468.6,1631.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,468.6,1631.6)"><tspan x="30" y="13">HST2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YPL015C</tspan></text>
+    </g>
+    <g class="enz YOR025W r_0767">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,528.6,1631.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,528.6,1631.6)"><tspan x="30" y="13">HST3</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOR025W</tspan></text>
+    </g>
+    <g class="enz YOL068C r_0767">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,588.6,1631.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,588.6,1631.6)"><tspan x="30" y="13">HST1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOL068C</tspan></text>
+    </g>
+    <g class="enz YDR191W r_0767">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,648.6,1631.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,648.6,1631.6)"><tspan x="30" y="13">HST4</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YDR191W</tspan></text>
+    </g>
+    <g class="enz YDL042C r_0767">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,708.6,1631.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,708.6,1631.6)"><tspan x="30" y="13">SIR2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YDL042C</tspan></text>
+    </g>
+    <g class="enz YHR074W r_0768">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2284.1,2064.3)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2284.1,2064.3)"><tspan x="30" y="13">QNS1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YHR074W</tspan></text>
+    </g>
+    <g class="enz YHR074W r_0769">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3399.8,2064.3)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,3399.8,2064.3)"><tspan x="30" y="13">QNS1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YHR074W</tspan></text>
+    </g>
+    <g class="enz YOR209C r_0774">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1472.8,1759.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1472.8,1759.4)"><tspan x="30" y="13">NPT1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOR209C</tspan></text>
+    </g>
+    <g class="enz YOR209C r_0775">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,180.0,2155.2)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,180.0,2155.2)"><tspan x="30" y="13">NPT1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YOR209C</tspan></text>
+    </g>
+    <g class="enz YGL037C r_0781">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1062.8,1528.5)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1062.8,1528.5)"><tspan x="30" y="13">PNC1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGL037C</tspan></text>
+    </g>
+    <g class="enz YLR285W r_0782">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1048.9,922.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1048.9,922.7)"><tspan x="30" y="13">NNT1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR285W</tspan></text>
+    </g>
+    <g class="enz YLR328W r_0783">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2923.3,1177.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2923.3,1177.7)"><tspan x="30" y="13">NMA1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR328W</tspan></text>
+    </g>
+    <g class="enz YCL047C r_0783">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2983.3,1177.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2983.3,1177.7)"><tspan x="30" y="13">POF1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YCL047C</tspan></text>
+    </g>
+    <g class="enz YLR328W r_0784">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2923.3,1550.2)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2923.3,1550.2)"><tspan x="30" y="13">NMA1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR328W</tspan></text>
+    </g>
+    <g class="enz YGR010W r_0784">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2983.3,1550.2)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2983.3,1550.2)"><tspan x="30" y="13">NMA2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGR010W</tspan></text>
+    </g>
+    <g class="enz YLR328W r_0785">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2076.8,1912.2)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2076.8,1912.2)"><tspan x="30" y="13">NMA1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR328W</tspan></text>
+    </g>
+    <g class="enz YGR010W r_0785">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2136.8,1912.2)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2136.8,1912.2)"><tspan x="30" y="13">NMA2</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YGR010W</tspan></text>
+    </g>
+    <g class="enz YFR047C r_0786">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1913.3,2156.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1913.3,2156.4)"><tspan x="30" y="13">BNA6</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YFR047C</tspan></text>
+    </g>
+    <g class="enz YFR047C r_0787">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,863.9,2467.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,863.9,2467.4)"><tspan x="30" y="13">BNA6</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YFR047C</tspan></text>
+    </g>
+    <g class="enz YLR209C r_0943">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1522.0,1327.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1522.0,1327.7)"><tspan x="30" y="13">PNP1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR209C</tspan></text>
+    </g>
+    <g class="enz YNL129W r_0983">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2222.1,1327.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,2222.1,1327.7)"><tspan x="30" y="13">NRK1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YNL129W</tspan></text>
+    </g>
+    <g class="met s_0394 r_0774" transform="matrix(1,0,0,1,1573.3,1877.9)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0803 r_0774" transform="matrix(1,0,0,1,1432.3,1877.9)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_1322 r_0774" transform="matrix(1,0,0,1,1573.3,1826.5)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        phosphate
+      </text></g>
+    <g class="met s_0397 r_0775" transform="matrix(1,0,0,1,370.5,2194.3)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        ADP
+      </text></g>
+    <g class="met s_0807 r_0775" transform="matrix(1,0,0,1,370.5,2142.9)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_1326 r_0775" transform="matrix(1,0,0,1,262.5,2233.6)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        phosphate
+      </text></g>
+    <g class="met s_0434 r_0765" transform="matrix(1,0,0,1,1600,1600)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_0765" transform="matrix(1,0,0,1,2020,1600)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ADP
+      </text></g>
+    <g id="r_0765" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1810,1600)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1810,1600)">
+        r_0765
+      </text></g>
+    <g class="met s_1198 r_0765" transform="matrix(1,0,0,1,1770,1662)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NAD
+      </text></g>
+    <g class="met s_0794 r_0765" transform="matrix(1,0,0,1,1810,1662)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1207 r_0765" transform="matrix(1,0,0,1,1896,1662)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NADP(+)
+      </text></g>
+    <g class="enz YEL041W r_0765"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1750,1515)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1750,1515)"><tspan x="30" y="13">YEF1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YEL041W</tspan></text></g>
+    <g class="enz YJR049C r_0765"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1810,1515)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1810,1515)"><tspan x="30" y="13">UTR1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YJR049C</tspan></text></g>
+    <g class="met s_0437 r_0766" transform="matrix(1,0,0,1,300,1000)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0397 r_0766" transform="matrix(1,0,0,1,720,1000)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ADP
+      </text></g>
+    <g id="r_0766" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,510,1000)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,510,1000)">
+        r_0766
+      </text></g>
+    <g class="met s_1200 r_0766" transform="matrix(1,0,0,1,470,1062)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NAD
+      </text></g>
+    <g class="met s_0799 r_0766" transform="matrix(1,0,0,1,510,1062)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1210 r_0766" transform="matrix(1,0,0,1,596,1062)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NADP(+)
+      </text></g>
+    <g class="enz YEL041W r_0766"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,420,915)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,420,915)"><tspan x="30" y="13">YEF1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YEL041W</tspan></text></g>
+    <g class="enz YJR049C r_0766"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,480,915)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,480,915)"><tspan x="30" y="13">UTR1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YJR049C</tspan></text></g>
+    <g class="enz YPL188W r_0766"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,540,915)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,540,915)"><tspan x="30" y="13">POS5</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YPL188W</tspan></text></g>
+    <g class="met s_0434 r_0771" transform="matrix(1,0,0,1,400,600)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0394 r_0771" transform="matrix(1,0,0,1,820,600)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ADP
+      </text></g>
+    <g id="r_0771" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,610,600)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,610,600)">
+        r_0771
+      </text></g>
+    <g class="met s_1203 r_0771" transform="matrix(1,0,0,1,570,662)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NADH
+      </text></g>
+    <g class="met s_0794 r_0771" transform="matrix(1,0,0,1,610,662)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1212 r_0771" transform="matrix(1,0,0,1,696,662)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        NADPH
+      </text></g>
+    <g class="enz YEL041W r_0771"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,550,515)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,550,515)"><tspan x="30" y="13">YEF1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YEL041W</tspan></text></g>
+    <g class="enz YJR049C r_0771"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,610,515)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,610,515)"><tspan x="30" y="13">UTR1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YJR049C</tspan></text></g>
+    <g class="met s_0437 r_0772" transform="matrix(1,0,0,1,3400,300)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ATP
+      </text></g>
+    <g class="met s_0397 r_0772" transform="matrix(1,0,0,1,3400,720)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        ADP
+      </text></g>
+    <g id="r_0772" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3400,510)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3400,510)">
+        r_0772
+      </text></g>
+    <g class="met s_1205 r_0772" transform="matrix(1,0,0,1,3338,470)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NADH
+      </text></g>
+    <g class="met s_0799 r_0772" transform="matrix(1,0,0,1,3338,550)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="met s_1214 r_0772" transform="matrix(1,0,0,1,3338,596)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        NADPH
+      </text></g>
+    <g class="enz YEL041W r_0772"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3455,495)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,3455,495)"><tspan x="30" y="13">YEF1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YEL041W</tspan></text></g>
+    <g class="enz YJR049C r_0772"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3515,495)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,3515,495)"><tspan x="30" y="13">UTR1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YJR049C</tspan></text></g>
+    <g class="enz YPL188W r_0772"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3575,495)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,3575,495)"><tspan x="30" y="13">POS5</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YPL188W</tspan></text></g>
+    <g id="r_0314" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,991.9,1392)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,991.9,1392)">
+        r_0314
+      </text></g>
+    <g class="met s_0794 r_0314" transform="matrix(1,0,0,1,976.3,1319.9)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        H+
+      </text></g>
+    <g class="met s_0803 r_0314" transform="matrix(1,0,0,1,1008.9,1287.4)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        H2O
+      </text></g>
+    <g class="met s_0419 r_0314" transform="matrix(1,0,0,1,919.8,1376.5)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="end" x="-12" y="6">
+        ammonium
+      </text></g>
+    <g class="enz YLR245C r_0314"><path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1053.8,1384.1)"/><text class="lbl" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="30" y="13" transform="matrix(1,0,0,1,1053.8,1384.1)"><tspan x="30" y="13">CDD1</tspan><tspan x="30" y="25" font-size="8" font-weight="400">YLR245C</tspan></text></g>
+    <g class="met s_1550 r_2031" transform="matrix(1,0,0,1,661.9,1207.4)"><ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        uracil
+      </text></g>
+    <g id="r_2031" class="rea"><path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,742.2,1401.5)"/><text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,742.2,1401.5)">
+        r_2031
+      </text></g>
+    <g class="met s_1322 r_2031" transform="matrix(1,0,0,1,795.9,1432.5)"><circle class="shape" r="7" fill="#222"/><text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="start" x="12" y="6">
+        phosphate
+      </text></g>
+  </g>
+  <g id="license" transform="translate(295,140.4)">
+    <path d="M3.408.476l113.354.202c1.584 0 3-.235 3 3.16l-.14 37.33H.547V3.7C.547 2.026.71.476 3.407.476z" fill="#aab2ab" transform="matrix(1.5,0,0,1.5,3445.0,2632.0)"/>
+    <g transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.9937807,0,0,0.9936694,-177.69409,-74.436409) matrix(0.872921,0,0,0.872921,50.12536,143.2144)">
+      <path id="path5906_2_" d="M187.21-55.68c.005 8.681-7.028 15.722-15.709 15.728-8.68.005-15.722-7.028-15.727-15.708v-.02c-.005-8.68 7.028-15.721 15.708-15.726 8.682-.006 15.722 7.028 15.727 15.708v.019z" fill="#fff"/>
+      <g id="g5706_2_" transform="translate(-289.6157,99.0653)">
+        <path id="path5708_2_" d="M473.885-167.547c3.485 3.486 5.228 7.754 5.228 12.802 0 5.05-1.713 9.272-5.138 12.668-3.636 3.576-7.932 5.364-12.89 5.364-4.898 0-9.12-1.772-12.665-5.32-3.546-3.545-5.318-7.782-5.318-12.712 0-4.928 1.772-9.195 5.318-12.802 3.455-3.487 7.677-5.23 12.665-5.23 5.048 0 9.314 1.743 12.8 5.23zm-23.118 2.345c-2.947 2.976-4.42 6.463-4.42 10.462 0 3.998 1.458 7.455 4.374 10.37 2.917 2.917 6.389 4.375 10.417 4.375 4.029 0 7.53-1.472 10.507-4.419 2.826-2.735 4.24-6.177 4.24-10.326 0-4.118-1.437-7.613-4.308-10.485-2.871-2.87-6.35-4.306-10.439-4.306-4.088 0-7.546 1.443-10.371 4.329zm7.754 8.703c-.45-.982-1.124-1.472-2.023-1.472-1.59 0-2.384 1.069-2.384 3.208 0 2.14.795 3.21 2.384 3.21 1.05 0 1.799-.522 2.248-1.566l2.203 1.173c-1.05 1.865-2.625 2.799-4.725 2.799-1.62 0-2.918-.497-3.892-1.49-.976-.993-1.463-2.362-1.463-4.107 0-1.716.502-3.078 1.507-4.086 1.006-1.008 2.257-1.513 3.758-1.513 2.22 0 3.81.875 4.771 2.623l-2.384 1.22zm10.363 0c-.45-.982-1.111-1.472-1.982-1.472-1.621 0-2.432 1.069-2.432 3.208 0 2.14.81 3.21 2.432 3.21 1.051 0 1.787-.522 2.207-1.566l2.252 1.173c-1.048 1.865-2.62 2.799-4.717 2.799-1.618 0-2.913-.497-3.887-1.49-.972-.993-1.46-2.362-1.46-4.107 0-1.716.495-3.078 1.484-4.086.987-1.008 2.245-1.513 3.773-1.513 2.216 0 3.804.875 4.761 2.623l-2.43 1.22z"/>
+      </g>
+    </g>
+    <path d="M117.753 0H2.247A2.25 2.25 0 0 0 0 2.247v39.245c0 .28.227.508.507.508h118.985c.28 0 .508-.228.508-.508V2.247A2.25 2.25 0 0 0 117.753 0zM2.247 1.015h115.506c.68 0 1.232.553 1.232 1.232v27.245H36.428c-3.026 5.47-8.856 9.185-15.546 9.185-6.694 0-12.522-3.711-15.547-9.185h-4.32V2.247c0-.68.552-1.232 1.232-1.232z" transform="matrix(1.5,0,0,1.5,3445.0,2632.0)"/>
+    <path d="M86.264 37.732c.08.155.186.28.32.376.132.096.287.167.466.213.18.047.365.07.556.07.13 0 .268-.01.416-.032.148-.022.287-.064.417-.126a.9.9 0 0 0 .323-.255.635.635 0 0 0 .13-.413.581.581 0 0 0-.172-.435 1.355 1.355 0 0 0-.45-.279 4.54 4.54 0 0 0-.628-.194 16.854 16.854 0 0 1-.713-.186 6.254 6.254 0 0 1-.723-.227 2.486 2.486 0 0 1-.63-.348 1.637 1.637 0 0 1-.45-.533 1.63 1.63 0 0 1-.17-.775c0-.34.072-.635.217-.886.146-.25.336-.459.57-.626.235-.167.5-.29.797-.371a3.4 3.4 0 0 1 .89-.12c.346 0 .678.038.996.116.317.077.6.203.847.376.248.173.444.394.59.664.144.269.217.595.217.979h-1.413a1.192 1.192 0 0 0-.124-.492.826.826 0 0 0-.282-.306 1.197 1.197 0 0 0-.402-.158 2.455 2.455 0 0 0-.494-.046 1.72 1.72 0 0 0-.35.037.943.943 0 0 0-.318.13.796.796 0 0 0-.236.232.63.63 0 0 0-.092.352c0 .13.024.236.073.316.05.08.148.155.293.222a3.7 3.7 0 0 0 .601.205c.256.068.591.154 1.006.26.123.024.294.07.513.134.22.065.437.169.653.31.217.143.403.334.561.571.157.239.236.543.236.914 0 .304-.06.585-.177.845-.117.26-.292.484-.524.672-.232.19-.519.336-.861.441a4.078 4.078 0 0 1-1.192.158c-.365 0-.72-.045-1.063-.135a2.675 2.675 0 0 1-.91-.423 2.107 2.107 0 0 1-.625-.734c-.155-.298-.228-.65-.222-1.058h1.413c0 .222.04.411.12.565zm8.206-4.985l2.477 6.622h-1.513l-.5-1.475h-2.478l-.52 1.475h-1.465l2.505-6.622h1.493zm.083 4.06l-.835-2.427H93.7l-.864 2.428h1.717zM59.997 32.747c.315 0 .603.029.863.084.26.056.484.147.67.274.185.126.33.295.432.505.102.21.153.47.153.778 0 .334-.076.612-.228.834-.151.223-.376.405-.673.547.41.118.715.323.917.617.202.294.303.649.303 1.063 0 .334-.066.623-.196.867a1.7 1.7 0 0 1-.525.599c-.22.154-.471.269-.753.343a3.381 3.381 0 0 1-.87.111h-3.215v-6.622h3.122zm-.187 2.679c.26 0 .474-.062.642-.185.167-.124.25-.324.25-.601a.77.77 0 0 0-.083-.38.62.62 0 0 0-.224-.231.945.945 0 0 0-.32-.116 2.12 2.12 0 0 0-.376-.032h-1.365v1.545h1.476zm.086 2.81c.142 0 .278-.014.408-.042a.993.993 0 0 0 .345-.139.707.707 0 0 0 .237-.264.903.903 0 0 0 .088-.426c0-.34-.096-.583-.288-.728-.193-.145-.447-.218-.762-.218h-1.59v1.817h1.562zm2.794-5.489h1.634l1.55 2.616 1.542-2.616h1.624l-2.459 4.08v2.542h-1.46v-2.578l-2.43-4.044zM102.403 14.98c.004 5.846-4.731 10.588-10.577 10.592-5.846.005-10.588-4.73-10.593-10.576v-.015C81.229 9.135 85.965 4.394 91.81 4.389c5.846-.004 10.59 4.731 10.593 10.576v.016z" transform="matrix(1.5,0,0,1.5,3445.0,2632.0)" fill="#fff"/>
+    <path d="M91.742 3.386c-3.212 0-5.93 1.12-8.156 3.362-2.283 2.32-3.425 5.064-3.425 8.233 0 3.169 1.142 5.894 3.425 8.174 2.283 2.28 5.002 3.42 8.156 3.42 3.193 0 5.96-1.15 8.303-3.449 2.205-2.183 3.308-4.899 3.308-8.145 0-3.246-1.123-5.991-3.367-8.233-2.245-2.241-4.993-3.362-8.244-3.362zm.03 2.087c2.631 0 4.866.927 6.705 2.783 1.857 1.836 2.786 4.077 2.786 6.725 0 2.666-.909 4.88-2.728 6.638-1.916 1.894-4.17 2.84-6.764 2.84-2.593 0-4.828-.937-6.705-2.81-1.877-1.876-2.815-4.098-2.815-6.668 0-2.57.948-4.812 2.844-6.725 1.82-1.856 4.044-2.783 6.676-2.783z" transform="matrix(1.5,0,0,1.5,3445.0,2632.0)"/>
+    <path d="M86.603 13.344c.462-2.917 2.516-4.477 5.09-4.477 3.702 0 5.958 2.686 5.958 6.268 0 3.495-2.4 6.21-6.016 6.21-2.488 0-4.714-1.53-5.12-4.534h2.921c.088 1.56 1.1 2.108 2.546 2.108 1.648 0 2.72-1.53 2.72-3.87 0-2.455-.927-3.755-2.663-3.755-1.272 0-2.37.462-2.603 2.05l.85-.004-2.3 2.299-2.299-2.3.916.005z" transform="matrix(1.5,0,0,1.5,3445.0,2632.0)"/>
+    <g transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(1,0,0,1,-177.69409,-74.436409)">
+      <circle cx="242.562" cy="90.225" r="10.806" fill="#fff"/>
+      <path d="M245.69 87.098a.754.754 0 0 0-.754-.754h-4.772a.754.754 0 0 0-.754.754v4.773h1.33v5.652h3.618V91.87h1.332v-4.773z"/>
+      <circle cx="242.55" cy="84.083" r="1.632"/>
+      <path clip-rule="evenodd" d="M242.535 78.318c-3.232 0-5.969 1.128-8.208 3.384-2.298 2.333-3.446 5.095-3.446 8.284 0 3.19 1.148 5.932 3.446 8.227s5.034 3.442 8.208 3.442c3.213 0 5.998-1.156 8.353-3.471 2.22-2.197 3.33-4.93 3.33-8.198 0-3.267-1.129-6.028-3.387-8.284-2.26-2.256-5.025-3.384-8.296-3.384zm.029 2.1c2.648 0 4.897.934 6.747 2.8 1.87 1.848 2.805 4.104 2.805 6.768 0 2.684-.915 4.911-2.746 6.681-1.928 1.906-4.197 2.858-6.806 2.858-2.61 0-4.858-.942-6.747-2.83-1.89-1.885-2.833-4.122-2.833-6.709 0-2.586.954-4.842 2.862-6.767 1.83-1.867 4.07-2.801 6.718-2.801z" fill-rule="evenodd"/>
+    </g>
+    <g>
+      <path d="M293.225 111.749a5.67 5.67 0 0 0 5.67 0l43.428-25.073a5.669 5.669 0 0 0 2.834-4.91V31.62a5.669 5.669 0 0 0-2.834-4.91L298.895 1.637a5.67 5.67 0 0 0-5.67 0L249.797 26.71a5.67 5.67 0 0 0-2.835 4.91v50.146a5.67 5.67 0 0 0 2.835 4.91l43.428 25.073z" fill="#4a4a4a" transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M293.225 103.269a5.67 5.67 0 0 0 5.67 0l36.084-20.833a5.67 5.67 0 0 0 2.835-4.91V35.86a5.67 5.67 0 0 0-2.835-4.91 668212.39 668212.39 0 0 0-36.084-20.833 5.67 5.67 0 0 0-5.67 0 668212.39 668212.39 0 0 0-36.084 20.833 5.67 5.67 0 0 0-2.835 4.91v41.666a5.67 5.67 0 0 0 2.835 4.91l36.084 20.833z" fill="#c9d4ce" transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M361.937 1.637a5.667 5.667 0 0 1 5.669 0l43.428 25.073a5.668 5.668 0 0 1 2.835 4.91v50.146a5.668 5.668 0 0 1-2.835 4.91l-43.428 25.073a5.667 5.667 0 0 1-5.669 0l-43.428-25.073a5.67 5.67 0 0 1-2.835-4.91V31.62a5.67 5.67 0 0 1 2.835-4.91l43.428-25.073z" fill="#25543c" transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M296.06 70.866c7.822-.009 14.166-6.368 14.156-14.19-.009-7.822-6.368-14.166-14.19-14.156-7.822.009-14.166 6.367-14.156 14.19.009 7.822 6.368 14.166 14.19 14.156z" fill="#fff" transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M296.038 66.614c5.476-.006 9.916-4.457 9.909-9.933-.006-5.476-4.457-9.916-9.933-9.909-5.476.006-9.916 4.457-9.909 9.933.006 5.475 4.457 9.916 9.933 9.909z" fill="#25543c" transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M340.265 44.634c6.649.008 12.041 5.412 12.033 12.061-.008 6.65-5.413 12.041-12.062 12.033-6.649-.008-12.041-5.412-12.033-12.061.008-6.649 5.413-12.041 12.062-12.033zM374.731 64.5c6.649.008 12.041 5.413 12.033 12.062-.008 6.649-5.413 12.041-12.062 12.033-6.649-.008-12.041-5.413-12.033-12.062.008-6.649 5.413-12.041 12.062-12.033zM374.695 24.791c6.649.008 12.041 5.413 12.033 12.062-.008 6.649-5.412 12.041-12.061 12.033-6.65-.008-12.041-5.413-12.033-12.062.008-6.649 5.412-12.041 12.061-12.033z" fill="#fff" transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path fill="#fff" d="M309.921 53.875h18.618v5.669h-18.618zM363.134 40.246l-14.132 8.159 2.835 4.91 14.132-8.159-2.835-4.91zM363.157 73.153l-14.175-8.184 2.835-4.909 14.175 8.183-2.835 4.91z" transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <g fill="#4a4a4a">
+        <path d="M0 14.868h5.852v2.433c1.127-1.225 2.09-2.054 2.887-2.487.85-.45 1.916-.676 3.199-.676 2.862 0 5.124 1.298 6.789 3.893 1.838-2.595 4.326-3.893 7.465-3.893 5.705 0 8.557 3.596 8.557 10.787v16.274h-5.878V26.574c0-2.523-.295-4.308-.885-5.353-.606-1.063-1.603-1.595-2.991-1.595-1.612 0-2.787.631-3.524 1.893-.737 1.261-1.105 3.289-1.105 6.082v13.598h-5.879V26.655c0-4.686-1.3-7.029-3.901-7.029-1.647 0-2.848.64-3.602 1.92-.755 1.279-1.132 3.298-1.132 6.055v13.598H0V14.868zM65.206 29.466H47.052c.156 2.163.832 3.884 2.028 5.164 1.197 1.261 2.731 1.892 4.604 1.892 1.457 0 2.662-.36 3.615-1.081.937-.721 2.003-2.055 3.2-4.001l4.942 2.865c-.763 1.352-1.57 2.51-2.419 3.474-.85.964-1.76 1.757-2.731 2.379a10.707 10.707 0 0 1-3.148 1.365c-1.127.288-2.349.433-3.667.433-3.78 0-6.815-1.262-9.103-3.785-2.289-2.541-3.434-5.911-3.434-10.11 0-4.164 1.11-7.534 3.33-10.111 2.236-2.541 5.202-3.812 8.895-3.812 3.728 0 6.676 1.235 8.843 3.704 2.15 2.451 3.225 5.848 3.225 10.192l-.026 1.432zm-6.008-4.974c-.815-3.244-2.783-4.866-5.904-4.866-.711 0-1.379.113-2.003.338a5.668 5.668 0 0 0-1.703.973c-.512.424-.95.933-1.314 1.528a7.246 7.246 0 0 0-.832 2.027h11.756zM78.107 14.138v27.061h-5.852V14.138h-2.83V8.461h2.83V0h5.852v8.461h5.35v5.677h-5.35zM111.66 41.199h-5.878v-2.758c-2.411 2.343-5.003 3.515-7.777 3.515-3.503 0-6.399-1.316-8.688-3.947-2.271-2.685-3.407-6.038-3.407-10.057 0-3.946 1.136-7.235 3.407-9.867 2.272-2.631 5.116-3.947 8.532-3.947 2.947 0 5.592 1.262 7.933 3.785v-3.055h5.878v26.331zM91.658 27.952c0 2.524.651 4.578 1.951 6.164 1.335 1.604 3.017 2.406 5.046 2.406 2.167 0 3.919-.775 5.254-2.325 1.335-1.604 2.003-3.64 2.003-6.109s-.668-4.506-2.003-6.11c-1.335-1.568-3.069-2.352-5.202-2.352-2.011 0-3.693.793-5.046 2.379-1.335 1.604-2.003 3.587-2.003 5.947zM124.899 41.199h-5.852V0h5.852v17.923c2.341-2.523 4.994-3.785 7.959-3.785 3.416 0 6.259 1.325 8.531 3.974 2.272 2.632 3.407 5.912 3.407 9.84 0 4.055-1.144 7.408-3.433 10.057-2.272 2.631-5.141 3.947-8.609 3.947-2.931 0-5.549-1.172-7.855-3.515v2.758zm14.149-12.976c0-2.523-.659-4.578-1.977-6.164-1.335-1.622-3.008-2.433-5.019-2.433-2.151 0-3.902.784-5.254 2.352-1.336 1.55-2.003 3.568-2.003 6.056 0 2.559.659 4.604 1.977 6.136 1.317 1.568 3.051 2.352 5.201 2.352 2.029 0 3.711-.784 5.046-2.352 1.353-1.586 2.029-3.568 2.029-5.947zM149.79 27.844c0-3.802 1.309-7.037 3.928-9.705 2.618-2.667 5.808-4.001 9.571-4.001 3.78 0 6.988 1.343 9.624 4.028 2.601 2.686 3.901 5.984 3.901 9.895 0 3.946-1.309 7.253-3.927 9.921-2.636 2.649-5.87 3.974-9.702 3.974-3.797 0-6.979-1.352-9.545-4.055-2.567-2.668-3.85-6.02-3.85-10.057zm5.982.108c0 2.632.677 4.713 2.029 6.245 1.387 1.55 3.217 2.325 5.488 2.325 2.289 0 4.118-.766 5.488-2.298s2.055-3.577 2.055-6.136c0-2.56-.685-4.605-2.055-6.137-1.387-1.55-3.216-2.325-5.488-2.325-2.237 0-4.049.775-5.436 2.325-1.387 1.55-2.081 3.55-2.081 6.001zM183.005 0h5.852v41.199h-5.852zM196.27 14.868h5.852v26.33h-5.852zM195.439 4.698c0-1.028.367-1.916 1.103-2.665.735-.748 1.615-1.123 2.641-1.123 1.043 0 1.932.375 2.667 1.123.735.732 1.102 1.629 1.102 2.691 0 1.062-.367 1.968-1.102 2.717-.718.748-1.599 1.123-2.641 1.123-1.043 0-1.932-.375-2.667-1.123-.736-.749-1.103-1.664-1.103-2.743zM229.25 16.004v8.083c-1.335-1.694-2.532-2.857-3.589-3.488-1.041-.648-2.263-.973-3.668-.973-2.202 0-4.031.802-5.488 2.406-1.456 1.604-2.185 3.614-2.185 6.029 0 2.469.703 4.496 2.107 6.082 1.422 1.586 3.234 2.379 5.436 2.379 1.405 0 2.645-.315 3.72-.946 1.04-.613 2.262-1.802 3.667-3.569v8.029c-2.376 1.28-4.751 1.92-7.127 1.92-3.919 0-7.196-1.316-9.831-3.947-2.636-2.649-3.954-5.939-3.954-9.867 0-3.929 1.335-7.245 4.006-9.949 2.67-2.703 5.947-4.055 9.831-4.055 2.497 0 4.855.622 7.075 1.866z" transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      </g>
+      <g fill="#25543c">
+        <path d="M41.28 99.658H16.108l-6.55 12.718H0l29.094-55.653 28.066 55.653h-9.711L41.28 99.658zm-3.618-7.427l-8.72-17.805-9.14 17.805h17.86zM77.98 64.581v47.795h-8.873V64.581H55.589v-7.9h35.872v7.9H77.98zM108.255 56.681v47.795h17.289v7.9H99.382V56.681h8.873zM171.252 99.658H146.08l-6.55 12.718h-9.558l29.094-55.653 28.066 55.653h-9.711l-6.169-12.718zm-3.618-7.427l-8.72-17.805-9.14 17.805h17.86zM227.727 65.919l-7.198 3.961c-1.345-2.169-2.627-3.584-3.846-4.244-1.269-.755-2.907-1.132-4.912-1.132-2.463 0-4.507.649-6.132 1.945-1.624 1.274-2.437 2.877-2.437 4.811 0 2.664 2.133 4.81 6.398 6.437l5.864 2.229c4.773 1.792 8.264 3.979 10.473 6.561 2.209 2.582 3.313 5.747 3.313 9.497 0 5.022-1.803 9.172-5.408 12.45-3.63 3.301-8.136 4.952-13.519 4.952-5.102 0-9.317-1.403-12.643-4.209-3.275-2.806-5.318-6.756-6.131-11.849l8.988-1.84c.406 3.207 1.117 5.424 2.132 6.65 1.828 2.358 4.494 3.537 7.997 3.537 2.767 0 5.065-.861 6.893-2.582 1.828-1.721 2.742-3.902 2.742-6.543 0-1.062-.159-2.034-.476-2.918a7.301 7.301 0 0 0-1.485-2.441c-.673-.743-1.543-1.438-2.609-2.087-1.066-.648-2.336-1.267-3.808-1.857l-5.674-2.193c-8.048-3.16-12.072-7.781-12.072-13.865 0-4.103 1.688-7.534 5.065-10.293 3.376-2.782 7.578-4.173 12.605-4.173 6.778 0 12.072 3.065 15.88 9.196z" transform="matrix(1.5,0,0,1.5,3445.0,2632.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      </g>
+    </g>
+  </g>
+</svg>
