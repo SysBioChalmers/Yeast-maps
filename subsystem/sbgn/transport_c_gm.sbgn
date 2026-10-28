@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="transport_c_gm" version="http://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3">
+    <glyph class="compartment" id="comp1">
+      <label text="Golgi membrane"/>
+      <bbox x="734.2" y="260.0" w="800.0" h="716.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met1">
+      <label text="ADP"/>
+      <bbox x="424.2" y="562.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met2" compartmentRef="comp1">
+      <label text="ADP"/>
+      <bbox x="854.2" y="562.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met3">
+      <label text="ATP"/>
+      <bbox x="424.2" y="624.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met4" compartmentRef="comp1">
+      <label text="ATP"/>
+      <bbox x="854.2" y="624.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met5">
+      <label text="carbon dioxide"/>
+      <bbox x="424.2" y="686.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met6" compartmentRef="comp1">
+      <label text="carbon dioxide"/>
+      <bbox x="854.2" y="686.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met7">
+      <label text="H+"/>
+      <bbox x="1784.2" y="562.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met8" compartmentRef="comp1">
+      <label text="H+"/>
+      <bbox x="1354.2" y="562.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met9">
+      <label text="H2O"/>
+      <bbox x="1784.2" y="624.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met10" compartmentRef="comp1">
+      <label text="H2O"/>
+      <bbox x="1354.2" y="624.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met11">
+      <label text="phosphate"/>
+      <bbox x="1784.2" y="686.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met12" compartmentRef="comp1">
+      <label text="phosphate"/>
+      <bbox x="1354.2" y="686.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3667">
+      <label text="r_3667"/>
+      <bbox x="719.2" y="567.0" w="30.0" h="30.0"/>
+      <port id="process_r_3667.1" x="709.2" y="582.0"/>
+      <port id="process_r_3667.2" x="759.2" y="582.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3666">
+      <label text="r_3666"/>
+      <bbox x="719.2" y="629.0" w="30.0" h="30.0"/>
+      <port id="process_r_3666.1" x="709.2" y="644.0"/>
+      <port id="process_r_3666.2" x="759.2" y="644.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3665">
+      <label text="r_3665"/>
+      <bbox x="719.2" y="691.0" w="30.0" h="30.0"/>
+      <port id="process_r_3665.1" x="709.2" y="706.0"/>
+      <port id="process_r_3665.2" x="759.2" y="706.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3664">
+      <label text="r_3664"/>
+      <bbox x="1519.2" y="567.0" w="30.0" h="30.0"/>
+      <port id="process_r_3664.1" x="1559.2" y="582.0"/>
+      <port id="process_r_3664.2" x="1509.2" y="582.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3662">
+      <label text="r_3662"/>
+      <bbox x="1519.2" y="629.0" w="30.0" h="30.0"/>
+      <port id="process_r_3662.1" x="1559.2" y="644.0"/>
+      <port id="process_r_3662.2" x="1509.2" y="644.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3663">
+      <label text="r_3663"/>
+      <bbox x="1519.2" y="691.0" w="30.0" h="30.0"/>
+      <port id="process_r_3663.1" x="1559.2" y="706.0"/>
+      <port id="process_r_3663.2" x="1509.2" y="706.0"/>
+    </glyph>
+    <arc class="production" id="process_r_3667_c0" source="process_r_3667.1" target="met1">
+      <start x="709.2" y="582.0"/>
+      <end x="486.2" y="582.0"/>
+    </arc>
+    <arc class="production" id="process_r_3667_p1" source="process_r_3667.2" target="met2">
+      <start x="759.2" y="582.0"/>
+      <end x="852.2" y="582.0"/>
+    </arc>
+    <arc class="production" id="process_r_3666_c0" source="process_r_3666.1" target="met3">
+      <start x="709.2" y="644.0"/>
+      <end x="486.2" y="644.0"/>
+    </arc>
+    <arc class="production" id="process_r_3666_p1" source="process_r_3666.2" target="met4">
+      <start x="759.2" y="644.0"/>
+      <end x="852.2" y="644.0"/>
+    </arc>
+    <arc class="production" id="process_r_3665_c0" source="process_r_3665.1" target="met5">
+      <start x="709.2" y="706.0"/>
+      <end x="486.2" y="706.0"/>
+    </arc>
+    <arc class="production" id="process_r_3665_p1" source="process_r_3665.2" target="met6">
+      <start x="759.2" y="706.0"/>
+      <end x="852.2" y="706.0"/>
+    </arc>
+    <arc class="production" id="process_r_3664_c0" source="process_r_3664.1" target="met7">
+      <start x="1559.2" y="582.0"/>
+      <end x="1782.2" y="582.0"/>
+    </arc>
+    <arc class="production" id="process_r_3664_p1" source="process_r_3664.2" target="met8">
+      <start x="1509.2" y="582.0"/>
+      <end x="1416.2" y="582.0"/>
+    </arc>
+    <arc class="production" id="process_r_3662_c0" source="process_r_3662.1" target="met9">
+      <start x="1559.2" y="644.0"/>
+      <end x="1782.2" y="644.0"/>
+    </arc>
+    <arc class="production" id="process_r_3662_p1" source="process_r_3662.2" target="met10">
+      <start x="1509.2" y="644.0"/>
+      <end x="1416.2" y="644.0"/>
+    </arc>
+    <arc class="production" id="process_r_3663_c0" source="process_r_3663.1" target="met11">
+      <start x="1559.2" y="706.0"/>
+      <end x="1782.2" y="706.0"/>
+    </arc>
+    <arc class="production" id="process_r_3663_p1" source="process_r_3663.2" target="met12">
+      <start x="1509.2" y="706.0"/>
+      <end x="1416.2" y="706.0"/>
+    </arc>
+  </map>
+</sbgn>

@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="transport_c_vm" version="http://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3">
+    <glyph class="compartment" id="comp1">
+      <label text="Vacuolar membrane"/>
+      <bbox x="778.9" y="260.0" w="817.8" h="1264.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met1">
+      <label text="phosphate"/>
+      <bbox x="468.9" y="562.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met2" compartmentRef="comp1">
+      <label text="phosphate"/>
+      <bbox x="898.9" y="562.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met3">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-16:1)"/>
+      <bbox x="468.9" y="818.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met4" compartmentRef="comp1">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-16:1)"/>
+      <bbox x="898.9" y="818.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met5">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1)"/>
+      <bbox x="468.9" y="924.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met6" compartmentRef="comp1">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1)"/>
+      <bbox x="898.9" y="924.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met7">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-16:1)"/>
+      <bbox x="468.9" y="1030.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met8" compartmentRef="comp1">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-16:1)"/>
+      <bbox x="898.9" y="1030.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met9">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-18:1)"/>
+      <bbox x="468.9" y="1136.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met10" compartmentRef="comp1">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-18:1)"/>
+      <bbox x="898.9" y="1136.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met11">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-16:1)"/>
+      <bbox x="1846.6" y="584.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met12" compartmentRef="comp1">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-16:1)"/>
+      <bbox x="1416.6" y="584.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met13">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1)"/>
+      <bbox x="1846.6" y="690.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met14" compartmentRef="comp1">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1)"/>
+      <bbox x="1416.6" y="690.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met15">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-16:1)"/>
+      <bbox x="1846.6" y="796.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met16" compartmentRef="comp1">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-16:1)"/>
+      <bbox x="1416.6" y="796.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met17">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-18:1)"/>
+      <bbox x="1846.6" y="902.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met18" compartmentRef="comp1">
+      <label text="1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-18:1)"/>
+      <bbox x="1416.6" y="902.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met19">
+      <label text="ADP"/>
+      <bbox x="1846.6" y="986.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met20" compartmentRef="comp1">
+      <label text="ADP"/>
+      <bbox x="1416.6" y="986.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met21">
+      <label text="ATP"/>
+      <bbox x="1846.6" y="1048.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met22" compartmentRef="comp1">
+      <label text="ATP"/>
+      <bbox x="1416.6" y="1048.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met23">
+      <label text="carbon dioxide"/>
+      <bbox x="1846.6" y="1110.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met24" compartmentRef="comp1">
+      <label text="carbon dioxide"/>
+      <bbox x="1416.6" y="1110.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met25">
+      <label text="H+"/>
+      <bbox x="1846.6" y="1172.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met26" compartmentRef="comp1">
+      <label text="H+"/>
+      <bbox x="1416.6" y="1172.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met27">
+      <label text="H2O"/>
+      <bbox x="1846.6" y="1234.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met28" compartmentRef="comp1">
+      <label text="H2O"/>
+      <bbox x="1416.6" y="1234.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene1">
+      <label text="PHO91 / YNR013C"/>
+      <bbox x="672.9" y="596.0" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3649">
+      <label text="r_3649"/>
+      <bbox x="763.9" y="567.0" w="30.0" h="30.0"/>
+      <port id="process_r_3649.1" x="753.9" y="582.0"/>
+      <port id="process_r_3649.2" x="803.9" y="582.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3654">
+      <label text="r_3654"/>
+      <bbox x="763.9" y="823.0" w="30.0" h="30.0"/>
+      <port id="process_r_3654.1" x="803.9" y="838.0"/>
+      <port id="process_r_3654.2" x="753.9" y="838.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3658">
+      <label text="r_3658"/>
+      <bbox x="763.9" y="929.0" w="30.0" h="30.0"/>
+      <port id="process_r_3658.1" x="803.9" y="944.0"/>
+      <port id="process_r_3658.2" x="753.9" y="944.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3655">
+      <label text="r_3655"/>
+      <bbox x="763.9" y="1035.0" w="30.0" h="30.0"/>
+      <port id="process_r_3655.1" x="803.9" y="1050.0"/>
+      <port id="process_r_3655.2" x="753.9" y="1050.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3659">
+      <label text="r_3659"/>
+      <bbox x="763.9" y="1141.0" w="30.0" h="30.0"/>
+      <port id="process_r_3659.1" x="803.9" y="1156.0"/>
+      <port id="process_r_3659.2" x="753.9" y="1156.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3656">
+      <label text="r_3656"/>
+      <bbox x="1581.6" y="589.0" w="30.0" h="30.0"/>
+      <port id="process_r_3656.1" x="1571.6" y="604.0"/>
+      <port id="process_r_3656.2" x="1621.6" y="604.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3660">
+      <label text="r_3660"/>
+      <bbox x="1581.6" y="695.0" w="30.0" h="30.0"/>
+      <port id="process_r_3660.1" x="1571.6" y="710.0"/>
+      <port id="process_r_3660.2" x="1621.6" y="710.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3657">
+      <label text="r_3657"/>
+      <bbox x="1581.6" y="801.0" w="30.0" h="30.0"/>
+      <port id="process_r_3657.1" x="1571.6" y="816.0"/>
+      <port id="process_r_3657.2" x="1621.6" y="816.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3661">
+      <label text="r_3661"/>
+      <bbox x="1581.6" y="907.0" w="30.0" h="30.0"/>
+      <port id="process_r_3661.1" x="1571.6" y="922.0"/>
+      <port id="process_r_3661.2" x="1621.6" y="922.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3652">
+      <label text="r_3652"/>
+      <bbox x="1581.6" y="991.0" w="30.0" h="30.0"/>
+      <port id="process_r_3652.1" x="1621.6" y="1006.0"/>
+      <port id="process_r_3652.2" x="1571.6" y="1006.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3651">
+      <label text="r_3651"/>
+      <bbox x="1581.6" y="1053.0" w="30.0" h="30.0"/>
+      <port id="process_r_3651.1" x="1621.6" y="1068.0"/>
+      <port id="process_r_3651.2" x="1571.6" y="1068.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3653">
+      <label text="r_3653"/>
+      <bbox x="1581.6" y="1115.0" w="30.0" h="30.0"/>
+      <port id="process_r_3653.1" x="1621.6" y="1130.0"/>
+      <port id="process_r_3653.2" x="1571.6" y="1130.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3650">
+      <label text="r_3650"/>
+      <bbox x="1581.6" y="1177.0" w="30.0" h="30.0"/>
+      <port id="process_r_3650.1" x="1621.6" y="1192.0"/>
+      <port id="process_r_3650.2" x="1571.6" y="1192.0"/>
+    </glyph>
+    <glyph class="process" id="process_r_3648">
+      <label text="r_3648"/>
+      <bbox x="1581.6" y="1239.0" w="30.0" h="30.0"/>
+      <port id="process_r_3648.1" x="1621.6" y="1254.0"/>
+      <port id="process_r_3648.2" x="1571.6" y="1254.0"/>
+    </glyph>
+    <arc class="production" id="process_r_3649_c0" source="process_r_3649.1" target="met1">
+      <start x="753.9" y="582.0"/>
+      <end x="530.9" y="582.0"/>
+    </arc>
+    <arc class="production" id="process_r_3649_p1" source="process_r_3649.2" target="met2">
+      <start x="803.9" y="582.0"/>
+      <end x="896.9" y="582.0"/>
+    </arc>
+    <arc class="catalysis" id="process_r_3649_e0" source="gene1" target="process_r_3649">
+      <start x="732.9" y="596.0"/>
+      <end x="757.2" y="590.3"/>
+    </arc>
+    <arc class="production" id="process_r_3654_p0" source="process_r_3654.2" target="met3">
+      <start x="753.9" y="838.0"/>
+      <end x="530.9" y="838.0"/>
+    </arc>
+    <arc class="production" id="process_r_3654_c1" source="process_r_3654.1" target="met4">
+      <start x="803.9" y="838.0"/>
+      <end x="896.9" y="838.0"/>
+    </arc>
+    <arc class="production" id="process_r_3658_p0" source="process_r_3658.2" target="met5">
+      <start x="753.9" y="944.0"/>
+      <end x="530.9" y="944.0"/>
+    </arc>
+    <arc class="production" id="process_r_3658_c1" source="process_r_3658.1" target="met6">
+      <start x="803.9" y="944.0"/>
+      <end x="896.9" y="944.0"/>
+    </arc>
+    <arc class="production" id="process_r_3655_p0" source="process_r_3655.2" target="met7">
+      <start x="753.9" y="1050.0"/>
+      <end x="530.9" y="1050.0"/>
+    </arc>
+    <arc class="production" id="process_r_3655_c1" source="process_r_3655.1" target="met8">
+      <start x="803.9" y="1050.0"/>
+      <end x="896.9" y="1050.0"/>
+    </arc>
+    <arc class="production" id="process_r_3659_p0" source="process_r_3659.2" target="met9">
+      <start x="753.9" y="1156.0"/>
+      <end x="530.9" y="1156.0"/>
+    </arc>
+    <arc class="production" id="process_r_3659_c1" source="process_r_3659.1" target="met10">
+      <start x="803.9" y="1156.0"/>
+      <end x="896.9" y="1156.0"/>
+    </arc>
+    <arc class="production" id="process_r_3656_p0" source="process_r_3656.2" target="met11">
+      <start x="1621.6" y="604.0"/>
+      <end x="1844.6" y="604.0"/>
+    </arc>
+    <arc class="production" id="process_r_3656_c1" source="process_r_3656.1" target="met12">
+      <start x="1571.6" y="604.0"/>
+      <end x="1478.6" y="604.0"/>
+    </arc>
+    <arc class="production" id="process_r_3660_p0" source="process_r_3660.2" target="met13">
+      <start x="1621.6" y="710.0"/>
+      <end x="1844.6" y="710.0"/>
+    </arc>
+    <arc class="production" id="process_r_3660_c1" source="process_r_3660.1" target="met14">
+      <start x="1571.6" y="710.0"/>
+      <end x="1478.6" y="710.0"/>
+    </arc>
+    <arc class="production" id="process_r_3657_p0" source="process_r_3657.2" target="met15">
+      <start x="1621.6" y="816.0"/>
+      <end x="1844.6" y="816.0"/>
+    </arc>
+    <arc class="production" id="process_r_3657_c1" source="process_r_3657.1" target="met16">
+      <start x="1571.6" y="816.0"/>
+      <end x="1478.6" y="816.0"/>
+    </arc>
+    <arc class="production" id="process_r_3661_p0" source="process_r_3661.2" target="met17">
+      <start x="1621.6" y="922.0"/>
+      <end x="1844.6" y="922.0"/>
+    </arc>
+    <arc class="production" id="process_r_3661_c1" source="process_r_3661.1" target="met18">
+      <start x="1571.6" y="922.0"/>
+      <end x="1478.6" y="922.0"/>
+    </arc>
+    <arc class="production" id="process_r_3652_c0" source="process_r_3652.1" target="met19">
+      <start x="1621.6" y="1006.0"/>
+      <end x="1844.6" y="1006.0"/>
+    </arc>
+    <arc class="production" id="process_r_3652_p1" source="process_r_3652.2" target="met20">
+      <start x="1571.6" y="1006.0"/>
+      <end x="1478.6" y="1006.0"/>
+    </arc>
+    <arc class="production" id="process_r_3651_c0" source="process_r_3651.1" target="met21">
+      <start x="1621.6" y="1068.0"/>
+      <end x="1844.6" y="1068.0"/>
+    </arc>
+    <arc class="production" id="process_r_3651_p1" source="process_r_3651.2" target="met22">
+      <start x="1571.6" y="1068.0"/>
+      <end x="1478.6" y="1068.0"/>
+    </arc>
+    <arc class="production" id="process_r_3653_c0" source="process_r_3653.1" target="met23">
+      <start x="1621.6" y="1130.0"/>
+      <end x="1844.6" y="1130.0"/>
+    </arc>
+    <arc class="production" id="process_r_3653_p1" source="process_r_3653.2" target="met24">
+      <start x="1571.6" y="1130.0"/>
+      <end x="1478.6" y="1130.0"/>
+    </arc>
+    <arc class="production" id="process_r_3650_c0" source="process_r_3650.1" target="met25">
+      <start x="1621.6" y="1192.0"/>
+      <end x="1844.6" y="1192.0"/>
+    </arc>
+    <arc class="production" id="process_r_3650_p1" source="process_r_3650.2" target="met26">
+      <start x="1571.6" y="1192.0"/>
+      <end x="1478.6" y="1192.0"/>
+    </arc>
+    <arc class="production" id="process_r_3648_c0" source="process_r_3648.1" target="met27">
+      <start x="1621.6" y="1254.0"/>
+      <end x="1844.6" y="1254.0"/>
+    </arc>
+    <arc class="production" id="process_r_3648_p1" source="process_r_3648.2" target="met28">
+      <start x="1571.6" y="1254.0"/>
+      <end x="1478.6" y="1254.0"/>
+    </arc>
+  </map>
+</sbgn>
