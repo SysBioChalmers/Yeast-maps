@@ -137,14 +137,14 @@
       <start x="1180.2" y="547.0"/>
       <end x="1376.2" y="547.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4572_c0" source="met7" target="process_r_4572.1">
-      <start x="1376.2" y="803.0"/>
-      <end x="1179.5" y="793.5"/>
+    <arc class="production" id="process_r_4572_c0" source="process_r_4572.1" target="met7">
+      <start x="1179.5" y="793.5"/>
+      <end x="1376.2" y="803.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4572_c1" source="met6" target="process_r_4572.1">
-      <start x="1409.2" y="570.0"/>
+    <arc class="production" id="process_r_4572_c1" source="process_r_4572.1" target="met6">
+      <start x="1179.5" y="793.5"/>
       <next x="1409.5" y="682.8"/>
-      <end x="1179.5" y="793.5"/>
+      <end x="1409.2" y="570.0"/>
     </arc>
     <arc class="production" id="process_r_4572_p2" source="process_r_4572.2" target="met8">
       <start x="1133.3" y="812.5"/>

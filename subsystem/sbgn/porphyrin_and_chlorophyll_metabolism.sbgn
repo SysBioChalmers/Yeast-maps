@@ -514,9 +514,9 @@
       <port id="process_r_4276.1" x="1898.4" y="743.8"/>
       <port id="process_r_4276.2" x="1948.4" y="746.2"/>
     </glyph>
-    <arc class="consumption" id="process_r_4152_c0" source="met1" target="process_r_4152.1">
-      <start x="802.1" y="1171.1"/>
-      <end x="594.1" y="1173.5"/>
+    <arc class="production" id="process_r_4152_c0" source="process_r_4152.1" target="met1">
+      <start x="594.1" y="1173.5"/>
+      <end x="802.1" y="1171.1"/>
     </arc>
     <arc class="production" id="process_r_4152_p1" source="process_r_4152.2" target="met2">
       <start x="544.3" y="1168.7"/>
@@ -530,17 +530,17 @@
       <start x="569.2" y="1246.1"/>
       <end x="569.2" y="1171.1"/>
     </arc>
-    <arc class="consumption" id="process_r_4217_c0" source="met4" target="process_r_4217.1">
-      <start x="802.1" y="872.9"/>
-      <end x="594.1" y="870.7"/>
+    <arc class="production" id="process_r_4217_c0" source="process_r_4217.1" target="met4">
+      <start x="594.1" y="870.7"/>
+      <end x="802.1" y="872.9"/>
     </arc>
-    <arc class="consumption" id="process_r_4217_c1" source="met5" target="process_r_4217.1">
-      <start x="645.0" y="797.1"/>
-      <end x="594.1" y="870.7"/>
+    <arc class="production" id="process_r_4217_c1" source="process_r_4217.1" target="met5">
+      <start x="594.1" y="870.7"/>
+      <end x="645.0" y="797.1"/>
     </arc>
-    <arc class="consumption" id="process_r_4217_c2" source="met6" target="process_r_4217.1">
-      <start x="644.7" y="755.8"/>
-      <end x="594.1" y="870.7"/>
+    <arc class="production" id="process_r_4217_c2" source="process_r_4217.1" target="met6">
+      <start x="594.1" y="870.7"/>
+      <end x="644.7" y="755.8"/>
     </arc>
     <arc class="production" id="process_r_4217_p3" source="process_r_4217.2" target="met7">
       <start x="544.3" y="875.1"/>
@@ -856,17 +856,17 @@
       <start x="3675.0" y="871.6"/>
       <end x="3675.0" y="896.6"/>
     </arc>
-    <arc class="consumption" id="process_r_4275_c0" source="met59" target="process_r_4275.1">
-      <start x="2145.4" y="1445.0"/>
-      <end x="2298.4" y="1443.8"/>
+    <arc class="production" id="process_r_4275_c0" source="process_r_4275.1" target="met59">
+      <start x="2298.4" y="1443.8"/>
+      <end x="2145.4" y="1445.0"/>
     </arc>
     <arc class="production" id="process_r_4275_p1" source="process_r_4275.2" target="met60">
       <start x="2348.4" y="1446.2"/>
       <end x="2501.4" y="1445.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4275_c2" source="met61" target="process_r_4275.1">
-      <start x="2288.8" y="1498.6"/>
-      <end x="2298.4" y="1443.8"/>
+    <arc class="production" id="process_r_4275_c2" source="process_r_4275.1" target="met61">
+      <start x="2298.4" y="1443.8"/>
+      <end x="2288.8" y="1498.6"/>
     </arc>
     <arc class="production" id="process_r_4275_p3" source="process_r_4275.2" target="met62">
       <start x="2348.4" y="1446.2"/>
@@ -880,17 +880,17 @@
       <start x="2323.4" y="1390.0"/>
       <end x="2323.4" y="1415.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4276_c0" source="met64" target="process_r_4276.1">
-      <start x="1745.4" y="745.0"/>
-      <end x="1898.4" y="743.8"/>
+    <arc class="production" id="process_r_4276_c0" source="process_r_4276.1" target="met64">
+      <start x="1898.4" y="743.8"/>
+      <end x="1745.4" y="745.0"/>
     </arc>
     <arc class="production" id="process_r_4276_p1" source="process_r_4276.2" target="met65">
       <start x="1948.4" y="746.2"/>
       <end x="2101.4" y="745.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4276_c2" source="met66" target="process_r_4276.1">
-      <start x="1888.8" y="798.6"/>
-      <end x="1898.4" y="743.8"/>
+    <arc class="production" id="process_r_4276_c2" source="process_r_4276.1" target="met66">
+      <start x="1898.4" y="743.8"/>
+      <end x="1888.8" y="798.6"/>
     </arc>
     <arc class="production" id="process_r_4276_p3" source="process_r_4276.2" target="met67">
       <start x="1948.4" y="746.2"/>

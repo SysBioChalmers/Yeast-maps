@@ -500,10 +500,10 @@
       <start x="1667.0" y="1646.0"/>
       <end x="1642.0" y="1646.0"/>
     </arc>
-    <arc class="consumption" id="process_r_0907_c0" source="met18" target="process_r_0907.1">
-      <start x="2264.0" y="2346.0"/>
+    <arc class="production" id="process_r_0907_c0" source="process_r_0907.1" target="met18">
+      <start x="1957.0" y="2316.0"/>
       <next x="2264.0" y="2316.0"/>
-      <end x="1957.0" y="2316.0"/>
+      <end x="2264.0" y="2346.0"/>
     </arc>
     <arc class="production" id="process_r_0907_p1" source="process_r_0907.2" target="met19">
       <start x="1907.0" y="2316.0"/>
@@ -562,9 +562,9 @@
       <start x="1842.0" y="2324.0"/>
       <end x="1915.3" y="2257.3"/>
     </arc>
-    <arc class="consumption" id="process_r_0982_c0" source="met14" target="process_r_0982.1">
-      <start x="1612.0" y="1958.0"/>
-      <end x="1612.0" y="2067.0"/>
+    <arc class="production" id="process_r_0982_c0" source="process_r_0982.1" target="met14">
+      <start x="1612.0" y="2067.0"/>
+      <end x="1612.0" y="1958.0"/>
     </arc>
     <arc class="production" id="process_r_0982_p1" source="process_r_0982.2" target="met19">
       <start x="1612.0" y="2117.0"/>
@@ -574,9 +574,9 @@
       <start x="1667.0" y="2092.0"/>
       <end x="1642.0" y="2092.0"/>
     </arc>
-    <arc class="consumption" id="process_r_0984_c0" source="met14" target="process_r_0984.1">
-      <start x="1580.0" y="1936.0"/>
-      <end x="1401.0" y="1936.0"/>
+    <arc class="production" id="process_r_0984_c0" source="process_r_0984.1" target="met14">
+      <start x="1401.0" y="1936.0"/>
+      <end x="1580.0" y="1936.0"/>
     </arc>
     <arc class="production" id="process_r_0984_p1" source="process_r_0984.2" target="met28">
       <start x="1351.0" y="1936.0"/>
@@ -586,14 +586,14 @@
       <start x="1376.0" y="1991.0"/>
       <end x="1376.0" y="1966.0"/>
     </arc>
-    <arc class="consumption" id="process_r_1048_c0" source="met29" target="process_r_1048.1">
-      <start x="934.0" y="2568.0"/>
+    <arc class="production" id="process_r_1048_c0" source="process_r_1048.1" target="met29">
+      <start x="896.0" y="2325.0"/>
       <next x="896.0" y="2568.0"/>
-      <end x="896.0" y="2325.0"/>
+      <end x="934.0" y="2568.0"/>
     </arc>
-    <arc class="consumption" id="process_r_1048_c1" source="met30" target="process_r_1048.1">
-      <start x="896.0" y="2546.0"/>
-      <end x="896.0" y="2325.0"/>
+    <arc class="production" id="process_r_1048_c1" source="process_r_1048.1" target="met30">
+      <start x="896.0" y="2325.0"/>
+      <end x="896.0" y="2546.0"/>
     </arc>
     <arc class="production" id="process_r_1048_p2" source="process_r_1048.2" target="met31">
       <start x="896.0" y="2275.0"/>
@@ -608,14 +608,14 @@
       <start x="841.0" y="2300.0"/>
       <end x="866.0" y="2300.0"/>
     </arc>
-    <arc class="consumption" id="process_r_1049_c0" source="met28" target="process_r_1049.1">
-      <start x="1132.2" y="1958.0"/>
-      <end x="1135.9" y="2367.0"/>
+    <arc class="production" id="process_r_1049_c0" source="process_r_1049.1" target="met28">
+      <start x="1135.9" y="2367.0"/>
+      <end x="1132.2" y="1958.0"/>
     </arc>
-    <arc class="consumption" id="process_r_1049_c1" source="met19" target="process_r_1049.1">
-      <start x="1580.0" y="2244.0"/>
+    <arc class="production" id="process_r_1049_c1" source="process_r_1049.1" target="met19">
+      <start x="1135.9" y="2367.0"/>
       <next x="1136.0" y="2244.0"/>
-      <end x="1135.9" y="2367.0"/>
+      <end x="1580.0" y="2244.0"/>
     </arc>
     <arc class="production" id="process_r_1049_p2" source="process_r_1049.2" target="met33">
       <start x="1136.1" y="2417.0"/>
@@ -631,14 +631,14 @@
       <start x="1183.7" y="2417.2"/>
       <end x="1157.8" y="2400.2"/>
     </arc>
-    <arc class="consumption" id="process_r_1050_c0" source="met31" target="process_r_1050.1">
-      <start x="896.0" y="2038.0"/>
+    <arc class="production" id="process_r_1050_c0" source="process_r_1050.1" target="met31">
+      <start x="741.0" y="1936.0"/>
       <next x="896.0" y="1936.0"/>
-      <end x="741.0" y="1936.0"/>
+      <end x="896.0" y="2038.0"/>
     </arc>
-    <arc class="consumption" id="process_r_1050_c1" source="met28" target="process_r_1050.1">
-      <start x="1100.0" y="1936.0"/>
-      <end x="741.0" y="1936.0"/>
+    <arc class="production" id="process_r_1050_c1" source="process_r_1050.1" target="met28">
+      <start x="741.0" y="1936.0"/>
+      <end x="1100.0" y="1936.0"/>
     </arc>
     <arc class="production" id="process_r_1050_p2" source="process_r_1050.2" target="met32">
       <start x="691.0" y="1936.0"/>
@@ -653,19 +653,19 @@
       <start x="710.8" y="1989.5"/>
       <end x="710.8" y="1960.8"/>
     </arc>
-    <arc class="consumption" id="process_r_4232_c0" source="met35" target="process_r_4232.1">
-      <start x="1644.0" y="660.0"/>
+    <arc class="production" id="process_r_4232_c0" source="process_r_4232.1" target="met35">
+      <start x="1712.7" y="991.0"/>
       <next x="1712.0" y="660.0"/>
-      <end x="1712.7" y="991.0"/>
+      <end x="1644.0" y="660.0"/>
     </arc>
     <arc class="production" id="process_r_4232_p1" source="process_r_4232.2" target="met2">
       <start x="1711.3" y="1041.0"/>
       <next x="1712.0" y="1356.0"/>
       <end x="1644.0" y="1356.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4232_c2" source="met36" target="process_r_4232.1">
-      <start x="1658.4" y="981.4"/>
-      <end x="1712.7" y="991.0"/>
+    <arc class="production" id="process_r_4232_c2" source="process_r_4232.1" target="met36">
+      <start x="1712.7" y="991.0"/>
+      <end x="1658.4" y="981.4"/>
     </arc>
     <arc class="production" id="process_r_4232_p3" source="process_r_4232.2" target="met37">
       <start x="1711.3" y="1041.0"/>
@@ -697,9 +697,9 @@
       <start x="1712.0" y="991.0"/>
       <end x="1765.6" y="981.4"/>
     </arc>
-    <arc class="consumption" id="process_r_0888_c0" source="met10" target="process_r_0888.1">
-      <start x="300.0" y="1334.0"/>
-      <end x="300.0" y="1171.0"/>
+    <arc class="production" id="process_r_0888_c0" source="process_r_0888.1" target="met10">
+      <start x="300.0" y="1171.0"/>
+      <end x="300.0" y="1334.0"/>
     </arc>
     <arc class="production" id="process_r_0888_p1" source="process_r_0888.2" target="met41">
       <start x="300.0" y="1121.0"/>

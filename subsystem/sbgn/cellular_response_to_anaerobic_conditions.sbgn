@@ -91,17 +91,17 @@
       <port id="process_r_4264.1" x="1448.0" y="1163.0"/>
       <port id="process_r_4264.2" x="1497.8" y="1167.0"/>
     </glyph>
-    <arc class="consumption" id="process_r_0455_c0" source="met1" target="process_r_0455.1">
-      <start x="1262.9" y="387.0"/>
-      <end x="1264.1" y="550.0"/>
+    <arc class="production" id="process_r_0455_c0" source="process_r_0455.1" target="met1">
+      <start x="1264.1" y="550.0"/>
+      <end x="1262.9" y="387.0"/>
     </arc>
     <arc class="production" id="process_r_0455_p1" source="process_r_0455.2" target="met2">
       <start x="1261.7" y="600.0"/>
       <end x="1262.9" y="763.0"/>
     </arc>
-    <arc class="consumption" id="process_r_0455_c2" source="met3" target="process_r_0455.1">
-      <start x="1209.3" y="540.4"/>
-      <end x="1264.1" y="550.0"/>
+    <arc class="production" id="process_r_0455_c2" source="process_r_0455.1" target="met3">
+      <start x="1264.1" y="550.0"/>
+      <end x="1209.3" y="540.4"/>
     </arc>
     <arc class="production" id="process_r_0455_p3" source="process_r_0455.2" target="met4">
       <start x="1261.7" y="600.0"/>
@@ -115,14 +115,14 @@
       <start x="1317.9" y="575.0"/>
       <end x="1292.9" y="575.0"/>
     </arc>
-    <arc class="consumption" id="process_r_1000_c0" source="met6" target="process_r_1000.1">
-      <start x="1650.9" y="785.0"/>
-      <end x="1497.7" y="788.2"/>
+    <arc class="production" id="process_r_1000_c0" source="process_r_1000.1" target="met6">
+      <start x="1497.7" y="788.2"/>
+      <end x="1650.9" y="785.0"/>
     </arc>
-    <arc class="consumption" id="process_r_1000_c1" source="met7" target="process_r_1000.1">
-      <start x="1682.9" y="853.0"/>
+    <arc class="production" id="process_r_1000_c1" source="process_r_1000.1" target="met7">
+      <start x="1497.7" y="788.2"/>
       <next x="1682.9" y="785.0"/>
-      <end x="1497.7" y="788.2"/>
+      <end x="1682.9" y="853.0"/>
     </arc>
     <arc class="production" id="process_r_1000_p2" source="process_r_1000.2" target="met2">
       <start x="1448.1" y="781.8"/>

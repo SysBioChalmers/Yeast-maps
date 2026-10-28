@@ -71,41 +71,41 @@
       <port id="process_r_4681.1" x="698.1" y="830.0"/>
       <port id="process_r_4681.2" x="748.1" y="830.0"/>
     </glyph>
-    <arc class="consumption" id="process_r_4682_c0" source="met1" target="process_r_4682.1">
-      <start x="475.1" y="582.0"/>
-      <end x="698.1" y="582.0"/>
+    <arc class="production" id="process_r_4682_c0" source="process_r_4682.1" target="met1">
+      <start x="698.1" y="582.0"/>
+      <end x="475.1" y="582.0"/>
     </arc>
     <arc class="production" id="process_r_4682_p1" source="process_r_4682.2" target="met2">
       <start x="748.1" y="582.0"/>
       <end x="841.1" y="582.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4685_c0" source="met3" target="process_r_4685.1">
-      <start x="475.1" y="644.0"/>
-      <end x="698.1" y="644.0"/>
+    <arc class="production" id="process_r_4685_c0" source="process_r_4685.1" target="met3">
+      <start x="698.1" y="644.0"/>
+      <end x="475.1" y="644.0"/>
     </arc>
     <arc class="production" id="process_r_4685_p1" source="process_r_4685.2" target="met4">
       <start x="748.1" y="644.0"/>
       <end x="841.1" y="644.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4683_c0" source="met5" target="process_r_4683.1">
-      <start x="475.1" y="706.0"/>
-      <end x="698.1" y="706.0"/>
+    <arc class="production" id="process_r_4683_c0" source="process_r_4683.1" target="met5">
+      <start x="698.1" y="706.0"/>
+      <end x="475.1" y="706.0"/>
     </arc>
     <arc class="production" id="process_r_4683_p1" source="process_r_4683.2" target="met6">
       <start x="748.1" y="706.0"/>
       <end x="841.1" y="706.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4684_c0" source="met7" target="process_r_4684.1">
-      <start x="475.1" y="768.0"/>
-      <end x="698.1" y="768.0"/>
+    <arc class="production" id="process_r_4684_c0" source="process_r_4684.1" target="met7">
+      <start x="698.1" y="768.0"/>
+      <end x="475.1" y="768.0"/>
     </arc>
     <arc class="production" id="process_r_4684_p1" source="process_r_4684.2" target="met8">
       <start x="748.1" y="768.0"/>
       <end x="841.1" y="768.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4681_c0" source="met9" target="process_r_4681.1">
-      <start x="475.1" y="830.0"/>
-      <end x="698.1" y="830.0"/>
+    <arc class="production" id="process_r_4681_c0" source="process_r_4681.1" target="met9">
+      <start x="698.1" y="830.0"/>
+      <end x="475.1" y="830.0"/>
     </arc>
     <arc class="production" id="process_r_4681_p1" source="process_r_4681.2" target="met10">
       <start x="748.1" y="830.0"/>

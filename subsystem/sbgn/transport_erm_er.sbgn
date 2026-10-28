@@ -79,17 +79,17 @@
       <start x="720.4" y="582.0"/>
       <end x="497.4" y="582.0"/>
     </arc>
-    <arc class="consumption" id="process_r_4174_c1" source="met2" target="process_r_4174.1">
-      <start x="863.4" y="582.0"/>
-      <end x="770.4" y="582.0"/>
+    <arc class="production" id="process_r_4174_c1" source="process_r_4174.1" target="met2">
+      <start x="770.4" y="582.0"/>
+      <end x="863.4" y="582.0"/>
     </arc>
     <arc class="catalysis" id="process_r_4174_e0" source="gene1" target="process_r_4174">
       <start x="699.4" y="596.0"/>
       <end x="723.7" y="590.3"/>
     </arc>
-    <arc class="consumption" id="process_r_3938_c0" source="met3" target="process_r_3938.1">
-      <start x="497.4" y="816.0"/>
-      <end x="720.4" y="816.0"/>
+    <arc class="production" id="process_r_3938_c0" source="process_r_3938.1" target="met3">
+      <start x="720.4" y="816.0"/>
+      <end x="497.4" y="816.0"/>
     </arc>
     <arc class="production" id="process_r_3938_p1" source="process_r_3938.2" target="met4">
       <start x="770.4" y="816.0"/>
@@ -99,13 +99,13 @@
       <start x="720.4" y="878.0"/>
       <end x="497.4" y="878.0"/>
     </arc>
-    <arc class="consumption" id="process_r_3939_c1" source="met6" target="process_r_3939.1">
-      <start x="863.4" y="878.0"/>
-      <end x="770.4" y="878.0"/>
+    <arc class="production" id="process_r_3939_c1" source="process_r_3939.1" target="met6">
+      <start x="770.4" y="878.0"/>
+      <end x="863.4" y="878.0"/>
     </arc>
-    <arc class="consumption" id="process_r_3937_c0" source="met7" target="process_r_3937.1">
-      <start x="497.4" y="940.0"/>
-      <end x="720.4" y="940.0"/>
+    <arc class="production" id="process_r_3937_c0" source="process_r_3937.1" target="met7">
+      <start x="720.4" y="940.0"/>
+      <end x="497.4" y="940.0"/>
     </arc>
     <arc class="production" id="process_r_3937_p1" source="process_r_3937.2" target="met8">
       <start x="770.4" y="940.0"/>
